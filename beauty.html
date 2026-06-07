@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Finds — Nest & Paws</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-brand">Nest & Paws</a>
+  <a href="index.html" class="nav-back">← All finds</a>
+</nav>
+<div class="cat-header">
+  <div class="inner">
+    <span class="cat-emoji">✨</span>
+    <h1>Beauty Finds</h1>
+    <p>Hair & skincare · Under $35</p>
+  </div>
+</div>
+<div class="grid-wrap">
+  <p class="section-label">All finds in this category</p>
+  <div class="product-grid" id="grid"></div>
+</div>
+<footer>
+  <p>Nest & Paws · <a href="https://pinterest.com/NestandPaws" target="_blank">@NestandPaws on Pinterest</a></p>
+  <p style="margin-top:8px;font-size:12px;color:rgba(200,184,154,0.6);">This page contains affiliate links. I earn a small commission at no extra cost to you.</p>
+</footer>
+<script src="products.js"></script>
+<script>
+  const products = PRODUCTS.filter(p => p.category === 'beauty');
+  const grid = document.getElementById('grid');
+  if (!products.length) {
+    grid.innerHTML = '<p class="empty-state">More finds coming soon.</p>';
+  } else {
+    grid.innerHTML = products.map(p => `
+      <a href="product.html?id=${p.id}" class="product-card">
+        <div class="card-img">
+          ${p.image
+            ? `<img src="${p.image}" alt="${p.title}" onerror="this.parentElement.innerHTML='<div class=img-placeholder>🛍️</div>'">`
+            : '<div class="img-placeholder">🛍️</div>'}
+        </div>
+        <div class="card-body">
+          <div class="card-bracket">${p.price_bracket}</div>
+          <div class="card-title">${p.title}</div>
+          <div class="card-subtitle">${p.subtitle}</div>
+          <span class="card-cta">Shop on Amazon →</span>
+        </div>
+      </a>`).join('');
+  }
+</script>
+</body>
+</html>
