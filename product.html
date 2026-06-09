@@ -203,7 +203,38 @@
     document.getElementById('product-title').textContent = product.title;
     document.getElementById('product-subtitle').textContent = product.subtitle;
     document.getElementById('product-story').textContent = product.story;
-    document.getElementById('product-cta').href = product.affiliate_link;
+    const ctaBtn = document.getElementById('product-cta');
+    ctaBtn.setAttribute('target', '_blank');
+    ctaBtn.setAttribute('rel', 'noopener noreferrer');
+
+    // On mobile, try to open Amazon app via deep link first
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      // Extract ASIN from affiliate_link for app deep link
+      const asinMatch = product.affiliate_link.match(/\/dp\/([A-Z0-9]{10})/);
+      if (asinMatch) {
+        const asin = asinMatch[1];
+        ctaBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          // Try Amazon app deep link — falls back to browser if app not installed
+          const appUrl = `amzn://dp/${asin}`;
+          const webUrl = product.affiliate_link;
+          // Attempt app open; if app not installed, browser catches it and nothing happens
+          // so we set a short timeout to fall back to browser tab
+          const fallbackTimer = setTimeout(() => {
+            window.open(webUrl, '_blank', 'noopener,noreferrer');
+          }, 1500);
+          // If app opens successfully, page will blur — cancel the fallback
+          window.addEventListener('blur', () => clearTimeout(fallbackTimer), { once: true });
+          window.location.href = appUrl;
+        });
+      } else {
+        ctaBtn.href = product.affiliate_link;
+      }
+    } else {
+      ctaBtn.href = product.affiliate_link;
+    }
+
     if (product.image) {
       document.getElementById('product-img').innerHTML =
         `<img src="${product.image}" alt="${product.title}" onerror="this.outerHTML='<div class=img-placeholder>🛍️</div>'">`;
