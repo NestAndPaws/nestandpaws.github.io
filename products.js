@@ -1,5 +1,82 @@
 const PRODUCTS = [
 
+  // ── WEEK OF JUNE 19 2026 ─────────────────────────────────────────────
+
+  {
+    id: "pink-stuff-paste",
+    title: "Stardrops The Pink Stuff Miracle Cleaning Paste",
+    category: "kitchen",
+    price: 7.97,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Stardrops-Cleaning-All-Purpose-Non-Scratch-Bathrooms/dp/B0DCCFG9JR?linkCode=ll2&tag=nestandpaws-20&linkId=220cb8f51d7100532c4d6a1d506344c6&language=en_US&ref_=as_li_ss_tl",
+    image: "images/pink-stuff-paste.png",
+    subtitle: "I scrubbed half my stovetop before I believed what I was seeing.",
+    story: "I'd seen this pink tub everywhere and assumed it was just hype. Then I tried it on a grease spot on my stovetop I'd basically given up on, and it came off in one wipe. Now it lives under my sink and gets used on the sink, the tub, even scuff marks on my shoes. Under $10 and it lasts forever — I clicked add to cart in under a minute.",
+    tags: ["Cleaning", "Amazon Home Finds", "Under $10", "Viral Cleaning", "Kitchen"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-19"
+  },
+
+  {
+    id: "cabinet-organizer",
+    title: "Housolution Expandable Cabinet & Pantry Organizer Rack",
+    category: "kitchen",
+    price: 19.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Housolution-Organizer-Expandable-Adjustable-Dividers/dp/B0CQR9NXB2?crid=37RC1XRM80UGV&linkCode=ll2&tag=nestandpaws-20&linkId=32cf4fe9bbc5942d68769210215beb2d&language=en_US&ref_=as_li_ss_tl",
+    image: "images/cabinet-organizer.png",
+    subtitle: "My pantry finally looks like the Pinterest photos I've been saving.",
+    story: "My cabinets were a stack of plates and cutting boards threatening to avalanche every time I opened the door. These expandable wire dividers fit right onto the shelf and now everything has its own slot — plates upright, trays separated, nothing sliding around. Ships in two days with Prime and took about five minutes to set up. Under $25 and it's the small fix that made the biggest difference.",
+    tags: ["Kitchen Organization", "Pantry", "Amazon Home Finds", "Under $25", "Cabinet Storage"],
+    badge: null,
+    date_added: "2026-06-19"
+  },
+
+  {
+    id: "slow-feeder-lick-bowl",
+    title: "PetsHome Slow Feeder Lick Bowl with Rolling Ball",
+    category: "pets",
+    price: 15.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/PetsHome-Anti-Slip-Interactive-Rolling-Licking/dp/B0GRR8NJX6?crid=19YXGXRXZLKIL&linkCode=ll2&tag=nestandpaws-20&linkId=0251b9b2099894ed21fb93702de43a43&language=en_US&ref_=as_li_ss_tl",
+    image: "images/slow-feeder-lick-bowl.png",
+    subtitle: "He goes completely silent for ten minutes straight with this thing.",
+    story: "My dog used to inhale his food in about thirty seconds flat, which never seemed great. I put some plain yogurt in this lick bowl and he worked at it for almost ten minutes, completely zoned in. The rolling ball keeps him engaged and the anti-slip base means it doesn't skid across the floor. Ships in two days with Prime. Under $20 and it's become part of our daily routine.",
+    tags: ["Dog Mom", "Pet Care", "Amazon Pet Finds", "Under $20", "Slow Feeder"],
+    badge: null,
+    date_added: "2026-06-19"
+  },
+
+  {
+    id: "ouai-hair-gloss",
+    title: "OUAI Hair Gloss In-Shower Shine Treatment (6 oz)",
+    category: "beauty",
+    price: 34.00,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/OUAI-Hair-Gloss-Shower-Protectant/dp/B0CT5S5WGN?crid=XAGWLD7SD0L9&linkCode=ll2&tag=nestandpaws-20&linkId=59ebdd4c534d3bb8cae2217ad716d44a&language=en_US&ref_=as_li_ss_tl",
+    image: "images/ouai-hair-gloss.png",
+    subtitle: "My hairdresser asked what I'd changed before I even sat down.",
+    story: "I'd been chasing the glass-hair look for months with no luck until I added this into my normal shower routine. Five minutes, rinse out, and my hair comes out smoother and shinier than it's looked in years — it's an Allure award winner for a reason. My hairdresser actually commented on the shine at my last appointment. Ships in two days with Prime. I clicked add to cart in under a minute.",
+    tags: ["Hair Care", "Glass Hair", "Amazon Beauty Finds", "Under $40", "Allure Winner"],
+    badge: null,
+    date_added: "2026-06-19"
+  },
+
+  {
+    id: "faux-oak-door-wrap",
+    title: "BOMENG Faux Oak Wood Grain Peel-and-Stick Wrap (24\" x 197\")",
+    category: "home",
+    price: 29.99,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/BOMENG-Wallpaper-Adhesive-Waterproof-Removable/dp/B0BDQKZ81G?crid=2XBCSEXU2M968&linkCode=ll2&tag=nestandpaws-20&linkId=f55672358363710dbf02670a3ff80294&language=en_US&ref_=as_li_ss_tl",
+    image: "images/faux-oak-door-wrap.png",
+    subtitle: "My landlord has no idea I did this, and I have no plans to tell them.",
+    story: "My bedroom door was the most boring flat white slab and it bothered me every time I walked past it. This peel-and-stick wrap took about an hour with no tools beyond scissors and a credit card to smooth out bubbles, and now it looks like real oak. Fully removable when I move out, no damage to the door underneath. Under $40 and it's the most compliments any single thing in my apartment has gotten.",
+    tags: ["Renter Friendly", "Door Makeover", "Amazon Home Finds", "Under $40", "Peel and Stick"],
+    badge: null,
+    date_added: "2026-06-19"
+  },
+
   // ── WEEK OF JUNE 8 2026 ─────────────────────────────────────────────
 
   {
