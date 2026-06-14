@@ -5,13 +5,13 @@ const PRODUCTS = [
   {
     id: "desominor-mirror-border",
     title: "DESOMINOR 32FT Peel & Stick Wood Grain Mirror Border Tape",
-    category: "home",
+    category: "renter",
     price: 8.99,
     price_bracket: "Under $10",
     affiliate_link: "https://www.amazon.com/DESOMINOR-Wallpaper-Removable-Waterproof-Bathroom/dp/B0BZPPH94G?linkCode=ll2&tag=nestandpaws-20&linkId=bb1aa853dc524c4f7fefe0468bb9a48b&language=en_US&ref_=as_li_ss_tl",
     image: "images/desominor-mirror-border.png",
     subtitle: "My bathroom mirror looks like it came with the frame. It didn't.",
-    story: "My builder-grade mirror was bothering me every single day — that cheap frameless look that makes every bathroom feel unfinished. I ordered this black wood grain border tape on a whim for under $10. Pressed it around the edges in about 15 minutes with just scissors, and now it looks completely custom. Fully removable, waterproof, and 32 feet of tape so there's plenty. Ships in two days with Prime. I clicked add to cart in under a minute.",
+    story: "That flat frameless builder-grade mirror was the first thing I noticed when I moved in and I hated it immediately. This flexible self-adhesive black wood grain border tape pressed right around the edge in under 15 minutes — no tools, no measuring experience needed, cuts with regular scissors. Fully waterproof and removable with no wall damage. Ships in two days with Prime. Under $10 and it changed the whole bathroom.",
     tags: ["Renter Friendly", "Bathroom DIY", "Amazon Home Finds", "Under $10", "Peel and Stick"],
     badge: "IMPULSE BUY",
     date_added: "2026-06-14"
@@ -20,7 +20,7 @@ const PRODUCTS = [
   {
     id: "command-picture-strips",
     title: "Command Heavyweight Picture Hanging Strips — 16 Pairs",
-    category: "home",
+    category: "renter",
     price: 17.99,
     price_bracket: "Under $20",
     affiliate_link: "https://www.amazon.com/Command-Heavyweight-Picture-Organization-Adhesive/dp/B0B3SR5M71?linkCode=ll2&tag=nestandpaws-20&linkId=dab7d6dd6e684b1d45572a164bc529bf&language=en_US&ref_=as_li_ss_tl",
@@ -35,7 +35,7 @@ const PRODUCTS = [
   {
     id: "dewoo-marble-backsplash",
     title: "DEWOO 3D Peel & Stick Backsplash Tiles — Marble Grey (10-Pack)",
-    category: "home",
+    category: "renter",
     price: 27.88,
     price_bracket: "Under $30",
     affiliate_link: "https://www.amazon.com/DEWOO-Backsplash-Kitchen-Bathroom-Marble/dp/B0D1G7613Y?linkCode=ll2&tag=nestandpaws-20&linkId=24b0f672e64b719518a24518a0c2f76b&language=en_US&ref_=as_li_ss_tl",
@@ -50,7 +50,7 @@ const PRODUCTS = [
   {
     id: "oqqlin-mirror-molding",
     title: "Oqqlin Peel & Stick Flexible Mirror Frame Molding Trim (16.4ft)",
-    category: "home",
+    category: "renter",
     price: 11.99,
     price_bracket: "Under $15",
     affiliate_link: "https://www.amazon.com/Oqqlin-Self-Adhesive-Flexible-Decorative-Bathroom/dp/B0GRV21FQC?linkCode=ll2&tag=nestandpaws-20&linkId=6e0adbb65bac78c804c626af13470667&language=en_US&ref_=as_li_ss_tl",
@@ -65,7 +65,7 @@ const PRODUCTS = [
   {
     id: "ezvalo-led-puck-lights",
     title: "EZVALO 6-Pack Rechargeable LED Under-Cabinet Puck Lights",
-    category: "home",
+    category: "renter",
     price: 32.99,
     price_bracket: "Under $35",
     affiliate_link: "https://www.amazon.com/EZVALO-Cabinet-Lighting-Rechargeable-Dimmable/dp/B0D25JS2MX?linkCode=ll2&tag=nestandpaws-20&linkId=cb9b6a8ec9add5f323bb919066ff0535&language=en_US&ref_=as_li_ss_tl",
@@ -82,7 +82,7 @@ const PRODUCTS = [
   {
     id: "pink-stuff-paste",
     title: "Stardrops The Pink Stuff Miracle Cleaning Paste",
-    category: "kitchen",
+    category: "home",
     price: 7.97,
     price_bracket: "Under $10",
     affiliate_link: "https://www.amazon.com/Stardrops-Cleaning-All-Purpose-Non-Scratch-Bathrooms/dp/B0DCCFG9JR?linkCode=ll2&tag=nestandpaws-20&linkId=220cb8f51d7100532c4d6a1d506344c6&language=en_US&ref_=as_li_ss_tl",
@@ -97,7 +97,7 @@ const PRODUCTS = [
   {
     id: "cabinet-organizer",
     title: "Housolution Expandable Cabinet & Pantry Organizer Rack",
-    category: "kitchen",
+    category: "home",
     price: 19.99,
     price_bracket: "Under $25",
     affiliate_link: "https://www.amazon.com/Housolution-Organizer-Expandable-Adjustable-Dividers/dp/B0CQR9NXB2?crid=37RC1XRM80UGV&linkCode=ll2&tag=nestandpaws-20&linkId=32cf4fe9bbc5942d68769210215beb2d&language=en_US&ref_=as_li_ss_tl",
@@ -142,7 +142,7 @@ const PRODUCTS = [
   {
     id: "faux-oak-door-wrap",
     title: "BOMENG Faux Oak Wood Grain Peel-and-Stick Wrap (24\" x 197\")",
-    category: "home",
+    category: "renter",
     price: 29.99,
     price_bracket: "Under $40",
     affiliate_link: "https://www.amazon.com/BOMENG-Wallpaper-Adhesive-Waterproof-Removable/dp/B0BDQKZ81G?crid=2XBCSEXU2M968&linkCode=ll2&tag=nestandpaws-20&linkId=f55672358363710dbf02670a3ff80294&language=en_US&ref_=as_li_ss_tl",
@@ -159,7 +159,7 @@ const PRODUCTS = [
   {
     id: "zulay-frother",
     title: "Zulay Original Handheld Milk Frother",
-    category: "kitchen",
+    category: "home",
     price: 16.99,
     price_bracket: "Under $20",
     affiliate_link: "https://www.amazon.com/Zulay-Original-Milk-Frother-Handheld/dp/B09D8T11YS?crid=3214HXW74LJAL&dib=eyJ2IjoiMSJ9.kcq3asqmzOuDfvgucLtcuV5jNL9UxKP1joxcTOVFT-Vh1d5BMCQAdGcKlHdBLlxUQbeNw7GeTI5nJVyhIwJtufRnV9lT8YY4n937EWyhmpjk39II_jgsqjlTZhTSW7Sd1ER6rRyO04LwgFBqXBy7n_RUhsGIirazcfyCeNGe8rxZFOTb2tZu9vbaiuHu2-5NI_buTX0RS2gBsLd_R-_y4YSqMnNrAKMNya5pO3VN7D6elUjZyke2pCI15fUf9NG-2j6kGjperdiYcc_1xUynqRKbclPnFwPEVqg3SGTEuXU.jUWNd8KMJhcSyBQWOupCkoGHdkO4sVok57Wd0EwL5M4&dib_tag=se&keywords=Zulay%2BKitchen%2BHandheld%2BMilk%2BFrother&qid=1780949917&sprefix=zulay%2Bkitchen%2Bhandheld%2Bmilk%2Bfrother%2Caps%2C165&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f6779cafcaa004edf069c7a05038c8f5&language=en_US&ref_=as_li_ss_tl",
@@ -219,7 +219,7 @@ const PRODUCTS = [
   {
     id: "barn-door-hardware",
     title: "SMARTSTANDARD 6.6ft Sliding Barn Door Hardware Kit (Black)",
-    category: "home",
+    category: "renter",
     price: 39.99,
     price_bracket: "Under $40",
     affiliate_link: "https://www.amazon.com/SMARTSTANDARD-6-6ft-Sturdy-Sliding-Hardware/dp/B01JWHSHBK?crid=1M5QBFRJQTCWJ&dib=eyJ2IjoiMSJ9.lV-iXmYdwi7e2Vlk2cZpkQ.nXdm92stmlxtx90HTf1YY-ipJ82PRWp-KLs1_Q7xjlw&dib_tag=se&keywords=B01JWHSHBK&nsdOptOutParam=true&qid=1780949714&sprefix=b01jwhshbk%2Caps%2C246&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=77cfa99c1603a139a355e0e5a14b01df&language=en_US&ref_=as_li_ss_tl",
@@ -315,10 +315,9 @@ const categoryMap = {
   home:     PRODUCTS.filter(p => p.category === "home"),
   pets:     PRODUCTS.filter(p => p.category === "pets"),
   beauty:   PRODUCTS.filter(p => p.category === "beauty"),
-  kitchen:  PRODUCTS.filter(p => p.category === "kitchen"),
+  renter:   PRODUCTS.filter(p => p.category === "renter"),
   under25:  PRODUCTS.filter(p => p.price < 25),
   seasonal: PRODUCTS.filter(p => p.category === "seasonal"),
-  renter:   PRODUCTS.filter(p => p.tags && p.tags.some(t => t.toLowerCase().includes("renter"))),
 };
 
 if (typeof module !== "undefined") module.exports = PRODUCTS;
