@@ -1,5 +1,82 @@
 const PRODUCTS = [
 
+  // ── SPECIAL BUILD: DIY HOME IMPROVEMENT — JUNE 2026 ─────────────────
+
+  {
+    id: "desominor-mirror-border",
+    title: "DESOMINOR 32FT Peel & Stick Wood Grain Mirror Border Tape",
+    category: "home",
+    price: 8.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/DESOMINOR-Wallpaper-Removable-Waterproof-Bathroom/dp/B0BZPPH94G?linkCode=ll2&tag=nestandpaws-20&linkId=bb1aa853dc524c4f7fefe0468bb9a48b&language=en_US&ref_=as_li_ss_tl",
+    image: "images/desominor-mirror-border.png",
+    subtitle: "My bathroom mirror looks like it came with the frame. It didn't.",
+    story: "My builder-grade mirror was bothering me every single day — that cheap frameless look that makes every bathroom feel unfinished. I ordered this black wood grain border tape on a whim for under $10. Pressed it around the edges in about 15 minutes with just scissors, and now it looks completely custom. Fully removable, waterproof, and 32 feet of tape so there's plenty. Ships in two days with Prime. I clicked add to cart in under a minute.",
+    tags: ["Renter Friendly", "Bathroom DIY", "Amazon Home Finds", "Under $10", "Peel and Stick"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-14"
+  },
+
+  {
+    id: "command-picture-strips",
+    title: "Command Heavyweight Picture Hanging Strips — 16 Pairs",
+    category: "home",
+    price: 17.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Command-Heavyweight-Picture-Organization-Adhesive/dp/B0B3SR5M71?linkCode=ll2&tag=nestandpaws-20&linkId=dab7d6dd6e684b1d45572a164bc529bf&language=en_US&ref_=as_li_ss_tl",
+    image: "images/command-picture-strips.png",
+    subtitle: "Every frame is level, every wall is still intact.",
+    story: "I've hung probably 12 frames with these and not a single nail hole, not a single fallen picture. The heavyweight version holds up to 20 lbs which covers every canvas, mirror, and print I own. I use them in every room of my rental — bedroom gallery wall, bathroom shelf, entryway prints. They peel off clean when you move out. Ships in two days with Prime. Under $20 for 16 pairs and they genuinely last.",
+    tags: ["Renter Friendly", "Gallery Wall", "Amazon Home Finds", "Under $20", "No Damage"],
+    badge: null,
+    date_added: "2026-06-14"
+  },
+
+  {
+    id: "dewoo-marble-backsplash",
+    title: "DEWOO 3D Peel & Stick Backsplash Tiles — Marble Grey (10-Pack)",
+    category: "home",
+    price: 27.88,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/DEWOO-Backsplash-Kitchen-Bathroom-Marble/dp/B0D1G7613Y?linkCode=ll2&tag=nestandpaws-20&linkId=24b0f672e64b719518a24518a0c2f76b&language=en_US&ref_=as_li_ss_tl",
+    image: "images/dewoo-marble-backsplash.png",
+    subtitle: "My kitchen looks like it was professionally tiled. It took one afternoon.",
+    story: "My rental kitchen had plain white walls behind the stove and it always looked unfinished. I put up these marble grey 3D peel-and-stick tiles in one afternoon with no tools — peel, stick, press. The 3D beveled edge catches the light and looks genuinely real. Amazon's Choice, 4.4 stars, 684 reviews. Fully removable so no landlord drama. 10 sheets covers a standard backsplash area. Ships in two days with Prime. Under $30.",
+    tags: ["Renter Friendly", "Kitchen Backsplash", "Amazon Home Finds", "Under $30", "Peel and Stick"],
+    badge: null,
+    date_added: "2026-06-14"
+  },
+
+  {
+    id: "oqqlin-mirror-molding",
+    title: "Oqqlin Peel & Stick Flexible Mirror Frame Molding Trim (16.4ft)",
+    category: "home",
+    price: 11.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/Oqqlin-Self-Adhesive-Flexible-Decorative-Bathroom/dp/B0GRV21FQC?linkCode=ll2&tag=nestandpaws-20&linkId=6e0adbb65bac78c804c626af13470667&language=en_US&ref_=as_li_ss_tl",
+    image: "images/oqqlin-mirror-molding.png",
+    subtitle: "My landlord thought I replaced the mirror. I just framed it.",
+    story: "That flat frameless bathroom mirror was the first thing I noticed when I moved in and I hated it immediately. This flexible self-adhesive trim pressed right around the edge in under 10 minutes — no tools, no measuring experience needed, cuts with regular scissors. Available in white, gold, and champagne. Mine is white and it looks like actual molding. Fully waterproof. Ships in two days with Prime. Under $15 and it changed the whole bathroom.",
+    tags: ["Renter Friendly", "Bathroom DIY", "Amazon Home Finds", "Under $15", "Mirror Upgrade"],
+    badge: null,
+    date_added: "2026-06-14"
+  },
+
+  {
+    id: "ezvalo-led-puck-lights",
+    title: "EZVALO 6-Pack Rechargeable LED Under-Cabinet Puck Lights",
+    category: "home",
+    price: 32.99,
+    price_bracket: "Under $35",
+    affiliate_link: "https://www.amazon.com/EZVALO-Cabinet-Lighting-Rechargeable-Dimmable/dp/B0D25JS2MX?linkCode=ll2&tag=nestandpaws-20&linkId=cb9b6a8ec9add5f323bb919066ff0535&language=en_US&ref_=as_li_ss_tl",
+    image: "images/ezvalo-led-puck-lights.png",
+    subtitle: "My kitchen looks like a completely different room after dark.",
+    story: "I never realised how dark my counters were until I put these under the cabinets. Six rechargeable puck lights, no wiring, no drilling — they stick on magnetically and charge via USB. Three colour temperatures so you can go warm for evenings or bright for cooking. The motion sensor option means they come on when I walk into the kitchen at night. Ships in two days with Prime. Under $35 for the whole set and it genuinely looks like a renovation.",
+    tags: ["Renter Friendly", "Kitchen Lighting", "Amazon Home Finds", "Under $35", "No Drill"],
+    badge: null,
+    date_added: "2026-06-14"
+  },
+
   // ── WEEK OF JUNE 19 2026 ─────────────────────────────────────────────
 
   {
@@ -85,7 +162,7 @@ const PRODUCTS = [
     category: "kitchen",
     price: 16.99,
     price_bracket: "Under $20",
-    affiliate_link: "https://www.amazon.com/Zulay-Original-Milk-Frother-Handheld/dp/B09D8T11YS?crid=3214HXW74LJAL&dib=eyJ2IjoiMSJ9.kcq3asqmzOuDfvgucLtcuV5jNL9UxKP1joxcTOVFT-Vh1d5BMCQAdGcKlHdBLlxUQbeNw7GeTI5nJVyhIwJtufRnV9lT8YY4n937EWyhmpjk39II_jgsqjlTZhTSW7Sd1ER6rRyO04LwgFBqXBy7n_RUhsGIirazcfyCeNGe8rxZFOTb2tZu9vbaiuHu2-5NI_buTX0RS2gBsLd_R-_y4YSzMnNrAKMNya5pO3VN7D6elUjZyke2pCI15fUf9NG-2j6kGjperdiYcc_1xUynqRKbclPnFwPEVqg3SGTEuXU.jUWNd8KMJhcSyBQWOupCkoGHdkO4sVok57Wd0EwL5M4&dib_tag=se&keywords=Zulay%2BKitchen%2BHandheld%2BMilk%2BFrother&qid=1780949917&sprefix=zulay%2Bkitchen%2Bhandheld%2Bmilk%2Bfrother%2Caps%2C165&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f6779cafcaa004edf069c7a05038c8f5&language=en_US&ref_=as_li_ss_tl",
+    affiliate_link: "https://www.amazon.com/Zulay-Original-Milk-Frother-Handheld/dp/B09D8T11YS?crid=3214HXW74LJAL&dib=eyJ2IjoiMSJ9.kcq3asqmzOuDfvgucLtcuV5jNL9UxKP1joxcTOVFT-Vh1d5BMCQAdGcKlHdBLlxUQbeNw7GeTI5nJVyhIwJtufRnV9lT8YY4n937EWyhmpjk39II_jgsqjlTZhTSW7Sd1ER6rRyO04LwgFBqXBy7n_RUhsGIirazcfyCeNGe8rxZFOTb2tZu9vbaiuHu2-5NI_buTX0RS2gBsLd_R-_y4YSqMnNrAKMNya5pO3VN7D6elUjZyke2pCI15fUf9NG-2j6kGjperdiYcc_1xUynqRKbclPnFwPEVqg3SGTEuXU.jUWNd8KMJhcSyBQWOupCkoGHdkO4sVok57Wd0EwL5M4&dib_tag=se&keywords=Zulay%2BKitchen%2BHandheld%2BMilk%2BFrother&qid=1780949917&sprefix=zulay%2Bkitchen%2Bhandheld%2Bmilk%2Bfrother%2Caps%2C165&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f6779cafcaa004edf069c7a05038c8f5&language=en_US&ref_=as_li_ss_tl",
     image: "images/zulay-frother.png",
     subtitle: "My morning routine hasn't been the same since I added this.",
     story: "I started using this frother to make iced lattes at home and now I can't imagine going back to paying $7 at a coffee shop. It takes literally ten seconds to make a foam that looks like a barista made it. My roommate saw it on the counter and immediately ordered one for herself. Under $20, ships Prime, and you will use it every single day.",
@@ -115,7 +192,7 @@ const PRODUCTS = [
     category: "pets",
     price: 28.99,
     price_bracket: "Under $35",
-    affiliate_link: "https://www.amazon.com/Cooling-Technology-Self-Cooling-Non-Slip-Waterproof/dp/B0GLYQTMTH?crid=3LE7DVPDR1DX&dib=eyJ2IjoiMSJ9.qWaDZl0wWVNaN0XVDQOAbH4K9pnn2MFBKP1uMh7eTseFhRZv0NBOZxFv5d_q5ccUx5i9P97Iscbn907mR_DxJASsWh-A0Q2MQf52aBMeWSA5eENKbBMToHtArX78BhzZtVYAok_DO-Z48KZ83q0m2EfdG7zj276qvXZQPpFGIHiQUYM-0T542W7JEKB-sQboffOkoiP97KzZJXeM75a2-jMNqVvpRIqS3RMv8bWR-RRwGXQaiTet1gphbjcqQsGRx0ziStFURLUxDiOQ2mSqtiFhSsBZUl1BxXL6RUV6jIY.Uoo13tKAg-Dq-fh9lDcNK3V9IoFY87Tr6NJxIIh_6MY&dib_tag=se&keywords=Arf%2BPets%2BDog%2BCooling%2BMat%2B%2F%2BPet%2BCooling%2BPad%2B%28gel%2Bor%2Bwater%29&nsdOptOutParam=true&qid=1780949493&refinements=p_72%3A2661618011&rnid=2661617011&sprefix=arf%2Bpets%2Bdog%2Bcooling%2Bmat%2B%2F%2Bpet%2Bcooling%2Bpad%2Bgel%2Bor%2Bwater%2B%2Caps%2C196&sr=8-9&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=5f917401eb4022df41c407a531296f64&language=en_US&ref_=as_li_ss_tl",
+    affiliate_link: "https://www.amazon.com/Cooling-Technology-Self-Cooling-Non-Slip-Waterproof/dp/B0GLYQTMTH?crid=3LE7DVPDR1DX&dib=eyJ2IjoiMSJ9.qWaDZl0wWVNaN0XVDQOAbH4K9pnn2MFBKP1uMh7eTseFhRZv0NBOZxFv5d_q5ccUx5i9P97Iscbn907mR_DxJASsWh-A0Q2MQf52aBMeWSA5eENKbBMToHtArX78BhzZtVYAok_DO-Z48KZ83q0m2EfdG7zj276qvXZQPpFGIHiQUYM-0T542W7JEKB-sQboffOkoiP97KzZJXeM75a2-jMNqVvpRIqS3RMv8bWR-RRwGXQaiTet1gphbjcqQsGRx0ziStFURLUxDiOQ2mSqtiFhSsBZUl1BxXL6RUV6jIY.Uoo13tKAg-fh9lDcNK3V9IoFY87Tr6NJxIIh_6MY&dib_tag=se&keywords=Arf%2BPets%2BDog%2BCooling%2BMat&nsdOptOutParam=true&qid=1780949493&refinements=p_72%3A2661618011&rnid=2661617011&sprefix=arf%2Bpets%2Bdog%2Bcooling%2Bmat%2B%2Caps%2C196&sr=8-9&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=5f917401eb4022df41c407a531296f64&language=en_US&ref_=as_li_ss_tl",
     image: "images/dog-cooling-mat.png",
     subtitle: "She stops panting within a few minutes of lying down on it.",
     story: "Summer hit hard and I noticed my dog was really struggling to get comfortable on the floor. This self-cooling gel mat needs no electricity or water — she just lies on it and it draws heat away from her body. Non-slip base so it stays put, waterproof so accidents aren't a disaster. She claimed it within five minutes of me putting it down and hasn't left it since. Honestly worth every penny at under $35.",
