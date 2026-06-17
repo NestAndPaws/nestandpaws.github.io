@@ -1,5 +1,82 @@
 const PRODUCTS = [
 
+  // ── WFH / HOME OFFICE BUILD — JUNE 2026 ─────────────────────────────
+
+  {
+    id: "afiing-desk-pad",
+    title: "AFIING PU Leather Desk Pad Protector (23.6\" x 13.7\", Beige)",
+    category: "home",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/AFIING-Desk-Protector-23-6-13-7/dp/B0D98Q9HXK?linkCode=ll2&tag=nestandpaws-20&linkId=19364d80c88d4ed18fa0663ea4548eda&language=en_US&ref_=as_li_ss_tl",
+    image: "images/afiing-desk-pad.png",
+    subtitle: "Spilled coffee on it twice. Still looks brand new.",
+    story: "I've replaced two desk mats this year trying to find something that looked good and actually survived daily use — and this AFIING one is the one I'm keeping. It's beige PU leather, waterproof, and the non-slip base means it doesn't shift when you're typing fast. At under $10 it's almost unreasonably good. The whole desk looks warmer and more put-together the second you put it down. If your desk feels chaotic and you don't know where to start — start here.",
+    tags: ["Home Office", "Desk Setup", "Work From Home", "Under $10", "Amazon Home Finds"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-16"
+  },
+
+  {
+    id: "flylead-cable-clips",
+    title: "FLYLEAD Magnetic Cable Management Clips (Silicone, Adhesive)",
+    category: "home",
+    price: 9.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/Management-FLYLEAD-Workspaces-Organization-Accessories/dp/B0F9KGWG46?linkCode=ll2&tag=nestandpaws-20&linkId=a26e1e755c92448e7df1117cdc56e049&language=en_US&ref_=as_li_ss_tl",
+    image: "images/flylead-cable-clips.png",
+    subtitle: "Spent $10. Desk went from chaos to clean in fifteen minutes.",
+    story: "Cable clutter is the thing that makes even a nice desk setup look messy — and I ignored it for way too long. These FLYLEAD magnetic clips stick to the desk edge or side panel, hold your charging cables and cords in place, and release in one motion when you need them. At $9.99 for a full set, it's the highest-ROI desk upgrade I've found. No velcro, no zip ties, no sticky residue when you move them. My setup genuinely looks like a different desk now.",
+    tags: ["Cable Management", "Home Office", "Desk Setup", "Work From Home", "Under $15"],
+    badge: null,
+    date_added: "2026-06-16"
+  },
+
+  {
+    id: "huanuo-monitor-arm",
+    title: "HUANUO Single Monitor Arm Mount — Articulating, 13–32\" Screens",
+    category: "home",
+    price: 43.99,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/Single-Monitor-Mount-Articulating-Adjustable/dp/B07T3KCQ94?linkCode=ll2&tag=nestandpaws-20&linkId=4b4b36af708f67b535bc95e8ef777719&language=en_US&ref_=as_li_ss_tl",
+    image: "images/huanuo-monitor-arm.png",
+    subtitle: "Finally saw what my desk actually looked like without a monitor stand eating half of it.",
+    story: "I put off getting a monitor arm for ages because it felt like a big commitment — but this HUANUO one installed in under 10 minutes with no drama. You clamp it to the desk edge, plug the monitor in, and suddenly the entire surface underneath is yours again. It fits screens from 13 to 32 inches, swivels and tilts to whatever angle you actually want, and the build quality doesn't feel cheap for the price. If you've been staring at your cluttered desk and wondering what to fix first — this is it.",
+    tags: ["Monitor Arm", "Home Office", "Desk Setup", "Work From Home", "Under $50"],
+    badge: null,
+    date_added: "2026-06-16"
+  },
+
+  {
+    id: "quntis-monitor-light-bar",
+    title: "Quntis Monitor Light Bar — Auto-Dimming, Remote Control, No Glare",
+    category: "home",
+    price: 29.99,
+    price_bracket: "Under $35",
+    affiliate_link: "https://www.amazon.com/Quntis-Backlight-Temperature-Adjustable-Brightness/dp/B0C5JMWZC9?linkCode=ll2&tag=nestandpaws-20&linkId=23e17ba9b26d04ff9c9504116fae410d&language=en_US&ref_=as_li_ss_tl",
+    image: "images/quntis-monitor-light-bar.png",
+    subtitle: "Eye strain I'd normalized for two years. Gone in a week.",
+    story: "I work late most nights and never thought about how harsh the contrast was between my bright monitor and a dark room — until I got this light bar and realized I'd been squinting for two years. The Quntis mounts on top of the monitor with no screws, auto-dims when the room gets brighter, and the warm/cool temperature setting means it actually works for video calls too. It's under $35, ships Prime, and the difference on calls is immediately noticeable. One of those purchases that makes you wonder why you waited.",
+    tags: ["Monitor Light Bar", "Home Office", "Desk Lighting", "Work From Home", "Under $35"],
+    badge: null,
+    date_added: "2026-06-16"
+  },
+
+  {
+    id: "nordik-felt-desk-mat",
+    title: "Nordik Large Felt Desk Mat — 35\" x 17\", Full Surface Coverage",
+    category: "home",
+    price: 27.99,
+    price_bracket: "Under $35",
+    affiliate_link: "https://www.amazon.com/Nordik-Large-Felt-Desk-Mat/dp/B0F8Q7L4CF?linkCode=ll2&tag=nestandpaws-20&linkId=1ae9c624e5e2109d6f8f6696ae785df2&language=en_US&ref_=as_li_ss_tl",
+    image: "images/nordik-felt-desk-mat.png",
+    subtitle: "The desk looks like it belongs in a magazine now. No other changes.",
+    story: "I wasn't expecting one product to change the entire vibe of my home office. I swapped the bare desk surface for this Nordik felt mat and it instantly made everything feel more intentional — like my keyboard and mug actually belonged there. It's full-surface, so there's no awkward gap between your mouse and keyboard area. The charcoal color works with basically every desk color and it photographs beautifully if you're someone who actually wants your setup to look good on a call.",
+    tags: ["Desk Mat", "Home Office", "Desk Setup", "Work From Home", "Under $35"],
+    badge: null,
+    date_added: "2026-06-16"
+  },
+
   // ── SPECIAL BUILD: DIY HOME IMPROVEMENT — JUNE 2026 ─────────────────
 
   {
@@ -192,7 +269,7 @@ const PRODUCTS = [
     category: "pets",
     price: 28.99,
     price_bracket: "Under $35",
-    affiliate_link: "https://www.amazon.com/Cooling-Technology-Self-Cooling-Non-Slip-Waterproof/dp/B0GLYQTMTH?crid=3LE7DVPDR1DX&dib=eyJ2IjoiMSJ9.qWaDZl0wWVNaN0XVDQOAbH4K9pnn2MFBKP1uMh7eTseFhRZv0NBOZxFv5d_q5ccUx5i9P97Iscbn907mR_DxJASsWh-A0Q2MQf52aBMeWSA5eENKbBMToHtArX78BhzZtVYAok_DO-Z48KZ83q0m2EfdG7zj276qvXZQPpFGIHiQUYM-0T542W7JEKB-sQboffOkoiP97KzZJXeM75a2-jMNqVvpRIqS3RMv8bWR-RRwGXQaiTet1gphbjcqQsGRx0ziStFURLUxDiOQ2mSqtiFhSsBZUl1BxXL6RUV6jIY.Uoo13tKAg-fh9lDcNK3V9IoFY87Tr6NJxIIh_6MY&dib_tag=se&keywords=Arf%2BPets%2BDog%2BCooling%2BMat&nsdOptOutParam=true&qid=1780949493&refinements=p_72%3A2661618011&rnid=2661617011&sprefix=arf%2Bpets%2Bdog%2Bcooling%2Bmat%2B%2Caps%2C196&sr=8-9&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=5f917401eb4022df41c407a531296f64&language=en_US&ref_=as_li_ss_tl",
+    affiliate_link: "https://www.amazon.com/Cooling-Technology-Self-Cooling-Non-Slip-Waterproof/dp/B0GLYQTMTH?crid=3LE7DVPDR1DX&dib=eyJ2IjoiMSJ9.qWaDZl0wWVNaN0XVDQOAbH4K9pnn2MFBKP1uMh7eTseFhRZv0NBOZxFv5d_q5ccUx5i9P97Iscbn907mR_DxJASsWh-A0Q2MQf52aBMeWSA5eENKbBMToHtArX78BhzZtVYAok_DO-Z48KZ83q0m2EfdG7zj276qvXZQPpFGIHiQUYM-0T542W7JEKB-sQboffOkoiP97KzZJXeM75a2-jMNqVvpRIqS3RMv8bWR-RRwGXQaiTet1gphbjcqQsGRx0ziStFURLUxDiOQ2mSqtiFhSsBZUl1BxXL6RUV6jIY.Uoo13tKAg-fA07mBbsOl-AxaWuJNDIVFwJ7bONSi2b4&dib_tag=se&keywords=Arf%2BPets%2BDog%2BCooling%2BMat&nsdOptOutParam=true&qid=1780949493&refinements=p_72%3A2661618011&rnid=2661617011&sprefix=arf%2Bpets%2Bdog%2Bcooling%2Bmat%2B%2Caps%2C196&sr=8-9&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=5f917401eb4022df41c407a531296f64&language=en_US&ref_=as_li_ss_tl",
     image: "images/dog-cooling-mat.png",
     subtitle: "She stops panting within a few minutes of lying down on it.",
     story: "Summer hit hard and I noticed my dog was really struggling to get comfortable on the floor. This self-cooling gel mat needs no electricity or water — she just lies on it and it draws heat away from her body. Non-slip base so it stays put, waterproof so accidents aren't a disaster. She claimed it within five minutes of me putting it down and hasn't left it since. Honestly worth every penny at under $35.",
