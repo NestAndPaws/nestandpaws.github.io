@@ -229,6 +229,49 @@
       color: var(--sand);
     }
 
+    /* TODAY'S DEALS CARD */
+    .deals-card {
+      background: var(--terra);
+      border-radius: 16px;
+      padding: 28px 24px;
+      text-decoration: none;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 12px rgba(193,122,74,0.25);
+      position: relative;
+      overflow: hidden;
+    }
+    .deals-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at 80% 50%, rgba(245,237,214,0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .deals-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(193,122,74,0.35);
+    }
+    .deals-card .cat-icon {
+      background: rgba(255,255,255,0.15);
+      flex-shrink: 0;
+    }
+    .deals-card .cat-text h3 {
+      color: var(--white);
+      font-size: 17px;
+    }
+    .deals-card .cat-text p {
+      color: var(--cream);
+      font-size: 13px;
+      font-weight: 300;
+    }
+    .deals-card .cat-arrow {
+      color: var(--cream);
+    }
+
     /* FEATURED */
     #featured {
       padding: 0 24px 48px;
@@ -355,6 +398,20 @@
 <section id="categories">
   <p class="section-label">Shop by category</p>
   <div class="category-grid">
+    <!-- ────────────────────────────────────────────────────────────────
+         TODAY'S DEALS CARD
+         Links to Amazon's evergreen deals hub — always shows current
+         live deals, no maintenance needed. Confirmed evergreen June 20.
+    ─────────────────────────────────────────────────────────────────── -->
+    <a href="https://www.amazon.com/deals?&linkCode=ll2&tag=nestandpaws-20&linkId=2d383d42c410d808395952551bdfa187&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="deals-card">
+      <div class="cat-icon">🏷️</div>
+      <div class="cat-text">
+        <h3>Today's deals on Amazon</h3>
+        <p>Live discounts, updated daily</p>
+      </div>
+      <span class="cat-arrow">›</span>
+    </a>
+
     <a href="home.html" class="category-card">
       <div class="cat-icon">🏠</div>
       <div class="cat-text">
