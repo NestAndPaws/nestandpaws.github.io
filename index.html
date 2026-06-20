@@ -186,6 +186,49 @@
       font-size: 18px;
     }
 
+    /* PRIME BOUNTY CARD */
+    .prime-card {
+      background: var(--charcoal);
+      border-radius: 16px;
+      padding: 28px 24px;
+      text-decoration: none;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 12px rgba(44,36,32,0.12);
+      position: relative;
+      overflow: hidden;
+    }
+    .prime-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at 20% 50%, rgba(193,122,74,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .prime-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(44,36,32,0.2);
+    }
+    .prime-card .cat-icon {
+      background: rgba(245,237,214,0.08);
+      flex-shrink: 0;
+    }
+    .prime-card .cat-text h3 {
+      color: var(--white);
+      font-size: 17px;
+    }
+    .prime-card .cat-text p {
+      color: var(--sand);
+      font-size: 13px;
+      font-weight: 300;
+    }
+    .prime-card .cat-arrow {
+      color: var(--sand);
+    }
+
     /* FEATURED */
     #featured {
       padding: 0 24px 48px;
@@ -360,6 +403,23 @@
       </div>
       <span class="cat-arrow">›</span>
     </a>
+
+    <!-- ────────────────────────────────────────────────────────────────
+         PRIME BOUNTY CARD
+         ACTION REQUIRED: Replace PRIME_BOUNTY_LINK_HERE with your actual
+         Prime trial bounty URL from Associates Central → Tools → Bounties.
+         It will look like: https://www.amazon.com/tryprimefree?tag=nestandpaws-20
+         Do not publish until this is replaced.
+    ─────────────────────────────────────────────────────────────────── -->
+    <a href="PRIME_BOUNTY_LINK_HERE" target="_blank" rel="noopener" class="prime-card">
+      <div class="cat-icon">📦</div>
+      <div class="cat-text">
+        <h3>New here? Try Prime free</h3>
+        <p>Fast shipping on everything I recommend</p>
+      </div>
+      <span class="cat-arrow">›</span>
+    </a>
+
   </div>
 </section>
 
