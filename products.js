@@ -1,5 +1,82 @@
 const PRODUCTS = [
 
+  // ── WEEK OF JUNE 20 2026 ─────────────────────────────────────────────
+
+  {
+    id: "kitstorack-pullout-organizer",
+    title: "Kitstorack Expandable Pull-Out Cabinet Organizer (12\"–20\", No-Drill)",
+    category: "home",
+    price: 49.99,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/Pull-out-Cabinet-Organizer-Organization/dp/B0CWGYQSXZ?crid=TGA6THOOHME7&dib=eyJ2IjoiMSJ9.cCYM8zffcRY4A3UyQ3jif6SSBxmNrUMnplGgVlGTmKr4w9xb_P5qE4ARj52_AcRLb_YFj6bNSVeB725C6Pwm-8tACkXJMr3HRDURxw2JvmYWdjZGfAp_0xDuzlUDbgRHvSA1oxrxSA5-YPP-L9unnGcABN80453Dp9XIPRl5YjPKJ6OYwUMvPm7LaBPl6roGl-6E18d2nry-Ii_yms-UDtAdZfnTm-jejiWufWngJRDyNjmX0LzYnMXeZJVTYc-YJdgbESIFN4a5u4dGbiZTeQYbWzsIXqdH58hY_tVp57Y.xpF2mkh_Bo59TOu0QL0UQ43b5v1hT_8SgFmDVWAdxv0&dib_tag=se&keywords=Kitstorack%2BExpandable%2BPull-Out%2BCabinet%2BOrganize&qid=1781983791&sprefix=veken%2B95oz%2Bstainless%2Bsteel%2Bpet%2Bwater%2Bfountain%2Caps%2C437&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=7a71d7fbd68617a22ac0197d6244513e&language=en_US&ref_=as_li_ss_tl",
+    image: "images/kitstorack-pullout-organizer.png",
+    subtitle: "The cabinet I stopped dreading opening.",
+    story: "I used to dig through a cabinet of stacked pots just to find the one I needed. This pull-out organizer changed that completely — no drilling, no tools, just slide it in and everything's finally visible. It's the kind of upgrade you don't think about until you have it, and then you wonder how you lived without it.",
+    tags: ["Home Organization", "Kitchen Upgrade", "Cabinet Organizer", "Amazon Home Finds", "No Drill"],
+    badge: null,
+    date_added: "2026-06-20"
+  },
+
+  {
+    id: "veken-pet-water-fountain",
+    title: "Veken 95oz Stainless Steel Pet Water Fountain",
+    category: "pets",
+    price: 29.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Veken-Innovation-Stainless-Automatic-Replacement/dp/B0FPFZ7XFJ?crid=1E19SE8FBBXE4&dib=eyJ2IjoiMSJ9.1o7x9tkwdMgtzVzj0o0T7jvpjHn6rtYBK7VrzKLS4_ngJE7c1z55EUA62Qks7agaPYQa5ZrmkpQsTU0mwCIpDBoiPmsGnak9LmCwaUHP4DU1ZLMOKiQflyRDMboSI7_1ZmIWyvgI36Kz5utroBafabg6EprQeM28HcmwdNPDoaUMbNTBfgEU4mqXaFDNhhaAluKuU_PhdF-njNVRVzy-jem8POidaQ_JygPhpH0dXkpWu1Q1cZ3-XNIBnUhbParzPOQ6odqgbwrp8C6EnGkT8sYY82ae8P7gH95qs1lgkok.wmo4xRJylU_Ilyb0NvRBcsElUA4skIhmTZQbj4PEn4Q&dib_tag=se&keywords=Veken%2B95oz%2BStainless%2BSteel%2BPet%2BWater%2BFountain&qid=1781983684&sprefix=kristin%2Bess%2Bhair%2Bcrystal%2Bquartz%2Bclear%2Bhair%2Bgloss%2Caps%2C313&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=93669079dc0f31639c3f00e4e3dd49d3&language=en_US&ref_=as_li_ss_tl",
+    image: "images/veken-pet-water-fountain.png",
+    subtitle: "He drank twice as much water the very first day.",
+    story: "I didn't realize how little my dog was drinking until I switched to this fountain. The moving water actually gets him excited to come back to the bowl — something a still dish never did. It's stainless steel, quiet enough to run all day, and it's become one of those purchases I genuinely can't believe I waited so long to make.",
+    tags: ["Dog Mom", "Pet Care", "Pet Hydration", "Amazon Pet Finds", "Stainless Steel"],
+    badge: null,
+    date_added: "2026-06-20"
+  },
+
+  {
+    id: "kristin-ess-hair-gloss-brunette",
+    title: "Kristin Ess Hair Gloss in Bittersweet Dark Brunette",
+    category: "beauty",
+    price: 14.97,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/Kristin-Ess-Signature-Hair-Gloss/dp/B08T4BVLQ1?dib=eyJ2IjoiMSJ9.6ZHz5V6nAn9geuGgNvcyp26GXVi4GS_iEjebP4oBS8mSN0M3zddsKsASGfoamDsWTWNBzbdQymPg_s_Mw3LLbtYK8mzgr-_OBDb9luCD-rpqUE9YqO9qcDaCjcQvSLJTzYzgvS3xVsEcwWW3IOieiK28lpcLvOuH85sdYPE7uYuK_XPdtjQvhmtG1afC7mfc-Bi5_RF3QMRcQm5X2Le1iizozf-C5gbaZVbmDuz0M1qu1OJNBUNiH17W7_zrDWs41jgNPUEcGCwo3RtTB51IpHZnbKXvWwuUub_vGdyvlwc.Nub7nspzgvNulR5mvbpQ6-6bi71_YnSwCvvISRrb3Pw&dib_tag=se&keywords=Kristin%2BEss%2BHair%2BCrystal%2BQuartz%2BClear%2BHair%2BGloss&nsdOptOutParam=true&qid=1781983615&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=a4728024360a7f11af939679e5180be7&language=en_US&ref_=as_li_ss_tl",
+    image: "images/kristin-ess-hair-gloss-brunette.png",
+    subtitle: "My colorist asked what salon I went to.",
+    story: "My brunette color always went flat between salon visits, and I figured there wasn't a real fix for that without spending more money. This in-shower gloss changed my mind. Five minutes, no mess, and my hair looks like I just left the salon — richer, shinier, more depth. It's become a once-a-month ritual I genuinely look forward to.",
+    tags: ["Hair Care", "Glass Hair", "Brunette Hair", "Amazon Beauty Finds", "Hair Gloss"],
+    badge: null,
+    date_added: "2026-06-20"
+  },
+
+  {
+    id: "hrx-adhesive-door-handle",
+    title: "Self-Adhesive Edge Fingerpull Door Handle (2-Pack, No-Drill)",
+    category: "renter",
+    price: 19.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B08J7ZY8JH?_encoding=UTF8&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=a4164976b45290eafbc9b460619cd376&language=en_US&ref_=as_li_ss_tl",
+    image: "images/hrx-adhesive-door-handle.png",
+    subtitle: "The detail that makes the whole kitchen look new.",
+    story: "I rent, so drilling new hardware was never an option — until I found this. The adhesive backing is genuinely strong, the install took under a minute per handle, and the matte black finish instantly makes the cabinets look intentional instead of builder-grade. It's the cheapest upgrade that's made the biggest visual difference in my kitchen.",
+    tags: ["Renter Friendly", "No Drill", "Cabinet Hardware", "Amazon Home Finds", "Apartment Decor"],
+    badge: null,
+    date_added: "2026-06-20"
+  },
+
+  {
+    id: "pink-stuff-cleaning-paste-v2",
+    title: "Stardrops The Pink Stuff Miracle Cleaning Paste",
+    category: "home",
+    price: 5.97,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Pink-Stuff-Miracle-Purpose-Cleaner/dp/B00DU5SRIY?dib=eyJ2IjoiMSJ9.4sZdiStNYiOTJTRNTUvOqL9zC4MI_Wjk8aO7nciLsoYouPRIFjCctlP9Tv8r8KTN8RkNjRE3OzieE8qbf1fP4ZF5TsM_c71YxeQXtthw3_TnpCmHueAlHz1mQRf9G42TO2-z6Nh9xUguV8omGx24AawEIzgouWVkOJFOcmyFR6yWhT4H7V3icoAcpc6cHoXPoyv757UWvGoMFeUn2SggUI_3TOvlbKOXW5k7i7_tP0KIPW4ABmnkj_fZxclmpxhiQ0sZPUPzUPwkjnH2qGv-IAnMLH_GvOp-2syDixP4GdA.qILyKlAQ_zHkIRszicID8KMYzmF2wfAGaOS8oQN0HoQ&dib_tag=se&keywords=The%2BPink%2BStuff%2BMiracle%2BCleaning%2BPaste%2B500g&qid=1781983486&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d21d19abaf3730ffd9e9ee71c9322e2d&language=en_US&ref_=as_li_ss_tl",
+    image: "images/pink-stuff-cleaning-paste.png",
+    subtitle: "I almost didn't believe the before and after.",
+    story: "I'd basically given up on my stovetop ever looking clean again — years of baked-on grease that nothing seemed to touch. One pass with this paste and it looked brand new. It works on so much more than I expected too: sinks, tile, even my patio furniture. For under $10, it's the easiest impulse buy I've made all year.",
+    tags: ["Cleaning", "Viral Cleaning", "Amazon Home Finds", "Under $10", "Kitchen"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-20"
+  },
+
   // ── WFH / HOME OFFICE BUILD — JUNE 2026 ─────────────────────────────
 
   {
