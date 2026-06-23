@@ -1,5 +1,97 @@
 const PRODUCTS = [
 
+  // ── WEEK OF JUNE 23 2026 ─────────────────────────────────────────────
+
+  {
+    id: "vtopmart-stackable-drawers",
+    title: "Vtopmart Stackable Storage Drawers Set of 5 — Clear Acrylic Organizer",
+    category: "home",
+    price: 45.00,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/Vtopmart-Stackable-Organizer-Supplies-Organization/dp/B0CXLK9PJ9?crid=2VC28CKATLL1J&dib=eyJ2IjoiMSJ9.O6AuaT95iLQtNTi60qVrvWZRoacORTLk4ajAAn_Bt-PFA0YQ7tEnmaEKNR4oBqNjlKQ9qH_gGRfsrNoZfuG7mrnuUSMwyCyfnfwjaMtPEwwT3LARzZ9mqy6ChXG0RTOnKlkPoK6PNBZjtKLSnAGYKVMUXw_1Z_2hwcggwSpYFsAB1iU75N_ksIRxEFVdq6uYGM1bmFSxwWE0wAeYp1RScAfM9F1mNVC0qnvyW37lYaHr8cmks3pypMDgGFlR1nsQLvW9gv6KyMUU8tsCzHFL3-c6KKaZlgtjHKiUd0ccujg.wmo4xRJylU_Ilyb0NvRBcsElUA4skIhmTZQbj4PEn4Q&dib_tag=se&keywords=Vtopmart%2BClear%2BStackable%2BPantry%2BBins%2B%28set%2Bof%2B6%29&nsdOptOutParam=true&qid=1782217593&sprefix=vtopmart%2Bclear%2Bstackable%2Bpantry%2Bbins%2Bset%2Bof%2B6%2B%2Caps%2C196&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=bb6d9e59152e6095254d4a3187e648ce&language=en_US&ref_=as_li_ss_tl",
+    image: "images/vtopmart-stackable-drawers.png",
+    subtitle: "My vanity finally looks like it belongs in a magazine.",
+    story: "I'd been buying organisers for years and nothing ever stuck — until I got these clear stackable drawers. Everything is visible at a glance, the drawers pull out smoothly, and the whole tower actually looks beautiful on the countertop instead of something I'm trying to hide. My cotton rounds, hair clips, and lipsticks finally have a home. Ships in two days with Prime. Under $50 and it changed my whole getting-ready routine.",
+    tags: ["Home Organization", "Vanity Organizer", "Clear Drawers", "Amazon Home Finds", "Under $50"],
+    badge: null,
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "cosrx-snail-mucin",
+    title: "COSRX Advanced Snail 96 Mucin Power Essence — 100ml Korean Skin Care",
+    category: "beauty",
+    price: 25.00,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/COSRX-Repairing-Hydrating-Secretion-Phthalates/dp/B00PBX3L7K?crid=1TV6T0YS5OAPA&dib=eyJ2IjoiMSJ9.uCe0MJXMPVpWkazQ38de67_uM4g_pSr6kHrFRaJT_FCg88YgYH6oe5cDici6lW7K_v7ELmhcZIIiTf1K9l_9ssTcaNTOdR85zi8PPBV05FIadLFmPdAofu5bw2CnMjYL3Xit4tELyDvbdyBHwCQc0BQmWTQUQAKtMRhq9hV6MpfIcyDJL48dlFq1bvFqQVPcKMgx3GfZU2obJZl0CgfWaCywdkXea2q0M2-r3DM_EJBX7DeLRWEa_J0j9FR_XcTQA5GILPsBB1n1xH42WB7KHBDZ86CsUXgvbDNCyqvZli4.sYmdJ86KDWSyApMjRL0ShTdzfoc793IiiADJAvz0Hgk&dib_tag=se&keywords=COSRX%2BAdvanced%2BSnail%2B96%2BMucin%2BPower%2BEssence%2B%283.38%2Boz%29&nsdOptOutParam=true&qid=1782218057&sprefix=cosrx%2Badvanced%2Bsnail%2B96%2Bmucin%2Bpower%2Bessence%2B3.38%2Boz%2B%2Caps%2C221&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=788222c8445cc0d604a3c30d57c6a5cb&language=en_US&ref_=as_li_ss_tl",
+    image: "images/cosrx-snail-mucin.png",
+    subtitle: "My skin looked different by the end of the first week.",
+    story: "I'd been hearing about snail mucin for years and kept talking myself out of it. Finally tried this after seeing it recommended in every skincare thread I landed in — 100,000 five-star reviews on Amazon, an Allure award winner, and under $30. One week in my skin was noticeably more plump and the dry patches I'd normalised were gone. It absorbs in seconds, no sticky feeling. I clicked add to cart in under a minute.",
+    tags: ["Skincare", "K-Beauty", "Glass Skin", "Amazon Beauty Finds", "Under $30"],
+    badge: null,
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "arm-hammer-dental-water",
+    title: "Arm & Hammer Complete Care Dog Dental Water Additive — 16 fl oz",
+    category: "pets",
+    price: 6.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Arm-Hammer-Complete-Flavorless-Brushless/dp/B08QJMZPNH?crid=2LY87NRPDA3KL&dib=eyJ2IjoiMSJ9.4pKUSJ4dQNPqyegAZuehFzEwME7Sp1byoZsBxCytOd6PugxvSn4EzgQBQ-kDClI9sD3qbNFTQyoLIoom05lg8faIJY5ylhRHbqGWM8Kriw0ANgioBWsYCJEhKmnA_qpNFpuFJMQDdAD_ESCF2sUU7wSn1x0ZE-rk2x601tbmDnMdTVnpjqiv3wdxDhRIyn5HhUNYbRETHG0k-OxRHzqepYxAkO6AHYKmLFd9uQDHzzSTJDx_pG-NU2-d1jduc3eGbm_EpdyvFSzZVH3Y42pI9TTN7zcVEFbAxLARn4ZsVFA.0OESrc4AjhEc1eLFLGBKw4LrfCXxzSz4aZ-g_NvyjVY&dib_tag=se&keywords=Arm%2B%26%2BHammer%2BAdvanced%2BDental%2BWater%2BAdditive%2B%2816%2Boz%29&nsdOptOutParam=true&qid=1782218203&rdc=1&sprefix=arm%2B%26%2Bhammer%2Badvanced%2Bdental%2Bwater%2Badditive%2B16%2Boz%2B%2Caps%2C234&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=dc94a6403b91dbebc50ab06645dc917d&language=en_US&ref_=as_li_ss_tl",
+    image: "images/arm-hammer-dental-water.png",
+    subtitle: "His breath went from something I avoided to something I barely notice.",
+    story: "I kept putting off dealing with my dog's breath because brushing felt like a battle neither of us wanted. This goes straight into the water bowl — odorless, flavorless, he doesn't even notice it. After two weeks his breath was genuinely different and the vet commented on his teeth at the last checkup. Under $10, ships Prime, lasts about a month. The easiest pet health habit I've ever actually kept.",
+    tags: ["Dog Mom", "Pet Care", "Dog Dental", "Amazon Pet Finds", "Under $10"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "ezvalo-wall-sconces",
+    title: "EZVALO Battery Operated Wall Sconces Set of 2 — Peel & Stick, Fabric Linen, Rechargeable",
+    category: "renter",
+    price: 40.00,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/EZVALO-Operated-Rechargeable-Wireless-Dimmable/dp/B0G441XVQJ?crid=YE81TM8HK4AZ&dib=eyJ2IjoiMSJ9.lNZBbdG8yG2mBbV18xBmilqPh7UnuEWgVw-q_E5BVSEOsK3vUfrfk3R7Kw8cer7scOh6oSChV6zZEbfvs47heLrNpDQbNbYl8Z1UsnlGEbFYcWqptg_16fe8BsWtRr6DBDQJV8VZBrZ-80g68Usi44WuaQt3XFZP87iQBMZqsWvPde4WupAnm1fAgZmNUWPUMJW841FnSq0Jqh2oZa0KZ3Tn-X9tLSwD6mTapJo3RrKRCgBIv_e0IMp8Q3NyNlpLnDB0cy_qWSxF6Lo6njWzdYjCp4HmllduokrzJxNSyK4.pPVGtWPaukMClfm77D9AjB9T6EVFYjjlRhQSzAOndVA&dib_tag=se&keywords=EZVALO%2BRechargeable%2BBattery%2BWall%2BSconces%2C%2BPeel%2B%26%2BStick%2B%282-pack%29&nsdOptOutParam=true&qid=1782217873&sprefix=ezvalo%2Brechargeable%2Bbattery%2Bwall%2Bsconces%2C%2Bpeel%2B%26%2Bstick%2B2-pack%2B%2Caps%2C243&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=59a1a8300fe1532311c21ca486ff09c0&language=en_US&ref_=as_li_ss_tl",
+    image: "images/ezvalo-wall-sconces.png",
+    subtitle: "My bedroom finally feels like a hotel room. Zero drilling.",
+    story: "I'd wanted wall sconces for years but assumed they meant an electrician and landlord approval. These peel and stick directly to the wall, recharge via USB, and come with a remote to dim them from bed. The fabric linen shade makes them look genuinely expensive — nothing like a battery-operated light should look. My bedroom went from a harsh overhead light situation to something I actually want to spend time in. Under $40 for a pair. Ships Prime.",
+    tags: ["Renter Friendly", "Bedroom Lighting", "No Drill", "Amazon Renter Finds", "Wall Sconce"],
+    badge: null,
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "ispecle-under-sink-organizer",
+    title: "iSPECLE Under-Sink 2-Tier Expandable Cabinet Organizer Shelf — Adjustable, Black",
+    category: "home",
+    price: 19.98,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/iSPECLE-Under-Bathroom-Sink-Organizer/dp/B0DPKRGTCY?crid=321G40W9HX5OR&dib=eyJ2IjoiMSJ9.g5K9fmDmYz7sE_oe4bWhfvxyBPrFlC9gEAFaiXPPwO6scDWaeUcn7QYXBI32552x7Z7M0euiEFnU1hEsnrpJYxFqrUgWF0-3VgRgQ8i3viTrJxweM3UP-3c2jMGHz8PxBKMeGPXihh_Zv3UYklqndD4wHXNTEe8ahlKuMjSPkZpUuR0T0HhkRaC8TX0K80MPvYYxQnfvZVPX0J905kV0Nia7WyHk2pyukJMhTznjMEh5JrPvDtJH-jeC4SQSDg_bwsjEj2nRnorXGIuf5JB4LvG4LvbutZXiEAFcF1Yq86E.2ivAFTbsFd5Up3BdClQ_2WRBCmF0kbJdlXYRIczwwjY&dib_tag=se&keywords=iSPECLE%2BUnder-Sink%2B2-Tier%2BPull-Out%2BOrganizer&qid=1782218380&sprefix=arm%2B%26%2Bhammer%2Badvanced%2Bdental%2Bwater%2Badditive%2B16%2Boz%2B%2Caps%2C502&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=7af094d241af89da3ca00c761c2cc556&language=en_US&ref_=as_li_ss_tl",
+    image: "images/ispecle-under-sink-organizer.png",
+    subtitle: "Opened the cabinet and actually knew where everything was.",
+    story: "My under-sink cabinet was a black hole — spray bottles falling over, sponges everywhere, no system at all. This 2-tier expandable shelf fits around the pipes and instantly doubles the usable space. Adjustable width fits cabinets from 22 to 32 inches, no tools required. I can actually see and reach everything on both levels now. Under $20, ships Prime, and took about three minutes to set up. One of those purchases I keep wondering why I waited so long to make.",
+    tags: ["Home Organization", "Kitchen Storage", "Under Sink", "Amazon Home Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "vtopmart-drawer-organizers",
+    title: "Vtopmart 25-Piece Clear Plastic Drawer Organizer Set — 4 Sizes, Kitchen & Vanity",
+    category: "home",
+    price: 20.00,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Vtopmart-Organizers-Versatile-Organizer-Jewelries/dp/B08KXKVT4K?crid=2OQ88926M1LY&dib=eyJ2IjoiMSJ9.jy7zJ3AZf47KLE8VZoivqg-rKVQG-6phrxQcYVJrl5fYeRFrADnYf3yuZTIKR3IqI7k1RlqjM5V_C7KTbl32jAetGbRGNF-44o2bvuTLpFLYfU9wuNEcH0Yym9dXH_hv8oYSCpta6RElYssPFPKeUyS-vHZKRhfxfuvazMbIe2xugyqABudj96G58FrRPfUObbLXB-B9cZZAh51C3B9GMCGjR-1eh1-zpy6xYu8v1cYKSMOPwZqni8gsSkdeUGEoDHhYDiVbXliItBZXQBnmZdhFnJMc0jzlV2ut8LcnjkM.N6TVH1CqDIlgny_53xZlAPtBPKekEkY25dvAU_o34LY&dib_tag=se&keywords=Vtopmart%2BClear%2BStackable%2BPantry%2BBins%2B%28set%2Bof%2B6%29&nsdOptOutParam=true&qid=1782218699&refinements=p_36%3A-2500&rnid=386465011&sprefix=vtopmart%2Bclear%2Bstackable%2Bpantry%2Bbins%2Bset%2Bof%2B6%2B%2Caps%2C206&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&smid=A337Q4QUKR2UGS&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d1726e38a2336aa16590ccfc76d037d3&language=en_US&ref_=as_li_ss_tl",
+    image: "images/vtopmart-drawer-organizers.png",
+    subtitle: "I reorganised three drawers in one afternoon and haven't looked back.",
+    story: "Every junk drawer I've ever had was basically a black hole. These 25 clear trays in 4 sizes finally gave everything a slot — cutlery, spices, hair clips, rubber bands, all of it. The clear plastic means you can see exactly what's where without digging. 30,000 people buy these every month on Amazon and now I understand why. Amazon's Choice, under $25, ships in two days with Prime. I clicked add to cart in under a minute.",
+    tags: ["Home Organization", "Drawer Organizer", "Kitchen Storage", "Amazon Home Finds", "Under $25"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-23"
+  },
+
   // ── WEEK OF JUNE 20 2026 ─────────────────────────────────────────────
 
   {
@@ -8,7 +100,7 @@ const PRODUCTS = [
     category: "home",
     price: 49.99,
     price_bracket: "Under $50",
-    affiliate_link: "https://www.amazon.com/Pull-out-Cabinet-Organizer-Organization/dp/B0CWGYQSXZ?crid=TGA6THOOHME7&dib=eyJ2IjoiMSJ9.cCYM8zffcRY4A3UyQ3jif6SSBxmNrUMnplGgVlGTmKr4w9xb_P5qE4ARj52_AcRLb_YFj6bNSVeB725C6Pwm-8tACkXJMr3HRDURxw2JvmYWdjZGfAp_0xDuzlUDbgRHvSA1oxrxSA5-YPP-L9unnGcABN80453Dp9XIPRl5YjPKJ6OYwUMvPm7LaBPl6roGl-6E18d2nry-Ii_yms-UDtAdZfnTm-jejiWufWngJRDyNjmX0LzYnMXeZJVTYc-YJdgbESIFN4a5u4dGbiZTeQYbWzsIXqdH58hY_tVp57Y.xpF2mkh_Bo59TOu0QL0UQ43b5v1hT_8SgFmDVWAdxv0&dib_tag=se&keywords=Kitstorack%2BExpandable%2BPull-Out%2BCabinet%2BOrganize&qid=1781983791&sprefix=veken%2B95oz%2Bstainless%2Bsteel%2Bpet%2Bwater%2Bfountain%2Caps%2C437&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=7a71d7fbd68617a22ac0197d6244513e&language=en_US&ref_=as_li_ss_tl",
+    affiliate_link: "https://www.amazon.com/Pull-out-Cabinet-Organizer-Organization/dp/B0CWGYQSXZ?crid=TGA6THOOHME7&dib=eyJ2IjoiMSJ9.cCYM8zffcRY4A3UyQ3jif6SSBxmNrUMnplGgVlGTmKr4w9xb_P5qE4ARj52_AcRLb_YFj6bNSVeB725C6Pwm-8tACkXXJMr3HRDURxw2JvmYWdjZGfAp_0xDuzlUDbgRHvSA1oxrxSA5-YPP-L9unnGcABN80453Dp9XIPRl5YjPKJ6OYwUMvPm7LaBPl6roGl-6E18d2nry-Ii_yms-UDtAdZfnTm-jejiWufWngJRDyNjmX0LzYnMXeZJVTYc-YJdgbESIFN4a5u4dGbiZTeQYbWzsIXqdH58hY_tVp57Y.xpF2mkh_Bo59TOu0QL0UQ43b5v1hT_8SgFmDVWAdxv0&dib_tag=se&keywords=Kitstorack%2BExpandable%2BPull-Out%2BCabinet%2BOrganize&qid=1781983791&sprefix=veken%2B95oz%2Bstainless%2Bsteel%2Bpet%2Bwater%2Bfountain%2Caps%2C437&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=7a71d7fbd68617a22ac0197d6244513e&language=en_US&ref_=as_li_ss_tl",
     image: "images/kitstorack-pullout-organizer.png",
     subtitle: "The cabinet I stopped dreading opening.",
     story: "I used to dig through a cabinet of stacked pots just to find the one I needed. This pull-out organizer changed that completely — no drilling, no tools, just slide it in and everything's finally visible. It's the kind of upgrade you don't think about until you have it, and then you wonder how you lived without it.",
@@ -68,7 +160,7 @@ const PRODUCTS = [
     category: "home",
     price: 5.97,
     price_bracket: "Under $10",
-    affiliate_link: "https://www.amazon.com/Pink-Stuff-Miracle-Purpose-Cleaner/dp/B00DU5SRIY?dib=eyJ2IjoiMSJ9.4sZdiStNYiOTJTRNTUvOqL9zC4MI_Wjk8aO7nciLsoYouPRIFjCctlP9Tv8r8KTN8RkNjRE3OzieE8qbf1fP4ZF5TsM_c71YxeQXtthw3_TnpCmHueAlHz1mQRf9G42TO2-z6Nh9xUguV8omGx24AawEIzgouWVkOJFOcmyFR6yWhT4H7V3icoAcpc6cHoXPoyv757UWvGoMFeUn2SggUI_3TOvlbKOXW5k7i7_tP0KIPW4ABmnkj_fZxclmpxhiQ0sZPUPzUPwkjnH2qGv-IAnMLH_GvOp-2syDixP4GdA.qILyKlAQ_zHkIRszicID8KMYzmF2wfAGaOS8oQN0HoQ&dib_tag=se&keywords=The%2BPink%2BStuff%2BMiracle%2BCleaning%2BPaste%2B500g&qid=1781983486&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d21d19abaf3730ffd9e9ee71c9322e2d&language=en_US&ref_=as_li_ss_tl",
+    affiliate_link: "https://www.amazon.com/Pink-Stuff-Miracle-Purpose-Cleaner/dp/B00DU5SRIY?dib=eyJ2IjoiMSJ9.4sZdiStNYiOTJTRNTUvOqL9zC4MI_Wjk8aO7nciLsoYouPRIFjCctlP9Tv8r8KTN8RkNjRE3OzieE8qbf1fP4ZF5TsM_c71YxeQXtthw3_TnpCmHueAlHz1mQRf9G42TO2-z6Nh9xUguV8omGx24AawEIzgouWVkOJFOcmyFR6yWhT4H7V3icoAcpc6cHoXPoyv757UWvGoMFeUn2SggUI_3TOvlbKOXW5k7i7_tP0KIPW4ABmnkj_fZxclmpxhiQ0sZPUPzUPwkjnH2qGv-IAnMLH_GvOp-2syDixP4GdA.qILyKjAQ_zHkIRszicID8KMYzmF2wfAGaOS8oQN0HoQ&dib_tag=se&keywords=The%2BPink%2BStuff%2BMiracle%2BCleaning%2BPaste%2B500g&qid=1781983486&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d21d19abaf3730ffd9e9ee71c9322e2d&language=en_US&ref_=as_li_ss_tl",
     image: "images/pink-stuff-cleaning-paste.png",
     subtitle: "I almost didn't believe the before and after.",
     story: "I'd basically given up on my stovetop ever looking clean again — years of baked-on grease that nothing seemed to touch. One pass with this paste and it looked brand new. It works on so much more than I expected too: sinks, tile, even my patio furniture. For under $10, it's the easiest impulse buy I've made all year.",
@@ -316,7 +408,7 @@ const PRODUCTS = [
     category: "home",
     price: 16.99,
     price_bracket: "Under $20",
-    affiliate_link: "https://www.amazon.com/Zulay-Original-Milk-Frother-Handheld/dp/B09D8T11YS?crid=3214HXW74LJAL&dib=eyJ2IjoiMSJ9.kcq3asqmzOuDfvgucLtcuV5jNL9UxKP1joxcTOVFT-Vh1d5BMCQAdGcKlHdBLlxUQbeNw7GeTI5nJVyhIwJtufRnV9lT8YY4n937EWyhmpjk39II_jgsqjlTZhTSW7Sd1ER6rRyO04LwgFBqXBy7n_RUhsGIirazcfyCeNGe8rxZFOTb2tZu9vbaiuHu2-5NI_buTX0RS2gBsLd_R-_y4YSqMnNrAKMNya5pO3VN7D6elUjZyke2pCI15fUf9NG-2j6kGjperdiYcc_1xUynqRKbclPnFwPEVqg3SGTEuXU.jUWNd8KMJhcSyBQWOupCkoGHdkO4sVok57Wd0EwL5M4&dib_tag=se&keywords=Zulay%2BKitchen%2BHandheld%2BMilk%2BFrother&qid=1780949917&sprefix=zulay%2Bkitchen%2Bhandheld%2Bmilk%2Bfrother%2Caps%2C165&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f6779cafcaa004edf069c7a05038c8f5&language=en_US&ref_=as_li_ss_tl",
+    affiliate_link: "https://www.amazon.com/Zulay-Original-Milk-Frother-Handheld/dp/B09D8T11YS?crid=3214HXW74LJAL&dib=eyJ2IjoiMSJ9.kcq3asqmzOuDfvgucLtcuV5jNL9UxKP1joxcTOVFT-Vh1d5BMCQAdGcKlHdBLlxUQbeNw7GeTI5nJVyhIwJtufRnV9lT8YY4n937EWyhmpjk39II_jgsqjlTZhTSW7Sd1ER6rRyO04LwgFBqXBy7n_RUhsGIirazcfyCeNGe8rxZFOTb2tZu9vbaiuHu2-5NI_buTX0RS2gBsLd_R-_y4YSqMnNrAKMNya5pO3VN7D6elUjZyke2pCI15fUf9NG-2j6kGjperdiYcc_1x0UynqRKbclPnFwPEVqg3SGTEuXU.jUWNd8KMJhcSyBQWOupCkoGHdkO4sVok57Wd0EwL5M4&dib_tag=se&keywords=Zulay%2BKitchen%2BHandheld%2BMilk%2BFrother&qid=1780949917&sprefix=zulay%2Bkitchen%2Bhandheld%2Bmilk%2Bfrother%2Caps%2C165&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f6779cafcaa004edf069c7a05038c8f5&language=en_US&ref_=as_li_ss_tl",
     image: "images/zulay-frother.png",
     subtitle: "My morning routine hasn't been the same since I added this.",
     story: "I started using this frother to make iced lattes at home and now I can't imagine going back to paying $7 at a coffee shop. It takes literally ten seconds to make a foam that looks like a barista made it. My roommate saw it on the counter and immediately ordered one for herself. Under $20, ships Prime, and you will use it every single day.",
