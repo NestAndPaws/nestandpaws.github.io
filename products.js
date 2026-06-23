@@ -1,5 +1,82 @@
 const PRODUCTS = [
 
+  // ── IMPULSE BUILD — JUNE 23 2026 (BATCH 2) ──────────────────────────
+
+  {
+    id: "the-ordinary-glycolic-acid",
+    title: "The Ordinary Glycolic Acid 7% Exfoliating Toner — 8.11 fl oz",
+    category: "beauty",
+    price: 13.50,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL?crid=1OEDUN18S901H&dib=eyJ2IjoiMSJ9.xV80cZBLEzXJl1u0vPfeXHF7s3KObN8UKzb8FAypwnU_oX50I5Gswd4EgLkB6pRVlTNvYj59GmHC0yy5de9p31DJu_KdOIuqSKSPBnrYraOc4JtWnkk&tag=nestandpaws-20",
+    image: "images/the-ordinary-glycolic-acid.png",
+    subtitle: "My skin texture changed in two weeks. I wasn't expecting that.",
+    story: "I'd been hearing about The Ordinary Glycolic Acid for years and kept assuming it was overhyped. Finally tried it after seeing it in every skincare thread I landed on — 54,000 five-star reviews and 100K+ bought last month on Amazon alone. Two weeks in and the texture on my forehead is noticeably smoother. I use it every other night after cleansing, no irritation. Under $15 and it's now a permanent part of my routine.",
+    tags: ["Skincare", "K-Beauty", "Glass Skin", "Amazon Beauty Finds", "Under $15", "Glycolic Acid", "Exfoliator"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "medicube-pink-peptide-serum",
+    title: "Medicube PDRN Pink Peptide Serum — Korean Skincare, 1.01 fl oz",
+    category: "beauty",
+    price: 14.90,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/medicube-Niacinamide-Hydrating-Moisturizing-Skincare/dp/B0DCJ7952P?crid=JB47QSMA7FC4&dib=eyJ2IjoiMSJ9.WPTFX7-ysAhwmzUNVfIIP85b7Is9uotV1CGm87V3nlsih4wBq_tyDW1xme9r9rWE75d9TtbN7O7HuVT3K59lZZb_tHIvzeyFW9skG6rUhqjWlbZXpNTYxGvkz-frptqPxKAs8Ntzf4Rm00VhWhzGjEWtVyaCezC2-9H4hMVCKyQaQkL2WMUOXsY19MJrZwMX6rtBFMVqD5UOrhYq4yD7wq6zC-XvnxReb6b2rY1yqoRu6EEWzzyYuxxSshhGRz7KrUUaD80mDSrQ_kAZL8tbh&tag=nestandpaws-20",
+    image: "images/medicube-pink-peptide-serum.png",
+    subtitle: "The pink glow everyone kept asking me about. It's this.",
+    story: "I bought this after seeing it go viral on three different platforms in the same week. Medicube PDRN Pink Peptide Serum — lightweight, absorbs instantly, no stickiness. After about a week I had this subtle glow that people were actually noticing and asking about. 10K+ bought last month on Amazon, 4.7 stars, Korean skincare with real peptide science behind it. Under $15 and it's now the first thing I reach for after cleansing.",
+    tags: ["Skincare", "K-Beauty", "Glass Skin", "Amazon Beauty Finds", "Under $15", "Peptide Serum", "Pink Glow"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "chomchom-pet-hair-roller",
+    title: "ChomChom Roller Pet Hair Remover — Reusable, No Batteries, Cat & Dog Hair",
+    category: "pets",
+    price: 24.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Pet-Dog-Cat-Hair-Remover-Couch/dp/B00BAGTNAQ?crid=F09X9UO9FXEX&dib=eyJ2IjoiMSJ9.oiwdbZsTyajXz8r-BntrP_9_NDf7k3kh73njN7gst2PasHCcFDBO1VX0t8KQ8vFivayc4_iY_pUxxYGqzzVMv1Z0uWELDAfl1q_iEsaHoM3FFNQLgqCPCMCmiT0V5Mvqfzwo4nTbb-nejZIOYb7SQlk5YcAsOmVN7DXSj8BRT3gJQhWdGDR3w7BAZ9rEqLXglDXzW_OipxM13QtGS185vMoI2oq5cwgGzJ-7N2K6GS2LleP322JbAKXO_6XAHnGV57Wakfam9J88AA0FCTUNty1gz-VEvKtRA-2UlJdUuEo.cGQ-DYNkVuVNeBRCciW27jImHm5ErvhPJgV0svnJw4g&tag=nestandpaws-20",
+    image: "images/chomchom-pet-hair-roller.png",
+    subtitle: "My sofa finally looks like a dog doesn't live here. It does.",
+    story: "I've bought every lint roller on the market and nothing actually worked on dog hair embedded in fabric — until this. The ChomChom picks up what vacuums miss, needs no refills, no batteries, no tape sheets. Just roll it back and forth and the chamber fills up instantly. #1 bestseller in cat hair removal with 204,000 reviews and 10K+ bought last month. Under $25 and it's the most satisfying pet product I own.",
+    tags: ["Dog Mom", "Pet Hair", "Pet Care", "Amazon Pet Finds", "Under $25", "ChomChom", "Lint Roller"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "angry-mama-microwave-cleaner",
+    title: "HORNO Angry Mama Microwave Steam Cleaner — Vinegar & Water, No Scrubbing",
+    category: "home",
+    price: 6.68,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/HORNO-Microwave-Cleaner-Disinfects-Kitchens/dp/B09VK6S8MR?crid=3NNI7LARQM0Z9&dib=eyJ2IjoiMSJ9.Jjjco0j1be6TLBfhpJ4xXvxW3O-LfhLy01aPbnwm-BSaLgD5QrmcFQVLfoCwrlxYafjCVFSVsfyB9mF21sxQDbSweurDd0uFNDWoACTH3-70dqt8faneBbxeiYqls9Jv7srge-o894F0Zxs-ei56Xr-4bRufxIM1Fa6VAMRzFtC1d81EUfFtO1yvKIFtKCglstB1mgLrfg5NlKrkGK0TxNdHiQ8uH3x5Xs0wT9eDty1HbLFBK_bcE-SfZLLcAwx-CKSogY2e5YZNL1_WD5MWlXvX3G-uRHxFOlpeYTqWrN0.JYTuCg9mCAuv7w-JfI6Q9WzwcIB18KXydbxJWTJTq3Q&tag=nestandpaws-20",
+    image: "images/angry-mama-microwave-cleaner.png",
+    subtitle: "Five minutes. No scrubbing. My microwave looked new.",
+    story: "My microwave had things baked onto the walls I'd basically accepted as permanent. Fill this little angry lady with water and vinegar, run her for seven minutes, wipe everything off with a cloth — done. The steam loosens every splatter without any scrubbing at all. Overall Pick on Amazon, 1K+ bought last month, under $10. I clicked add to cart in under a minute and I've used it every week since.",
+    tags: ["Kitchen Cleaning", "Microwave Cleaner", "Amazon Home Finds", "Under $10", "Cleaning Hack", "Viral Cleaning"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-23"
+  },
+
+  {
+    id: "magnetic-spice-rack",
+    title: "HuggieGems 4-Pack Magnetic Spice Rack for Refrigerator — Black Metal, Fridge Organizer",
+    category: "home",
+    price: 14.55,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/HuggieGems-Magnetic-Organizer-Refrigerator-Organizers/dp/B0C3H9MJQV?crid=37BN4BC8EKDPM&dib=eyJ2IjoiMSJ9.EwVXZge3sy_fcrqKm9M14bB3uuqZ-6LE4NHaTldH3K9RNAJ8zwP9Klm3D8D-rMcSDQrZAesvq8PTUw1rAbNTWr8WtKUGatQTTWhoyEQ0bEXgrvo-C4HBKyKg9UqNfW9en1Cmq2nRZZ3buakrIOmIbgIVJl41x7RtFr-pRbRvj04yJe1C3aUm2iGNFZnoWpEZHzqhLmogDTc5FKPxxzjO_r7vG2wiwd2DFQmgoxs2t2wWyTRzOWzS5uoRvYSu2BUoYXmiAHVar51rHBCda-9L8tewvtha3W066K_FXyvs60w.YSlMG_XiED7USo2kuN7OS9j6QxOl5V9F56m4_akQB90&tag=nestandpaws-20",
+    image: "images/magnetic-spice-rack.png",
+    subtitle: "Counter space I didn't know I had. Just moved everything to the fridge.",
+    story: "My spice drawer was a disaster — digging through jars every time I cooked, never finding the right one. These four black magnetic shelves stick straight onto the side of the fridge with no drilling, no damage. Everything is visible at a glance and my counter has actual space again. Amazon's Choice, 15,000 reviews, 6K+ bought last month. Under $15 for a set of four. I clicked add to cart in under a minute.",
+    tags: ["Kitchen Organization", "Spice Rack", "Fridge Organizer", "Amazon Home Finds", "Under $15", "Magnetic", "Renter Friendly"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-06-23"
+  },
+
   // ── WEEK OF JUNE 23 2026 ─────────────────────────────────────────────
 
   {
