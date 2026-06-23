@@ -30,7 +30,7 @@
 </footer>
 <script src="products.js"></script>
 <script>
-  const products = PRODUCTS.filter(p => p.category === 'impulse');
+  const products = PRODUCTS.filter(p => p.price <= 25);
   const grid = document.getElementById('grid');
   if (!products.length) {
     grid.innerHTML = '<p class="empty-state">More finds coming soon.</p>';
