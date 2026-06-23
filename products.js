@@ -562,7 +562,7 @@ const categoryMap = {
   pets:     PRODUCTS.filter(p => p.category === "pets"),
   beauty:   PRODUCTS.filter(p => p.category === "beauty"),
   renter:   PRODUCTS.filter(p => p.category === "renter"),
-  under25:  PRODUCTS.filter(p => p.price <= 25),
+  under25:  PRODUCTS.filter(p => p.price <= 25.00),
   seasonal: PRODUCTS.filter(p => p.category === "seasonal"),
 };
 
