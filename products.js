@@ -1,5 +1,128 @@
 const PRODUCTS = [
 
+   // ── BUILD — JULY 08 2026 ────────────────────────────────────────────
+  {
+    id: "chesapeake-bay-ocean-retreat-candle",
+    title: "Chesapeake Bay Candle, Ocean Retreat — 11oz Sea Glass-Inspired Jar",
+    category: "home",
+    price: 17.49,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Chesapeake-Bay-Candle-Fragrance-Glass-Inspired/dp/B0FZXV4KHZ?crid=2QW7QT767Y1L9&dib=eyJ2IjoiMSJ9.cn6NI5flZatuUNDrLW7MYobHDQXLlh1GFuJb2180iF4DFKQVnGeWCPrj12DdxTOAUpkEU_yj60RVOrLlKmgWtQnIiKULPGmcAVro0JkoBJpnQ3Aqr4plc2q30e4jyJBdyuxC_4fp4TH62gd0NbJZjsiH6nYu8g81VM2_uo4Z_cVgv2Hbsvcs31Kha6AjCzhUn04_5fWw-F1hBG6zjF-jq-ImRXZIkCCFd6BwH8SsOE0.gBpZx5rttnpqxuu35uxMM8TM-ntzqJABAHeRAxupsug&dib_tag=se&keywords=Ocean%2BRetreat&qid=1783555237&sprefix=ocean%2Bretreat%2Caps%2C162&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=32697135a2a53a75c68fb0389b92a384&language=en_US&ref_=as_li_ss_tl",
+    image: "images/chesapeake-bay-ocean-retreat-candle.png",
+    subtitle: "The scent that made the bathroom feel like a linen closet, not a candle aisle.",
+    story: "I wanted something crisper than my usual sweet candles — this leans citrus and clean linen instead. Textured frosted glass jar, soy wax blend, and it fills the bathroom fast without being overpowering. Under $20.",
+    tags: ["Home Fragrance", "Amazon Home Finds", "Under $20", "Candle", "Cozy Home"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+
+  
+{
+    id: "fridge-bin-organizer-set",
+    title: "Beauty Cottage Stackable Refrigerator Organizer Bins, 6 Pack — Clear with Handles",
+    category: "home",
+    price: 26.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Stackable-Refrigerator-Organizer-Container-Cabinets/dp/B08RSPW3B8?crid=3N51IB7Y8YHIT&dib=eyJ2IjoiMSJ9.xtpv9BWkeayxKYv8JA3udvV9V9_zpeu3n6pxBM7y7hsuAe_nXWxKoIWtqL0UzWlfP5qOBZBOrqY0ZiSsQoTjlfJ04B6fqP5Z5xhOuBPufs42jnUW89qbytuuCHToDSy3C_q9ugBtxGOe8MdOJ0RLBcVHOOHRZZ7AgLq1ZTSpyT6xW_dK4vg0sgAK76-xkqB6jeMY3Rkxtd-nv7iHWrFzq73Cy-BvmfQB1OyFy8YEBZBiYJ05uajsImmMTWkjKXbAAqTLF6Uw0xQWte3dXO95MGP544MBKcrxw93pE9xx3FU.Obc768tV88TT1bJDI98XdQloYgzQix7fUVOqWVu6Ai4&dib_tag=se&keywords=stackable+clear+fridge%2Fpantry+bins%2C+6-pack%2C+with%2F+handles&qid=1783553467&sprefix=stackable+clear+fridge%2Fpantry+bins%2C+6-pack%2C+w%2F+handles%2Caps%2C207&sr=8-5&linkCode=ll2&tag=nestandpaws-20&linkId=6a8d70c74ecab1cd21b490173d5cbad6&language=en_US&ref_=as_li_ss_tl",
+    image: "images/fridge-bin-organizer-set.png",
+    subtitle: "How the fridge shelf actually stays organized past week one.",
+    story: "I used to lose vegetables to the back of the fridge for weeks at a time. These clear bins pull straight out, stack without wobbling, and I can see everything at a glance. Under $30 and it's the fix I didn't know I needed.",
+    tags: ["Kitchen Organization", "Fridge Organizer", "Amazon Home Finds", "Under $30", "Clear Bins"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+
+  {
+    id: "spicy-shelf-cabinet-riser",
+    title: "Spicy Shelf 3.0 Expandable 2-Tier Spice Rack Organizer for Cabinet & Pantry",
+    category: "home",
+    price: 29.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Spicy-Shelf-3-0-Expandable-Organization/dp/B0CN2L5GR8?crid=D2ZB8476TPP&dib=eyJ2IjoiMSJ9.omWTtBFpGM5yambb8ZLg5kQxSpdz6sA28Ox7SyvZUf_ePQh6E59c-sGNQWdJMYuJcO1wLBPF5FC556KfPnGisdWLW6s-QFifGD-XRXk_yv2AeAx_CzI3k__uCPHfYgAv3nSzJphJLhCFwMEC_Ilg3mMddPI-4qClLhzDLqzJ1onYtyqirH5p-CvA3LTa3uta1-Xs5wfsbZoiJMbSHEF4rnePgxiwHUmgIpOe_Jaa0fwhi-Z6ZnrnVVUH50Uf9X1PyCsULMmQb35fsEgqf9Nj69hr1wsFrElbnTlriBCL4D8.Ngkn2b8D2hlT94jz_II6B0ofO2o1WNWt1SPHGeQRNSM&dib_tag=se&keywords=Spicy+Shelf+Deluxe+%E2%80%94+expandable+2-tier+cabinet+riser&nsdOptOutParam=true&qid=1783553367&sprefix=spicy+shelf+deluxe+expandable+2-tier+cabinet+riser%2Caps%2C191&sr=8-1&linkCode=ll2&tag=nestandpaws-20&linkId=79f1cd2adbbf075653a6702274732cf3&language=en_US&ref_=as_li_ss_tl",
+    image: "images/spicy-shelf-cabinet-riser.png",
+    subtitle: "The shelf that stopped cans from hiding behind cans.",
+    story: "My cabinet was a stack-and-hope situation until this. Expands to fit any width, and now I can actually see what's in the back row. Under $30 and it took about three minutes to set up.",
+    tags: ["Kitchen Organization", "Cabinet Organizer", "Spice Rack", "Amazon Home Finds", "Under $30"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+
+  {
+    id: "wanpeegoo-cat-cooling-bed",
+    title: "WanpeeGoo Cat Cooling Mat, Reversible Warm & Cooling Cat Bed, 18\" x 24\"",
+    category: "pets",
+    price: 17.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Cat-Cooling-Bed-Reversible-Warm/dp/B0G4VV618K?crid=3R9690FCOOZBG&dib=eyJ2IjoiMSJ9.G3q4qgZRONRaZQFcdGgdFuZd9kiga6mqXeW9yiPVmrhpvFJrgkWJCkHfqoamfo6FRI7bX7A2wNxyBwSkzvlav8KMmCRVCxEIg50Mjk6Cx7PFv-uXVovKtPw3nSSBSfXdFDDDFirHGOFuE9iDuaDWmZr_YbJaMzrC86YMXb5Gha9tJmNNnU6pZK6mQzyb_tfUWejU4Z5RADHkXINSr4RxCL4NyPN1Ok6eBIBXGDbZJ_kHKVbwwAzdLLsTSHxDamLcYe6NtCloPXjQozrZJD-j8OPSZCLmYhHsNpzdXDFjW0I.DJ1_ffuX_692PX3HDEcvE3Lqi1U3igTpp8y2g3u4ams&dib_tag=se&keywords=Chillz%2BCat%2BCooling%2BMat%2C%2Bpressure-activated%2Bgel&qid=1783553268&sprefix=chillz%2Bcat%2Bcooling%2Bmat%2C%2Bpressure-activated%2Bgel%2Caps%2C161&sr=8-15-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=0e953d7adcad35744e348b2fd6ac8687&language=en_US&ref_=as_li_ss_tl",
+    image: "images/wanpeegoo-cat-cooling-bed.png",
+    subtitle: "The one bed that works no matter what the thermostat says.",
+    story: "I was buying separate warm and cool pads until I found this reversible one. Flip it depending on the season and she settles on it either way. Machine washable, fits an 18x24 crate or sofa spot. Under $20.",
+    tags: ["Cat Lady", "Pet Care", "Amazon Pet Finds", "Under $20", "Reversible Cooling Bed"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+
+  {
+    id: "petsta-zoom-treat-puzzle",
+    title: "PETSTA Zoom Interactive Dog Treat Puzzle, Spinning Wheel Enrichment Toy",
+    category: "pets",
+    price: 13.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/Dispensing-Enrichment-Stimulation-Interactive-Stimulating/dp/B09XXPCB4T?crid=3EUDK5IKYNGE9&dib=eyJ2IjoiMSJ9.IvsnP8POVpvd62NpYf9Dj-d9rLeitwz34VYQX0BDBKJHDd52CF54GUSRj3AoXPUC4dticWNIazHFkwDV1hc9U17GIErTqJR4mMRHqBtfHcDGJJVNTfTPspynbWKEiMEop03ZMJg67Km1WUO87F_xOqZI6fqtRQQ-TgCJzRX9xDK6lx8Am44Q1Dte4_U6VskkwyQJrnPt8oJGUF7FGmhKOqAKnfcuUHG4gVLgOmW2ojucXLd_Evl-fYsVC1La-Q2o2ch6_Om1h0N9_Ux6hdxcOO_O2svkPq5R8cO2uD9Lg-4.mr89DgFzgt4z6VtLF9bMoHc60zgzp57-zpUybThlupg&dib_tag=se&keywords=Outward%2BHound%2BNina%2BOttosson%2BDog%2BSmart%2C%2BLevel%2B1%2Bpuzzle&nsdOptOutParam=true&qid=1783553194&sprefix=outward%2Bhound%2Bnina%2Bottosson%2Bdog%2Bsmart%2C%2Blevel%2B1%2Bpuzzle%2Caps%2C397&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=ebd97176b90f3e1610a6dd473448742d&language=en_US&ref_=as_li_ss_tl",
+    image: "images/petsta-zoom-treat-puzzle.png",
+    subtitle: "The toy that turned snack time into ten minutes of focus.",
+    story: "He used to finish treats in two seconds flat. This spins and hides kibble behind sliding doors, so he actually has to work for it. No batteries, easy to clean, part of his daily routine now. Under $15.",
+    tags: ["Dog Mom", "Pet Care", "Amazon Pet Finds", "Under $15", "Dog Enrichment"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+
+  {
+    id: "hertzko-deshedding-brush",
+    title: "Hertzko Self-Cleaning Slicker Brush for Dogs & Cats",
+    category: "pets",
+    price: 13.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/Hertzko-Self-Cleaning-Slicker-Brush/dp/B00ZGPI3OY?crid=115QV4MVWHEA2&dib=eyJ2IjoiMSJ9.p9fK_gcCcpE1J4qv-XPW567ZbwQmUCHlq5CnpNTdAfYuow5q_iYfW-YxusreCgSFCsIPD-e7U6xQBo7C-gNVwVpKY-rBTEirEeBQWaf43_hwQ_F72vMIJCW2yylZexunqgwVje58eCZ9jr7DoT8lIcwi63meVS9Oa7VneZQCJ_ThVAjUFrNCTGl5OlrFG0zQ7ubnaF_QfyRq_aFWzS9rxyI61tom9hx8cN3ltiKzePfxNl-vAuH4X35lR6xb82NOK1xAWZqGbB09E23M7anLv31GROAb-W_MYTnZoKy4JSc.7q77lNP31FoPjjNH7lD7extj8YHNJ4RtYejSF_yIIh4&dib_tag=se&keywords=Hertzko%2BSelf-Cleaning%2BSlicker%2BBrush&qid=1783553116&sprefix=hertzko%2Bself-cleaning%2Bslicker%2Bbrush%2Caps%2C175&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=866a3f09f5382f483f79a5c763a6d0c1&language=en_US&ref_=as_li_ss_tl",
+    image: "images/hertzko-deshedding-brush.png",
+    subtitle: "The brush that actually empties itself.",
+    story: "Every brush I owned needed me to pick fur out by hand. This one releases with a button push — genuinely changed how often I use it. Under $15.",
+    tags: ["Pet Care", "Dog Mom", "Amazon Pet Finds", "Under $15", "Deshedding"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+
+  {
+    id: "chesapeake-bay-serene-waters-candle",
+    title: "Chesapeake Bay Candle, Serene Waters — 3-Wick Jar Candle",
+    category: "home",
+    price: 19.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Chesapeake-Bay-Candle-Fragrance-Glass-Inspired/dp/B0FZXPPY8X?crid=1AJ0BYTTEXM4T&dib=eyJ2IjoiMSJ9.xqDUE5R9sem3jn2WeTzf0IIG4AbzNIAhGUgbDTfYC6AUoFQTPCAC9uazPqbuStlCr-b9ztuQ-cZRfA5eiyafMopGCXUZqJruhlmdqXU9q7dCf8vo49BxvbP6QKEstf-X9ygj8X-yiYaBkNQPYBjl1yuxT2mlYofyFDrz3BiyPuhTl2XenHbzKJMqivjwmnTjA1lkYDE45Bti8EqmeyX1wWw3LfvmxZobyYqCtuoVOu92t81DgfSp0g2nmdePlfPTzM4PV4CbgQzK8o-KVTZPhfC77Eht3lT9GIKQZtX_WuQ.UzPNDaUGE6ayelbRAXK1itO1C8hFzWxYpwfNntmOSI4&dib_tag=se&keywords=Chesapeake%2BBay%2BCandle%2C%2BBay%2BCottage%2B%28linen%2Bscent%29%2C%2Bsmall%2Bjar&nsdOptOutParam=true&qid=1783552961&sprefix=oye%2Bstainless%2Bsteel%2Bgarlic%2Bpress%2Caps%2C958&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=1730d5f144b8a66a5ba947ccc45c2129&language=en_US&ref_=as_li_ss_tl",
+    image: "images/chesapeake-bay-serene-waters-candle.png",
+    subtitle: "The scent that made the bathroom feel like a hotel spa.",
+    story: "I wanted something calmer than my usual candles for the bathroom. Serene Waters leans coastal and clean rather than sweet, and it fills the room fast. Three wicks, long burn. Under $20.",
+    tags: ["Home Fragrance", "Amazon Home Finds", "Under $20", "Candle", "Cozy Home"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+
+  {
+    id: "oye-garlic-press",
+    title: "Oye Stainless Steel Garlic Press, Easy Squeeze",
+    category: "home",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Garlic-Press-Easy-Squeeze-Ergonomic-Professional/dp/B07N7KFHVH?crid=54QI29Z4KTVF&dib=eyJ2IjoiMSJ9.aHUNE5ctWkrPwz3eD1GdQFNU3Gr1795VN3Wjriq9st-rfz0EnSllkdEmqlSbzw3TqAsPzccOUQSTSl0oIxVgFj47-o41PhC2sF3q6Pfj2ZuqOeu4mxXxQHLYKzt9OLp64cY-YCVXgGv3j_H4gN_kXpK1acQREa_u8UEw-xpL-TyLKV4P9HYQ9SyY8d23Hrm0EBdZXLY0eI5LzFLXSczU17jYiy7CoijQ3wiOawruTq7gPVDDjsLEpjAbs_xHX3O677pcD1gTYQu0h8rwzf-3TRQP1I_tKEhBWUy9WihzKdU.1KuacDGUSBuErrDAakY8bQMmhuCmvV-ns8jTFaVGBUw&dib_tag=se&keywords=Oye%2BStainless%2BSteel%2BGarlic%2BPress&qid=1783552762&sprefix=oye%2Bstainless%2Bsteel%2Bgarlic%2Bpress%2Caps%2C275&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=cc61770cbbed0582bbd88fa48573247d&language=en_US&ref_=as_li_ss_tl",
+    image: "images/oye-garlic-press.png",
+    subtitle: "The five seconds that changed how often I actually cook with garlic.",
+    story: "I stopped buying pre-minced jars the day this arrived. No peeling, no smell on my hands, dishwasher safe. Under $10 and it's used almost daily.",
+    tags: ["Kitchen Gadgets", "Amazon Home Finds", "Under $10", "Garlic Press", "Cooking"],
+    badge: null,
+    date_added: "2026-07-08"
+  },
+  
+  
   // ── BUILD — JUNE 26 2026 ────────────────────────────────────────────
 
   {
