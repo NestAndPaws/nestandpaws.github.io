@@ -1,5 +1,81 @@
 const PRODUCTS = [
 
+  // ── BUILD — JULY 14 2026 (BATCH 2) ──────────────────────────────────
+  {
+    id: "osivaex-laundry-rolling-cart",
+    title: "Osivaex Utility Slim Rolling Cart with Table Top — Narrow Laundry Room Organizer, Fits Washer & Dryer Gap",
+    category: "home",
+    price: 26.97,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Rolling-Storage-Organization-Organizer-Bathroom/dp/B0FT74DS38?crid=2WAYDR6NZ6C4W&dib=eyJ2IjoiMSJ9.epHIQNA7As-hpWgcYpz0n1eHVYPrxZd0AO2j8T3hwODzIy-Ql7vct1a7_U7NsSUdHae2Tdv6_z3pXvHfqFWkKZfpNBYU-K04VihtPN1MFjrDzBE8aWYF1S8fnnegv7KSsqlv9ELwmjYG5FS5W1SNzDkB4PCuHRLCrOvVIB_IROhI1KN0Vs0w7cyEkHhnl_avwIXA8CiIsZtg8WwzFDgeWoVnyyam4NzWhzUPwFfAcL0WiGnFyp4jbNsKWAkbvfVmZ1TJ5NvH80vmh3BOeG02GIbufG9-q1PHc5vh-fMnQ_8.7Yo11-um0LfRQbZVZBIU8D8Jl8jKUeRgRvsfftBiVLQ&dib_tag=se&keywords=Stackable%2Blaundry%2Broom%2Bstorage%2Bshelf%2Fcart%2B%28with%2Bwheels%2C%2Bfits%2Bwasher%2Fdryer%2Bgap%29&nsdOptOutParam=true&qid=1784055134&sprefix=stackable%2Blaundry%2Broom%2Bstorage%2Bshelf%2Fcart%2Bwith%2Bwheels%2C%2Bfits%2Bwasher%2Fdryer%2Bgap%2B%2Caps%2C138&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=809a308c5618c8605734e6dda295baf4&language=en_US&ref_=as_li_ss_tl",
+    image: "images/osivaex-laundry-rolling-cart.png",
+    subtitle: "The gap beside my washer finally does something useful.",
+    story: "I had a completely dead six-inch gap between my washer and dryer for two years. This slim rolling cart slides right in — three tiers for detergent, a wood tabletop for folding, and wheels so I can pull it out to clean behind it. Amazon Overall Pick. Under $30. It was in my cart before I finished my coffee.",
+    tags: ["Laundry Room", "Home Organization", "Amazon Home Finds", "Under $30", "Rolling Cart"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "optish-over-door-hooks",
+    title: "Optish Over The Door Hooks — 12 Coat Hooks, No-Drill Door Hanger Rack, Black",
+    category: "renter",
+    price: 8.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Optish-Hanger-Hanging-Bathroom-Accessories%EF%BC%881/dp/B0BR8SX468?crid=1GZXKXHIPHHPK&dib=eyJ2IjoiMSJ9.JWhMyCWwi1syLNo2T7A-ZU8dQy5hURrfvh9l2SdFb3C6uQUssRsK4bTxBIWyiU8de-RGP0QzEsuJCOcbZ0i4VlUTZe0YTVvw4Ns3VdCSolR4-8N1axO9RIIKLbV3oXpJaW1cfXk1MK9_M_6ZtIxgqaqmAo03yZFEIjDb4Wl05fMZvn97wrzJ9a5JD8Rl8Cug_TrUgND2lo0qAzTrFGEUXEiP-2ohrYrWyKOBTES6qQo.FHye8iivpdfgs0IyqvFz7MnwxNErFatjO4u7ZozsYbg&dib_tag=se&keywords=No-drill%2Bover-the-door%2Bhook%2Brack%2B%28coats%2Ftowels%2C%2Bmulti-hook%2C%2Badhesive%2Bor%2Btension%29&nsdOptOutParam=true&qid=1784054961&sprefix=no-drill%2Bover-the-door%2Bhook%2Brack%2Bcoats%2Ftowels%2C%2Bmulti-hook%2C%2Badhesive%2Bor%2Btension%2B%2Caps%2C127&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=203e992999cf0e66c50aa3d92207faf7&language=en_US&ref_=as_li_ss_tl",
+    image: "images/optish-over-door-hooks.png",
+    subtitle: "Twelve hooks, zero holes, coats finally off my chair.",
+    story: "My coats and bags lived on a chair for months because I didn't want to drill into a rental door. This slides right over the top with 12 hooks — coats, towels, bags, all off the floor in under a minute. Amazon Overall Pick, 10K+ bought last month. Under $10. Ordered it the same night I found it.",
+    tags: ["Renter Friendly", "No Drill", "Door Hooks", "Amazon Home Finds", "Under $10", "Coat Rack"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "kmm-handheld-car-vacuum",
+    title: "KMM Handheld Vacuum Cleaner, 9000Pa Cordless with LED Light and Multi-Nozzles",
+    category: "home",
+    price: 22.44,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/KMM-Handheld-Vacuum-Cleaner-Multi-Nozzles/dp/B0BYD5XB67?crid=240872ZVJZZWQ&dib=eyJ2IjoiMSJ9.OATseEmJhbsX9f52OrwHiFLrGxkZxHzcQEYcbAxwVmZaUSEtZagGF228KttsgKdET7wGKTfa7VO8hGRY6cvb9p3knC9Cf6YWM4l_6HAJ1JyiCKSlr40_7nkmMubjJxocMFwHXzzJQoPEaajXTUM86txTA-LBbA1glcrxLKNieLFyiayeMk8p6DF-9bCMul-9SfodJbQe7nNEWRrpjbbxPpQQuKcATIJWaAMi11kPhZM.LEjG_veLx-RYQNtzN3JP4sxceCKFPgG9THISOrKPFWs&dib_tag=se&keywords=Cordless%2Bhandheld%2Bmini%2Bvacuum%2B%28for%2Bdesks%2Fcars%2Fstairs%29&qid=1784054886&sprefix=cordless%2Bhandheld%2Bmini%2Bvacuum%2Bfor%2Bdesks%2Fcars%2Fstairs%2B%2Caps%2C242&sr=8-4&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=95fd434a3ef57974112c8a36ed2c54b9&language=en_US&ref_=as_li_ss_tl",
+    image: "images/kmm-handheld-car-vacuum.png",
+    subtitle: "My desk crumbs situation is no longer a situation.",
+    story: "Keyboard crumbs, desk dust, car cup holders — I was ignoring all three because dragging out the full vacuum felt like too much. This cordless one lives in my desk drawer, charges in under two hours, and has enough suction to actually clean a keyboard properly. #1 Best Seller in Vacuums, 9K+ bought last month. Under $25. I clicked add to cart in under a minute.",
+    tags: ["Home Maintenance", "Handheld Vacuum", "Desk Setup", "Amazon Home Finds", "Under $25", "Cordless"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "sasttie-reading-backrest-pillow",
+    title: "Sasttie Reading Pillow for Sitting in Bed — Backrest Support Cushion with Arms, Dark Grey",
+    category: "home",
+    price: 26.98,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Sasttie-Reading-Pillow-Backrest-Essentials/dp/B0CXY131X1?crid=32GHLUUWXMFES&dib=eyJ2IjoiMSJ9.oyzYMImo7_seZtYouP3LsM6Cb_kbwg4-PKd0QLjpbR2h0EjpHEET176pF5ZRepEwhTSvTWLjTklAQnkSwTMtNYQzEgHWaFGMhdQnZgK_rOOsVftqqfZgTSk07-Zi7Umu4xqm9pNv4u3HRb3aouxl5J02e9VfF0y6Sp19xuHqdpxybtCba18P8S7qR-9oiv8Xt7yHrhlI2PKtKrqj1exi0svaQJnaUz9NAUuY0E8K8P2YiIRnEdn3vAkjp0o04LCpaNtZRpsTowloUpisCf-P1aBtlJSl5TJMWyrBfOucY9s.kglLXklQNwKdTrlDIRcnL232AGN28rL-XxlKs4irbj0&dib_tag=se&keywords=Bay%2Bwindow%2Bseat%2Bcushion%2B%2F%2Breading%2Bnook%2Bfloor%2Bpillow&nsdOptOutParam=true&qid=1784054821&sprefix=bay%2Bwindow%2Bseat%2Bcushion%2B%2F%2Breading%2Bnook%2Bfloor%2Bpillow%2Caps%2C156&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d52d495a34ca6ab88f9152a5c979ca85&language=en_US&ref_=as_li_ss_tl",
+    image: "images/sasttie-reading-backrest-pillow.png",
+    subtitle: "My reading corner actually gets used now instead of just looking nice.",
+    story: "I had a window seat I never actually sat in because there was nothing to lean against. This backrest pillow changed that completely — armrests, real back support, and it's soft enough that I've fallen asleep reading in it twice. Amazon's Choice, 4K+ bought last month. Under $30. It was in my cart before I finished my coffee.",
+    tags: ["Reading Nook", "Home Decor", "Backrest Pillow", "Amazon Home Finds", "Under $30", "Cozy Home"],
+    badge: null,
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "loreal-everpure-purple-shampoo",
+    title: "L'Oreal Paris EverPure Sulfate Free Purple Shampoo for Blonde, Bleached, or Highlighted Hair",
+    category: "beauty",
+    price: 9.97,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/LOreal-Paris-EverPure-Bleached-Highlighted/dp/B07P7L1HFN?crid=220AHXYYEO43Y&dib=eyJ2IjoiMSJ9.01VPh4xy7-7RvWLccshVG4YKhtQX6VoPjgp5L5EdNGZGLZw4zVwBNeTxnRdGFsGLOT4h9wwRmIILfuHuH9Vb30M7I31RLpKpgBGdtnBlMb4nk51V_rTmOt_vdaPv3dB7n1W_rYz81gRxt5yaym2GBTXcCv0C4lLnRy-BhhYMkF5g819PK0zVrRrGyt6Xx_YU3L4cyxqewmrPPUfDk-QeOHoB717PCGJfa9lhz-fvPLk51-X7aIPDCXIOSqwoiPFnZKL1VKAerI5FQ_PJnQqjSIGLO8vq931nxsnt6PkDNXc.6yFVrB09i7IFjMSt9Ow9Ql-fqfOw74vyWzgNzJ5lU4A&dib_tag=se&keywords=Purple%2Btoning%2Bshampoo%2B%28for%2Bblonde%2Fbrassy%2Bhair%29&qid=1784054730&sprefix=purple%2Btoning%2Bshampoo%2Bfor%2Bblonde%2Fbrassy%2Bhair%2B%2Caps%2C244&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=02cb7b8330a0a9c68885d6e9086bb3f9&language=en_US&ref_=as_li_ss_tl",
+    image: "images/loreal-everpure-purple-shampoo.png",
+    subtitle: "My blonde stopped looking yellow within one wash.",
+    story: "My highlights kept going brassy between salon visits and I didn't want to spend more money chasing it. One wash with this purple shampoo and the yellow tones were visibly gone — sulfate-free so it doesn't strip color faster. Amazon Overall Pick, 10K+ bought last month. Under $10. I clicked add to cart in under a minute.",
+    tags: ["Hair Care", "Purple Shampoo", "Blonde Hair", "Amazon Beauty Finds", "Under $10", "Toning"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
   // ── BUILD — JULY 14 2026 ────────────────────────────────────────────
   {
     id: "vtopmart-airtight-pantry-containers",
