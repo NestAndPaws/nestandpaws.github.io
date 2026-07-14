@@ -1,5 +1,81 @@
 const PRODUCTS = [
 
+  // ── BUILD — JULY 14 2026 ────────────────────────────────────────────
+  {
+    id: "vtopmart-airtight-pantry-containers",
+    title: "Vtopmart 24 Pcs Airtight Food Storage Containers — Clear Plastic, BPA Free, Includes Labels",
+    category: "home",
+    price: 30.99,
+    price_bracket: "Under $35",
+    affiliate_link: "https://www.amazon.com/Airtight-Containers-Vtopmart-Organization-Canisters/dp/B08ZK5WDWN?crid=VYK0GCV2W1D9&dib=eyJ2IjoiMSJ9.sFTNBDchW5tuIvOqaPSgHuN9fRLqQDlVB5P_WlYukrFKg2OLIA1Sc57I8-fwcvoUJsHRDIay9jhgRfFPc6fv408v9c8N6wG0TGbCYysXilev-O3isQQoZq23EchQUjklDxZHIAcjmVMQ24fQgQ8ScheUJXOQnCOsML9RNGH9ALhIJln0UEiKKeDlBeGXZ1cefDzh4j8Xl5Fv_ztkTjGUoNZir2cIAplWe99h-EhHaE89Gp6MAa6ppz2C0IeDUa90oSU3lVpgJNoYBoOLVM-LtP1gg7RzNGeacNfuLyOykhY.a1Ozfn_sYh_M-yZ2LWTaCNUnnOnUFF_K7YHzSSemCEI&dib_tag=se&keywords=Airtight%2Bpantry%2Bcontainer%2Bset%2B%28Vtopmart-style%2C%2Bclear%2Brectangular%2C%2B%22decanting%22%2Bsystem%29&nsdOptOutParam=true&qid=1784041644&sprefix=airtight%2Bpantry%2Bcontainer%2Bset%2Bvtopmart-style%2C%2Bclear%2Brectangular%2C%2Bdecanting%2Bsystem%2B%2Caps%2C135&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=027e0495f29fe7236fdaf9025f5152f0&language=en_US&ref_=as_li_ss_tl",
+    image: "images/vtopmart-airtight-pantry-containers.png",
+    subtitle: "My pantry finally looks like the decanted photos everyone saves and never does.",
+    story: "I'd been saving pantry 'decanting' photos for a year and never actually got past the first shelf. Twenty-four matching airtight containers later and my cereal, pasta, and rice all sit in one clean row — labels included, push-button lids that actually seal. Amazon Overall Pick, 10K+ bought last month. Under $35. I clicked add to cart in under a minute.",
+    tags: ["Kitchen Organization", "Pantry Storage", "Decanting", "Amazon Home Finds", "Under $35", "Airtight Container"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "acrylic-floating-shelves-renter",
+    title: "6 Pack Clear Acrylic No-Drill Floating Shelves — 15 Inch, Adhesive, Renter Friendly",
+    category: "renter",
+    price: 18.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Floating-15-Bookshelf-Invisible-Bathroom/dp/B088BFCTW1?crid=1739MSY4CIUIA&dib=eyJ2IjoiMSJ9.9OZr9z8NuvBrOHZ2sVG3GUaS1LeWgG2a3ruYFS1v2t1kLa0ZdRBJ3tArG7KmvCP3RCTDAldA77jyOJfMBpacW4HNMGrYoYjKO3coVrAx_gdMazZguyHI9xuxzW8qkHzRgzzy6L1cncHHDbVrNcYi5mXAvH2DCilhhJnYS0veVyiPq13IRsQkUwvWp_A8sn7HjOu1zpaH0t1xrPgalVxhHb32W4emVVbn0iZaKv8DYcH-JgT_xudZfQDZS4E4glwTQaYr22Zyo3CxXbz1TP6kglIIVwAxxQImAqUq5UBagZo.mSF8GL9_S2TY5CMdsS_gKsZEOBRcpCeAUepbpEgjYD4&dib_tag=se&keywords=No-drill%2Bacrylic%2Bfloating%2Bshelves%2B%28multi-room%2C%2Badhesive%29&qid=1784041484&sprefix=no-drill%2Bacrylic%2Bfloating%2Bshelves%2Bmulti-room%2C%2Badhesive%2B%2Caps%2C135&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=3dbafcad5dedfd9202263843f29426e9&language=en_US&ref_=as_li_ss_tl",
+    image: "images/acrylic-floating-shelves-renter.png",
+    subtitle: "Went up in ten minutes. Zero holes. My landlord will never know.",
+    story: "I wanted shelves in my bathroom for years and kept assuming that meant drilling and a deposit risk. These clear acrylic shelves are fully adhesive, no drill required, and basically disappear on the wall so whatever's sitting on them looks like it's floating. Six shelves, Amazon Overall Pick, 200+ bought last month. Under $20. It was in my cart before I finished my coffee.",
+    tags: ["Renter Friendly", "Floating Shelves", "No Drill", "Amazon Home Finds", "Under $20", "Bathroom Storage"],
+    badge: null,
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "nyx-butter-gloss-sugar-glass",
+    title: "NYX Professional Makeup Butter Gloss — Non-Sticky Lip Gloss, Sugar Glass Clear",
+    category: "beauty",
+    price: 5.97,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/NYX-PROFESSIONAL-MAKEUP-Butter-Non-Sticky/dp/B09SP2XHKT?crid=2ACR8KQLDI4SN&dib=eyJ2IjoiMSJ9.-4MiFsrJF6fHM9fHqOMqUzH6igYv8eQP0NZQDwFTkrrBJM1z4ZuQuYSKa-WwNSTwA9OLAIS1OIXMGnEnJQZ_PyboqSfaIb1joq2M1LbLBkP70WSrOxAVXaA_U74gwvJnt7gJfuMAw2Zfl9dpgydFEpIbFZQx9D9RTnlynoUxYKf1FvZRX6AZjPh5H275uXTqZZ8H1IioklCgAm5zjy_4U5tull4AseuqP2G0wZadXKZ6DSxX2VN-7TrMdwi7FBQn0Nz571uEcqfan3gFgUTtptXQZM0nKtsRUiM3Vcbd-fc.gme5wMBYj9xmRWxOhupHle6FZD3mZau9qDuVhvy29Gs&dib_tag=se&keywords=Glaze%2BSupergloss%2Bcolor-conditioning%2Bgloss%2B%28clear%2Bor%2Btinted%29&qid=1784041384&sprefix=glaze%2Bsupergloss%2Bcolor-conditioning%2Bgloss%2Bclear%2Bor%2Btinted%2B%2Caps%2C176&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=8162b1099a65320d630271bba127c6a5&language=en_US&ref_=as_li_ss_tl",
+    image: "images/nyx-butter-gloss-sugar-glass.png",
+    subtitle: "Not sticky, not tacky, just actual shine. I keep it in every bag now.",
+    story: "Every lip gloss I own turns my hair into a magnet the second wind hits it. This one doesn't. Butter-soft formula, glass-level shine, zero stickiness, and the clear shade goes over literally anything. Amazon's Choice, 9K+ bought last month, 125,000+ reviews. Under $10. I clicked add to cart in under a minute.",
+    tags: ["Makeup", "Lip Gloss", "NYX", "Amazon Beauty Finds", "Under $10", "Clear Gloss"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "tsrarey-sunset-lamp-projection",
+    title: "Tsrarey Sunset Lamp Projection — 21 Colors, 180° Rotation, App Control",
+    category: "home",
+    price: 17.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Tsrarey-Projection-Rotation-Control-Projector/dp/B0BDRSG2BT?crid=2VNAUGQ9A2OZF&dib=eyJ2IjoiMSJ9.BmXti9lgC5w0LJGqvIdusGUrmdBX_R8I4k9LFiAV1tXbsouf_pH_a1dbxtAfav_L-mYQefC1yEqIEwfBO92HRnrzvW_yt53pz8z-3sbBjRDuzHJuIwPNp1PUgILOamqtBX_xt_uYhHUwVafpMukGBtueRuT7yuK27f14HRRE9oAHgx1G1nnh3vW-U0SxF4luZAbBzPDYUD1qc_C9QRq56Jgbqg8nBLf-uQXdvB_g2Ja13-tgagi9q4YlKMhtS4Klov48nns-ZgBLFXZyLFhfjRFbYTHCqsvtmyLg7BtvrlQ.qrfOMPnjXk5FcLk6sDw5gKrbIvUEdUmOkLV1kEKu_74&dib_tag=se&keywords=Sunset-projection%2Blamp%2C%2Bcolor-changing&qid=1784041319&sprefix=sunset-projection%2Blamp%2C%2Bcolor-changing%2Caps%2C575&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=7a5f7b48b562db00eb8be55430278811&language=en_US&ref_=as_li_ss_tl",
+    image: "images/tsrarey-sunset-lamp-projection.png",
+    subtitle: "My bedroom wall looks like golden hour every night now.",
+    story: "I saw this everywhere and finally caved during a late-night scroll. It projects a full sunset gradient across the wall — 21 colors, 180-degree rotation, controlled from an app on my phone. My room genuinely feels different at night now. Amazon Overall Pick, 2K+ bought last month. Under $20. Ordered it the same night I found it.",
+    tags: ["Lighting", "Sunset Lamp", "Bedroom Decor", "Amazon Home Finds", "Under $20", "LED"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
+  {
+    id: "skydue-rotating-desk-organizer",
+    title: "SKYDUE 360 Rotating Plastic Desk Pen Organizer — 5 Slots, Dual-Purpose Art Supply Cup",
+    category: "home",
+    price: 9.98,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/SKYDUE-Degree-Rotating-Organizer-Dual-Purpose/dp/B0C9ZHWC9K?crid=3LNW54IA8T7BY&dib=eyJ2IjoiMSJ9.fjAGsRNc1iBPIOHGLZIjjGVDvD-UDFb5TmJrgd-ImXVEMmm-ZOgu1To40y33rZjhD4_BqKmTxYWhw-jrWHJoMbsuNzAQ65McqLwMGVIB_tySyvWh7yg8YGHMN_J_fTV18AfpMsReV-eWZIUOMelMNwNMDIIb3jYlqiBpm6NzstsYpAtz3WpMZTvpdSyiO1EyTyIjh_B5jY28U67xLn3Jw2Jg6IukcdJQp0r0jOA41uH8jjzuckP7OY8G2Mf4LTOfdnrkExagTbHgeUAZxlUYcWgHSHrhIrXfvvVFaiFGm34.Qu-gSgGnp5iyyZbdmoAHaPWmW0q64gXzXZB5kE8Kfe4&dib_tag=se&keywords=Rotating%2B5-slot%2Bdesk%2Borganizer&qid=1784041223&sprefix=rotating%2B5-slot%2Bdesk%2Borganizer%2Caps%2C459&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=b3bd015dd49feed499d960a8f3bf5070&language=en_US&ref_=as_li_ss_tl",
+    image: "images/skydue-rotating-desk-organizer.png",
+    subtitle: "My desk went from pen-graveyard to actually finding what I need.",
+    story: "My desk had three different cups of pens and I still could never find scissors. This spins 360 degrees with five slots — pens, scissors, sticky notes, all one spin away. Amazon's Choice, 4.8 stars, 10K+ bought last month. Under $10. I clicked add to cart in under a minute.",
+    tags: ["Desk Organizer", "Home Office", "Amazon Home Finds", "Under $10", "Desk Setup"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-14"
+  },
+
    // ── BUILD — JULY 08 2026 ────────────────────────────────────────────
   {
     id: "chesapeake-bay-ocean-retreat-candle",
