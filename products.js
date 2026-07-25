@@ -480,8 +480,8 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Stackable-Refrigerator-Organizer-Container-Cabinets/dp/B08RSPW3B8?crid=3N51IB7Y8YHIT&dib=eyJ2IjoiMSJ9.xtpv9BWkeayxKYv8JA3udvV9V9_zpeu3n6pxBM7y7hsuAe_nXWxKoIWtqL0UzWlfP5qOBZBOrqY0ZiSsQoTjlfJ04B6fqP5Z5xhOuBPufs42jnUW89qbytuuCHToDSy3C_q9ugBtxGOe8MdOJ0RLBcVHOOHRZZ7AgLq1ZTSpyT6xW_dK4vg0sgAK76-xkqB6jeMY3Rkxtd-nv7iHWrFzq73Cy-BvmfQB1OyFy8YEBZBiYJ05uajsImmMTWkjKXbAAqTLF6Uw0xQWte3dXO95MGP544MBKcrxw93pE9xx3FU.Obc768tV88TT1bJDI98XdQloYgzQix7fUVOqWVu6Ai4&dib_tag=se&keywords=stackable+clear+fridge%2Fpantry+bins%2C+6-pack%2C+with%2F+handles&qid=1783553467&sprefix=stackable+clear+fridge%2Fpantry+bins%2C+6-pack%2C+w%2F+handles%2Caps%2C207&sr=8-5&linkCode=ll2&tag=nestandpaws-20&linkId=6a8d70c74ecab1cd21b490173d5cbad6&language=en_US&ref_=as_li_ss_tl",
     image: "images/fridge-bin-organizer-set.png",
     subtitle: "How the fridge shelf actually stays organized past week one.",
-    story: "I used to lose vegetables to the back of the fridge for weeks at a time. These clear bins pull straight out, stack without wobbling, and I can see everything at a glance. Under $30 and it's the fix I didn't know I needed.",
-    tags: ["Kitchen Organization", "Fridge Organizer", "Amazon Home Finds", "Under $30", "Clear Bins"],
+    story: "I used to lose vegetables to the back of the fridge for weeks at a time, and packing lunches meant hunting through three shelves every morning. These clear bins pull straight out, stack without wobbling, and one of them is now the lunch bin so everything for the week sits in a single pull. Overall Pick, 2,000+ bought last month. Under $30, and mornings got about five minutes shorter.",
+    tags: ["Kitchen Organization", "Fridge Organizer", "Lunch Station", "Back to School", "Under $30"],
     badge: null,
     date_added: "2026-07-08"
   },
