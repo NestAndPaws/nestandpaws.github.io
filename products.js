@@ -1,5 +1,141 @@
 const PRODUCTS = [
 
+  // ── SPECIAL BUILD — BACK TO SCHOOL + BACK TO COLLEGE — JULY 25 2026 ──
+
+  {
+    id: "wallshelfie-bedside-dorm-shelf",
+    title: "WallShelfie Floating Bedside Wall Shelf — Dorm Organizer with Cup Holder and Phone Slot, White",
+    category: "renter",
+    price: 32.99,
+    price_bracket: "Under $35",
+    affiliate_link: "https://www.amazon.com/Wallshelfie-Bedside-Wall-Organizer-Floating/dp/B0DYVQ8LLT?crid=3MK4BE1XJLUBC&dib=eyJ2IjoiMSJ9.eHpHVGbVyWPbqdIiCHhXosqpfQpf5KQZyCir1WX51A--5OcExMXLcM7a6CDI2t_C6YUXeX2GJKFv5GYgyeC5PPEQM6DfSok027PjHgk2n64ZyKVFktff9SdmQU-Me5UlpWOSCuUgE7Dz-7jlUcXU-Za62P8qQVPX_2K_VM-8Tch3xkDr0rpXG0hV4dYcFlHDI8Q-Y0NtZ2KSw3frdjCMNg9kA7gGy3kFPbEM5qsFB2DZQfAqkWyB1FQEwtYWKTLAHDFkzWuIBt0ijllNRoJLEqx7wT5W3hGwj3jeJR2xVZ8.cbDETAuDYg420OCDaA9A5fEpI5dShKodzZIL7KM3SZc&dib_tag=se&keywords=Clip-on%2Bbedside%2Bshelf%2C%2BUSB%2B%2B%2B2%2BAC%2Boutlets%2B%28lofted%2Fbunk%2Bbeds%29&nsdOptOutParam=true&qid=1784989021&sprefix=clip-on%2Bbedside%2Bshelf%2C%2Busb%2B%2B%2B2%2Bac%2Boutlets%2Blofted%2Fbunk%2Bbeds%2B%2Caps%2C324&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=933c5ef5cd179da0a19ef5a8710d2f78&language=en_US&ref_=as_li_ss_tl",
+    image: "images/wallshelfie-bedside-dorm-shelf.png",
+    subtitle: "The nightstand that fits in a room with no room for one.",
+    story: "My bed is lofted, so anything I wanted within reach at night ended up on the floor or balanced on the mattress. This mounts flat to the wall right beside the pillow and holds my phone, my water cup, and my headphones without taking a single inch of floor. Amazon's Choice, 2,000+ bought last month. Under $35, and it solved a problem I'd stopped trying to solve.",
+    tags: ["Dorm Room", "Renter Friendly", "Bedside Organizer", "Small Space", "Amazon Home Finds"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "enjoybasics-no-drill-curtain-rod",
+    title: "ENJOYBASICS No-Drill Curtain Rod, 28-47\" Adjustable — Renter and Dorm Friendly, Black",
+    category: "renter",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/ENJOYBASICS-Diameter-Friendly-Adhesive-Adjustable/dp/B0DFCWNBQG?crid=3EPSE0GJM1A8O&dib=eyJ2IjoiMSJ9.q3zRsyKGRRToPZoMzW7gKozztgo1a5waOW7gE0QcR6bquKqI4bLZLq4XGaBLPcwMugVmmVQfVhhyEP_sLfMlVodcXy1mAPU9kKzJIXXOtmSSm6DhFOGApYJtp7M0UePGfxOLCec2ckoWYUdrrQb6F7WVznFrMhI3u1GfDYWOaXULOfZ5A76rmR4znpPAKQm4BGLTiL-w2EksslQ0xJh7nbbOYY-TXAdAx4IyvHjd9-irKJe1w9-IwCNMVGkyLHcBEjqMy_X8m1tE8AiHR_BKDGs-ZkNI0pY-4Z0PXHFgtSE.TG1cRHrG5qjlfavssfdf_CcSr7egs8afO38crNSPtb8&dib_tag=se&keywords=No-drill%2Badhesive%2Bcurtain%2Brod%2C%2Brenter%2Fdorm&qid=1784988958&sprefix=no-drill%2Badhesive%2Bcurtain%2Brod%2C%2Brenter%2Fdorm%2Caps%2C334&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=ef6bd5edfbc017eb6c5a98914bcd9e87&language=en_US&ref_=as_li_ss_tl",
+    image: "images/enjoybasics-no-drill-curtain-rod.png",
+    subtitle: "Real curtains went up in a room where I'm not allowed to drill.",
+    story: "The blinds that came with this room let in light at every edge and I couldn't do anything about it without putting holes in the wall. The adhesive brackets on this rod hold a full curtain rod on a smooth surface with no tools at all, and it comes down clean at move-out. Overall Pick, 8,000+ bought last month. Under $10, and it was the first thing that made the space feel like mine.",
+    tags: ["Renter Friendly", "Dorm Room", "No Drill", "Curtain Hardware", "Under $10"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "shinelife-rechargeable-desk-lamp",
+    title: "Rechargeable Cordless LED Desk Lamp — 4000mAh, Touch Dimming, Adjustable Neck, White",
+    category: "home",
+    price: 26.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Portable-Rechargeable-Dimmable-Eye-friendly-Adjustable/dp/B0GCN659JF?dib=eyJ2IjoiMSJ9.SR0Q9nYG6I_GfUgyu-iAOmi-FHlZOKWHX9xXQq-2c7Z0Vzcnd4WbuemGsZzPx_hyfbQE48XU-5pTvIsos3KrYMbd4xUzoA7-Jzt76pMI-4ABDM1w1vuhetwl4VrnEnblrC9AOaMQLpTmf0KDwiXdbtKUP5B1lE2VvTw0LFi81Ni9WZ4c5sibgY8JtqBIkKRfk7z84_PCaRbEagAaTZ2LrDUAH05W6987aYOvAat99KZkLNZfPMe9VmKI5u2eGILH-0INMpgyIgUlxDkM-1jTJArumPQNdRnbABFbOyKmf_E.Af5NQTZI-wz8KFs2s7CJ0bV85OeoMgIz-kfRq0OeN2M&dib_tag=se&keywords=Rechargeable%2Bdimmable%2Bdesk%2Blamp%2C%2Bwarm%2Fwhite%2Fnatural%2C%2Bflexible%2Bneck&qid=1784988860&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=3f618e30baa3c28da1caaf1475ed4077&language=en_US&ref_=as_li_ss_tl",
+    image: "images/shinelife-rechargeable-desk-lamp.png",
+    subtitle: "Studying past ten stopped feeling like squinting.",
+    story: "The only light in this room is a hard ceiling fixture, so working at the desk after dark meant a bright screen against a dark wall and a headache by eleven. This one runs on its own battery, so it sits anywhere with no cord, and the warm setting is soft enough that I can leave it on all evening. Amazon's Choice, 500+ bought last month. Under $30, and my desk is the only corner of the room I actually want to sit in now.",
+    tags: ["Desk Setup", "Dorm Room", "Cordless Lamp", "Study Space", "Amazon Home Finds"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "jarlink-over-door-5-shelf-organizer",
+    title: "JARLINK Over-the-Door Organizer — 5 Shelf Hanging Storage, Anti-Tilt, 44lb Capacity, Grey",
+    category: "renter",
+    price: 29.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/JARLINK-Organizer-Storage-Capacity-Bathroom/dp/B0C89STMFK?crid=1MUFIYXNESMBC&dib=eyJ2IjoiMSJ9.aFuDhkOwMyU7JjvmVxlErYqr_JAGQF-Nv0qhfQcYhw6miJjcTCokJvQ9Nd_E953XJA8Il30rM_iEzh5bmZ6QRbtDjCPOYsmnQ4jLTZ36ijXd-fjwpg-q08zIKxHsfRtSB-sYyw-97aCcvxjxKnDTeSTga-iFPM_9zcTjLdsBVisD29FkfKtVMQ-KTCiHiGhgYY_VpQFQmBe6U7iXqLpbpsXlVMDxluyb9SuTGIbCzPTJX5oxEOL83h7GBJdjeQq-rrscRExu0Y8CqNJemK6cxm7WvEbJJ-MUdc_r3faxJEk.SDp6pYkLhR3mWKHbuSrH45sCahz45FxxA2AhN1mMY4Y&dib_tag=se&keywords=5-shelf%2Bover-the-door%2Bhanging%2Borganizer&qid=1784988781&sprefix=5-shelf%2Bover-the-door%2Bhanging%2Borganizer%2Caps%2C185&sr=8-8&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=4f13bedbc1acc674b774a1ebd40d7628&language=en_US&ref_=as_li_ss_tl",
+    image: "images/jarlink-over-door-5-shelf-organizer.png",
+    subtitle: "Five shelves worth of storage in a room with no floor left.",
+    story: "Every surface in this room was already covered and the closet was full before I finished unpacking. This hangs on the back of the door and holds toiletries, snacks, and everything that had been living in a pile, with an anti-tilt design so it doesn't swing when the door moves. Overall Pick, 4,880 reviews, 6,000+ bought last month. Under $30, and it's the only storage I added that didn't cost me any floor.",
+    tags: ["Renter Friendly", "Dorm Room", "No Drill", "Vertical Storage", "Small Space"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "bluestars-outlet-extender-night-light",
+    title: "BlueStars 6-Outlet Wall Extender with 4 USB Ports and Night Light — 3-Sided Surge Protector",
+    category: "home",
+    price: 23.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Charger-Extender-3-Sided-Adapter-Outlets/dp/B0F3D76VGK?dib=eyJ2IjoiMSJ9.zPhfDir165CskYq7yDtljyzsmiRIq_MitCyoXLz_DqphAT_wVgOsTYU26WTRyYzOSiSrgB1ryXcsip74vr3bBArdiRAPb-vKF8beFqPTPzGYt0nTndPJ1UfWEeFXDFm_v4bmt-pmZcMK1RC7zyAjAa6_ogfAYmtmuoMFOejQZTJqOjmSB5CvvyuPOx2Ve8spELmSYFRPs-szP2KEhRSvYO6Dm6cpo-eGrGzjDDk4SJs.cICfTP_I5q9WR7y04kP_xciI8Wjq1tZ0vP73izmd8eI&dib_tag=se&keywords=Surge%2Bprotector%2Boutlet%2Bextender%2C%2B5%2BAC%2B%2B%2B4%2BUSB%2C%2Bnight%2Blight&nsdOptOutParam=true&qid=1784988614&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=c898eac917332f3ea86c3240e2f8c1f4&language=en_US&ref_=as_li_ss_tl",
+    image: "images/bluestars-outlet-extender-night-light.png",
+    subtitle: "Two outlets became ten without a single cord across the floor.",
+    story: "This whole room has two outlets and one of them is behind the bed, so I was unplugging the lamp every time I needed to charge something. This slots straight into the wall and turns one outlet into six plus four USB ports, and the soft ring of light around it doubles as a night light. Overall Pick, 6,000+ bought last month. Under $25, and it was in my cart before I finished my coffee.",
+    tags: ["Dorm Room", "Charging Station", "Small Space", "Under $25", "Amazon Home Finds"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "pickpiff-adhesive-wall-hooks",
+    title: "pickpiff Adhesive Wall Hooks, 4 Pack — 13lb Strong Hold, No-Drill Coat and Bag Hooks, Black",
+    category: "renter",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/pickpiff-Wall-Hooks-Coat-Towel/dp/B0BNL5MBMY?crid=MQACNFC185L6&dib=eyJ2IjoiMSJ9.__cMnIogvgPFrS8S3EbBmBOmN5V-lc_zTYGCxUhYEhvxpA9dPCe0APrtYxukH-NyhDe09peQ5UciNFookHJ3exCwPxUlLHhE6TnKQy9Z2C3xa2Iiko07tM1MvvottYBSzcVSxZl-Ew8lLVB_aHkK7wGysG9LPwVbQ8YDBR5yfW5dH8_riX1okPe_jTsi_R2r1MnmU97c9GUqgu79iq6Yr47Gd164WkSuj34Ayv8i_GU6ljBce4-14t8fDA8w3LmLME_tbzRBngplRYduZFPHzTEcH09K83lpdhh1pdbK5_o.PgR3zKmUTUrxKCMtCyi_5XWe4iTvKJ8P7bH2ljJDp0M&dib_tag=se&keywords=Adhesive%2Bno-drill%2Bentryway%2Bhook%2Brail%2B%28backpack%2Bdrop%2Bzone%29&nsdOptOutParam=true&qid=1784988554&sprefix=adhesive%2Bno-drill%2Bentryway%2Bhook%2Brail%2Bbackpack%2Bdrop%2Bzone%2B%2Caps%2C257&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=50eae132b201f6c68d46be458ec02e68&language=en_US&ref_=as_li_ss_tl",
+    image: "images/pickpiff-adhesive-wall-hooks.png",
+    subtitle: "The backpacks stopped landing in the hallway on day one.",
+    story: "Every afternoon the bags came off at the door and stayed exactly where they landed until morning. Four of these went up beside the entry in about two minutes, no drill and no holes, and each one holds a loaded backpack without shifting. Amazon's Choice, 6,479 reviews, 10,000+ bought last month. Under $10, and the floor by the door has stayed clear ever since.",
+    tags: ["Renter Friendly", "No Drill", "Entryway", "Drop Zone", "Back to School"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "simplehouseware-3-tier-rolling-cart",
+    title: "Simple Houseware 3-Tier Heavy Duty Metal Utility Rolling Cart — White",
+    category: "home",
+    price: 37.97,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/SimpleHouseware-Heavy-3-Tier-Utility-Rolling/dp/B081KBXT5N?dib=eyJ2IjoiMSJ9.0ZnjAbkBx1tYFavo3vYVexv7HZPe1A2PdJUuYFfiuf_eDiIjCQGDvwnktRTxLjlruCqzVLA1QPpvZZYc7QJjD3-PqvUsFAliDjpLbZnkMMiHAbNIN9g50NjbHIi7tQ1GD0yUNWzeVf6I1E9P8_peeBlRUO1XlZNPI6e2fQewPMZaNyh-cFFKuhjX1N4NRrAml0erNN9qA15wXonziUYwfdLlovTpJNtZhpKdAkMh_8D00ScsrwB8EttU1xXByRfzj4oscBQE832JZMzM_1r3VgyclDAXEwqLy5eyDGB93eg.l_alkxxVnPTgYTO7CjMh0ez5IjJEaA6Y4nxHcoG5amY&dib_tag=se&keywords=3-tier%2Brolling%2Bcart%2B%28homework%2Bstation%29&qid=1784988432&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=6b1012ac50f21bd4628b67e2b444e251&language=en_US&ref_=as_li_ss_tl",
+    image: "images/simplehouseware-3-tier-rolling-cart.png",
+    subtitle: "Homework stopped taking over the kitchen table every night.",
+    story: "Pencils, worksheets, and half-finished projects lived on the dining table from three o'clock until bedtime, and clearing it for dinner was a nightly argument. Everything lives on this cart now, one tier per kid, and it rolls to whatever room they're working in and then out of sight. 32,159 reviews, 3,000+ bought last month. Under $40, and we eat at an empty table again.",
+    tags: ["Home Organization", "Homework Station", "Rolling Cart", "Back to School", "Amazon Home Finds"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "lockermate-7-piece-locker-organizer",
+    title: "LockerMate 7-Piece Locker Organizer Kit — Shelf, Mirror, Whiteboard and Storage Cup",
+    category: "seasonal",
+    price: 18.45,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/LockerMate-7-Piece-Organizer-Whiteboard-Storage/dp/B0B7BWWDZJ?crid=2C4PAX7LDGF14&dib=eyJ2IjoiMSJ9.wQeEb0YGsstLpfvm72ZECa3mQqptsxXyJeY7C6jFHZyxHooUP7BSDLiyfnGdHEc5e1FmABvSoxLQkgSx_BWNe6rqW4w3nt7KKTNiWZQBJm3lVU2YXm9fpf2gcSRohKcrNr5n05ARmr2HZA-JRJqMZ3Ql681-Qr_LDnvD-cY8getvnt44Eo6s8d5KbWnkCLXn8T66oXd4h_CWKUP45Jp0a2gKqKdEYbokpOi80AyAvVNR2AG49mnsSm5Q8hDjzIulqNj2X0Ahm9ygeuymr4qkMm2U6wjDBsnrL1AtdhJi6ik.FihVyT3PQLzpZFj6Vv9z9GN14ipZ8i3UXWeeMi3B5ps&dib_tag=se&keywords=Magnetic%2Blocker%2Borganizer%2Bshelf%2B%2B%2Bmirror%2Bset&qid=1784988241&sprefix=magnetic%2Blocker%2Borganizer%2Bshelf%2B%2B%2Bmirror%2Bset%2Caps%2C174&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=b64589bb7900f65e00b8c1fb7a2ab68f&language=en_US&ref_=as_li_ss_tl",
+    image: "images/lockermate-7-piece-locker-organizer.png",
+    subtitle: "She reorganized her whole locker in one lunch period.",
+    story: "Her locker was a pile at the bottom by the second week and nothing stayed where she put it. The shelf splits the space in two, the mirror and whiteboard hang on the door, and none of it needs tape or glue, which most schools don't allow anyway. Overall Pick, 400+ bought last month. Under $20 for the full set, and she actually kept it tidy this time.",
+    tags: ["Back to School", "Locker Decor", "School Organization", "Under $20", "Middle School"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "craftalent-kids-art-portfolio",
+    title: "CRAFTALENT 11x17 Kids Art Portfolio — 13-Pocket Accordion File with Handle and Zipper",
+    category: "home",
+    price: 28.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/11x17-Kids-Art-Portfolio-Translucent/dp/B0DL783HRL?crid=2M5XPTCJG9544&dib=eyJ2IjoiMSJ9.GcfIb6xXJLvB0Lm3NYYNWlTtKKE9qXaBZ_OgVTA_JwsjazKYSqQH9ZM5ES8cJb0HzXwzbk1o8LvjgI6Uf7w3bPE4eudQBO1LE7SuXR_zL7Jyou6YWKK3ex5zqmey4oG6VQ59JmgB3Jpw6qpi7rcQ_4VFVP3BBL2BBlJl36_bKeC-J07WBRoLHJ8x9cVYXgVA8iaFOMPda7dK2U1EM0fhnIexWn5_2RQKdBweCWvAXjerf8gyyZPXDhTKBjNaxjIpwNSeaDfdSyhEOhWTrOKMGMHSL6z2cPnvbqNrWUjmxEI.GjzBc8D7bfazo2iIktKnkrha01661ukaGvUg5FDESeE&dib_tag=se&keywords=Kids%27%2Bart%2B%2B%2Bschoolwork%2Bportfolio%2Bstorage%2Bbox&qid=1784987993&sprefix=kids%27%2Bart%2B%2B%2Bschoolwork%2Bportfolio%2Bstorage%2Bbox&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=3b968dc14a5d2f5e40a056b2cd987723&language=en_US&ref_=as_li_ss_tl",
+    image: "images/craftalent-kids-art-portfolio.png",
+    subtitle: "Every painting from the year fits in one place I can actually close.",
+    story: "By October there were paintings on the fridge, on the counter, and in a stack on the piano that I felt too guilty to throw out. Thirteen pockets means one per month with room to spare, the zipper keeps everything flat, and it slides behind a door instead of sitting on a surface. Overall Pick, 300+ bought last month. Under $30, and I stopped feeling bad about the pile.",
+    tags: ["Home Organization", "Kids Storage", "School Papers", "Back to School", "Amazon Home Finds"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
   // ── BUILD — JULY 25 2026 (10 TRENDING + WEDDING STATIONERY) ─────────
 
   {
