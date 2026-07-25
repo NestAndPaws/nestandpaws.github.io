@@ -1,5 +1,171 @@
 const PRODUCTS = [
 
+  // ── BUILD — JULY 25 2026 (10 TRENDING + WEDDING STATIONERY) ─────────
+
+  {
+    id: "hipiwe-seagrass-storage-baskets",
+    title: "Hipiwe Set of 2 Woven Seagrass Storage Bins with Lid — Natural Coffee",
+    category: "home",
+    price: 23.90,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Hipiwe-Flat-Woven-Wicker-Storage/dp/B08GKMFWM7?dib=eyJ2IjoiMSJ9.CgAAW40z021MzecOIuqsuhSXMLe5HExB3z82MWf4jOgSP503mBvgYbTvfaeN48okk3EHj8q4-yr6d5MP16cWVU3QagjcZy1gZI8zBiTQkqcPWUC2qp2CIiztOYvdNPLBQajmbwikFiyC8BqsTGpPOyb3Bg90HB-AXYRJJLFRntOw4i1oX7eqhUJXp_iV4ok6_0PHsEijO5-o_OMtnxAl_4ylrDxCtSKETPy7a2EVP16TC7Vw_vfzAvH_Zqb_p2-98PtmkeoafDnWOT_C6tx6DhugC8xBkCQvcB9bOtbsgKs.tiKCPJjtfrA8Xs1JZtj0cntWIaYy2IeVf9uyFAGX5dI&dib_tag=se&keywords=Woven%2Bseagrass%2Bstorage%2Bbasket%2Bset%2Bof%2B2%2C%2Bnatural&nsdOptOutParam=true&qid=1784937062&sr=8-8&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=af05444d1d3fcfc13bf1f388d1bc1ff3&language=en_US&ref_=as_li_ss_tl",
+    image: "images/hipiwe-seagrass-storage-baskets.png",
+    subtitle: "I caught myself staring at this shelf for way too long.",
+    story: "I filled these seagrass bins with the stuff cluttering my kitchen counter and the whole corner looked different within five minutes. Woven lids, stackable, and they hide everything without looking like a bin at all. 2,000+ bought last month. Under $25 for the set, and it was in my cart before I finished my coffee.",
+    tags: ["Kitchen Organization", "Seagrass Basket", "Amazon Home Finds", "Under $25", "Woven Storage"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "ivoler-laptop-stand-riser",
+    title: "ivoler Adjustable Aluminum Laptop Stand — 6-Angle Foldable Riser, Fits 10-15.6\" Laptops",
+    category: "home",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Adjustable-Aluminum-Computer-Ergonomic-Compatible/dp/B07WBYCTNX?crid=1GBCKFVFKWVFI&dib=eyJ2IjoiMSJ9.gsTQ8peHiq6Ubac8Mui-aOlyTTS4-eFcIM7Zqi88dBSy-zQLQ89aR2oZW77OMVYU-IOGjlgS6UmabBSrBldxBIDMrpVZAnc2CrwCoB83bGxlubR5PqkT9udN0S5tbBy81Nuq0WItyPO1sk_bu0Gd_76IExncA_a9jINkRXIA_FZvcXr0rekXFuYt0sAy4QJtDBvIONKCxy28vRiigqbelvRGsBon_tOiEkmVmNv1CsU.2yfTQKQLusgMZxU3HrYoSHhBdcks8-uqu9RH80cgIZM&dib_tag=se&keywords=foldable-aluminum-laptop-stand&qid=1784936104&sprefix=foldable-aluminum-laptop-stand%2Caps%2C271&sr=8-2&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d35b88a99d60638c6509cb7359ded9ee&language=en_US&ref_=as_li_ss_tl",
+    image: "images/ivoler-laptop-stand-riser.png",
+    subtitle: "How my desk stopped looking like a laptop graveyard.",
+    story: "My desk always looked chaotic because my laptop just sat flat, cord tangled, screen too low to see without hunching. This aluminum stand folds down to nothing for travel and pops open to six different angles at home — my neck genuinely thanks me by the afternoon. Amazon Overall Pick, 27,000+ reviews, 400+ bought last month. Under $10, and it's the cheapest fix that's made the biggest difference to how my desk actually feels to sit at.",
+    tags: ["Home Office", "Desk Setup", "Amazon Home Finds", "Under $10", "Laptop Stand"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "rainbow-grout-pen-white",
+    title: "Rainbow Grout Pen White — Waterproof Tile Grout Restorer, Narrow Tip",
+    category: "home",
+    price: 8.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Grout-Pen-White-Ideal-Restore/dp/B006LMFJS4?dib=eyJ2IjoiMSJ9.N4Xat7DvZL4BxCUVPL8OcwMgeqizBW-y6322Ml_k0I0MIUCWB5EYhY5UFq0BHGc9zEVAafvq8Lo6wR5Z9Vn8tBSfGJhfh9RK7JMVg7fcujvPtyUQXy58Hu_g-W2cU2LSggqivadZ65fzgissv_e4V6hN5pPMplXVJv62QUnkDbH0HD1-PxD-1bYLf5b5pw6EvRgH15T23JVZvqOiC0ajoes8TX1Y_T8fO8xKCJHllb-smPZMJrs4rxSdr_GQA5xKR0xlVlzwhBYXEKWt5fqi-bTLbbFFaUoc7LI03iE-Qsc.pQRTnx59254puCfRz4ndEP1fz_873sEuRNanYQXhXjM&dib_tag=se&keywords=Tile%2Bgrout%2Brepair%2Bpen%2C%2Bwhite%2C%2Bwide%2B%2B%2Bnarrow%2Btip&nsdOptOutParam=true&qid=1784936782&sr=8-8&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=7568acb80fbf2581ff10ab47afa78469&language=en_US&ref_=as_li_ss_tl",
+    image: "images/rainbow-grout-pen-white.png",
+    subtitle: "The grout line that finally stopped embarrassing me.",
+    story: "My tile grout had gone from white to gray years ago and I'd genuinely accepted it as permanent. One pass with this pen and the line looked brand new — no scrubbing, no replacing anything, just paint it on and wipe the extra off. Amazon Overall Pick, 32,000+ reviews, 4,000+ bought last month. Under $10, and it's the cheapest renovation I've ever done.",
+    tags: ["Home Maintenance", "Grout Pen", "DIY Home", "Amazon Home Finds", "Under $10"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "codoule-no-drill-curtain-rod-brackets",
+    title: "Self-Adhesive No-Drill Curtain Rod Brackets — Adjustable, Renter Friendly, 2-Pack",
+    category: "renter",
+    price: 8.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Curtain-Rod-Brackets-Adjustable-Transparent/dp/B0CGM4JWHP?crid=3HPBBH8S6XRH5&dib=eyJ2IjoiMSJ9.c71DMk5VdHF4cE5stS3lFO-WhIkwg6wdrP9tWK3U_kxDH9hnJ5IcYz3P8i-_HkZlwiLvJ0t_NTvfQ6jMFvLj2M-Cpd_ZP2N00PTCiCPlGLNzcS35kORsjfBwaydd59f1cfDsTAQ7JRKDRkD7xvrOz6vqYuWvBE2dKbmAe3NZ6sQETWwUv8AvSxAVFjjd7frVfpEkAMvctniPZaebH2t0stEK5q_yJveUwWl2Nl1UyU0C--86G5ejWfMmxbqueMVuRAoUIR07_41aAz25zABYEFZg3eFsk2bJYD0w5kN0vLU.q5Y7ZGYXph6CdWDXydmLcsnWykgtiHJNyEt5Jk4pON4&dib_tag=se&keywords=No-drill%2Badhesive%2Bcurtain%2Brod%2Bbrackets%2C%2B2-pack&qid=1784937400&sprefix=foldable-aluminum-laptop-stand%2Caps%2C265&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=bf802db72fcb770c74f81c750077f772&language=en_US&ref_=as_li_ss_tl",
+    image: "images/codoule-no-drill-curtain-rod-brackets.png",
+    subtitle: "Curtains finally hang straight, and my deposit's still safe.",
+    story: "I've wanted proper curtains in this rental for two years and kept talking myself out of it because I didn't want to drill into the wall. These adhesive brackets hold a real curtain rod with zero holes — #1 Best Seller in the category, 30,000+ reviews. Under $10, and my landlord will genuinely never know.",
+    tags: ["Renter Friendly", "No Drill", "Curtain Hardware", "Amazon Home Finds", "Under $10"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "kakanuo-cordless-table-lamp-2pack",
+    title: "Kakanuo Cordless Rechargeable Table Lamp, 2-Pack — Touch Dimming, 3 Color Temps",
+    category: "home",
+    price: 19.98,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Cordless-Table-Lamp-Rechargeable-Black/dp/B0DJYBF17N?dib=eyJ2IjoiMSJ9.wuw14M2FQ3qYZ0_hRzNNqolCIzM5XTx1vNc2PepGdfMChxkKxdUYynUqYlJLrQa0OmAhOLveBr2Twi7DuAPoXwa-dey3i474Rjui592BZtNJY1N8upgGiVrkr5jPz3WEk1mkJO0-z5x0qw-xUbNNq3CjtLTvr6CmAXNOzO8lxKffE3lGL8YPgT2QVK_F0l-hF1_BzqQ6nrJyj_XOfQF3NlTHTyg-vq9Yabx_-6VxnMPDN5fSVe9BBdJcjBSBdmlwPbe1Zahh9dDoPf5TxU_IuhSef6IWDDj-SxELB-Uttmw.RIuOC8ADjDuiVlLkz8iwm-FF-Ci6_Mwi4VU_zoKUa_0&dib_tag=se&keywords=Cordless%2Brechargeable%2Btable%2Blamp%2C%2B2-pack%2C%2Bwarm%2B3000K%2C%2Btouch%2Bdim&nsdOptOutParam=true&qid=1784936953&sr=8-9&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d6314cc3750983e228ef7ad1670ff635&language=en_US&ref_=as_li_ss_tl",
+    image: "images/kakanuo-cordless-table-lamp-2pack.png",
+    subtitle: "The lamp that made 'no outlet nearby' stop being a problem.",
+    story: "My bedside corner had one harsh overhead light and nowhere to plug anything in without running a cord across the floor. These cordless lamps recharge on their own and switch between three warm tones with a single touch — no outlet required, anywhere in the room. Amazon's Choice, 9,000+ bought last month. Under $25 for the pair, and the whole room reads warmer the second they're on.",
+    tags: ["Renter Friendly", "Bedroom Lighting", "Cordless Lamp", "Amazon Home Finds", "Under $25"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "gushbin-brass-key-bowl-entryway",
+    title: "GUSHBIN 7.4-Inch Brass Key Bowl — Entryway Catchall Dish for Keys, Watch, AirPods",
+    category: "home",
+    price: 12.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/GUSHBIN-Entryway-Decorative-Organizing-Tabletop/dp/B0DRV2LZ89?dib=eyJ2IjoiMSJ9.xDZTr_t_Iz8ZODY44zKHqsdkVfsaxxV1SrSqbjclXjtWZUeYbfD_PzqucYcLXT0WSzEYcdGT9K4bNKvmdAuZ7U2Fw_2eQsUz2jF_plLEfjL4gRbpIQCtKINJbRJFYVIs3v2SVyU1iL3qwJfOQUIhPkik0C6L59mUDWXudydcH9o2NeovmUcTXrnGQZiFXXf3dnDKspJsIwx5ifVwBdH7g4NB6tH2CC94QVHR5vbQDA0iV1qLTTxVnTPiHY8apWJqU9QJU1u4gibiExOlk-61aXQWuH3BngBdaZkMhNSx2sE.-jlxMj-c73gVMsr5roRvdjUxW1b8rrOZ9O1YBN2OQwg&dib_tag=se&keywords=Wood%2Band%2Bbrass%2Bcatch-all%2Btray%2C%2Bkeys%2B%2B%2Bmail&nsdOptOutParam=true&qid=1784937189&sr=8-12&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f45a00946bc732f61d024e1d9dc0d068&language=en_US&ref_=as_li_ss_tl",
+    image: "images/gushbin-brass-key-bowl-entryway.png",
+    subtitle: "The dish that quietly ended my nightly key hunt.",
+    story: "My keys, my watch, my AirPods — all of it used to live wherever I dropped it when I walked in. This brass bowl sits on my entryway table now and everything has one home. Amazon's Choice, 1,000+ bought last month. Under $15, and it's the smallest thing that's made my entryway look the most put together.",
+    tags: ["Entryway Decor", "Home Organization", "Brass Decor", "Amazon Home Finds", "Under $15"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "hyhao-washable-runner-rug",
+    title: "2x6 Washable Runner Rug — Vintage Non-Slip Kitchen & Entryway Mat",
+    category: "home",
+    price: 16.69,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/2x6-Hallway-Washable-Runner-Rug/dp/B0D89V1RX1?dib=eyJ2IjoiMSJ9.l-JJ0YpSJ6eZSta-oBabgCj4v7sbyiVFOQ1gPwA0FR2pFteL2k34eUzGdN8VtlaZp4veVr9xkI3ipxupHZDXRuO-EzrrYyOBSXWMGOJuxTBn4OnD3INFpmgTasSHwsfGkFp922YzBPj5ffrOxTwWV-bgNvO40_8ymeSUu9IQQNJ9W9gTCw4HJJ5ThG3xcyylxMx0zckmVVm1UXdGsSZSrDOFcgOXCVrFFXlxIOLjItErA-4FRyQ7goV8pGF-1km3Gn_IRLdfYpTUxzC_gE7sqKlpTHIwRshRMaGDaDxkVTo.Srh-X2jADI-DuewI3SoQaqX3AQD6ruUIUfS1HfB-fdE&dib_tag=se&keywords=Machine-washable%2Bkitchen%2Brunner%2Brug%2C%2Blow%2Bpile%2C%2Bnon-slip&qid=1784936843&sr=8-5&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d52a7a99520a3208620169ad88cd81f9&language=en_US&ref_=as_li_ss_tl",
+    image: "images/hyhao-washable-runner-rug.png",
+    subtitle: "The floor mat that survives everything I've thrown at it.",
+    story: "My kitchen floor in front of the sink took a beating every day and looked it. This runner is fully machine washable, has a non-slip backing so it doesn't slide when I'm cooking, and somehow still looks like a real vintage rug instead of a mat. 7,000+ bought last month. Under $25, and it's survived every spill I've thrown at it so far.",
+    tags: ["Kitchen Decor", "Washable Rug", "Renter Friendly", "Amazon Home Finds", "Under $25"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "bentgo-modern-bento-lunch-box",
+    title: "Bentgo Modern Adult Bento Lunch Box — Leak-Resistant, 3-4 Compartments",
+    category: "home",
+    price: 37.99,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/Bentgo%C2%AE-Modern-Leak-Resistant-Compartments-Dishwasher/dp/B08R6CBLZS?crid=19J6KN2UQ3K09&dib=eyJ2IjoiMSJ9.AGqcBeZHDJG-hemBWdiCFUvsoWXuJbgYSs4kkgXeacCvR1r2TXTVMRcFoFpW54sfI60p9wDM6ol0_R20Vom1_8KwfIKDCo33sU2es8LNQTcyxaHAb6G0Tzlp84LUFNCbKPw6c6IE8ITsYuDQ5x1Uv71vi3bTi9n_ZIv2xbgGVrB0aLB9hQS0L05AGJlK2d0XYnvWbwrMF4u58lXczxhOyMU8c1c6K7Mruoqu519pDf_uzB3XapQQhs7qGUlesWw7xNXXyjY1iWGmOuRPiQSJNhQFlHaKoDYXSVxrrZIjc3U.I-PUOBAjzcFvuBm2KaNj0yqs5S8LNTmK5Ubrb8wRt5I&dib_tag=se&keywords=Bentgo%2BModern%2Badult%2Bbento%2Blunch%2Bbox%2C%2B3%2Bor%2B4%2Bcompartment&nsdOptOutParam=true&qid=1784936619&sprefix=bentgo%2Bmodern%2Badult%2Bbento%2Blunch%2Bbox%2C%2B3%2Bor%2B4%2Bcompartment%2B%2Caps%2C247&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=c257f0daa56177ba79d4fe3ecf43192f&language=en_US&ref_=as_li_ss_tl",
+    image: "images/bentgo-modern-bento-lunch-box.png",
+    subtitle: "Lunch stopped being the thing I dreaded packing.",
+    story: "Packing lunch used to mean a sad sandwich in a plastic bag because I didn't have anything that made it feel worth the effort. This bento box has real compartments, seals completely leak-proof, and goes straight in the microwave or dishwasher after. Overall Pick, 5,000+ reviews. Under $40, and my lunch routine looks completely different because of it.",
+    tags: ["Kitchen Organization", "Bento Box", "Meal Prep", "Amazon Home Finds", "Under $40"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "tebery-under-shelf-basket-4pack",
+    title: "Tebery 4-Pack Black Under Shelf Wire Baskets — Hanging Storage for Kitchen Pantry Desk",
+    category: "home",
+    price: 25.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Tebery-Hanging-Storage-Organizer-Bookshelf/dp/B09K7FWQLG?crid=FVYZMN5J8BFM&dib=eyJ2IjoiMSJ9.gZNrBquh-_rfdfd5ky1_aAA3dm5jJcub2aC83H_j2QaldjTlie42jZI5yP-g9gwiH_TbtxU856iaHa2yKgoCMCa29EiQ7LbJKTHrZaEyNXzk2HJT4Cxf6x9U4vht2OQnBvzqMrxyQqNcYILJ_0AepW7FxTwml_qKOCCTNC9nsUtqlHrapbMT2nbVTKQ1zbku0m9VzHo0dbGLTl2OHbh1NZJHskiclc3YVaToEyfKJyJoEvu_lFXcBvKRm1Fx-TMZ5ysRVSxtn7KbRlioYks5n8UStHpNikHV9rBmIgzKjfs.0rYYkYK8BWpM8R-ihbb5SHgY8ZkFtG87MsOYbNT0X5I&dib_tag=se&keywords=Under-shelf%2Bhanging%2Bbasket%2Bset%2C%2B4-pack%2C%2Bcabinet&qid=1784937513&sprefix=under-shelf%2Bhanging%2Bbasket%2Bset%2C%2B4-pack%2C%2Bcabinet%2Caps%2C412&sr=8-8&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=91fe354e5db542fcca96881b46ee7808&language=en_US&ref_=as_li_ss_tl",
+    image: "images/tebery-under-shelf-basket-4pack.png",
+    subtitle: "The shelf space I didn't know my cabinet had.",
+    story: "My cabinet under the sink was a stack of things sliding into other things every time I opened the door. These four wire baskets hang right off the shelf edge — no drilling, no tools — and suddenly I have a whole extra layer of storage I didn't know I had. Amazon Overall Pick, 1,600+ reviews. Under $30, and it's the kind of upgrade you don't think about until you actually have it.",
+    tags: ["Kitchen Organization", "Under Shelf Storage", "Amazon Home Finds", "Under $30", "Cabinet Storage"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "beauty-of-joseon-relief-sun",
+    title: "RELIEF SUN Korean Sunscreen SPF50+ PA++++ — Rice & Probiotics",
+    category: "beauty",
+    price: 18.85,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/sunscreen-Probiotics-Solution-TypesNourishing-Protection/dp/B0G4Z5G1NT?dib=eyJ2IjoiMSJ9.GDk_LMmvH-7nbkUlGLjjGdebsMlSqLRPUvuffLn6NwndpaMqG6f-g9LEuqJY3obBMisj5905_cuJQrGy0ZqFd3Z3TVRddgvBnyAqd9i0Rj7rPGuTWlNGX09v7KWiXC_k8D8ilq4hpWvMA7GgatoCalp3_3Lqb3wk91UNnL0oOLXpYfq0kwjd9Xg5S1NyFMQxJjsmlYD61nUyElkxQJOrYRDi14Ir8Jb6xSsAfrTyb1BodSw8pNzSJLZHC3MxNNwpoSabtg-PyVdF3uHW8oVBnrHB-AlEW4mjBaqVQsWsL7I.goEWSmn7xjKP5xUs2ftxYWuHBD0bqB65nnUgRsl3Rms&dib_tag=se&keywords=Beauty+of+Joseon+Relief+Sun+SPF+50%2B+%28Rice+%2B+Probiotics%29&nsdOptOutParam=true&qid=1784936694&sr=8-1&linkCode=ll2&tag=nestandpaws-20&linkId=ac231ebd3d1ecd6132cca16166971bac&language=en_US&ref_=as_li_ss_tl",
+    image: "images/beauty-of-joseon-relief-sun.png",
+    subtitle: "The sunscreen that disappeared instead of sitting on top.",
+    story: "I've tried more sunscreens than I want to admit that either left a white cast or felt heavy by midday. This one absorbs in seconds, layers under makeup without pilling, and I stopped noticing I was wearing sunscreen at all. 10,000+ bought last month. Under $20, and it's the first one that's actually stuck in my routine.",
+    tags: ["Skincare", "Korean Skincare", "SPF", "Amazon Beauty Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
+
+  {
+    id: "ourholiday-acrylic-wedding-table-numbers",
+    title: "Gold Mirrored Acrylic Wedding Table Numbers 1-10 — Self-Standing Arched Signs",
+    category: "seasonal",
+    price: 26.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Mirrored-Acrylic-Self-Standing-Reception-Anniversary/dp/B0FVFD8QQF?crid=1CGSQ6KNIFCI5&dib=eyJ2IjoiMSJ9.BXql7smVEhcDbX8YY9HGNQ-5OqYFAah6e68uezRMSFTOymEjPmJtDywqK2qALJ77ivUBlFzA5PoILRB2O47W_ERQd0BuaR85MZpAJq9xijC85TRqa_no3IqO-nBRzq-K4jjbbaaRYU7XPbyDLQokBzMnYvcpvYapmg4ObbhAhR2xCcieB16hDC-YPv9o-4626r2KIHUEbYUmdUMUNbbejxTC-uCBAtac4CfARoFD6kc.Am5r3mEuMIzSb_ZTkQJMgR3hJ44vAxtocA48VcegAwI&dib_tag=se&keywords=Acrylic%2Barch%2Btable%2Bnumbers%2B1-10%2Bwith%2Bgold%2Bstands&nsdOptOutParam=true&qid=1784936501&sprefix=acrylic%2Barch%2Btable%2Bnumbers%2B1-10%2Bwith%2Bgold%2Bstands%2Caps%2C749&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=b37ebd9b6c2f4464892ccb71e9c9833e&language=en_US&ref_=as_li_ss_tl",
+    image: "images/ourholiday-acrylic-wedding-table-numbers.png",
+    subtitle: "The detail nobody expected me to handle myself.",
+    story: "I was dreading the table number decision more than almost anything else on the planning list — everything looked either too plain or too much. These mirrored acrylic arches catch the light at every place setting and look genuinely designed, not printed. 4.9 stars, 100+ bought last month. Under $30, and it's the detail everyone at the reception actually asks about.",
+    tags: ["Wedding Decor", "Wedding Stationery", "Table Numbers", "Amazon Home Finds", "Under $30"],
+    badge: null,
+    date_added: "2026-07-25"
+  },
   // ── BUILD — JULY 14 2026 (BATCH 2) ──────────────────────────────────
   {
     id: "osivaex-laundry-rolling-cart",
