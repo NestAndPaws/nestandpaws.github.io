@@ -633,7 +633,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/dp/B077VLKTYH?_encoding=UTF8&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=35212ca9dcd652af8642d702b77d8f25&language=en_US&ref_=as_li_ss_tl",
     image: "images/oxo-pop-pantry-canister.png",
     subtitle: "My pantry finally looks like the photos I've been saving for three years.",
-    story: "I'd been saving pantry organization photos for years and never doing anything about it because it felt overwhelming. Started with one OXO canister for my oats and it was done in five minutes — the push-button lid seals and pops with one touch, it's completely airtight, and suddenly my shelf looks intentional. I ended up buying six. Under $15 each, ships Prime. The before and after of my pantry shelf is genuinely embarrassing.",
+    story: "I'd been saving pantry organization photos for years and never doing anything about it because it felt overwhelming. Started with one OXO canister for my oats and it was done in five minutes — the push-button lid seals and pops with one touch, it's completely airtight, and suddenly my shelf looks intentional. I ended up buying six. Under $15 each. The before and after of my pantry shelf is genuinely embarrassing.",
     tags: ["Kitchen Organization", "Pantry Storage", "OXO", "Amazon Kitchen Finds", "Under $15", "Airtight Container"],
     badge: "IMPULSE BUY",
     date_added: "2026-06-26"
@@ -648,7 +648,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/BIODANCE-Refreshing-Overnight-Hydrogel-Calming/dp/B0DR7P1TKL?crid=26DHT4TBHD81C&dib=eyJ2IjoiMSJ9.h2i0eeAZfU9Vi6t89dK_M6dSMno8FXEU44R7D2OGMe-nC_zKeBfgfvxgELQu38x4HXXaKARi6XJCAxD3cLjeVJ-H2pUqKGjUqrLmYZOwLWTm3HBouIzfJNyn5MZ0mjHhAMUZhWnuXfWlERPRDBWwWoZmLxZdNFGcQ3BRv_3pCdPhAyT0cpWG83AjXWBeQEI8hoowjFfU-hPG4i_qONrA9kKTENbDFA8BbRZFybxDLTo28bKsvLBgjKbdd8K4aibf9wINpsN2bNMoJvcLQrVoBjcOeQbnjvWmNEUpq0l3CVk.72ggLN1G7oRJoTp0enpnJbUgFoscMlXMX-pXouALnUQ&dib_tag=se&keywords=Biodance%2BBio-Collagen%2BReal%2BDeep%2BMask&qid=1782516730&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f1bc1ce3ddde2b718cd1e9b856acbd9c&language=en_US&ref_=as_li_ss_tl",
     image: "images/biodance-collagen-mask.png",
     subtitle: "My skin looked like I'd had a facial. I did it on a Tuesday night.",
-    story: "I found this in a K-beauty rabbit hole at 11pm and ordered it immediately. You wear it for 3 hours or overnight and when you peel it off your skin is genuinely different — plumper, softer, that glass-skin look I'd only seen in editing. It was #6 on Amazon Beauty's bestseller list in Q1 2026 for a reason. Four masks per box, under $20, ships in two days with Prime. I clicked add to cart in under a minute.",
+    story: "I found this in a K-beauty rabbit hole at 11pm and ordered it immediately. You wear it for 3 hours or overnight and when you peel it off your skin is genuinely different — plumper, softer, that glass-skin look I'd only seen in editing. It was #6 on Amazon Beauty's bestseller list in Q1 2026 for a reason. Four masks per box, under $20. I clicked add to cart in under a minute.",
     tags: ["Skincare", "K-Beauty", "Sheet Mask", "Amazon Beauty Finds", "Under $20", "Collagen Mask", "Glass Skin"],
     badge: "IMPULSE BUY",
     date_added: "2026-06-26"
@@ -663,7 +663,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/lenify-Grasscloth-Wallpaper-118-1inch-Removable/dp/B0B2WFRQZ2?crid=604AGWF8AAMN&dib=eyJ2IjoiMSJ9.wi2NyIjz3IDDhmjwyHd7sYggD1nKTFN62bMnu5s8vAzJUx6Db_7VsX2K_NKkQfAA8EFSCGL2IMw40Xw2m2BVHQnX4fN7_Pj2IDB8R5G6mmzzULrWeaYiK81EwbOISbpwKDXe3NuOR7dYX83qbjAVTQ85lthKlDbaAhGi2ujXSXy1KCBMQ5eikfpSk_ihi7o5uIi_KtS4BA9LX4QhgazFTGsygGeIWtkWaOol6qFqpXJJpQdRHdrIi4xMTr3AQkOOB3cJTi4PPwqfJ_19cqgpKN1OLtZyXUqjRNcXZE5O9q4.nc5al0-PrWQ_rA6QGc2CZEuivRQ21lwsJSveSv45ufo&dib_tag=se&keywords=Zeeko%2BFabric%2BPeel%2B%26%2BStick%2BWallpaper%2B%E2%80%94%2BNeutral%2BLinen%2FCream%2BAccent%2BWall&nsdOptOutParam=true&qid=1782516588&refinements=p_36%3A-2600&rnid=1243644011&sprefix=zeeko%2Bfabric%2Bpeel%2B%26%2Bstick%2Bwallpaper%2Bneutral%2Blinen%2Fcream%2Baccent%2Bwall%2Caps%2C201&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=c1be19eef61a59cc23c6ed9577352064&language=en_US&ref_=as_li_ss_tl",
     image: "images/lenify-grasscloth-wallpaper.png",
     subtitle: "My bedroom went from rental beige to something I actually designed.",
-    story: "I'd been staring at the same flat beige wall for two years. This grasscloth peel-and-stick went up in one afternoon — no tools, no paste, no damage. The woven linen texture adds actual dimension to the wall and it photographs so beautifully I've rearranged my whole bedroom around it. Fully removable when I move out. Under $30 per roll, ships Prime. My landlord has no idea and I have no plans to tell them.",
+    story: "I'd been staring at the same flat beige wall for two years. This grasscloth peel-and-stick went up in one afternoon — no tools, no paste, no damage. The woven linen texture adds actual dimension to the wall and it photographs so beautifully I've rearranged my whole bedroom around it. Fully removable when I move out. Under $30 per roll. My landlord has no idea and I have no plans to tell them.",
     tags: ["Renter Friendly", "Peel and Stick Wallpaper", "Accent Wall", "Amazon Home Finds", "Under $30", "Grasscloth", "Bedroom Decor"],
     badge: null,
     date_added: "2026-06-26"
@@ -757,7 +757,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Vtopmart-Stackable-Organizer-Supplies-Organization/dp/B0CXLK9PJ9?crid=2VC28CKATLL1J&dib=eyJ2IjoiMSJ9.O6AuaT95iLQtNTi60qVrvWZRoacORTLk4ajAAn_Bt-PFA0YQ7tEnmaEKNR4oBqNjlKQ9qH_gGRfsrNoZfuG7mrnuUSMwyCyfnfwjaMtPEwwT3LARzZ9mqy6ChXG0RTOnKlkPoK6PNBZjtKLSnAGYKVMUXw_1Z_2hwcggwSpYFsAB1iU75N_ksIRxEFVdq6uYGM1bmFSxwWE0wAeYp1RScAfM9F1mNVC0qnvyW37lYaHr8cmks3pypMDgGFlR1nsQLvW9gv6KyMUU8tsCzHFL3-c6KKaZlgtjHKiUd0ccujg.wmo4xRJylU_Ilyb0NvRBcsElUA4skIhmTZQbj4PEn4Q&dib_tag=se&keywords=Vtopmart%2BClear%2BStackable%2BPantry%2BBins%2B%28set%2Bof%2B6%29&nsdOptOutParam=true&qid=1782217593&sprefix=vtopmart%2Bclear%2Bstackable%2Bpantry%2Bbins%2Bset%2Bof%2B6%2B%2Caps%2C196&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=bb6d9e59152e6095254d4a3187e648ce&language=en_US&ref_=as_li_ss_tl",
     image: "images/vtopmart-stackable-drawers.png",
     subtitle: "My vanity finally looks like it belongs in a magazine.",
-    story: "I'd been buying organisers for years and nothing ever stuck — until I got these clear stackable drawers. Everything is visible at a glance, the drawers pull out smoothly, and the whole tower actually looks beautiful on the countertop instead of something I'm trying to hide. My cotton rounds, hair clips, and lipsticks finally have a home. Ships in two days with Prime. Under $50 and it changed my whole getting-ready routine.",
+    story: "I'd been buying organisers for years and nothing ever stuck — until I got these clear stackable drawers. Everything is visible at a glance, the drawers pull out smoothly, and the whole tower actually looks beautiful on the countertop instead of something I'm trying to hide. My cotton rounds, hair clips, and lipsticks finally have a home. Under $50 and it changed my whole getting-ready routine.",
     tags: ["Home Organization", "Vanity Organizer", "Clear Drawers", "Amazon Home Finds", "Under $50"],
     badge: null,
     date_added: "2026-06-23"
@@ -787,7 +787,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Arm-Hammer-Complete-Flavorless-Brushless/dp/B08QJMZPNH?crid=2LY87NRPDA3KL&dib=eyJ2IjoiMSJ9.4pKUSJ4dQNPqyegAZuehFzEwME7Sp1byoZsBxCytOd6PugxvSn4EzgQBQ-kDClI9sD3qbNFPQhfEH3w&tag=nestandpaws-20",
     image: "images/arm-hammer-dental-water.png",
     subtitle: "His breath went from something I avoided to something I barely notice.",
-    story: "I kept putting off dealing with my dog's breath because brushing felt like a battle neither of us wanted. This goes straight into the water bowl — odorless, flavorless, he doesn't even notice it. After two weeks his breath was genuinely different and the vet commented on his teeth at the last checkup. Under $10, ships Prime, lasts about a month. The easiest pet health habit I've ever actually kept.",
+    story: "I kept putting off dealing with my dog's breath because brushing felt like a battle neither of us wanted. This goes straight into the water bowl — odorless, flavorless, he doesn't even notice it. After two weeks his breath was genuinely different and the vet commented on his teeth at the last checkup. Under $10, lasts about a month. The easiest pet health habit I've ever actually kept.",
     tags: ["Dog Mom", "Pet Care", "Dog Dental", "Amazon Pet Finds", "Under $10"],
     badge: "IMPULSE BUY",
     date_added: "2026-06-23"
@@ -802,7 +802,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/EZVALO-Operated-Rechargeable-Wireless-Dimmable/dp/B0G441XVQJ?crid=YE81TM8HK4AZ&dib=eyJ2IjoiMSJ9.lNZBbdG8yG2mBbV18xBmilqPh7UnuEWgVw-q_E5BVSEOsK3vUfrfk3R7Kw8cer7scOh6zChV6zZEbfvs47heLrNpDQbNbYl8Z1UsnlGEbFYcWqptg_16fe8BsWtRr6DBDQJV8VZBrZ-80g68Usi44WuaQt3XFZP87iQBMZqsWvPde4WupAnm1fAgZmNUWPUMJW841FnSq0Jqh2oZa0KZ3Tn-X9tLSwD6mTapJo3RrKRCgBIv_e0IMp8Q3NyNlpLnDB0cy_qWSxF6Lo6njWzdYjCp4HmllduokrzJxNSyK4.pPVGtWPaukMClfm77D9AjB9T6EVFYjjlRhQSzAOndVA&tag=nestandpaws-20",
     image: "images/ezvalo-wall-sconces.png",
     subtitle: "My bedroom finally feels like a hotel room. Zero drilling.",
-    story: "I'd wanted wall sconces for years but assumed they meant an electrician and landlord approval. These peel and stick directly to the wall, recharge via USB, and come with a remote to dim them from bed. The fabric linen shade makes them look genuinely expensive — nothing like a battery-operated light should look. My bedroom went from a harsh overhead light situation to something I actually want to spend time in. Under $40 for a pair. Ships Prime.",
+    story: "I'd wanted wall sconces for years but assumed they meant an electrician and landlord approval. These peel and stick directly to the wall, recharge via USB, and come with a remote to dim them from bed. The fabric linen shade makes them look genuinely expensive — nothing like a battery-operated light should look. My bedroom went from a harsh overhead light situation to something I actually want to spend time in. Under $40 for a pair.",
     tags: ["Renter Friendly", "Bedroom Lighting", "No Drill", "Amazon Renter Finds", "Wall Sconce"],
     badge: null,
     date_added: "2026-06-23"
@@ -817,7 +817,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/iSPECLE-Under-Bathroom-Sink-Organizer/dp/B0DPKRGTCY?crid=321G40W9HX5OR&dib=eyJ2IjoiMSJ9.g5K9fmDmYz7sE_oe4bWhfvxyBPrFlC9gEAFaiXPPwO6scDWaeUcn7QYXBI32552x7Z7M0euiEFnU1hEsnrpJYxFqrUgWF0-3VgRgQ8i3viTrJxweM3UP-3c2jMGHz8PxBKMeGPXihh_Zv3UYklqndD4wHXNTEe8ahlKuMjSPkZpUuR0T0HhkRaC8TX0K80MPvYYxQnfvZVPX0J905kV0Nia7WyHk2pyukJMhTznjMEh5JrPvDtJH-jeC4SQSDg_bwsjEj2nRnorXGIuf5JB4LvG4LvbutZXiEAFcF1Yq86E.2ivAFLtsBd5Up3BdClQ_2WRBCmF0kbJdlXYRIczwwjY&tag=nestandpaws-20",
     image: "images/ispecle-under-sink-organizer.png",
     subtitle: "Opened the cabinet and actually knew where everything was.",
-    story: "My under-sink cabinet was a black hole — spray bottles falling over, sponges everywhere, no system at all. This 2-tier expandable shelf fits around the pipes and instantly doubles the usable space. Adjustable width fits cabinets from 22 to 32 inches, no tools required. I can actually see and reach everything on both levels now. Under $20, ships Prime, and took about three minutes to set up. One of those purchases I keep wondering why I waited so long to make.",
+    story: "My under-sink cabinet was a black hole — spray bottles falling over, sponges everywhere, no system at all. This 2-tier expandable shelf fits around the pipes and instantly doubles the usable space. Adjustable width fits cabinets from 22 to 32 inches, no tools required. I can actually see and reach everything on both levels now. Under $20, and took about three minutes to set up. One of those purchases I keep wondering why I waited so long to make.",
     tags: ["Home Organization", "Kitchen Storage", "Under Sink", "Amazon Home Finds", "Under $20"],
     badge: null,
     date_added: "2026-06-23"
@@ -832,7 +832,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Vtopmart-Organizers-Versatile-Organizer-Jewelries/dp/B08KXKVT4K?crid=2OQ88926M1LY&dib=eyJ2IjoiMSJ9.jy7zJ3AZf47KLE8VZoivqg-rKVQG-6phrxQcYVJrl5fYeRFrAJTbl32jAetGbNF-44o2bvuTLpFLYfU9wuNEcH0Yym9dXH_hv8oYSCpta6RElYssPFPKeUyS-vHZKRhfxfuvazMbIe2xugyqABudj96G58FrRPfUObbLXB-B9cZZAh51C3B9GMCGjR-1eh1-zpy6xYu8v1cYKSMOPwZqni8gsSkdeUGEoDHhYDiVbXliItBZXQBnmZdhFnJMc0jzlV2ut8LcnjkM.N6TVH1CqDIlgny_53xZlAPtBPKekEkY25dvAU_o34LY&tag=nestandpaws-20",
     image: "images/vtopmart-drawer-organizers.png",
     subtitle: "I reorganised three drawers in one afternoon and haven't looked back.",
-    story: "Every junk drawer I've ever had was basically a black hole. These 25 clear trays in 4 sizes finally gave everything a slot — cutlery, spices, hair clips, rubber bands, all of it. The clear plastic means you can see exactly what's where without digging. 30,000 people buy these every month on Amazon and now I understand why. Amazon's Choice, under $25, ships in two days with Prime. I clicked add to cart in under a minute.",
+    story: "Every junk drawer I've ever had was basically a black hole. These 25 clear trays in 4 sizes finally gave everything a slot — cutlery, spices, hair clips, rubber bands, all of it. The clear plastic means you can see exactly what's where without digging. 30,000 people buy these every month on Amazon and now I understand why. Amazon's Choice, under $25. I clicked add to cart in under a minute.",
     tags: ["Home Organization", "Drawer Organizer", "Kitchen Storage", "Amazon Home Finds", "Under $25"],
     badge: "IMPULSE BUY",
     date_added: "2026-06-23"
@@ -940,8 +940,8 @@ const PRODUCTS = [
     price_bracket: "Under $15",
     affiliate_link: "https://www.amazon.com/Management-FLYLEAD-Workspaces-Organization-Accessories/dp/B0F9KGWG46?linkCode=ll2&tag=nestandpaws-20&linkId=a26e1e755c92448e7df1117cdc56e049&language=en_US&ref_=as_li_ss_tl",
     image: "images/flylead-cable-clips.png",
-    subtitle: "Spent $10. Desk went from chaos to clean in fifteen minutes.",
-    story: "Cable clutter is the thing that makes even a nice desk setup look messy — and I ignored it for way too long. These FLYLEAD magnetic clips stick to the desk edge or side panel, hold your charging cables and cords in place, and release in one motion when you need them. At $9.99 for a full set, it's the highest-ROI desk upgrade I've found. No velcro, no zip ties, no sticky residue when you move them. My setup genuinely looks like a different desk now.",
+    subtitle: "My desk went from chaos to clean in fifteen minutes.",
+    story: "Cable clutter is the thing that makes even a nice desk setup look messy — and I ignored it for way too long. These FLYLEAD magnetic clips stick to the desk edge or side panel, hold your charging cables and cords in place, and release in one motion when you need them. At this price, it's the highest-ROI desk upgrade I've found. No velcro, no zip ties, no sticky residue when you move them. My setup genuinely looks like a different desk now.",
     tags: ["Cable Management", "Home Office", "Desk Setup", "Work From Home", "Under $15"],
     badge: null,
     date_added: "2026-06-16"
@@ -971,7 +971,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Quntis-Backlight-Temperature-Adjustable-Brightness/dp/B0C5JMWZC9?linkCode=ll2&tag=nestandpaws-20&linkId=23e17ba9b26d04ff9c9504116fae410d&language=en_US&ref_=as_li_ss_tl",
     image: "images/quntis-monitor-light-bar.png",
     subtitle: "Eye strain I'd normalized for two years. Gone in a week.",
-    story: "I work late most nights and never thought about how harsh the contrast was between my bright monitor and a dark room — until I got this light bar and realized I'd been squinting for two years. The Quntis mounts on top of the monitor with no screws, auto-dims when the room gets brighter, and the warm/cool temperature setting means it actually works for video calls too. It's under $35, ships Prime, and the difference on calls is immediately noticeable. One of those purchases that makes you wonder why you waited.",
+    story: "I work late most nights and never thought about how harsh the contrast was between my bright monitor and a dark room — until I got this light bar and realized I'd been squinting for two years. The Quntis mounts on top of the monitor with no screws, auto-dims when the room gets brighter, and the warm/cool temperature setting means it actually works for video calls too. It's under $35, and the difference on calls is immediately noticeable. One of those purchases that makes you wonder why you waited.",
     tags: ["Monitor Light Bar", "Home Office", "Desk Lighting", "Work From Home", "Under $35"],
     badge: null,
     date_added: "2026-06-16"
@@ -1003,7 +1003,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/DESOMINOR-Wallpaper-Removable-Waterproof-Bathroom/dp/B0BZPPH94G?linkCode=ll2&tag=nestandpaws-20&linkId=bb1aa853dc524c4f7fefe0468bb9a48b&language=en_US&ref_=as_li_ss_tl",
     image: "images/desominor-mirror-border.png",
     subtitle: "My bathroom mirror looks like it came with the frame. It didn't.",
-    story: "That flat frameless builder-grade mirror was the first thing I noticed when I moved in and I hated it immediately. This flexible self-adhesive black wood grain border tape pressed right around the edge in under 15 minutes — no tools, no measuring experience needed, cuts with regular scissors. Fully waterproof and removable with no wall damage. Ships in two days with Prime. Under $10 and it changed the whole bathroom.",
+    story: "That flat frameless builder-grade mirror was the first thing I noticed when I moved in and I hated it immediately. This flexible self-adhesive black wood grain border tape pressed right around the edge in under 15 minutes — no tools, no measuring experience needed, cuts with regular scissors. Fully waterproof and removable with no wall damage. Under $10 and it changed the whole bathroom.",
     tags: ["Renter Friendly", "Bathroom DIY", "Amazon Home Finds", "Under $10", "Peel and Stick"],
     badge: "IMPULSE BUY",
     date_added: "2026-06-14"
@@ -1018,7 +1018,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Command-Heavyweight-Picture-Organization-Adhesive/dp/B0B3SR5M71?linkCode=ll2&tag=nestandpaws-20&linkId=dab7d6dd6e684b1d45572a164bc529bf&language=en_US&ref_=as_li_ss_tl",
     image: "images/command-picture-strips.png",
     subtitle: "Every frame is level, every wall is still intact.",
-    story: "I've hung probably 12 frames with these and not a single nail hole, not a single fallen picture. The heavyweight version holds up to 20 lbs which covers every canvas, mirror, and print I own. I use them in every room of my rental — bedroom gallery wall, bathroom shelf, entryway prints. They peel off clean when you move out. Ships in two days with Prime. Under $20 for 16 pairs and they genuinely last.",
+    story: "I've hung probably 12 frames with these and not a single nail hole, not a single fallen picture. The heavyweight version holds up to 20 lbs which covers every canvas, mirror, and print I own. I use them in every room of my rental — bedroom gallery wall, bathroom shelf, entryway prints. They peel off clean when you move out. Under $20 for 16 pairs and they genuinely last.",
     tags: ["Renter Friendly", "Gallery Wall", "Amazon Home Finds", "Under $20", "No Damage"],
     badge: null,
     date_added: "2026-06-14"
@@ -1033,7 +1033,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/DEWOO-Backsplash-Kitchen-Bathroom-Marble/dp/B0D1G7613Y?linkCode=ll2&tag=nestandpaws-20&linkId=24b0f672e64b719518a24518a0c2f76b&language=en_US&ref_=as_li_ss_tl",
     image: "images/dewoo-marble-backsplash.png",
     subtitle: "My kitchen looks like it was professionally tiled. It took one afternoon.",
-    story: "My rental kitchen had plain white walls behind the stove and it always looked unfinished. I put up these marble grey 3D peel-and-stick tiles in one afternoon with no tools — peel, stick, press. The 3D beveled edge catches the light and looks genuinely real. Amazon's Choice, 4.4 stars, 684 reviews. Fully removable so no landlord drama. 10 sheets covers a standard backsplash area. Ships in two days with Prime. Under $30.",
+    story: "My rental kitchen had plain white walls behind the stove and it always looked unfinished. I put up these marble grey 3D peel-and-stick tiles in one afternoon with no tools — peel, stick, press. The 3D beveled edge catches the light and looks genuinely real. Amazon's Choice, 4.4 stars, 684 reviews. Fully removable so no landlord drama. 10 sheets covers a standard backsplash area. Under $30.",
     tags: ["Renter Friendly", "Kitchen Backsplash", "Amazon Home Finds", "Under $30", "Peel and Stick"],
     badge: null,
     date_added: "2026-06-14"
@@ -1048,7 +1048,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Oqqlin-Self-Adhesive-Flexible-Decorative-Bathroom/dp/B0GRV21FQC?linkCode=ll2&tag=nestandpaws-20&linkId=6e0adbb65bac78c804c626af13470667&language=en_US&ref_=as_li_ss_tl",
     image: "images/oqqlin-mirror-molding.png",
     subtitle: "My landlord thought I replaced the mirror. I just framed it.",
-    story: "That flat frameless bathroom mirror was the first thing I noticed when I moved in and I hated it immediately. This flexible self-adhesive trim pressed right around the edge in under 10 minutes — no tools, no measuring experience needed, cuts with regular scissors. Available in white, gold, and champagne. Mine is white and it looks like actual molding. Fully waterproof. Ships in two days with Prime. Under $15 and it changed the whole bathroom.",
+    story: "That flat frameless bathroom mirror was the first thing I noticed when I moved in and I hated it immediately. This flexible self-adhesive trim pressed right around the edge in under 10 minutes — no tools, no measuring experience needed, cuts with regular scissors. Available in white, gold, and champagne. Mine is white and it looks like actual molding. Fully waterproof. Under $15 and it changed the whole bathroom.",
     tags: ["Renter Friendly", "Bathroom DIY", "Amazon Home Finds", "Under $15", "Mirror Upgrade"],
     badge: null,
     date_added: "2026-06-14"
@@ -1063,7 +1063,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/EZVALO-Cabinet-Lighting-Rechargeable-Dimmable/dp/B0D25JS2MX?linkCode=ll2&tag=nestandpaws-20&linkId=cb9b6a8ec9add5f323bb919066ff0535&language=en_US&ref_=as_li_ss_tl",
     image: "images/ezvalo-led-puck-lights.png",
     subtitle: "My kitchen looks like a completely different room after dark.",
-    story: "I never realised how dark my counters were until I put these under the cabinets. Six rechargeable puck lights, no wiring, no drilling — they stick on magnetically and charge via USB. Three colour temperatures so you can go warm for evenings or bright for cooking. The motion sensor option means they come on when I walk into the kitchen at night. Ships in two days with Prime. Under $35 for the whole set and it genuinely looks like a renovation.",
+    story: "I never realised how dark my counters were until I put these under the cabinets. Six rechargeable puck lights, no wiring, no drilling — they stick on magnetically and charge via USB. Three colour temperatures so you can go warm for evenings or bright for cooking. The motion sensor option means they come on when I walk into the kitchen at night. Under $35 for the whole set and it genuinely looks like a renovation.",
     tags: ["Renter Friendly", "Kitchen Lighting", "Amazon Home Finds", "Under $35", "No Drill"],
     badge: null,
     date_added: "2026-06-14"
@@ -1095,7 +1095,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Housolution-Organizer-Expandable-Adjustable-Dividers/dp/B0CQR9NXB2?crid=37RC1XRM80UGV&linkCode=ll2&tag=nestandpaws-20&linkId=32cf4fe9bbc5942d68769210215beb2d&language=en_US&ref_=as_li_ss_tl",
     image: "images/cabinet-organizer.png",
     subtitle: "My pantry finally looks like the Pinterest photos I've been saving.",
-    story: "My cabinets were a stack of plates and cutting boards threatening to avalanche every time I opened the door. These expandable wire dividers fit right onto the shelf and now everything has its own slot — plates upright, trays separated, nothing sliding around. Ships in two days with Prime and took about five minutes to set up. Under $25 and it's the small fix that made the biggest difference.",
+    story: "My cabinets were a stack of plates and cutting boards threatening to avalanche every time I opened the door. These expandable wire dividers fit right onto the shelf and now everything has its own slot — plates upright, trays separated, nothing sliding around. It took about five minutes to set up. Under $25 and it's the small fix that made the biggest difference.",
     tags: ["Kitchen Organization", "Pantry", "Amazon Home Finds", "Under $25", "Cabinet Storage"],
     badge: null,
     date_added: "2026-06-19"
@@ -1110,7 +1110,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/PetsHome-Anti-Slip-Interactive-Rolling-Licking/dp/B0GRR8NJX6?crid=19YXGXRXZLKIL&linkCode=ll2&tag=nestandpaws-20&linkId=0251b9b2099894ed21fb93702de43a43&language=en_US&ref_=as_li_ss_tl",
     image: "images/slow-feeder-lick-bowl.png",
     subtitle: "He goes completely silent for ten minutes straight with this thing.",
-    story: "My dog used to inhale his food in about thirty seconds flat, which never seemed great. I put some plain yogurt in this lick bowl and he worked at it for almost ten minutes, completely zoned in. The rolling ball keeps him engaged and the anti-slip base means it doesn't skid across the floor. Ships in two days with Prime. Under $20 and it's become part of our daily routine.",
+    story: "My dog used to inhale his food in about thirty seconds flat, which never seemed great. I put some plain yogurt in this lick bowl and he worked at it for almost ten minutes, completely zoned in. The rolling ball keeps him engaged and the anti-slip base means it doesn't skid across the floor. Under $20 and it's become part of our daily routine.",
     tags: ["Dog Mom", "Pet Care", "Amazon Pet Finds", "Under $20", "Slow Feeder"],
     badge: null,
     date_added: "2026-06-19"
@@ -1125,7 +1125,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/OUAI-Hair-Gloss-Shower-Protectant/dp/B0CT5S5WGN?crid=XAGWLD7SD0L9&linkCode=ll2&tag=nestandpaws-20&linkId=59ebdd4c534d3bb8cae2217ad716d44a&language=en_US&ref_=as_li_ss_tl",
     image: "images/ouai-hair-gloss.png",
     subtitle: "My hairdresser asked what I'd changed before I even sat down.",
-    story: "I'd been chasing the glass-hair look for months with no luck until I added this into my normal shower routine. Five minutes, rinse out, and my hair comes out smoother and shinier than it's looked in years — it's an Allure award winner for a reason. My hairdresser actually commented on the shine at my last appointment. Ships in two days with Prime. I clicked add to cart in under a minute.",
+    story: "I'd been chasing the glass-hair look for months with no luck until I added this into my normal shower routine. Five minutes, rinse out, and my hair comes out smoother and shinier than it's looked in years — it's an Allure award winner for a reason. My hairdresser actually commented on the shine at my last appointment. I clicked add to cart in under a minute.",
     tags: ["Hair Care", "Glass Hair", "Amazon Beauty Finds", "Under $40", "Allure Winner"],
     badge: null,
     date_added: "2026-06-19"
@@ -1157,7 +1157,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Zulay-Original-Milk-Frother-Handheld/dp/B09D8T11YS?crid=3214HXW74LJAL&dib=eyJ2IjoiMSJ9.kcq3asqmzOuDfvgucLtcuV5jNL9UxKP1joxcTOVFT-Vh1d5BMCQAdGcKlHdBLlxUQbeNw7GeTI5nJVyhIwJtufRnV9lT8YY4n937EWyhmpjk39II_jgsqjlTZhTSW7Sd1ER6rRyO04LwgFBqXBy7n_RUhsGIirazcfyCeNGe8rxZFOTb2tZu9vbaiuHu2-5NI_buTX0RS2gBsLd_R-_y4YSqMnNrAKMNya5pO3VN7D6elUjZyke2pCI15fUf9NG-2j6kGjperdiYcc_1x0UynqRKbclPnFwPEVqg3SGTEuXU.jUWNd8KMJSyBQWOupCkoGHdkO4sVok57Wd0EwL5M4&tag=nestandpaws-20",
     image: "images/zulay-frother.png",
     subtitle: "My morning routine hasn't been the same since I added this.",
-    story: "I started using this frother to make iced lattes at home and now I can't imagine going back to paying $7 at a coffee shop. It takes literally ten seconds to make a foam that looks like a barista made it. My roommate saw it on the counter and immediately ordered one for herself. Under $20, ships Prime, and you will use it every single day.",
+    story: "I started using this frother to make iced lattes at home and now I can't imagine going back to paying $7 at a coffee shop. It takes literally ten seconds to make a foam that looks like a barista made it. My roommate saw it on the counter and immediately ordered one for herself. Under $20, and you will use it every single day.",
     tags: ["Kitchen", "Under $25", "Coffee", "Morning Routine", "Amazon Finds"],
     badge: "IMPULSE BUY",
     date_added: "2026-06-08"
@@ -1202,7 +1202,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/Nizoral-Anti-Dandruff-Shampoo-Ketoconazole-Dandruff/dp/B00AINMFAC?crid=2J0XY8BGXL2L4&dib=eyJ2IjoiMSJ9.MUw4dsO555PEHUPPc3L1qg.76nkTGHYHb2eDbXMn-JDCtFfle6la-obzZp27-N5DB0&tag=nestandpaws-20",
     image: "images/nizoral-shampoo.png",
     subtitle: "My scalp actually feels clean for the first time in years.",
-    story: "A dermatologist recommended this to me and I kept putting it off because it looked so clinical. Finally tried it and I genuinely cannot believe the difference. My scalp isn't itchy, there's no flaking, and my hair looks healthier because the root isn't irritated anymore. You only use it twice a week so one bottle lasts ages. It made Amazon's top 10 beauty list for Q1 2026. Under $20, ships Prime. I clicked add to cart in under a minute.",
+    story: "A dermatologist recommended this to me and I kept putting it off because it looked so clinical. Finally tried it and I genuinely cannot believe the difference. My scalp isn't itchy, there's no flaking, and my hair looks healthier because the root isn't irritated anymore. You only use it twice a week so one bottle lasts ages. It made Amazon's top 10 beauty list for Q1 2026. Under $20. I clicked add to cart in under a minute.",
     tags: ["Hair Care", "Scalp Health", "Amazon Beauty Finds", "Under $20", "Dermatologist Recommended"],
     badge: null,
     date_added: "2026-06-08"
@@ -1217,7 +1217,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/SMARTSTANDARD-6-6ft-Sturdy-Sliding-Hardware/dp/B01JWHSHBK?crid=1M5QBFRJQTCWJ&dib=eyJ2IjoiMSJ9.lV-iXmYdwi7e2Vlk2cZpkQ.nXdm92stmlxtx90HTf1YY-ipJ82PRWp-KLs1_Q7xjlw&tag=nestandpaws-20",
     image: "images/barn-door-hardware.png",
     subtitle: "My rental finally looks like I actually chose to live here.",
-    story: "I've been wanting a barn door for two years and kept assuming it was a whole renovation thing. It's not. This hardware kit installs with basic tools in under an hour, and the result looks genuinely expensive. You supply the door panel — I used one from a home goods store for under $60 — and the track does the rest. 17,000 five-star reviews. 4.7 stars. My landlord has no idea I did this and I have no plans to tell them. Under $40, ships Prime.",
+    story: "I've been wanting a barn door for two years and kept assuming it was a whole renovation thing. It's not. This hardware kit installs with basic tools in under an hour, and the result looks genuinely expensive. You supply the door panel — I used one from a home goods store for under $60 — and the track does the rest. 17,000 five-star reviews. 4.7 stars. My landlord has no idea I did this and I have no plans to tell them. Under $40.",
     tags: ["Renter Friendly", "Barn Door", "Home Upgrade", "Amazon Home Finds", "Apartment Decor"],
     badge: null,
     date_added: "2026-06-08"
@@ -1248,8 +1248,8 @@ const PRODUCTS = [
     price_bracket: "Under $25",
     affiliate_link: "https://www.amazon.com/dp/B01FUYP6YA?tag=nestandpaws-20",
     image: "images/Wallet.png",
-    subtitle: "Three months later and he still thinks I spent $80",
-    story: "Slim, genuine leather, RFID blocking. It looks and feels like something from a boutique. He's been using it for three months and still thinks I spent real money on it. Ships Prime — arrived in two days.",
+    subtitle: "Three months later and he still thinks I spent way more",
+    story: "Slim, genuine leather, RFID blocking. It looks and feels like something from a boutique. He's been using it for three months and still thinks I spent real money on it.",
     tags: ["Father's Day", "Gifts For Dad", "Under $25", "Amazon Finds", "Seasonal"],
     badge: null,
     date_added: "2026-06-10"
@@ -1264,7 +1264,7 @@ const PRODUCTS = [
     affiliate_link: "https://www.amazon.com/dp/B0GYRT3FNL?tag=nestandpaws-20",
     image: "images/Mirror.png",
     subtitle: "My neighbour knocked just to ask where I got it",
-    story: "I'd been looking at floor mirrors for months and kept talking myself out of them. This one sat in my cart for two weeks. I finally ordered it at midnight and it arrived next day. My entryway looks completely different — and three people have asked me where I got it since.",
+    story: "I'd been looking at floor mirrors for months and kept talking myself out of them. This one sat in my cart for two weeks. I finally ordered it at midnight, and a week later my entryway looked completely different — and three people have asked me where I got it since.",
     tags: ["Renter Friendly", "Home Decor", "Amazon Home Finds", "Under $50", "Mirror"],
     badge: null,
     date_added: "2026-06-06"
@@ -1287,14 +1287,14 @@ const PRODUCTS = [
 
   {
     id: "hair-oil",
-    title: "Everyone's asking what I put in my hair — it's $12 from Amazon",
+    title: "Everyone's asking what I put in my hair — under $15 from Amazon",
     category: "beauty",
     price: 12.99,
     price_bracket: "Under $15",
     affiliate_link: "https://www.amazon.com/dp/B01A74442I?tag=nestandpaws-20",
     image: "images/Hair-oil.png",
-    subtitle: "My hair stylist asked what I changed. I didn't tell her it was $12",
-    story: "I started using this after seeing it mentioned in three separate places in the same week. Two months in and my hair is noticeably softer and shinier. My stylist asked what I changed at my last appointment. I didn't tell her it was a $12 Amazon find.",
+    subtitle: "My hair stylist asked what I changed. I didn't tell her where it came from",
+    story: "I started using this after seeing it mentioned in three separate places in the same week. Two months in and my hair is noticeably softer and shinier. My stylist asked what I changed at my last appointment. I didn't tell her it was an Amazon find.",
     tags: ["Hair Care", "Amazon Beauty Finds", "Under $15", "Hair Oil", "Beauty Finds"],
     badge: null,
     date_added: "2026-06-05"
