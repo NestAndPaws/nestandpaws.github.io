@@ -1310,6 +1310,7 @@ const categoryMap = {
   renter:   PRODUCTS.filter(p => p.category === "renter"),
   under25:  PRODUCTS.filter(p => p.price <= 25.00),
   seasonal: PRODUCTS.filter(p => p.category === "seasonal"),
+  wedding:  PRODUCTS.filter(p => p.category === "wedding"),
 };
 
 if (typeof module !== "undefined") module.exports = PRODUCTS;
