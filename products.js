@@ -1,5 +1,129 @@
 const PRODUCTS = [
 
+  // ── CS4 CAROUSEL + STANDALONE — VEGETABLE CHOPPER COMPARISON — JULY 30 2026 ──
+
+  {
+    id: "fullstar-vegetable-chopper-4in1",
+    title: "Fullstar Pro Original Vegetable Chopper & Spiralizer, Kitchen Prep Tool — 4 in 1 Veggie Slicer, Onion & Fruit Cutter (Black)",
+    category: "home",
+    price: 34.99,
+    price_bracket: "Under $35",
+    affiliate_link: "https://www.amazon.com/Vegetable-Chopper-Spiralizer-Slicer-Choppers/dp/B0B8SQKDCL?crid=3ER0W4U3959AU&dib=eyJ2IjoiMSJ9.dUw5OFP3veg9GHsQv_holGxCX6KOpBJICPMgVdzdzZAAb-L_0Brr1YTB1D2dzbz5P0F6lyy61uoEB-EuE1lC_7WRVw3ikTCQDCYxkvLQo_tefaDxWYYagiaguYqO4dYBIF5KwPF_Po5fpyRTJqoXa-h7Bb5mMnMSOhyhuSx5tAOD40LNKCtEbDQp8oT8Ta3RPBz7XAzLN6GOUGK3EqtqNlOpe4XPbkFxC24R-xwpdGYBM3F_HuirqMS4pX4-xkik7ekUqTX_zqa-rSYoDmwempsKy182HBLNiV3cEzzlGgY.VHDRBkunhaLDM4rASw2Zbw1fiV85VYKAEf1-DRHhR20&dib_tag=se&keywords=OXO%2BGood%2BGrips%2BVegetable%2BChopper&qid=1785407694&sprefix=oxo%2Bgood%2Bgrips%2Bvegetable%2Bchopper%2Caps%2C461&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=c55621c8b5814582751c4f2e0ad4d9d0&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/fullstar-vegetable-chopper-4in1.png",
+    subtitle: "Every cube came out identical, which was oddly satisfying.",
+    story: "I used to dread dicing onions for anything, so this sat unopened for a week before I tried it. One press and the vegetables came out in perfectly uniform cubes, no knife needed. 4.5 stars, 95,000+ reviews, #1 Best Seller in its category. Under $35, and it's the tool I reach for first now when I'm meal prepping for the week.",
+    tags: ["Kitchen Organization", "Vegetable Chopper", "Meal Prep", "Amazon Kitchen Finds", "Under $35"],
+    badge: null,
+    date_added: "2026-07-30"
+  },
+
+  {
+    id: "oxo-good-grips-vegetable-chopper",
+    title: "OXO Good Grips Vegetable Chopper with Easy-Grip Handle for Meal Prep",
+    category: "home",
+    price: 24.95,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/OXO-11339900-Good-Grips-Chopper/dp/B09WFWN76D?crid=3ER0W4U3959AU&dib=eyJ2IjoiMSJ9.dUw5OFP3veg9GHsQv_holGxCX6KOpBJICPMgVdzdzZAAb-L_0Brr1YTB1D2dzbz5P0F6lyy61uoEB-EuE1lC_7WRVw3ikTCQDCYxkvLQo_tefaDxWYYagiaguYqO4dYBIF5KwPF_Po5fpyRTJqoXa-h7Bb5mMnMSOhyhuSx5tAOD40LNKCtEbDQp8oT8Ta3RPBz7XAzLN6GOUGK3EqtqNlOpe4XPbkFxC24R-xwpdGYBM3F_HuirqMS4pX4-xkik7ekUqTX_zqa-rSYoDmwempsKy182HBLNiV3cEzzlGgY.VHDRBkunhaLDM4rASw2Zbw1fiV85VYKAEf1-DRHhR20&dib_tag=se&keywords=OXO+Good+Grips+Vegetable+Chopper&qid=1785407694&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=oxo+good+grips+vegetable+chopper%2Caps%2C461&sr=8-1&linkCode=ll2&tag=nestandpaws-20&linkId=42bc0d6f118646fe16977b49194ed49d&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/oxo-good-grips-vegetable-chopper.png",
+    subtitle: "Cleanup stopped being the reason I skipped meal prep.",
+    story: "My old chopper had a grid that trapped food and I started avoiding it entirely because of the cleanup. This one is two simple pieces that rinse under the tap in thirty seconds, no interlocking blades to pick apart. 4.5 stars, 6,000+ bought last month — currently outselling the market leader. Under $25, and I actually use it now.",
+    tags: ["Kitchen Organization", "Vegetable Chopper", "Meal Prep", "Amazon Kitchen Finds", "Under $25"],
+    badge: null,
+    date_added: "2026-07-30"
+  },
+
+  // ── CS5 CAROUSEL + STANDALONE — BACK TO SCHOOL DORM ESSENTIALS — JULY 30 2026 ──
+
+  {
+    id: "command-variety-pack-19pc",
+    title: "Command Variety Pack, 19-Piece Kit — Picture Hanging Strips, Wire Hooks and Utility Hooks, Damage-Free",
+    category: "renter",
+    price: 14.84,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Command-Including-Christmas-Decorations-Damage-Free/dp/B07712H557?crid=2ZMJNHCADEBKN&dib=eyJ2IjoiMSJ9.y7Awm96ZexJU_7sr58hN-u25hdFdwrJoJX3g_I1fpEAAKxHjj-NTIFNqAa6Vztk4aJfsPkwVBdnMubMonT5GWy-J6gvhBElQ8y6a9rZno9viPsLTVcAvH4I2l6vBz8Cf1Zv6cnpvuKNJiubjnx6V48C7kguaNRWhkzTQ_gMhNWQsSrsenZzX5MWdQVEEyvNboC161TYnmuAvsHo6xfVtUA.Ayhx-JTV3bjlMOzopnuotuyVpmJrSh6tBJyRQZlyQho&dib_tag=se&keywords=Command+Back+to+School+Dorm+Kit&qid=1785405774&sprefix=command+back+to+school+dorm+kit%2Caps%2C175&sr=8-5&linkCode=ll2&tag=nestandpaws-20&linkId=addccc3d8773daadd0dcb4eaeffa13bc&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/command-variety-pack-19pc.png",
+    subtitle: "My walls have zero holes and I still hung everything.",
+    story: "I went into my first year worried about wall damage fees, so I skipped nails entirely and grabbed this variety pack instead. Picture strips, wire hooks, and utility hooks cover basically everything I needed to hang. 4.7 stars, 11,000+ ratings, Amazon's Choice, 10K+ bought last month. Under $20, and it came down clean at move-out with zero marks.",
+    tags: ["Renter Friendly", "Dorm Room", "No Drill", "Back to School", "Amazon Home Finds"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-07-30"
+  },
+
+  {
+    id: "sailstar-led-desk-lamp-wireless-charger",
+    title: "Sailstar LED Desk Lamp with Wireless Charger, Pen Holder, 3 Color Modes, Dimmable",
+    category: "home",
+    price: 29.94,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/Wireless-Charger-Sailstar-Stepless-Included/dp/B09PDBNXGD?dib=eyJ2IjoiMSJ9.870ZqKrljgBFwA1Ju_1kEQpGzHmbpaNsxphfjGNesSitc1shC02d2a31kcX21wi4zz_i-wUroevgAj8yJ6JzNthD25Gs38JR2A0jlC7Lxp68YhqEwYVp_jWK4X9D7J2OBwZkYgGwJqZconWFFOEasY0FkS9qi7TYCn9TSj2F_A7X7ZaYBZRjfw8pVRYb0idcaVSIsM8Px8LrVVPDpmeUeFVwakSHRSRRqrNm0wx4WWbZFIGb62y0XfpmLsSPZeurk3QKEvT2Ljb0RFVP7X2A5-2ZOxwgRSbrMLuHao7xv_0.NQzb12LdKJoS94xpdRvyEA31FK0sOXoXMII-c_fLGu4&dib_tag=se&keywords=LED%2BDesk%2BLamp%2BWireless%2BCharger%2BDorm&qid=1785406260&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=66f19fde4d23cb0c8d5137bf61b5f7da&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/sailstar-led-desk-lamp-wireless-charger.png",
+    subtitle: "My desk has one plug doing three jobs now.",
+    story: "Between the lamp, my phone charger, and a pen cup, my desk had turned into a cable graveyard. This combines all three into one piece, and late-night studying got easier the second my phone stopped dying mid-assignment. Under $30, and it quietly changed my whole desk setup.",
+    tags: ["Desk Setup", "Dorm Room", "Home Office", "Back to School", "Under $30"],
+    badge: null,
+    date_added: "2026-07-30"
+  },
+
+  {
+    id: "levoit-core-mini-air-purifier",
+    title: "LEVOIT Core Mini Air Purifier, Compact Air Cleaner for Small Rooms",
+    category: "home",
+    price: 49.99,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/LEVOIT-Purifiers-Freshener-Core-Mini/dp/B09GTRVJQM?dib=eyJ2IjoiMSJ9.C9cDxUD7fD2pSgqc16FGZ81FZpWNq6pzekou7NNEtVRATtQwqtKUBpOSIIK-rFGk9Q5wsEDrV1phd7EeQqATA29_nINi6PnrzwzjE7MX8njmrJWLeZgT4VuB-6u64bVZCtu6N8wn7h1aO7Zl9Rom2_IHCcOGoOfey2SwIgGZogU-BhNnnfJqtpRmx2jMXlRufNI8vKFGJ4q63lo0nTuPQABUBNVI321iqGepawvvAEA.nmtZEo4_6_XswhL142hwumXvE4gePOwCBVzqbUAfMSE&dib_tag=se&keywords=Mini%2BAir%2BPurifier%2BDorm%2BRoom&qid=1785406228&sr=8-4&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=687402345a47ba772fe1e563ba6b83cb&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/levoit-core-mini-air-purifier.png",
+    subtitle: "My roommate asked what smells so much better in here.",
+    story: "Shared bathrooms and a roommate's cooking smells weren't something orientation prepared me for. I added this to my side of the room and noticed the difference the first night — quieter sleep, less stuffy air. Under $50, and it's the dorm essential I didn't know I needed until I had it.",
+    tags: ["Dorm Room", "Air Purifier", "Back to School", "Amazon Home Finds", "Under $50"],
+    badge: null,
+    date_added: "2026-07-30"
+  },
+
+  {
+    id: "funtouch-led-touch-vanity-mirror",
+    title: "FUNTOUCH LED Makeup Mirror, Rechargeable Portable Touch Control Lighting, Dimmable",
+    category: "home",
+    price: 16.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/FUNTOUCH-Rechargeable-Portable-Lighting-Dimmable/dp/B0895WCP3Z?dib=eyJ2IjoiMSJ9.N2KrSEAKMlFZJ5SjRMXK2YkfzPcBGHAzrksyGQ7coV7Tjzv7g92PTuSlZpBKgMufuksLphi97RMwn_6VmFaaL5qsE5GlzPHiMVPGGbmPk-QD4DjY2nPNDOR8YQmrWC5QXSGLWOJScSzV-11OuX6Zd83D4iS1tzAEoR8x_0lPVm0_BXgvCefG_D-oJC2ZtSiNVAsImQCZbO3VYl3_D28lG3OzbPy1WMrl2kqiuxGt-msZTvVjrkR8_nH8VJy1P0HFDZa0r1cEgOgwCbijTElSgmQzIjNbQSxCCP2JS-KEpZY.zvBB4vi0kfGbcBJbDwowIipm1c4wA4YlELYh0GDu-rw&dib_tag=se&keywords=led%2Bmakeup%2Bmirror%2Btouch%2Bcontrol&qid=1785406133&sr=8-9&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=8f91a552aa4d29e070f4a3ad091d6e21&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/funtouch-led-touch-vanity-mirror.png",
+    subtitle: "Getting ready in a dim dorm mirror finally stopped being a guess.",
+    story: "My dorm mirror was propped against the wall with terrible overhead lighting, so getting ready in the morning was a guessing game. This one lights up evenly, no harsh shadows, and folds flat when I'm not using it. Under $20, and it's the smallest upgrade that changed my morning routine the most.",
+    tags: ["Dorm Room", "Vanity Mirror", "Back to School", "Amazon Home Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-07-30"
+  },
+
+  {
+    id: "ulg-over-door-storage-organizer",
+    title: "ULG Over-the-Door Organizer, Hanging Storage, Dark Grey",
+    category: "renter",
+    price: 18.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/ULG-Door-Organizer-Dark-Grey/dp/B09L4R5T55?dib=eyJ2IjoiMSJ9.mI2_bHgVGhLuUfbZi6fXMM25Pwt-s-hndcTbm4jsGyslbMuP_CIZofo6ijVnp3eFlbMS5EdJ_ahE9wi4fxYaVkL7z0hsY-A4IHUrbhkONqIXBxF2LEiYYBcC0aXW3EN_XT2B4nFXfenHgZwNHAtRpL7e_9_JenP9N_tjgTbqzRM3SyVM3W2iTjlW285y5S8DjOZNMVIrivHD1Oeor_pt0fXxX_saGn7b8hz3DDrVqUhOmJiQbrHNlT-FYFi82uzh4Vb4cR91KICUkvtDdpVmzAaleS9IqdsmPrtc6rtnxGI.mJe52gr3hL77NESLzfG6h_yE2urJBte-wajfJHuqwOM&dib_tag=se&keywords=over-droor%2Bstorage%2Borganizer&qid=1785406065&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=a3b25f8d75269799eeedfb675339477a&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/ulg-over-door-storage-organizer.png",
+    subtitle: "Five shelves worth of storage in a room with no floor left.",
+    story: "Every surface in my dorm room was already covered and the closet was full before I finished unpacking. This hangs on the back of the door, no drilling, and holds everything that had been living in a pile. Under $20, and it's the only storage I added that didn't cost me any floor space.",
+    tags: ["Renter Friendly", "Dorm Room", "No Drill", "Back to School", "Under $20"],
+    badge: null,
+    date_added: "2026-07-30"
+  },
+
+  {
+    id: "vusign-magnetic-whiteboard-small",
+    title: "VUSIGN Magnetic Whiteboard with Markers, Small Dry Erase Board for Students",
+    category: "home",
+    price: 12.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/VUSIGN-Magnetic-Whiteboard-Markers-Students/dp/B0CHDRW283?dib=eyJ2IjoiMSJ9.oLs7jLPoNflCe_Xy_0oQ0X7bnOvzutzkhutLw8yxuafDdiO8cUIwoVZxYuZFshnkfD-ne2CVd8kY3ZzIEbt-9vOIzr3IjzSqEfhsIlxs_2MCIDvJKPf6_liSj5-qfg15b69rB_vX7YYtfKUoOXtk_fsylNIFbpZJ5X2DMdCyA4H_-iHyJMCZkySUxzFmOl81wlC9FHvrypDgxnDz6xMqWAmva9KaDnig0PH1eglCiZGNoj1ImqHUtPwSWdBViWYawRBs4eZu_7vY93gjex6cL7KFigCDfwuYUv81D_Gv7Fg.X9dtDSFwclF6kT7_UYWuQAnFK5T55xbCeRr_44Mj5xc&dib_tag=se&keywords=Magnetic%2BWhiteboard%2BSmall%2BDorm%2BDesk&qid=1785405985&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=5b68a72f4bdac14c1582a47b64244c52&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/vusign-magnetic-whiteboard-small.png",
+    subtitle: "My desk finally has a spot to remember things I always forgot.",
+    story: "Sticky notes were falling off my desk and disappearing under textbooks for the whole first month. This small magnetic board sticks right on the side of my desk and it's the one place I actually remember to check. Under $15, and it's the cheapest fix that's stuck.",
+    tags: ["Dorm Room", "Desk Organizer", "Back to School", "Amazon Home Finds", "Under $15"],
+    badge: null,
+    date_added: "2026-07-30"
+  },
+
   // ── SPECIAL BUILD — BACK TO SCHOOL + BACK TO COLLEGE — JULY 25 2026 ──
 
   {
