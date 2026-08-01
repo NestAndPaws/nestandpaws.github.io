@@ -1,5 +1,81 @@
 const PRODUCTS = [
 
+  // ── BUILD — AUGUST 1 2026 (5 INDIVIDUAL PINS) ───────────────────────
+
+  {
+    id: "jasiway-expandable-sink-dish-rack",
+    title: "JASIWAY Expandable Over-Sink Stainless Dish Drying Rack, Dual Mode",
+    category: "home",
+    price: 29.99,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/JASIWAY-Dish-Drying-Rack-Sink/dp/B0C6D6SH16?crid=TMW5ZMXEFYSB&dib=eyJ2IjoiMSJ9.A4uIH6XlcD6BqoR0rPlShRQd9waN3vgEhNHcDYkFHR7flchwAe67OVN1qa8wJN4bGNHNZ1iktqB0YCKKGL9GOjRZK79NgGx_s2WzXH_sLiMpOG4Fh8j1zOvdr5nE8ZVIy53bLBCWkG2h6WuiClJn-ubOfWlL2ZOp-MzxLy8ZmfRHjUI52FObGBbnXMfX99k9b8fBMqHa3Y_BpjVZ6XIgz57U1mxw-c3yVqM4aVk9yt_9vQn3P16BHuIdZfpWxMx8xEtUmZlgcLQlzNgCTLMupCisEvI4BEoMOn8UWzK64AY.BRQlD919mXu2rZklESLP4t3QKq4H5IaFDomJu-xg3Zg&dib_tag=se&keywords=Expandable%2Bover-sink%2Bstainless%2Bdish%2Bdrying%2Brack&qid=1785596851&sprefix=expandable%2Bover-sink%2Bstainless%2Bdish%2Bdrying%2Brack%2Caps%2C273&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=109a00564c9627600ead255fd243a9d9&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/jasiway-expandable-sink-dish-rack.png",
+    subtitle: "How my sink stopped being the reason my kitchen looked messy.",
+    story: "Kitchen sink organization completely changed once I stopped stacking dishes on the counter. This rack expands right over my sink and folds flat when I don't need it, and the dual mode means it sits over the sink or drops right inside it depending on how much space I need that day. Everyone who's seen my kitchen lately asks what changed — it's this.",
+    tags: ["Kitchen Organization", "Dish Rack", "Sink Storage", "Amazon Home Finds", "Under $30"],
+    badge: null,
+    date_added: "2026-08-01"
+  },
+
+  {
+    id: "mcgor-rechargeable-under-cabinet-lights",
+    title: "MCGOR 14.7\" Rechargeable Motion Sensor Under Cabinet Lights, 2-Pack",
+    category: "renter",
+    price: 36.99,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/Rechargeable-Operated-Magnetic-Dimmable-Wireless/dp/B0CSJQMVYZ?dib=eyJ2IjoiMSJ9.cSFYwLM5ojAYQ5qq43tSak32n-91YfMbXfgBgacT9eBEXJfpdDRqV9C2j0rKJ2urw2M11F0PoA3W3XtQXK3zAZz1lPQ4dv5ltpRAuDb8QWmcQb0uIFLbqI5UgkFFWO4_0xl8Z3oX2yX_u8mr9z3qAVoVPuvIE7dnZ_wFbPQ_DOytJBrNIDIH1Zys9eh7Ez2Rf-RlRcIKyQdiY5YB8ZCdQC1zGxlOV-2xHAqcxqDbPekRNkDfvYB8s3g9Y5iweAhPJ1CN4Qqoe-Vn4_e71psSekXlfj7cbx37YZlFzTrq3cQ.gHKLC1Akr_gAlIitfzJdEj59CI5L5BNdZ6tX-z4Y-U4&dib_tag=se&keywords=Rechargeable%2Bstick-on%2Bunder-cabinet%2Blights&qid=1785596746&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=23ca7f5c0d02c228de774f94d05c1a26&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/mcgor-rechargeable-under-cabinet-lights.png",
+    subtitle: "The one plug-free project my landlord will never notice.",
+    story: "Under cabinet lighting made my kitchen counters usable again after dark, and I didn't drill a single hole to get there. These stick on magnetically and recharge over USB, so there's no wiring and no landlord drama. Five brightness levels and a motion sensor mean they turn on right as I walk in. My counters finally look intentional instead of dim and flat.",
+    tags: ["Renter Friendly", "Under Cabinet Lighting", "No Drill", "Amazon Home Finds", "Under $40"],
+    badge: null,
+    date_added: "2026-08-01"
+  },
+
+  {
+    id: "rocdeer-monitor-riser-storage-drawer",
+    title: "ROCDEER Ergonomic Monitor Riser with Storage Drawer and Cable Management",
+    category: "home",
+    price: 49.99,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/ROCDEER-Ergonomic-Computer-Management-Organizer/dp/B0F8VN5T7K?dib=eyJ2IjoiMSJ9.kRr6EZECJjphnUhoaEqkvPqRBgWaHTrJVkYgxthZaW0my2kxY_nVWVPMHJRbNWajlgpo5EYnzpqQEvMNcYaM_R0x2E5M2htN2NrrYocgL1DeY-ebXEgcGSabEIuWi_81qe7J_3gCWLrm9HZ2Fv3Yhn7XtPvu6TIUMybIZyn3P4Eojr6j_X_SUvrZmEo6RtLHikvksE8D3KevnyLe7aWJnEeiu30ANUlwPiKNBd_xtRU.51rAvi3yC5IcNmA7NFGWQu-zsa-5gf90dStyJIltJBg&dib_tag=se&keywords=Monitor%2Briser%2Bwith%2Bstorage%2Bdrawer%2B%2B%2Bcable%2Bmanagement%2B%28Halter%2Bor%2BSimple%2BTrending%29&nsdOptOutParam=true&qid=1785596536&sr=8-3&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d30bd56ad4d51bed8ecc383dc7a39b20&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/rocdeer-monitor-riser-storage-drawer.png",
+    subtitle: "How my desk stopped looking like a cable graveyard.",
+    story: "Desk cable management stopped being a daily annoyance once I added this riser. It lifts my monitor to eye level, hides my keyboard and cords in the drawer underneath, and the whole desk surface finally looks like one clean setup instead of scattered pieces. My neck thanks me by the afternoon.",
+    tags: ["Desk Setup", "Monitor Riser", "Home Office", "Amazon Home Finds", "Under $50"],
+    badge: null,
+    date_added: "2026-08-01"
+  },
+
+  {
+    id: "joyusaen-wall-mirror-jewelry-organizer",
+    title: "JOYUSAEN No-Drill Wall-Mounted Full-Length Mirror with Jewelry & Accessory Storage",
+    category: "renter",
+    price: 89.99,
+    price_bracket: "Under $90",
+    affiliate_link: "https://www.amazon.com/JOYUSAEN-Jewelry-Organizer-Full-Length-Interior/dp/B0FMNL1665?dib=eyJ2IjoiMSJ9.1M-AD5xNBehXT4-CJ4pREg6zjU6GL9ncsP5j4SQYtK5xzbyL97xLRBPp297sb8tVF8YYof7L2hnVxHNBGbU6Z_NGGVFJ0fSD_-3CRK7xQ4TAsSc3SsirmlENNocnoYob_1wFvnJv37O0kOaPl35zRpRr_3cvGBWz_ww2kHmjOP3tyD-oRWZcmLl17Pt5b6b_txb1hC1Otoapx5O272uy5IqdGT5-dRywr9FDlhWGv2sNHvFcOhVRNvitnzTJuKukmHmT-MMsJRi-Wn0mwuSonHSwJjjr3m43Pn6a1SC6kT4.SXucLiVqEer2PJCIKUW-i-fWFemUsAOFzcuBVbiAVUM&dib_tag=se&keywords=No-drill%2Bwall-mounted%2Bjewelry%2Faccessory%2Borganizer%2Bwith%2Bmirror&qid=1785596225&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=6b9c1e9d7e3960b0018537a126e7f0f4&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/joyusaen-wall-mirror-jewelry-organizer.png",
+    subtitle: "The one piece that made my entryway look finished.",
+    story: "Full length mirror storage is the upgrade nobody expects until they see it open. This wall-mounted mirror opens to a full jewelry and accessory cabinet inside, so every ring, necklace, and skincare bottle finally has a spot instead of covering my dresser. It mounts without drilling into a stud, which mattered a lot in a rental.",
+    tags: ["Renter Friendly", "Jewelry Storage", "Entryway Organization", "Amazon Home Finds", "Under $90"],
+    badge: null,
+    date_added: "2026-08-01"
+  },
+
+  {
+    id: "lindas-silicone-stove-gap-covers",
+    title: "Linda's Essentials Silicone Stove Counter Gap Covers, 4-Pack",
+    category: "home",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Lindas-Essentials-Silicone-Stove-Gap-Covers-Stove-Guard/dp/B01MT0UL8N?crid=3C4RCWBISX74P&dib=eyJ2IjoiMSJ9.HFNpkR82kB6KlnPfnE8-Efl5mrrRXS7VMBCSrGTs5oCH4UE_awrUDsKUNLq7N-rzCaMTRQiEwNxVXKiCzqjlFb3Eb-A_SXU_Sii2qetZDyce4B2FFHfTHbFIF_Mu6L4i0tFmQJuh7oVbceSZvcJsuAKWI5Ni4rT6ht0vtQdMr6Ln5RrWDM5Rb9JsL2DaKNz7KalpH-KBmYcmhXMDVXCN0m0lsWDWDvXyI5NzDeAMBiM.3w9sQmOnZoN2BpYCGEc10FH8X-ZO3OP8_raRmx2csdQ&dib_tag=se&keywords=Silicone%2Bstovetop%2Bgap%2Bcovers%2C%2B4-pack&qid=1785596165&sprefix=silicone%2Bstovetop%2Bgap%2Bcovers%2C%2B4-pack%2Caps%2C150&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=eac1df3e0758b954054aeb5e915c56f5&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/lindas-silicone-stove-gap-covers.png",
+    subtitle: "The five-minute fix that ended years of sweeping crumbs out of that gap.",
+    story: "Stove gap covers solved the one mess I'd stopped even trying to clean. Crumbs and spills used to disappear into the space between my stove and counter, and now they just sit on top where I can wipe them away in seconds. Silicone, heat safe, wipes clean with one pass.",
+    tags: ["Kitchen Hacks", "Stove Accessories", "Kitchen Organization", "Amazon Home Finds", "Under $10"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-08-01"
+  },
   // ── CS4 CAROUSEL + STANDALONE — VEGETABLE CHOPPER COMPARISON — JULY 30 2026 ──
 
   {
