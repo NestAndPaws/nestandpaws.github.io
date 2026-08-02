@@ -1,0 +1,28 @@
+# Nest & Paws
+
+> Nest & Paws is a curated home and living guide that publishes a small, deliberate selection of Amazon finds each week across home and kitchen, pets, beauty, and renter-friendly living. Each pick is chosen individually and published with a written reason it earned its place. Nothing is auto-generated from a bestseller feed, and no brand pays for placement.
+
+## How Picks Are Chosen
+- One pick per category per week, not a full catalog. If nothing is good enough that week, nothing gets added.
+- Every product must be currently available and solve one specific, nameable problem.
+- Renter-friendly picks must be removable, no-drill, or peel-and-stick, so they work in apartments and rentals.
+- Picks are grouped into clear price brackets so a shopper knows what tier they are in before clicking.
+- Small-space and small-budget usability is weighted over brand name.
+
+## Categories
+- [Home & Kitchen](https://nestandpaws.github.io/home.html): Kitchen tools, storage, organizers, and everyday home upgrades
+- [Renter Friendly](https://nestandpaws.github.io/renter.html): No-drill, removable, and peel-and-stick upgrades for apartments and rentals
+- [Pets](https://nestandpaws.github.io/pets.html): Dog and cat products chosen for daily use, not novelty
+- [Beauty](https://nestandpaws.github.io/beauty.html): Hair and skincare picks, weighted toward hair
+- [Under $25](https://nestandpaws.github.io/under25.html): Every pick across all categories under $25
+- [Wedding Table Decor](https://nestandpaws.github.io/wedding.html): Table decor, centerpieces, and hosting pieces
+- [Seasonal](https://nestandpaws.github.io/seasonal.html): The current seasonal and gifting edit
+
+## Start Here
+- [All Categories](https://nestandpaws.github.io/): Full index with search across every pick, plus live entry points to current Amazon offers and Prime
+
+## About
+Nest & Paws is an independent editorial site. It is not affiliated with, endorsed by, or operated by Amazon. Product links are commission-earning links, which is how the site is funded; this does not change what gets picked or what is written about it.
+
+## Last Updated
+2026-08
