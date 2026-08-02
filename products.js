@@ -491,7 +491,7 @@ const PRODUCTS = [
   {
     id: "ourholiday-acrylic-wedding-table-numbers",
     title: "Gold Mirrored Acrylic Wedding Table Numbers 1-10 — Self-Standing Arched Signs",
-    category: "seasonal",
+    category: "wedding",
     price: 26.99,
     price_bracket: "Under $30",
     affiliate_link: "https://www.amazon.com/Mirrored-Acrylic-Self-Standing-Reception-Anniversary/dp/B0FVFD8QQF?crid=1CGSQ6KNIFCI5&dib=eyJ2IjoiMSJ9.BXql7smVEhcDbX8YY9HGNQ-5OqYFAah6e68uezRMSFTOymEjPmJtDywqK2qALJ77ivUBlFzA5PoILRB2O47W_ERQd0BuaR85MZpAJq9xijC85TRqa_no3IqO-nBRzq-K4jjbbaaRYU7XPbyDLQokBzMnYvcpvYapmg4ObbhAhR2xCcieB16hDC-YPv9o-4626r2KIHUEbYUmdUMUNbbejxTC-uCBAtac4CfARoFD6kc.Am5r3mEuMIzSb_ZTkQJMgR3hJ44vAxtocA48VcegAwI&dib_tag=se&keywords=Acrylic%2Barch%2Btable%2Bnumbers%2B1-10%2Bwith%2Bgold%2Bstands&nsdOptOutParam=true&qid=1784936501&sprefix=acrylic%2Barch%2Btable%2Bnumbers%2B1-10%2Bwith%2Bgold%2Bstands%2Caps%2C749&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=b37ebd9b6c2f4464892ccb71e9c9833e&language=en_US&ref_=as_li_ss_tl",
