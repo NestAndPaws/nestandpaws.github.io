@@ -1,5 +1,67 @@
 const PRODUCTS = [
 
+  // ── BUILD — AUGUST 4 2026 (FALL DECOR + HALLOWEEN + TEACHER GIFT) ────
+
+  {
+    id: "artoid-mode-fall-table-runner",
+    title: "Artoid Mode Pumpkins Fall Table Runner, Seasonal Autumn Kitchen Dining Decoration",
+    category: "home",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Artoid-Mode-Pumpkins-Seasonal-Decoration/dp/B0C23DWGQY?crid=1RUVW1TS1WRH3&dib=eyJ2IjoiMSJ9._UEVYdmv1xqTpCRsVBXcYHJaqeaLYI3FnMDqs9jKab4FOuDYa7BZJf2eOlKPf018JQuJ8S2PTI12p59CTya-wCgu4Qi_8Mish2aFTZJd3APhjCUt5-oKmOBI1SHUIs5qMRZ-tDE3M4zyVs-DDwP8DKW_novA9IerPfFHlD8lmao8e0N9JzEk_MJykxxL3MPSHxvlcLSozK6RaBh9pJEXlh0bCwSP7437nHYXb1TCzhUeaAvgnjMd5wA3_2P9oYOsCTlTKhooVdHNFlvh5D1wRti0f9jUGW3lDwrf95daxFU.TG250bc_mU3Qe-256EwFSCwcnJLpg5nHozmhW2a9Ecg&dib_tag=se&keywords=Artoid%2BMode%2Bfall%2Btable%2Brunner&qid=1785885004&sprefix=gohdiwh%2Bfall%2Bpillow%2Bcover%2Bset%2Caps%2C557&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=d3d98c7fa1a64e17144ac47bef6207fb&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/artoid-mode-fall-table-runner.png",
+    subtitle: "How one runner made my kitchen table feel like fall walked in.",
+    story: "My kitchen table has looked the same since June and I didn't realize how much that was bothering me until I swapped in this runner. Sage and rust leaves stitched across a canvas-weight cotton blend, and the whole table read differently the second it went down — like the room had shifted seasons on its own. Machine washable, which matters more than I expected once real cooking started happening near it again.",
+    tags: ["Fall Decor", "Kitchen Table", "Amazon Home Finds", "Under $10", "Seasonal Decor"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-08-04"
+  },
+
+  {
+    id: "gohdiwh-fall-pillow-cover-set",
+    title: "Gohdiwh Watercolor Fall Leaves Pillow Covers, Set of 2 — Thanksgiving Decorative Throw",
+    category: "home",
+    price: 13.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/Gohdiwh-Watercolor-Pillowcase-Thanksgiving-Decorative/dp/B0FDW9H3B8?dib=eyJ2IjoiMSJ9.-vCcElP-FZR1OuxXtWOENw879bvpKaaLmSnkrzBj6cxAEMYBEqAtAOuL4lJcXs55AmXoxWuNI5AOiFl4AamoVSzRKzZt426o7x5WWMjy_Mpf-cNpjWnVU5e_othrF64rT1-QRGiOKDDDxHUBAkIHyJznneQF2ZZ13tcdmA_cPf6d1aytiBFXASw5xWYDBV3-jTspQkFNtCbW_VeYkKIQzPDaHxZiTpVeRHMrMo_65xxvwaXFa7XRcnGO5TKshUF2UEGGihhrdCyI2xVsj6_md_AH_Y7ndvp1EBW18gnkhMw.HEljn5lVsa8clvJOGQKUbQSKfg4k_nkkreFjl64HwVg&dib_tag=se&keywords=Gohdiwh%2Bfall%2Bpillow%2Bcover%2Bset&qid=1785884880&sr=8-7&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=60f6cbedbffdc9e2e6503071694ef599&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/gohdiwh-fall-pillow-cover-set.png",
+    subtitle: "The two-pillow swap that changed how the whole couch reads.",
+    story: "I did the thing where you talk yourself out of seasonal decor because it feels like clutter waiting to happen, then finally swapped these on and immediately understood the appeal. Watercolor leaves in rust, sage, and dusty blue, on a linen-look cover that actually fits my inserts without gapping at the corners. Two covers, and the whole living room feels like it caught up to the calendar.",
+    tags: ["Fall Decor", "Pillow Covers", "Cozy Home", "Amazon Home Finds", "Under $15"],
+    badge: null,
+    date_added: "2026-08-04"
+  },
+
+  {
+    id: "wooden-happy-halloween-porch-wreath",
+    title: "Wooden Happy Halloween Porch Wreath — Pumpkin, Ghost, Black Cat & Skull Door Decor",
+    category: "seasonal",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Halloween-Decorations-Wooden-Pumpkin-Wreath/dp/B0H7LVC6CR?crid=364ZRL5H2R563&dib=eyJ2IjoiMSJ9.5t_bWMLkh85es2QgU3zgjYcnic1TO1hz8Lo_PBZvHlqsXL8WcWJXyW3ElVGKdAp0PKqpoKOsdQzh0A1m3D-nRh6ZhRa4ZpdN-WT7D5JYZnnNoLDaMqiDeraWmPux9u5cXZn5VlVfVvVUFYkAhb8ANZ9UprG2lw9EAluG3Kt03bM3NR7kAA82dMZJj4wyWSTRdLD7B3YKKOG3qVwyEPnBSo35OFUrWvQuKchEpAiXTQ3JNFpR7xqEhb7dK6zQhsM4Kiw7xXNo2OKWsLq9ve5GcQp1DDiNR1e8CqcYb32lNoU.OmrSXeyT_ocZQRSzkn9mNkc2WsMmpIfJCNHSl8OxWQA&dib_tag=se&keywords=Farmhouse-style+pumpkin%2Fblack-cat+door+wreath&qid=1785884754&sprefix=sandjest%2B20oz%2Binsulated%2Bteacher%2Btumbler%2B+it%2Btakes%2Bbig%2Bheart%2Bto%2Bshape%2Blittle%2Bminds%2C+%2Bamazon%27s%2Bchoice%2C%2Breal%2Basin%2Bb0b2klkh9r+%2Caps%2C434&sr=8-6&linkCode=ll2&tag=nestandpaws-20&linkId=ccd3ce37dc5f0012c12c2f7de7e5a4e2&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/wooden-happy-halloween-porch-wreath.png",
+    subtitle: "My neighbor stopped mid-walk to take a photo of my front door.",
+    story: "I almost skipped Halloween decor entirely this year until I saw this hanging on someone else's door in a neighborhood group post. Hand-painted wood pieces — a crow, a ghost with a bow, a jack-o'-lantern in a witch hat, a black cat batting at a bubbling cauldron — all layered onto a spiderweb base with a polka-dot bow up top. Lightweight enough that the hemp rope on back holds it easily, and it reads as genuinely charming rather than plastic-costume-store spooky.",
+    tags: ["Halloween Decor", "Front Door Wreath", "Amazon Home Finds", "Under $10", "Porch Decor"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-08-04"
+  },
+
+  {
+    id: "sandjest-teacher-tumbler-big-heart",
+    title: "SANDJEST 20oz Insulated Teacher Tumbler — It Takes a Big Heart to Shape Little Minds",
+    category: "seasonal",
+    price: 23.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/SANDJEST-Teacher-Tumbler-Appreciation-Insulated/dp/B0B2KLKH9R?crid=OEBNRDWODCK1&dib=eyJ2IjoiMSJ9.KWPGyNWz5iMCODjDGX58MHMsZNc8yDHLm_D_5JoCTjUKgROdXjQVrncnQwnmfn31eMsPdI1W6H_3tsa6QeujGH_JXDqx6c0lSCWiRX0NQ_eor8iR5XQCD10d9vYU2PDOZuNJt8wYUCYpSg3mcVp2sH8Wv7_gx2UeIrX_BDGCe53nOJQKbeND4TF9Bw8hlrGmgpFaXTbaLZZcfeztACvEbaorRZsnsSNCH3fqsBAxSjRsns5c0AvEjBcgBC0pDsAflqcz-ckDGyPzriPtFf1FqJ87moBajUpXJPFZ-1QKTBg.eFUp4-5qScgUP4qtUSLy8EDQpJ5UG-jRe3b45l9rIBg&dib_tag=se&keywords=SANDJEST%2B20oz%2Binsulated%2Bteacher%2Btumbler%2B%28%22It%2BTakes%2BBig%2BHeart%2Bto%2BShape%2BLittle%2BMinds%2C%22%2BAmazon%27s%2BChoice%2C%2Breal%2BASIN%2BB0B2KLKH9R%29&nsdOptOutParam=true&qid=1785884628&sprefix=sandjest%2B20oz%2Binsulated%2Bteacher%2Btumbler%2Bit%2Btakes%2Bbig%2Bheart%2Bto%2Bshape%2Blittle%2Bminds%2C%2Bamazon%27s%2Bchoice%2C%2Breal%2Basin%2Bb0b2klkh9r%2B%2Caps%2C276&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=a984665db43f90cabd21591124b5617c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/sandjest-teacher-tumbler-big-heart.png",
+    subtitle: "She's used it every single school morning since the first day back.",
+    story: "I always overthink teacher gifts and end up grabbing something generic at the last minute, so this year I actually planned ahead. Double-wall stainless steel, a rainbow-and-heart design wrapped around a message that doesn't feel like a mug-store cliché, and it keeps coffee hot through the whole drop-off routine. She had it in her hand at pickup the very next day, which is the only review that's ever mattered to me.",
+    tags: ["Teacher Gift", "Back to School", "Insulated Tumbler", "Amazon Home Finds", "Under $25"],
+    badge: null,
+    date_added: "2026-08-04"
+  },
+
   // ── BUILD — AUGUST 1 2026 (5 INDIVIDUAL PINS) ───────────────────────
 
   {
