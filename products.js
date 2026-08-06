@@ -1,5 +1,157 @@
 const PRODUCTS = [
 
+  // ── BUILD — AUGUST 5 2026 (BEAUTY: COLLAGEN HAIRCARE + SKINCARE, 10 PINS) ──
+
+  {
+    id: "medicube-collagen-night-wrapping-mask",
+    title: "medicube Collagen Night Wrapping Mask — Overnight Elasticity & Hydration",
+    category: "beauty",
+    price: 19.00,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/Medicube-Collagen-Wrapping-Elasticity-Hydration/dp/B0BRMYHMS5?crid=1S192LFS8NMD2&dib=eyJ2IjoiMSJ9.fpJ62XsRW55jGqCYCTcmObBJoFVeqGH0sHVaDxVpKSdQzn54DFkyPXD36s-zEevlUlu6hQNcqNoTqvM-7BHypCaxJBUFFVFUBg1sYfttOh2G6BPRtpCal7aFxmNr8B_SmBHrqGAtO8tvkfn-8fpFjhkXiqq8u8M6_EAWi9LxFVooqnD7FoCinL13nekEWVJyZ2cytpaXHqOB9mUW23dEkROjQ9jTc9A1ZFMvlDmYhT6EyhHTMGnfuWygKbTh-rkkC9u0CgB4wyfEwwHV_xl3e1EsmPQq1UMGnubeR8Vgtb4.aw84iVcNSnSy6efzeDdU_g4asyLo_RXxH0LQW6r02FA&dib_tag=se&keywords=medicube%2BCollagen%2BNight%2BWrapping%2BMask&qid=1785969845&sprefix=medicube%2Bcollagen%2Bnight%2Bwrapping%2Bmask%2Caps%2C151&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=68664031e902bea130a114948594e75e&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/medicube-collagen-night-wrapping-mask.png",
+    subtitle: "I peeled it off the next morning and my skin looked rested in a way sleep alone hadn't managed.",
+    story: "I'm a peel-off-mask skeptic because most of them just feel like a party trick, but this one earned its spot. You smooth it on before bed, wake up, and peel away a full collagen sheet that lifted right off in one piece. My skin underneath looked plumper and more even, not just damp from the product sitting on it overnight. It's become the thing I reach for the night before anything I actually want to look rested for.",
+    tags: ["Collagen Skincare", "K-Beauty", "Overnight Mask", "Amazon Beauty Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "karseell-collagen-hair-mask",
+    title: "Karseell Collagen Hair Treatment Mask — Deep Repair with Argan Oil, 16.9 fl oz",
+    category: "beauty",
+    price: 24.86,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Karseell-Collagen-Conditioner-Coconut-Bleached/dp/B075L6BL61?crid=20UZJBCSJKUXZ&dib=eyJ2IjoiMSJ9.zOTYGepUpz4lxhtFT0zHknFUmF_d6X2WTuqnjSh23xazsTxf1__mUeRJFz9yMPbbCobyU8TeggIUL88UcNlFcnnFh-djgV62XutYb7kv26jTnYangjMIcgdapT1_93HWVwsZrPeyJOp_1_ySN9_D0CDrsUMjdKDxb2Nb9LjkijSDURjthOrB-jcOhSrv3JCgziEONqtTc4Ac2UUKfmj9qzve8TqDTy_0xWbpCIqNIIwYE5T46aAGn1gZhhIdH-b8QXRsxPvQcplktXle5fC4diU0r1yY04NaemZ6oj_YaJQ.IWjE3XMdFaaRs61HuhWdlMisBB4Xrk9KEpU8iAQBTqs&dib_tag=se&keywords=Karseell+Collagen+Hair+Mask%2C+16.9oz&qid=1785969287&sprefix=karseell+collagen+hair+mask%2C+16.9oz%2Caps%2C138&sr=8-1&linkCode=ll2&tag=nestandpaws-20&linkId=afbd835738c0feec7c142c7c8223330e&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/karseell-collagen-hair-mask.png",
+    subtitle: "My ends stopped catching on my hairbrush somewhere around week two.",
+    story: "My hair takes a beating between heat styling and hard water, and I'd stopped expecting a mask to actually fix the roughness at the ends. This one changed that. Collagen and argan oil worked into damp hair, left on for a few minutes, and the difference by the third use was obvious just running my fingers through it. It's become the weekly reset that keeps the rest of my routine from feeling like damage control.",
+    tags: ["Hair Mask", "Collagen Hair Care", "Deep Conditioning", "Amazon Beauty Finds", "Hair Repair"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "cosrx-collagen-eye-patch",
+    title: "COSRX Pink Peptides Collagen Hydrogel Eye Patches, 60 Count",
+    category: "beauty",
+    price: 23.00,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/COSRX-Peptide-Collagen-Hydrogel-Circles/dp/B0DLKCCPYZ?crid=28H8WDCIRI06I&dib=eyJ2IjoiMSJ9.SAaHfY5kgAQgILP_-ckUQVgBJdyi-y4UnFJgaf4meW_kRbIbVruDcVIYpuV5Ms-MenRGkuIAXWm_Viqh2CUp3OVZ8Bio1xtH6-kdcd1NNIcB7EaBEOo6nEe_K_zcrAgv7YQk1DD_jTffkpcuiNdwNCK7a36ffeNoq5Gp3D7ymlKz_qkStslucgfhxvRwvkFivpdzvcPZ3N71lI1jvQdf4s-Xl8vKXeHSQPsnu8d5Iw9efykCprGgdB_YskgKvahio_86tDCXdQgVsYFkVAKbjDwrmcYaXIBYAShy6kXkbdg.rW3b1xNBqwSb869inl1lu3de1CcqON2On0z8MXehBXg&dib_tag=se&keywords=COSRX%2BPink%2BPeptides%2BCollagen%2BHydrogel%2BEye%2BPatch%2C%2B60ct&nsdOptOutParam=true&qid=1785969791&sprefix=cosrx%2Bpink%2Bpeptides%2Bcollagen%2Bhydrogel%2Beye%2Bpatch%2C%2B60ct%2Caps%2C171&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=621126d5e859ce9d69d71959cfa50e3e&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/cosrx-collagen-eye-patch.png",
+    subtitle: "The puffiness I used to just live with is quieter now.",
+    story: "Mornings after a bad sleep used to just be something I accepted about my under-eyes. I started keeping these in the fridge and pressing a pair on while I made coffee, and the tightening effect is noticeable before I've even finished the cup. Sixty patches means it's genuinely a weekday habit and not a special-occasion thing. My under-eye area looks less tired in photos now, which is the only metric that actually mattered to me.",
+    tags: ["Eye Patches", "Collagen Skincare", "K-Beauty", "Amazon Beauty Finds", "Under Eye Care"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "ogx-collagen-shampoo",
+    title: "OGX Thick & Full + Biotin & Collagen Volumizing Shampoo, 25.4 fl oz",
+    category: "beauty",
+    price: 32.78,
+    price_bracket: "Under $35",
+    affiliate_link: "https://www.amazon.com/OGX-Volumizing-Nutrient-Infused-Sulfate-Free-Surfactants/dp/B0D14X7HR3?crid=1TTRTFU5SH0K6&dib=eyJ2IjoiMSJ9.OhPUOVPXluPniX-XUjuO7WYcLsHy1nviafr2L99cR9sVbG5tb4QM1Fpu4GIc9y6zAiJmNQdhVlKcuoFhtp1PUj1vaucA4wl8A16f0XNcQg8ieFsSqq-0pzMELVPfkw2JE2TVL3aXvbe2TEA7PZBWkIUsFEGsGrQTa_0dpjj4o3fWSzZl8hZJXt974UqX0bv2OkA5cK0Rw9vDX-zlUeT8niNglZEcjc8IbDiNvj7COopm14r7QGbvh1VsFTLf5HkUCd_65NHtoF15v1knPcj8CGEoAiNGSYEYaqGapujEFBA.H9cEQFKA85JZUqwRQ8qa-tXwxQw-O8teCML3TDQsaPM&dib_tag=se&keywords=OGX%2BThick%2B%26%2BFull%2BBiotin%2B%26%2BCollagen%2BShampoo%2C%2B25.4oz&nsdOptOutParam=true&qid=1785970146&sprefix=ogx%2Bthick%2B%26%2Bfull%2Bbiotin%2B%26%2Bcollagen%2Bshampoo%2C%2B25.4oz%2Caps%2C235&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=ecc4a0a1595b8605eb2452ede0b01cda&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/ogx-collagen-shampoo.png",
+    subtitle: "My hair stopped going flat by midafternoon.",
+    story: "Fine hair falls flat on me by lunchtime no matter what I do, so I didn't expect much from another volumizing shampoo. The biotin and collagen combination actually held up through a full day this time, root lift included. It's sulfate-free too, which matters since I color my hair and can't afford a formula that strips it out in three washes. It's the shampoo I keep repurchasing without thinking twice about it.",
+    tags: ["Volumizing Shampoo", "Collagen Hair Care", "Biotin", "Amazon Beauty Finds", "Fine Hair"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "mielle-rosemary-mint-hair-oil",
+    title: "Mielle Organics Rosemary Mint Strengthening Hair & Scalp Oil, 2 fl oz",
+    category: "beauty",
+    price: 9.94,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/Mielle-Rosemary-Mint-Scalp-Strengthening/dp/B07N7PK9QK?dib=eyJ2IjoiMSJ9.76LyXp7fpDWdgxIJCfRNzmQkCVwbEewThmv0wLhC9AOCsOLb467O0qvqIfi_SMskRznuX5l0S7ZGY0RnrHJt9gWABH6Ex3-aWsxNisO9oe8gzpU1RIYyt5S0ere5r8gu_eOTD0Cp3rFMGJ2N3WD7iiDrGXs7ygcHx3ORPyPfk7DLqailKXluBEJWlZ5HEpauD0C0AcGoePstRlH7pBSMb_Qry8b03aRFIvue0ouVHP1avZQJ879olTfUTdSvsX3BtW7B-AoBxvxTbhT17RUs2Q4xbrr6IgWhe6K-BKjwPPk.K5eA5fDePVoIUEd5TBl8pszcUFZUcnCugHJfSxwnWwA&dib_tag=se&keywords=Mielle+Organics+Rosemary+Mint+Strengthening+Hair+Oil%2C+2oz&nsdOptOutParam=true&qid=1785970002&rdc=1&sr=8-1&linkCode=ll2&tag=nestandpaws-20&linkId=fce81230696870683fb2a401634c05e3&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/mielle-rosemary-mint-hair-oil.png",
+    subtitle: "My scalp stopped feeling tight after the first week of massaging this in.",
+    story: "I didn't think a scalp oil could actually change anything until I started using this a few nights a week. It's lightweight enough that it doesn't sit greasy at the roots, and the rosemary mint combination leaves a cool, clean feeling that makes the whole routine feel less like a chore. My part looks fuller than it did a couple months ago, and I've stopped noticing the tightness I used to just assume was normal.",
+    tags: ["Scalp Oil", "Rosemary Mint", "Hair Growth Support", "Amazon Beauty Finds", "Under $10"],
+    badge: "IMPULSE BUY",
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "ordinary-hair-density-serum",
+    title: "The Ordinary Multi-Peptide Serum for Hair Density",
+    category: "beauty",
+    price: 24.00,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Ordinary-Multi-Peptide-Density-Peptide-Powered-Formula/dp/B09WMT8HYB?crid=2WLZUY7WOXQF1&dib=eyJ2IjoiMSJ9.M-4pCRFChpKIFJabRJk4J5KDSWIcjCbyUsqUUKKpt01zARO5GoVVZDVibl71TozSclC6oyRkCtESfwTWK9CMcHs-4RkDdTDnZTxwK0Iybe2XdcQEAggsLcgCTpu1gGfOo096mmzA5B-3OvvOAYNGSvppK7WuxfrIkBnEY2fuuoP62RjqL5ERPv3WD87pwCDJvv9tgkXy2HGoXsr-FAaKq68VQ_OW65VU_EEmE0ZuhtnvG_-T-hBxYAm9io8aQeq4Nn25NejzW_516zFzpmFgI4Ax4Zm-8HvTdzO2Fg8lbqE.q-Ae1jd2xy0qLTj-WHiNhuWExgpobQda6lfa5fGDouo&dib_tag=se&keywords=The%2BOrdinary%2BMulti-Peptide%2BSerum%2Bfor%2BHair%2BDensity&qid=1785969956&sprefix=the%2Bordinary%2Bmulti-peptide%2Bserum%2Bfor%2Bhair%2Bdensity%2B%2Caps%2C151&sr=8-1&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=7bb66ef31956592b9688382c70a93db9&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/ordinary-hair-density-serum.png",
+    subtitle: "The part in my hair looks different than it did a month ago.",
+    story: "I've used The Ordinary's skincare for years and never thought to check what they did for hair until a friend mentioned this. A dropper of peptide serum straight to the scalp, a couple times a week, no rinsing required. My part started looking fuller a few weeks in — not dramatic, just genuinely different in a way I noticed on my own before anyone said anything. Simple bottle, simple routine, and it fits right into the shelf of Ordinary products I already had.",
+    tags: ["Scalp Serum", "Peptides", "Hair Density", "Amazon Beauty Finds", "Hair Care"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "k18-leave-in-repair-mask",
+    title: "K18 Leave-In Molecular Repair Hair Mask",
+    category: "beauty",
+    price: 29.00,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/K18-Leave-Repair-Hair-Mask/dp/B09HR5KSR8?crid=2XJXNTZH01B7R&dib=eyJ2IjoiMSJ9.-BhZ4mLIQK5yI28ZdW7ZnVsXvnYPNvgqsQoUA47o8q3hNT3vFbc-SzvCsKuw1tRFCEIhXrOrn82iL6eHV_j7yrw8Da5nCJ2D0fIIwO44PR_exe57mLSsK7ikVnyuL6TUS0xzTxiPLLG0RdqaFOTi9qToMO3m5PQoMuQFNmxwq2mHdnBIcZTVEUpoJpY18opZFR7ZfL-OX3B9M-HXp5xnWLmoayaT5Eobi53jQEVz0H1QjzF08hXkpWxSGaNW0K8byhRJ4O--zuGn_e2XyI8vkSdpwDRKagy50YjemVP-72E.DvTz3z2lKB-eN0YNJe8SrzKnjVtLVfSg2mDXId9Tf1k&dib_tag=se&keywords=K18%2BLeave-In%2BMolecular%2BRepair%2BHair%2BMask&qid=1785969898&sprefix=k18%2Bleave-in%2Bmolecular%2Brepair%2Bhair%2Bmask%2Caps%2C198&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=42ba5f59c97121027af82e00e80b1718&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/k18-leave-in-repair-mask.png",
+    subtitle: "Four minutes, no rinse, and my ends stopped feeling like straw.",
+    story: "I was deep-processing my hair every few months and it finally caught up with me at the ends. This is the first leave-in treatment that actually made a difference I could feel the same day — four minutes, no rinsing, and my hair went from straw-like to soft enough that I stopped avoiding running my hands through it. It's pricier than the rest of my routine, but it's also the only step that's earned a permanent spot after damage from color and heat.",
+    tags: ["Hair Mask", "Leave-In Treatment", "Damage Repair", "Amazon Beauty Finds", "Bond Repair"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "simplyvital-collagen-cream",
+    title: "SimplyVital Collagen Face Moisturizer Cream",
+    category: "beauty",
+    price: 24.97,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/Face-Moisturizer-Collagen-Cream-Moisturizing/dp/B0BBSP2JNQ?dib=eyJ2IjoiMSJ9.XlcriYM-uPUwnv1XJLNQZ_TNdIODzs0KIOclBE9U3Iz-jRYOC8GXTjdPYAYzJALBHSoJsjSQcv4t41frqpb2SjVfRDsllHzCPLmpqjhee1HK4M-w3kIIK_IhiJI9nT29ey0n3iakWMafX0i3Qz4A8zjgrSvc6M1qSP7SzM9c5L7IDhn8AhjY22ZsBm87VyD30VKXGdbUK2sAIYxsmrjNB5PYGGy0wR0wrFsWqRJEsZcYJ_dgx-d1w4Qzn0Hp7ZE65FwHZqlD0_7-MECo_zqy1cBz7vtdvVQRKQnVVJzgQPQ.KYiIhol-Fx_0YNP-FZtIiFfNwcAvgU02ljqCC4mfFy0&dib_tag=se&keywords=SimplyVital%2BCollagen%2BCream&qid=1785969604&rdc=1&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=8145b69158398c5c542d26857c1bd598&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/simplyvital-collagen-cream.png",
+    subtitle: "My skin stopped feeling tight by midafternoon, which was the actual problem.",
+    story: "My moisturizer routine kept failing by early afternoon, that tight, dry pull that no amount of reapplying seemed to fix. This cream is the first one that actually held through a full day, indoors under AC and outdoors both. It sinks in fast enough to layer under makeup without pilling, and the collagen base leaves skin looking a little firmer over time rather than just temporarily dewy. It's replaced two other products on my shelf at this point.",
+    tags: ["Face Moisturizer", "Collagen Skincare", "Daily Cream", "Amazon Beauty Finds", "Under $25"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "anua-collagen-glow-serum-spray",
+    title: "ANUA PDRN Collagen Glow Facial Serum Spray with Hyaluronic Acid, 3.38 fl oz",
+    category: "beauty",
+    price: 24.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/ANUA-Collagen-Hydrating-Hyaluronic-Hydration/dp/B0FVT77ZLL?crid=33YTYZY8H0SRU&dib=eyJ2IjoiMSJ9.9vmPp85hkX31WP_ChTMW_4uOhqGf48dsnZarvh1O_mFFReV9MYdKuPoDHU6GLT7JYsKRxEhNITFhZSzzCuXs1utlsuDrRFKIvooRI9nWhyAgCAoJz-drWqihZdNBppVwv0UnL_DmCqG7-Z8id5vjUCwafgxF2qiOJ0Gun4pziIr1AxYszhtGw23xuFq6ADMc6hWnd5KLym3q9JYpCo9U2p_vb-RQIUHOXuIz7g3bUfA0P-l56o25yKQPvSN9QFHIaV4JfYQvY-svJr-js2YjTI8CnZm9tn289I4pHCJfQ_o.asJfYxBEW4dU_7FQFYMDf8OuzuucsrjLLRyTPFWqetM&dib_tag=se&keywords=ANUA%2BPDRN%2BCollagen%2BGlow%2BFacial%2BSerum%2BSpray%2C%2B3.38oz&nsdOptOutParam=true&qid=1785969524&sprefix=anua%2Bpdrn%2Bcollagen%2Bglow%2Bfacial%2Bserum%2Bspray%2C%2B3.38oz%2Caps%2C181&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=dbf57e61e2b13dd1725c88d47be8126b&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/anua-collagen-glow-serum-spray.png",
+    subtitle: "One spritz mid-day and my skin stopped looking as tired as I felt.",
+    story: "I keep this on my desk now, which says more than any review could. A couple of spritzes over makeup mid-afternoon and skin that was starting to look flat and dull comes back to life without disturbing anything underneath. It's become the reset button for the second half of my day, especially on the days that start too early and end too late. Small bottle, but it lasts a long time since a little actually goes a long way.",
+    tags: ["Facial Mist", "Collagen Skincare", "K-Beauty", "Amazon Beauty Finds", "Hydrating Spray"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
+  {
+    id: "mediheal-collagen-firming-pads",
+    title: "MEDIHEAL Collagen Ampoule Firming Toner Pads",
+    category: "beauty",
+    price: 23.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/MEDIHEAL-Collagen-Ampoule-Pad-Elasticity/dp/B0BHVF95S9?crid=26YEEAXJEDZTX&dib=eyJ2IjoiMSJ9.ZrVtucrJlpWC9XWILoUwkqN_x663i4z0XWnLBDsbPa4umbQq1pwWpqllgC6m4-7Nw5p6zPS_ue2shQbOEDsbhv-yx3mQpEVwYPM-Kodc-NRaMbWYQZzStKaNZpVuQwg31f3PAoxVXL3iCJX1XihDb3OK8WpUQB8-YPceFOngz4jL6p7D8ABdXHt27uHH6qhd3EPkflxc4RSln51UWs_e9bk6qH4OrPy1vsZ4cyJ7vMgW59mbCgfHDrtIxqPuUhJGzBrnCt6-V1gTZzMjY3YtzpzEKB3UxNUwjupgq6r2pP0.QNF21IAUWyYW-6ikklWfNasdigw4LfRA9nTmESwl0p8&dib_tag=se&keywords=MEDIHEAL%2BCollagen%2BFirming%2BPads&qid=1785969457&sprefix=mediheal%2Bcollagen%2Bfirming%2Bpads%2Caps%2C199&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=ae5f9d26bae003efdad7a929802145c2&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/mediheal-collagen-firming-pads.png",
+    subtitle: "Swiping one of these on replaced three separate steps in my old routine.",
+    story: "I used to layer a toner, an essence, and a serum every night, and half the time I'd skip a step because it was just too much. These pads do all three in one swipe — the ampoule-soaked texture is enough that skin feels genuinely treated, not just wiped down. My routine is shorter now and my skin looks more even than it did with the multi-step version I gave up on. It's the kind of simplification that actually stuck.",
+    tags: ["Toner Pads", "Collagen Skincare", "K-Beauty", "Amazon Beauty Finds", "Simplified Routine"],
+    badge: null,
+    date_added: "2026-08-05"
+  },
+
   // ── BUILD — AUGUST 4 2026 (FALL DECOR + HALLOWEEN + TEACHER GIFT) ────
 
   {
@@ -907,7 +1059,7 @@ const PRODUCTS = [
     category: "beauty",
     price: 19.00,
     price_bracket: "Under $20",
-    affiliate_link: "https://www.amazon.com/BIODANCE-Refreshing-Overnight-Hydrogel-Calming/dp/B0DR7P1TKL?crid=26DHT4TBHD81C&dib=eyJ2IjoiMSJ9.h2i0eeAZfU9Vi6t89dK_M6dSMno8FXEU44R7D2OGMe-nC_zKeBfgfvxgELQu38x4HXXaKARi6XJCAxD3cLjeVJ-H2pUqKGjUqrLmYZOwLWTm3HBouIzfJNyn5MZ0mjHhAMUZhWnuXfWlERPRDBWwWoZmLxZdNFGcQ3BRv_3pCdPhAyT0cpWG83AjXWBeQEI8hoowjFfU-hPG4i_qONrA9kKTENbDFA8BbRZFybxDLTo28bKsvLBgjKbdd8K4aibf9wINpsN2bNMoJvcLQrVoBjcOeQbnjvWmNEUpq0l3CVk.72ggLN1G7oRJoTp0enpnJbUgFoscMlXMX-pXouALnUQ&dib_tag=se&keywords=Biodance%2BBio-Collagen%2BReal%2BDeep%2BMask&qid=1782516730&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=f1bc1ce3ddde2b718cd1e9b856acbd9c&language=en_US&ref_=as_li_ss_tl",
+    affiliate_link: "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2?crid=2RN9B99UW4KWW&dib=eyJ2IjoiMSJ9.h2i0eeAZfU9Vi6t89dK_Mwq-2tuSfCV_zXErQdNMBfjdjK2__zxPRWOFId2oggrFHXXaKARi6XJCAxD3cLjeVLsZ-ZnMHeI-3JlTdnRfUaDOnTdjAPYZhRfAd4qNLVf8BwHLiCaGJH6ShZg8ylopLxgBVR909SouWkBqki1PBe7qBstYsCdEvIfdd2iJNeRxGPWgh_2-RRwEmjbOf03e4hdJD__c4euoaO3FUAeWxeAFPdN1Su_QZet_XKmgs9HBvhYmk7LBnpbEf8_z_N8f-exCxf70a7zg5QwKALaqPE4.CyLEhXsaXA3q0_r-mOwQ2LkRdAPYAVvsgFGe4MquDm8&dib_tag=se&keywords=BIODANCE%2BBio-Collagen%2BReal%2BDeep%2BMask&qid=1785969397&sprefix=biodance%2Bbio-collagen%2Breal%2Bdeep%2Bmask%2B%2Caps%2C511&sr=8-6&th=1&linkCode=ll2&tag=nestandpaws-20&linkId=140ef08167cfdb513ac1fb72694ac6e9&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
     image: "images/biodance-collagen-mask.png",
     subtitle: "My skin looked like I'd had a facial. I did it on a Tuesday night.",
     story: "I found this in a K-beauty rabbit hole at 11pm and ordered it immediately. You wear it for 3 hours or overnight and when you peel it off your skin is genuinely different — plumper, softer, that glass-skin look I'd only seen in editing. It was #6 on Amazon Beauty's bestseller list in Q1 2026 for a reason. Four masks per box, under $20. I clicked add to cart in under a minute.",
