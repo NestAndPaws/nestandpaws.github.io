@@ -1,5 +1,23 @@
 const PRODUCTS = [
 
+  // ── AUTOMATION TRIAL BUILD — SEPTEMBER 26 2026 ──
+
+  {
+    id: "etekcity-kitchen-scale",
+    title: "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb",
+    category: "home",
+    price: 13.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B0113UZJE2?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=6d515ec30104208ac92419177c350428&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/etekcity-kitchen-scale.png",
+    subtitle: "My meal prep stopped being a guessing game somewhere around the second week.",
+    story: "I used to eyeball everything when I baked, which is a nice way of saying I ruined more loaves than I\u2019d like to admit. This little scale sits flat on the counter and doesn\u2019t try to be anything more than it is: press tare, pour ingredients right into the bowl on top, and it just works. No app, no charging cable, two AAA batteries and you\u2019re weighing in grams before you\u2019ve finished your coffee. It\u2019s the kind of thing that quietly fixes a problem you\u2019d stopped noticing you had.",
+    tags: ["Kitchen Gadgets", "Meal Prep", "Amazon Home Finds", "Under $15"],
+    badge: null,
+    date_added: "2026-09-26"
+  },
+
+
   // ── BUILD — AUGUST 5 2026 (BEAUTY: COLLAGEN HAIRCARE + SKINCARE, 10 PINS) ──
 
   {
