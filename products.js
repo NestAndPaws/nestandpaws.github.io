@@ -1,5 +1,22 @@
 const PRODUCTS = [
 
+  // ── AUTOMATED BUILD — SEPTEMBER 30 2026 (IMPULSE) ──
+
+  {
+    id: "yankee-candle-spiced-pumpkin",
+    title: "Yankee Candle Spiced Pumpkin Scented Candle, 22oz Large Jar",
+    category: "home",
+    price: 16.11,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B0F3DRTCB2?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=ca6d09c45049b7605637c39819691530&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/yankee-candle-spiced-pumpkin.png",
+    subtitle: "Three people asked what smelled so good before they had even taken their shoes off.",
+    story: "I lit this the night it arrived and the whole downstairs smelled like a bakery that only sells pumpkin things. It is not a subtle candle. The 22oz jar is big, the scent is warm pumpkin and baking spice, and it fills a room without me having to keep it going all day. I set it on the console table by the front door and it became the first thing people mention. Fall in one jar, and the easiest decorating win I have had this month.",
+    tags: ["Fall Decor", "Candles", "Amazon Home Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-09-30"
+  },
+
   // ── AUTOMATION TRIAL BUILD — SEPTEMBER 26 2026 ──
 
   {
