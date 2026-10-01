@@ -1,5 +1,82 @@
 const PRODUCTS = [
 
+  // ── AUTOMATED 5-PIN BUILD — OCTOBER 1 2026 ──
+
+  {
+    id: "alpha-grillers-meat-thermometer",
+    title: "Alpha Grillers Instant Read Meat Thermometer, Digital, Waterproof",
+    category: "home",
+    price: 12.31,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B00S93EQUK?&linkCode=ll2&tag=nestandpaws-20&linkId=b339d28fe5284f3e375f7465b1a2c2a3&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/alpha-grillers-meat-thermometer.png",
+    subtitle: "My roast came out right the first time and nobody asked how I knew.",
+    story: "I stopped cutting into chicken to check it. The reading shows up in a couple of seconds, the display is bright enough to read in a dim kitchen, and the probe folds away so it fits in a drawer. I keep it next to the stove now and reach for it more than I expected. Fall roasts are the real test, and it handled the first one without any guessing.",
+    tags: ["Kitchen Gadgets","Meat Thermometer","Amazon Home Finds","Under $20"],
+    badge: null,
+    date_added: "2026-10-01"
+  },
+
+  {
+    id: "blue-buffalo-pumpkin-dog-biscuits",
+    title: "Blue Buffalo Health Bars Pumpkin and Cinnamon Dog Biscuits, 16oz",
+    category: "pets",
+    price: 4.98,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/dp/B003P9XG68?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=52eb9351c8f8d6a82b05a13a22fe7843&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/blue-buffalo-pumpkin-dog-biscuits.png",
+    subtitle: "The treat jar stopped being a negotiation at the end of every walk.",
+    story: "Pumpkin and cinnamon biscuits that smell like fall and hold together in a coat pocket. My dog sits before I finish opening the bag. They are baked and crunchy, a good size for a reward, and they leave no crumb trail in the car. A small bag at a small price, and the first treat I restock.",
+    tags: ["Dog Treats","Fall Pet Finds","Pumpkin Dog Biscuits","Under $10"],
+    badge: null,
+    date_added: "2026-10-01"
+  },
+
+  {
+    id: "wet-brush-original-detangler",
+    title: "Wet Brush Original Detangler Hair Brush, Black Frost",
+    category: "beauty",
+    price: 7.59,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/dp/B0DMZT3JT2?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=e93f4a9d8d3e005500c265f21c97f8ac&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/wet-brush-original-detangler.png",
+    subtitle: "Morning hair stopped being the part of the day I dreaded.",
+    story: "The bristles are soft and flexible, so knots work out without the pulling I used to brace for. I use it on damp hair after a shower and on dry hair before bed. The black frost handle looks good sitting on a dresser and grips well. It is the cheapest hair upgrade I have made, and the one I use every single day.",
+    tags: ["Hair Brush","Detangling","Amazon Beauty Finds","Under $10"],
+    badge: null,
+    date_added: "2026-10-01"
+  },
+
+  {
+    id: "owala-freesip-water-bottle",
+    title: "Owala FreeSip Insulated Stainless Steel Water Bottle, 32oz, Very Very Dark",
+    category: "home",
+    price: 29.99,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/dp/B085DVHQ57?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=3be60f0e4332be7972131beede41c804&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/owala-freesip-water-bottle.png",
+    subtitle: "I stopped losing track of how much water I had actually had in a day.",
+    story: "The FreeSip spout lets me sip through the straw or tilt and drink, which is why it lives on my desk instead of in a cabinet. The insulated steel keeps water cold through a long workday and the lid stays shut in my bag. The dark color hides fingerprints. Easy to carry, easy to clean, and the one bottle I grab every morning.",
+    tags: ["Water Bottle","Desk Setup","Amazon Home Finds","Under $40"],
+    badge: null,
+    date_added: "2026-10-01"
+  },
+
+  {
+    id: "grotheory-door-draft-stopper",
+    title: "Grotheory 2 Pack Self-Adhesive Door Draft Stopper, Under Door Seal",
+    category: "renter",
+    price: 9.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B07ZQ2ZKLW?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=8deebf166b06fa6607bd839f67b90c93&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/grotheory-door-draft-stopper.png",
+    subtitle: "The cold air under my front door just stopped one afternoon.",
+    story: "Peel the backing, press it along the bottom of the door, done. No drilling and no screws, which matters in a rental. It covers the gap where cold air and dust creep in, and the silicone stays flexible so the door still swings. The two pack covers the front door and one more. A ten minute fix that renters can actually do.",
+    tags: ["Renter Friendly","Door Draft Stopper","No Drill","Under $15"],
+    badge: null,
+    date_added: "2026-10-01"
+  },
+
   // ── AUTOMATED BUILD — SEPTEMBER 30 2026 (IMPULSE) ──
 
   {
