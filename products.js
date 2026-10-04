@@ -1,5 +1,83 @@
 const PRODUCTS = [
 
+  // ── AUTOMATED 5-PIN AFFILIATE BUILD — OCTOBER 4 2026 ──
+
+  {
+    id: "jikiou-mini-hand-paper-shredder",
+    title: "Mini Hand Crank Paper Shredder, Portable, Blue",
+    category: "home",
+    price: 14.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B09LCJHVMQ?&linkCode=ll2&tag=nestandpaws-20&linkId=9a06254e13c97460ea5e0685f61b1a4a&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/jikiou-mini-hand-paper-shredder.png",
+    subtitle: "The mail pile stopped sitting on my desk waiting for a real shredder.",
+    story: "No cord, no outlet, no noise. You turn the handle and receipts and mail turn into thin strips in a clear bin that shows when it is full. It sits on a shelf or desk without taking over, and I reach for it the same day a statement shows up instead of letting it pile. A small fix for a small, constant annoyance.",
+    tags: ["Paper Shredder", "Home Office Finds", "Amazon Home Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "duck-window-insulation-kit-10-windows",
+    title: "Duck Brand Window Insulation Kit, 62 in x 420 in, Fits up to 10 Windows",
+    category: "renter",
+    price: 14.97,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B09JM8DCYL?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=a9c74ef1a12651f31ba4de6efa04c0fc&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/duck-window-insulation-kit-10-windows.png",
+    subtitle: "The window by my desk stopped being the cold spot in the room.",
+    story: "A roll of clear film and tape that goes on the inside of the window frame, so there is nothing to drill and nothing to patch at move-out. You cut it to size and shrink it tight with a hair dryer. One roll covers a whole apartment of windows, and from the room you mostly forget it is there. Worth doing before the first cold week.",
+    tags: ["Window Insulation", "Renter Friendly", "Winter Home Prep", "Under $20"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "anua-pdrn-hyaluronic-acid-100-cream",
+    title: "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz",
+    category: "beauty",
+    price: 24.00,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B0DWFLY18Y?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=fa8c43296fb0f66ef50bb89f8f5d6568&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/anua-pdrn-hyaluronic-acid-100-cream.png",
+    subtitle: "The last step of my night routine stopped feeling heavy.",
+    story: "A lightweight, non-greasy moisturizer that sinks in without leaving a film, so it layers fine under other skincare. It is a Korean skincare pick with salmon DNA (PDRN) and hyaluronic acid on the label. The tube is small enough to travel with, and I like that it does not need a big routine around it.",
+    tags: ["Korean Skincare", "Moisturizer", "Amazon Beauty Finds", "Under $25"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "kitty-city-xl-cat-scratcher-pads-3pack",
+    title: "Kitty City XL 3-Pack Cat Scratcher Pads with Catnip, 10 x 18 in",
+    category: "pets",
+    price: 18.24,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B01MZG54L6?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=4c4fdda41100ea5ef1643c9ecc6f0644&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/kitty-city-xl-cat-scratcher-pads-3pack.png",
+    subtitle: "The couch arm stopped being the scratching post of choice.",
+    story: "Three double-sided corrugated pads with catnip, so you can flip one when a side wears down and scatter the other two around the room. Cats tend to like scratching flat, and these give them somewhere better than the sofa. They are light enough to move and cheap enough to replace when they are shredded.",
+    tags: ["Cat Scratcher", "Cat Furniture Protection", "Amazon Pet Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "lumigens-6-tier-pants-hangers",
+    title: "Lumigens 6-Tier Pants Hangers with Clips, 2 Pack",
+    category: "home",
+    price: 12.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B0CB8B1M41?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=b52aacf9164956ac090c94864492d042&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/lumigens-6-tier-pants-hangers.png",
+    subtitle: "One closet rod suddenly holds the jeans that used to live in a pile.",
+    story: "Each hanger stacks six pairs of pants or skirts with clips, and a swivel hook lets you turn it to find what you need. In a small closet or dorm that frees up a lot of shelf and floor. A two-pack covers most of a wardrobe of bottoms for not much money.",
+    tags: ["Closet Organizer", "Dorm Essentials", "Pants Hangers", "Under $15"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+
   // ── AUTOMATED 5-PIN BUILD — OCTOBER 1 2026 ──
 
   {
