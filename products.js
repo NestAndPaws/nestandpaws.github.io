@@ -1,5 +1,83 @@
 const PRODUCTS = [
 
+  // ── AUTOMATED 5-PIN AFFILIATE BUILD 4 — OCTOBER 4 2026 ──
+
+  {
+    id: "korcci-suction-cup-hooks-12pack",
+    title: "KORCCI Clear Suction Cup Hooks with Stainless Steel Hooks, 12 Pack",
+    category: "renter",
+    price: 5.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/dp/B0DFLZ5FX4?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=b868a60c3cdc12773c2bbb2d3c9b945e&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/korcci-suction-cup-hooks-12pack.png",
+    subtitle: "Everyone asked how I hung that without a single hole.",
+    story: "Clear suction cups with stainless steel hooks that press onto smooth, flat surfaces like tile, glass and mirrors. Nothing to drill and nothing to patch, and they lift off and move when you rearrange. I use them for a towel, a loofah and a tote in the shower. Press onto a clean, dry, non-porous surface so they hold.",
+    tags: ["Suction Cup Hooks", "Renter Friendly", "No Drill", "Under $10"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "innqoo-candle-warmer-lamp",
+    title: "Innqoo Candle Warmer Lamp with Timer, Adjustable Height",
+    category: "home",
+    price: 19.99,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B0DZFGTCLR?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=699cebd3f3d5056487622287de6ed2e0&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/innqoo-candle-warmer-lamp.png",
+    subtitle: "My candle now fills the room and nothing is burning.",
+    story: "A lamp that melts the top of a jar candle with warm light instead of a flame, so the scent fills the room with no open fire to watch. The pole slides up and down to fit different jar sizes and the timer shuts it off on its own. It sits on a nightstand or shelf and looks like a regular lamp.",
+    tags: ["Candle Warmer Lamp", "Cozy Home", "Amazon Home Finds", "Under $20"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "meohui-cat-wand-toys-2pack",
+    title: "MeoHui Cat Feather Wand Toys, 2 Pack Retractable Wands with 9 Refills",
+    category: "pets",
+    price: 8.89,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/dp/B07F45GGPT?&linkCode=ll2&tag=nestandpaws-20&linkId=c4d5741e2e06765ca6d9948fd3334123&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/meohui-cat-wand-toys-2pack.png",
+    subtitle: "The evening zoomies finally have somewhere to go.",
+    story: "Two retractable wands and nine feather and worm refills, so the toy stays interesting and a chewed one is easy to swap out. The wand extends for longer throws and collapses to tuck in a drawer. A few minutes of chasing before bed gives an indoor cat a real outlet.",
+    tags: ["Cat Wand Toy", "Indoor Cat", "Cat Play", "Under $10"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "kitsch-satin-heatless-curls-sunset",
+    title: "Kitsch Satin Heatless Curls Overnight Set with Scrunchies, Sunset Tie Dye",
+    category: "beauty",
+    price: 13.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B09S4PVZ81?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=fe46b26a96b3b3013bbf2eb2c0c04e7f&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/kitsch-satin-heatless-curls-sunset.png",
+    subtitle: "I wake up with waves and the curling iron stays in the drawer.",
+    story: "A soft satin tube you wrap your hair around at night and secure with the scrunchies. No heat, so nothing to damage, and satin is gentle on hair while you sleep. In the morning you unwrap loose waves. The set comes with the tube and matching scrunchies in a tie-dye print.",
+    tags: ["Heatless Curls", "Hair Styling", "Amazon Beauty Finds", "Under $15"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+  {
+    id: "yasonic-adhesive-shower-caddy-2pack",
+    title: "YASONIC Adhesive Shower Caddy, 2 Pack, Black, No Drilling",
+    category: "renter",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/dp/B0CXT9YZ24?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=303eee4145da2779ce2850f3c21036c0&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/yasonic-adhesive-shower-caddy-2pack.png",
+    subtitle: "The shower finally has a spot for everything and nothing got drilled.",
+    story: "Two matte black shelves that stick to tile with adhesive, so there is nothing to ask the landlord about. Each has a drain rail and side hooks for a razor or loofah. Stick them to clean, dry, smooth tile and follow the cure time on the package before loading them up.",
+    tags: ["Shower Caddy", "Renter Friendly", "No Drill", "Under $10"],
+    badge: null,
+    date_added: "2026-10-04"
+  },
+
+
   // ── AUTOMATED 5-PIN AFFILIATE BUILD — OCTOBER 4 2026 ──
 
   {
