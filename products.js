@@ -1,5 +1,37 @@
 const PRODUCTS = [
 
+  // ── WAVE 1 FALL & HALLOWEEN NAILS BUILD — OCTOBER 9 2026 ──
+
+  {
+    id: "btartbox-halloween-french-tip-nails-32pc",
+    title: "BTArtbox Halloween Press On Nails, French Tip Almond Nails, 32 Pcs Full Kit",
+    category: "beauty",
+    price: 14.97,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B0B46BD2JL?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=2a959814e6cc197e39001be9a6002f7a&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/btartbox-halloween-french-tip-nails-32pc.png",
+    subtitle: "The black French tip look without booking a salon slot.",
+    story: "Short almond press-on nails with a sheer nude base and black French tips. It reads Halloween in October and still works as an everyday fall manicure. The kit has 32 nails in 16 sizes, plus nail glue, adhesive tabs, a nail file, a wooden stick, alcohol pads and a guide. The listing says application takes about 10 minutes and wear lasts up to 4 weeks. Size each nail before you glue so the fit sits flush.",
+    tags: ["Halloween Nails", "French Tip Nails", "Press On Nails", "Fall Nails", "Almond Nails", "Under $15"],
+    badge: null,
+    date_added: "2026-10-09"
+  },
+
+  {
+    id: "btartbox-dark-red-press-on-nails-32pc",
+    title: "BTArtbox Press On Nails, Short Oval Dark Red Fake Nails, 32 Pcs Full Kit",
+    category: "beauty",
+    price: 14.97,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B0DJXK5FWH?th=1&linkCode=ll2&tag=nestandpaws-20&linkId=c142797987431b86a5818fedd021c40b&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+    image: "images/btartbox-dark-red-press-on-nails-32pc.png",
+    subtitle: "The dark fall nail color I stopped repainting every few days.",
+    story: "Short oval press-on nails in a glossy deep burgundy, a dark red that suits fall without looking like a costume. The kit has 32 nails in 16 pre-sized options, with slim 0.4mm tips so they sit close to the natural nail. The listing says application takes about 10 minutes and wear lasts 2 or more weeks. Colors vary by option, so check the one you pick before you order.",
+    tags: ["Dark Red Nails", "Fall Nails", "Press On Nails", "Burgundy Nails", "Short Oval Nails", "Under $15"],
+    badge: null,
+    date_added: "2026-10-09"
+  },
+
   // ── AUTOMATED 5-PIN AFFILIATE BUILD 4 — OCTOBER 4 2026 ──
 
   {
