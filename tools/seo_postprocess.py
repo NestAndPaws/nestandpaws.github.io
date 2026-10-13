@@ -33,7 +33,7 @@ CATS = {
     "wedding":  ("wedding.html",  "Wedding Table Decor",      "Wedding table decor and hosting finds from Amazon: centerpieces, runners, linens and small details, grouped by price bracket."),
 }
 EXTRA_PAGES = {
-    "index.html":   ("Nest & Paws", "Curated Amazon finds for home, pets, beauty and renter-friendly living. Each pick comes with a short note on what it fixes and who it suits, grouped by price bracket."),
+    "index.html":   ("Nest & Paws", "Short buying guides for renters and small homes. Each one matches picks to a job, shows the weight limit and the catch, and says how it was chosen."),
     "under25.html": ("Under $25 Finds", "Amazon finds under $25 across home, renter-friendly, pets and beauty: small upgrades worth the click, each with a short note on what it fixes."),
 }
 
@@ -199,7 +199,7 @@ def process_pages():
             doc = doc.replace("Real recs, real prices, no fluff.", "Real recs, clear price brackets, no fluff.")
         doc = ensure_meta_description(doc, desc)
         doc = ensure_canonical(doc, url)
-        doc = set_block(doc, "og", og_block(f"{title} — Nest & Paws" if f != "index.html" else "Nest & Paws — Amazon Finds for Your Home & Pets", desc, url), "</head>")
+        doc = set_block(doc, "og", og_block(f"{title} — Nest & Paws" if f != "index.html" else "Nest & Paws: Renter Guides and Home Finds", desc, url), "</head>")
         doc = footer_assoc(doc)
         if f == "index.html":
             ws = {"@context": "https://schema.org", "@type": "WebSite", "name": "Nest & Paws", "url": f"{SITE}/",
