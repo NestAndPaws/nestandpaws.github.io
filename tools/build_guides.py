@@ -11,7 +11,6 @@ Links on guides are plain Amazon /dp/ASIN links (no tag). When a program approve
 the site, set AFFILIATE_QUERY below and add the disclosure line (DISCLOSURE).
 """
 import html, json, os, glob
-from PIL import Image
 
 SITE = "https://nestandpaws.github.io"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,15 +38,9 @@ def footer():
 
 
 def thumb(img_id):
-    src = os.path.join(ROOT, "images", f"{img_id}.png")
-    out_dir = os.path.join(ROOT, "images", "guides")
-    os.makedirs(out_dir, exist_ok=True)
-    dst = os.path.join(out_dir, f"{img_id}.jpg")
-    if os.path.exists(src) and not os.path.exists(dst):
-        im = Image.open(src).convert("RGB")
-        im.thumbnail((720, 960))
-        im.save(dst, "JPEG", quality=82, optimize=True)
-    return f"/images/guides/{img_id}.jpg"
+    import sys; sys.path.insert(0, os.path.join(ROOT, "tools"))
+    from imgcrop import cropped
+    return cropped(img_id, "guides", 900, 900)
 
 
 def link(asin):
@@ -69,7 +62,7 @@ def render_guide(g, all_guides):
     cards = []
     for i, p in enumerate(picks):
         cards.append(f'''  <article class="pick" id="pick-{i+1}">
-    <div class="pick-img"><img src="{thumb(p["image"])}" alt="{esc(p["alt"])}" loading="lazy" width="360" height="480"><span class="img-note">Illustration, not a photo of the item</span></div>
+    <div class="pick-img"><img src="{thumb(p["image"])}" alt="{esc(p["alt"])}" loading="lazy"><span class="img-note">Illustration, not a photo of the item</span></div>
     <div class="pick-body">
       <p class="pick-num">Pick {i+1}</p>
       <h3>{esc(p["name"])}</h3>

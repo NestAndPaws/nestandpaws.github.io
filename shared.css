@@ -181,7 +181,7 @@ footer a { color: var(--terra); text-decoration: none; }
 .qp a { font-weight: 500; text-decoration: none; }
 .pick { background: var(--white); border-radius: 16px; overflow: hidden; margin-bottom: 22px; box-shadow: 0 2px 12px rgba(44,36,32,0.06); }
 .pick-img { position: relative; background: var(--cream); }
-.pick-img img { display: block; width: 100%; height: auto; max-height: 420px; object-fit: cover; }
+.pick-img img { display: block; width: 100%; height: auto; max-height: 520px; object-fit: cover; object-position: 50% 30%; }
 .img-note { position: absolute; left: 10px; bottom: 10px; font-size: 11px; background: rgba(44,36,32,0.72); color: var(--cream); padding: 3px 8px; border-radius: 100px; }
 .pick-body { padding: 18px 18px 20px; }
 .pick-num { font-size: 11px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: var(--terra); margin-bottom: 4px; }
