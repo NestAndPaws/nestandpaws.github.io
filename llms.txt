@@ -24,7 +24,7 @@
 - [All Categories](https://nestandpaws.github.io/): Full index with search across every pick, plus live entry points to current Amazon offers and Prime
 
 ## About
-Nest & Paws is an independent editorial site. It is not affiliated with, endorsed by, or operated by Amazon. Product links are commission-earning links, which is how the site is funded; this does not change what gets picked or what is written about it.
+Nest & Paws is an independent editorial site. It is not affiliated with, endorsed by, or operated by Amazon. Product links go to Amazon and do not currently earn the site anything. If that changes, a plain disclosure will appear above any link that does.
 
 ## Notes
 - Product lifestyle images are AI-assisted illustrations; check the Amazon listing for exact product details.

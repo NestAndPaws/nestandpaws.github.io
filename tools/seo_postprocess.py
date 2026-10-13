@@ -13,6 +13,16 @@ SITE = "https://nestandpaws.github.io"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = datetime.date.today().isoformat()
 ASSOC = "As an Amazon Associate I earn from qualifying purchases."
+# Oct 13 2026: the Associates account is closed. Keep False until a new, active
+# Amazon Associates ID exists. When True, the statement is added back everywhere.
+ASSOC_ENABLED = False
+
+
+def assoc_block(doc, block, anchor, before=True):
+    """Add the Associates statement only when ASSOC_ENABLED; otherwise strip any old one."""
+    if ASSOC_ENABLED:
+        return set_block(doc, "assoc", block, anchor, before)
+    return re.sub(r"\n?<!-- np-seo:assoc -->.*?<!-- /np-seo:assoc -->\n?", "\n", doc, flags=re.S)
 
 CATS = {
     "home":     ("home.html",     "Home & Kitchen Finds",     "Home & kitchen Amazon finds picked one at a time: storage, cleaning, kitchen tools and small upgrades, each with a short note on what it fixes and who it suits."),
@@ -101,7 +111,7 @@ def ensure_canonical(doc, url):
 def footer_assoc(doc):
     block = (f'<p style="margin-top:8px;font-size:12px;color:rgba(200,184,154,0.75);">{ASSOC} '
              f'<a href="about.html">How picks are chosen</a></p>')
-    return set_block(doc, "assoc", block, "</footer>")
+    return assoc_block(doc, block, "</footer>")
 
 
 # ---------------- product pages ----------------
@@ -153,7 +163,7 @@ def process_products(products):
         doc = set_block(doc, "breadcrumb", '<script type="application/ld+json">\n' + json.dumps(bc, indent=2, ensure_ascii=False) + "\n</script>", "</head>")
 
         # 4. Exact Amazon Associates statement under the existing disclosure
-        doc = set_block(doc, "assoc", f'<p class="disclosure">{ASSOC}</p>', '<p class="product-date">')
+        doc = assoc_block(doc, f'<p class="disclosure">{ASSOC}</p>', '<p class="product-date">')
 
         # 5. Related finds + category link (static HTML, crawlable without JS)
         if cat in CATS:
@@ -198,7 +208,7 @@ def process_pages():
         write(f, doc)
     # legacy alias: exact statement only (page is noindex-free JS alias; canonical set by JS)
     doc = read("product.html")
-    doc = set_block(doc, "assoc", f'<p class="disclosure">{ASSOC}</p>', '<p class="product-date"')
+    doc = assoc_block(doc, f'<p class="disclosure">{ASSOC}</p>', '<p class="product-date"')
     write("product.html", doc)
     return list(pages)
 
@@ -213,6 +223,16 @@ def build_sitemap(products, files, pages):
     urls = [(f"{SITE}/", TODAY)]
     urls += [(f"{SITE}/{p}", TODAY) for p in pages if p != "index.html"]
     urls.append((f"{SITE}/about.html", TODAY))
+    for extra in ("start-here.html", "privacy.html"):
+        if os.path.exists(os.path.join(ROOT, extra)):
+            urls.append((f"{SITE}/{extra}", TODAY))
+    gdir = os.path.join(ROOT, "guides")
+    if os.path.isdir(gdir):
+        for gf in sorted(os.listdir(gdir)):
+            if gf == "index.html":
+                urls.append((f"{SITE}/guides/", TODAY))
+            elif gf.endswith(".html"):
+                urls.append((f"{SITE}/guides/{gf}", TODAY))
     for f in files:
         pid = f[:-5]
         urls.append((f"{SITE}/products/{f}", added.get(pid) or git_date(f"products/{f}")))

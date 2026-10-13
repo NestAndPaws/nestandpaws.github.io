@@ -3,443 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nest & Paws — Amazon Finds for Your Home & Pets</title>
+  <title>Nest &amp; Paws: Renter Guides and Home Finds</title>
   <link rel="canonical" href="https://nestandpaws.github.io/">
-  <meta name="description" content="Honest Amazon finds for your home, pets, and beauty routine. Real recs, clear price brackets, no fluff.">
+  <meta name="description" content="Short buying guides for renters and small homes. Each one matches picks to a job, shows the weight limit and the catch, and says how it was chosen.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/shared.css">
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --cream: #F5EDD6;
-      --sand: #C8B89A;
-      --terra: #C17A4A;
-      --wood: #8B6F4E;
-      --charcoal: #2C2420;
-      --sage: #5C7A5A;
-      --white: #FDFAF5;
-    }
-
-    body {
-      background: var(--cream);
-      color: var(--charcoal);
-      font-family: 'DM Sans', sans-serif;
-      min-height: 100vh;
-    }
-
-    /* HEADER */
-    header {
-      background: var(--charcoal);
-      padding: 48px 24px 40px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    header::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: radial-gradient(ellipse at 30% 50%, rgba(193,122,74,0.15) 0%, transparent 60%),
-                  radial-gradient(ellipse at 70% 50%, rgba(92,122,90,0.1) 0%, transparent 60%);
-    }
-    .header-inner { position: relative; z-index: 1; }
-    .brand-tag {
-      display: inline-block;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: var(--terra);
-      margin-bottom: 16px;
-    }
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(36px, 8vw, 64px);
-      font-weight: 400;
-      color: var(--white);
-      line-height: 1.1;
-      margin-bottom: 8px;
-    }
-    h1 em {
-      font-style: italic;
-      color: var(--sand);
-    }
-    .header-sub {
-      font-size: 15px;
-      font-weight: 300;
-      color: var(--sand);
-      margin-bottom: 32px;
-      letter-spacing: 0.3px;
-    }
-
-    /* SEARCH */
-    .search-wrap {
-      max-width: 480px;
-      margin: 0 auto;
-      position: relative;
-    }
-    .search-wrap input {
-      width: 100%;
-      padding: 14px 48px 14px 20px;
-      border-radius: 100px;
-      border: none;
-      background: rgba(245,237,214,0.12);
-      color: var(--white);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 15px;
-      outline: none;
-      backdrop-filter: blur(8px);
-      transition: background 0.2s;
-    }
-    .search-wrap input::placeholder { color: rgba(245,237,214,0.4); }
-    .search-wrap input:focus { background: rgba(245,237,214,0.2); }
-    .search-icon {
-      position: absolute;
-      right: 16px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--sand);
-      pointer-events: none;
-    }
-
-    /* SEARCH RESULTS */
-    #search-results {
-      display: none;
-      padding: 32px 24px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    #search-results h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 22px;
-      font-weight: 400;
-      margin-bottom: 20px;
-      color: var(--charcoal);
-    }
-    .results-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 20px;
-    }
-
-    /* CATEGORIES */
-    #categories {
-      padding: 48px 24px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    .section-label {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: var(--wood);
-      margin-bottom: 24px;
-    }
-    .category-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 16px;
-    }
-    .category-card {
-      background: var(--white);
-      border-radius: 16px;
-      padding: 28px 24px;
-      text-decoration: none;
-      color: var(--charcoal);
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 2px 12px rgba(44,36,32,0.06);
-    }
-    .category-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 28px rgba(44,36,32,0.12);
-    }
-    .cat-icon {
-      width: 52px;
-      height: 52px;
-      border-radius: 14px;
-      background: var(--cream);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      flex-shrink: 0;
-    }
-    .cat-text h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 17px;
-      font-weight: 600;
-      margin-bottom: 3px;
-    }
-    .cat-text p {
-      font-size: 13px;
-      color: var(--wood);
-      font-weight: 300;
-    }
-    .cat-arrow {
-      margin-left: auto;
-      color: var(--sand);
-      font-size: 18px;
-    }
-
-    /* PRIME BOUNTY CARD */
-    .prime-card {
-      background: var(--charcoal);
-      border-radius: 16px;
-      padding: 28px 24px;
-      text-decoration: none;
-      color: var(--white);
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 2px 12px rgba(44,36,32,0.12);
-      position: relative;
-      overflow: hidden;
-    }
-    .prime-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: radial-gradient(ellipse at 20% 50%, rgba(193,122,74,0.12) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .prime-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 28px rgba(44,36,32,0.2);
-    }
-    .prime-card .cat-icon {
-      background: rgba(245,237,214,0.08);
-      flex-shrink: 0;
-    }
-    .prime-card .cat-text h3 {
-      color: var(--white);
-      font-size: 17px;
-    }
-    .prime-card .cat-text p {
-      color: var(--sand);
-      font-size: 13px;
-      font-weight: 300;
-    }
-    .prime-card .cat-arrow {
-      color: var(--sand);
-    }
-
-    /* TODAY'S DEALS CARD */
-    .deals-card {
-      background: var(--terra);
-      border-radius: 16px;
-      padding: 28px 24px;
-      text-decoration: none;
-      color: var(--white);
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 2px 12px rgba(193,122,74,0.25);
-      position: relative;
-      overflow: hidden;
-    }
-    .deals-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: radial-gradient(ellipse at 80% 50%, rgba(245,237,214,0.15) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .deals-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 28px rgba(193,122,74,0.35);
-    }
-    .deals-card .cat-icon {
-      background: rgba(255,255,255,0.15);
-      flex-shrink: 0;
-    }
-    .deals-card .cat-text h3 {
-      color: var(--white);
-      font-size: 17px;
-    }
-    .deals-card .cat-text p {
-      color: var(--cream);
-      font-size: 13px;
-      font-weight: 300;
-    }
-    .deals-card .cat-arrow {
-      color: var(--cream);
-    }
-
-    /* FEATURED */
-    #featured {
-      padding: 0 24px 48px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    .featured-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 20px;
-    }
-
-    /* PRODUCT CARD */
-    .product-card {
-      background: var(--white);
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 2px 12px rgba(44,36,32,0.06);
-      transition: transform 0.2s, box-shadow 0.2s;
-      text-decoration: none;
-      color: var(--charcoal);
-      display: flex;
-      flex-direction: column;
-    }
-    .product-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 32px rgba(44,36,32,0.14);
-    }
-    .card-img {
-      width: 100%;
-      aspect-ratio: 3/4;
-      object-fit: cover;
-      background: var(--cream);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--sand);
-      font-size: 13px;
-    }
-    .card-img img { width: 100%; height: 100%; object-fit: cover; }
-    .card-body { padding: 16px; flex: 1; display: flex; flex-direction: column; }
-    .card-bracket {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--terra);
-      margin-bottom: 6px;
-    }
-    .card-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 1.4;
-      margin-bottom: 8px;
-    }
-    .card-subtitle {
-      font-size: 13px;
-      color: var(--wood);
-      font-weight: 300;
-      line-height: 1.5;
-      flex: 1;
-      margin-bottom: 14px;
-    }
-    .card-cta {
-      display: inline-block;
-      background: var(--terra);
-      color: var(--white);
-      font-size: 13px;
-      font-weight: 500;
-      padding: 10px 16px;
-      border-radius: 100px;
-      text-decoration: none;
-      text-align: center;
-      transition: background 0.2s;
-    }
-    .card-cta:hover { background: var(--wood); }
-
-    /* FOOTER */
-    footer {
-      background: var(--charcoal);
-      padding: 32px 24px;
-      text-align: center;
-      color: var(--sand);
-      font-size: 13px;
-      font-weight: 300;
-      line-height: 1.8;
-    }
-    footer a { color: var(--terra); text-decoration: none; }
-
-    /* PLACEHOLDER IMAGE */
-    .img-placeholder {
-      width: 100%;
-      aspect-ratio: 3/4;
-      background: linear-gradient(135deg, var(--cream) 0%, var(--sand) 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 32px;
-    }
+    .hero { background: var(--charcoal); padding: 44px 24px 40px; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 50%, rgba(193,122,74,0.15) 0%, transparent 60%), radial-gradient(ellipse at 70% 50%, rgba(92,122,90,0.1) 0%, transparent 60%); }
+    .hero-inner { position: relative; z-index: 1; }
+    .brand-tag { display: inline-block; font-size: 11px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: var(--terra); margin-bottom: 14px; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(36px, 8vw, 60px); font-weight: 400; color: var(--white); line-height: 1.1; margin-bottom: 10px; }
+    .hero h1 em { font-style: italic; color: var(--sand); }
+    .hero-sub { font-size: 16px; font-weight: 300; color: var(--sand); margin-bottom: 26px; }
+    .search-wrap { max-width: 480px; margin: 0 auto; }
+    .search-wrap input { width: 100%; padding: 14px 20px; border-radius: 100px; border: none; background: rgba(245,237,214,0.12); color: var(--white); font-family: 'DM Sans', sans-serif; font-size: 15px; outline: none; }
+    .search-wrap input::placeholder { color: rgba(245,237,214,0.5); }
+    .home-wrap { max-width: 900px; margin: 0 auto; padding: 36px 20px 56px; }
+    .home-wrap h2.sec { font-size: 11px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: var(--wood); margin: 28px 0 14px; font-family: 'DM Sans', sans-serif; }
+    .hub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+    .hub { background: var(--white); border-radius: 14px; padding: 18px; text-decoration: none; color: var(--charcoal); box-shadow: 0 2px 12px rgba(44,36,32,0.06); }
+    .hub strong { display: block; font-family: 'Playfair Display', serif; font-size: 17px; margin-bottom: 3px; }
+    .hub span { font-size: 13px; color: var(--wood); font-weight: 300; }
+    .more-links a { display: inline-block; margin: 0 14px 8px 0; color: var(--terra); text-decoration: none; font-size: 14px; }
+    .start-cta { background: var(--white); border-radius: 14px; padding: 20px; margin-top: 28px; }
+    .start-cta p { margin-bottom: 8px; font-size: 15px; }
+    .start-cta a { color: var(--terra); font-weight: 500; }
+    #search-results { display: none; }
+    .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
   </style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Nest & Paws",
-  "url": "https://nestandpaws.github.io/",
-  "description": "Nest & Paws is a curated home and living guide publishing hand-selected Amazon finds across home and kitchen, pets, beauty, and renter-friendly living.",
-  "sameAs": [
-    "https://pinterest.com/NestandPaws"
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Recent Finds — Nest & Paws",
-  "itemListElement": [
-    {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-            "@type": "Product",
-            "name": "TOUSEA White 1.5\" x 10.5ft Caulk Tape for Tub, Toilet, Sink — Peel and Stick",
-            "url": "https://nestandpaws.github.io/products/tousea-peel-stick-caulk-tape.html",
-            "description": "I peeled the old grey line off and this went down clean in under ten minutes.",
-            "category": "Renter Friendly",
-            "image": "https://nestandpaws.github.io/images/tousea-peel-stick-caulk-tape.png",
-            "sku": "B0BFWZ6G2H",
-            "releaseDate": "2026-08-31"
-        }
-    },
-    {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-            "@type": "Product",
-            "name": "Fall Harvest Sunflower & Pumpkin Wreath, 22–24 Inch — Autumn Front Door Decor",
-            "url": "https://nestandpaws.github.io/products/fall-harvest-sunflower-pumpkin-wreath.html",
-            "description": "She actually stopped her car to ask where it was from.",
-            "category": "Seasonal Gifts",
-            "image": "https://nestandpaws.github.io/images/fall-harvest-sunflower-pumpkin-wreath.png",
-            "sku": "B0G6BC7GDM",
-            "releaseDate": "2026-08-31"
-        }
-    },
-    {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-            "@type": "Product",
-            "name": "Drain Snake Hair Clog Remover Kit, 6-Pack + 2 Metal Augers — Shower, Sink & Tub",
-            "url": "https://nestandpaws.github.io/products/drain-snake-hair-clog-remover-kit.html",
-            "description": "I pulled it out once and genuinely couldn't believe what had been sitting in there.",
-            "category": "Home & Kitchen",
-            "image": "https://nestandpaws.github.io/images/drain-snake-hair-clog-remover-kit.png",
-            "sku": "B0C3L7FKCQ",
-            "releaseDate": "2026-08-31"
-        }
-    }
-  ]
-}
-</script>
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Organization", "name": "Nest & Paws", "url": "https://nestandpaws.github.io/", "description": "Nest & Paws is a small, independent guide for renters and small homes: short buying guides that match picks to a job and say what can go wrong.", "sameAs": ["https://pinterest.com/NestandPaws"]}
+  </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Latest guides", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://nestandpaws.github.io/guides/renter-winter-draft-fixes.html", "name": "Stop Winter Drafts in a Rental Apartment"}, {"@type": "ListItem", "position": 2, "url": "https://nestandpaws.github.io/guides/no-drill-hooks-for-renters.html", "name": "No-Drill Hooks for Renters That Hold"}]}</script>
 <!-- np-seo:og -->
 <meta property="og:site_name" content="Nest &amp; Paws">
-<meta property="og:title" content="Nest &amp; Paws — Amazon Finds for Your Home &amp; Pets">
+<meta property="og:title" content="Nest &amp; Paws: Renter Guides and Home Finds">
 <meta property="og:description" content="Curated Amazon finds for home, pets, beauty and renter-friendly living. Each pick comes with a short note on what it fixes and who it suits, grouped by price bracket.">
 <meta property="og:url" content="https://nestandpaws.github.io/">
 <meta property="og:type" content="website">
@@ -462,221 +62,95 @@
 <!-- /np-seo:website -->
 </head>
 <body>
-
-<header>
-  <div class="header-inner">
+<header class="hero">
+  <div class="hero-inner">
     <div class="brand-tag">@NestandPaws</div>
-    <h1>Nest <em>&</em> Paws</h1>
-    <p class="header-sub">Amazon finds for your home + pets · Honest recs · Real prices · No fluff</p>
+    <h1>Nest <em>&amp;</em> Paws</h1>
+    <p class="hero-sub">Renter-friendly picks, researched so you do not have to.</p>
     <div class="search-wrap">
-      <input type="text" id="search-input" placeholder="Search all finds — mirror, dog, hair oil..." autocomplete="off">
-      <svg class="search-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-      </svg>
+      <input type="text" id="search-input" placeholder="Search finds: hooks, shelf, curtain..." autocomplete="off" aria-label="Search finds">
     </div>
   </div>
 </header>
 
-<section id="search-results">
-  <h2>Search results</h2>
-  <div class="results-grid" id="results-grid"></div>
-</section>
+<div class="home-wrap">
+  <section id="search-results">
+    <h2 class="sec">Search results</h2>
+    <div class="results-grid" id="results-grid"></div>
+  </section>
 
-<section id="categories">
-  <p class="section-label">Shop by category</p>
-  <div class="category-grid">
-    <!-- ────────────────────────────────────────────────────────────────
-         TODAY'S DEALS CARD
-         Links to Amazon's evergreen deals hub — always shows current
-         live deals, no maintenance needed. Confirmed evergreen June 20.
-    ─────────────────────────────────────────────────────────────────── -->
-    <a href="https://www.amazon.com/deals?&linkCode=ll2&tag=nestandpaws-20&linkId=2d383d42c410d808395952551bdfa187&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="deals-card">
-      <div class="cat-icon">🏷️</div>
-      <div class="cat-text">
-        <h3>Today's deals on Amazon</h3>
-        <p>Live discounts, updated daily</p>
-      </div>
-      <span class="cat-arrow">›</span>
+  <div id="home-sections">
+    <h2 class="sec">Latest guides</h2>
+    <div class="g-list">
+    <a class="g-card" href="/guides/renter-winter-draft-fixes.html">
+      <p class="g-kicker">Renter · Renters, no tools, under $30</p>
+      <h2>Stop Winter Drafts in a Rental Apartment</h2>
+      <p>Two fixes for the two places cold air gets in: the window glass and the gap under the door.</p>
+      <span class="g-more">Read the guide →</span>
     </a>
+    <a class="g-card" href="/guides/no-drill-hooks-for-renters.html">
+      <p class="g-kicker">Renter · Renters, no holes, under $20 each</p>
+      <h2>No-Drill Hooks for Renters That Hold</h2>
+      <p>Four picks matched to the surface. Each under $20. Nothing goes into the wall.</p>
+      <span class="g-more">Read the guide →</span>
+    </a>
+    </div>
 
-    <a href="home.html" class="category-card">
-      <div class="cat-icon">🏠</div>
-      <div class="cat-text">
-        <h3>Home & Kitchen</h3>
-        <p>Cozy upgrades under $50</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
-    <a href="pets.html" class="category-card">
-      <div class="cat-icon">🐾</div>
-      <div class="cat-text">
-        <h3>Pet Must Haves</h3>
-        <p>Dogs & cats, tried and tested</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
-    <a href="beauty.html" class="category-card">
-      <div class="cat-icon">✨</div>
-      <div class="cat-text">
-        <h3>Beauty Finds</h3>
-        <p>Hair & skincare under $35</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
-    <a href="renter.html" class="category-card">
-      <div class="cat-icon">🚪</div>
-      <div class="cat-text">
-        <h3>Renter Friendly</h3>
-        <p>No drilling, no damage</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
-    <a href="under25.html" class="category-card">
-      <div class="cat-icon">⚡</div>
-      <div class="cat-text">
-        <h3>Under $25 Finds</h3>
-        <p>Impulse buys worth every penny</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
-    <a href="seasonal.html" class="category-card">
-      <div class="cat-icon">🎁</div>
-      <div class="cat-text">
-        <h3>Seasonal Finds</h3>
-        <p>Timely picks, updated each season</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
-    <a href="wedding.html" class="category-card">
-      <div class="cat-icon">💍</div>
-      <div class="cat-text">
-        <h3>Wedding Table Decor</h3>
-        <p>Centerpieces & tablescape finds</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
+    <h2 class="sec">Browse by problem</h2>
+    <div class="hub-grid">
+      <a class="hub" href="/renter.html"><strong>Renter friendly</strong><span>No drilling, no damage</span></a>
+      <a class="hub" href="/home.html"><strong>Small kitchen and home</strong><span>Storage, cleaning, tools</span></a>
+      <a class="hub" href="/seasonal.html"><strong>Gifts and seasonal</strong><span>Timely picks</span></a>
+      <a class="hub" href="/under25.html"><strong>Under $25</strong><span>Small fixes, small price</span></a>
+    </div>
 
-    <!-- ────────────────────────────────────────────────────────────────
-         PRIME BOUNTY CARD
-         ACTION REQUIRED: Replace PRIME_BOUNTY_LINK_HERE with your actual
-         Prime trial bounty URL from Associates Central → Tools → Bounties.
-         It will look like: https://www.amazon.com/tryprimefree?tag=nestandpaws-20
-         Do not publish until this is replaced.
-    ─────────────────────────────────────────────────────────────────── -->
-    <a href="https://www.amazon.com/amazonprime?&linkCode=ll2&tag=nestandpaws-20&linkId=5778134c7d5aaaa9ef1824067f3e4163&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="prime-card">
-      <div class="cat-icon">📦</div>
-      <div class="cat-text">
-        <h3>New here? Try Prime free</h3>
-        <p>Fast shipping on everything I recommend</p>
-      </div>
-      <span class="cat-arrow">›</span>
-    </a>
+    <h2 class="sec">More finds</h2>
+    <p class="more-links"><a href="/pets.html">Pets</a><a href="/beauty.html">Beauty</a><a href="/wedding.html">Wedding table decor</a></p>
 
+    <div class="start-cta">
+      <p><strong>New here?</strong> See how picks are chosen and what the deposit-safe score means.</p>
+      <a href="/start-here.html">Start here →</a>
+    </div>
   </div>
-</section>
-
-<section id="featured">
-  <p class="section-label">Recent finds</p>
-  <div class="featured-grid" id="featured-grid">
-  <a href="products/btartbox-halloween-french-tip-nails-32pc.html" class="product-card">
-    <div class="card-img">
-      <img src="images/btartbox-halloween-french-tip-nails-32pc.png" alt="BTArtbox Halloween Press On Nails, French Tip Almond Nails, 32 Pcs Full Kit" onerror="this.parentElement.innerHTML='<div class=img-placeholder>🛍️</div>'">
-    </div>
-    <div class="card-body">
-      <div class="card-bracket">Under $15</div>
-      <div class="card-title">BTArtbox Halloween Press On Nails, French Tip Almond Nails, 32 Pcs Full Kit</div>
-      <div class="card-subtitle">The black French tip look without booking a salon slot.</div>
-      <span class="card-cta">Shop on Amazon →</span>
-      <div class="card-date">Added Oct 9, 2026</div>
-    </div>
-  </a>
-  <a href="products/btartbox-dark-red-press-on-nails-32pc.html" class="product-card">
-    <div class="card-img">
-      <img src="images/btartbox-dark-red-press-on-nails-32pc.png" alt="BTArtbox Press On Nails, Short Oval Dark Red Fake Nails, 32 Pcs Full Kit" onerror="this.parentElement.innerHTML='<div class=img-placeholder>🛍️</div>'">
-    </div>
-    <div class="card-body">
-      <div class="card-bracket">Under $15</div>
-      <div class="card-title">BTArtbox Press On Nails, Short Oval Dark Red Fake Nails, 32 Pcs Full Kit</div>
-      <div class="card-subtitle">The dark fall nail color I stopped repainting every few days.</div>
-      <span class="card-cta">Shop on Amazon →</span>
-      <div class="card-date">Added Oct 9, 2026</div>
-    </div>
-  </a>
-  <a href="products/korcci-suction-cup-hooks-12pack.html" class="product-card">
-    <div class="card-img">
-      <img src="images/korcci-suction-cup-hooks-12pack.png" alt="KORCCI Clear Suction Cup Hooks with Stainless Steel Hooks, 12 Pack" onerror="this.parentElement.innerHTML='<div class=img-placeholder>🛍️</div>'">
-    </div>
-    <div class="card-body">
-      <div class="card-bracket">Under $10</div>
-      <div class="card-title">KORCCI Clear Suction Cup Hooks with Stainless Steel Hooks, 12 Pack</div>
-      <div class="card-subtitle">Everyone asked how I hung that without a single hole.</div>
-      <span class="card-cta">Shop on Amazon →</span>
-      <div class="card-date">Added Oct 4, 2026</div>
-    </div>
-  </a>
-  </div>
-</section>
+</div>
 
 <footer>
-  <p>Nest & Paws · <a href="https://pinterest.com/NestandPaws" target="_blank">@NestandPaws on Pinterest</a></p>
-  <p style="margin-top:8px; font-size:12px; color: rgba(200,184,154,0.6);">This page contains affiliate links. I earn a small commission at no extra cost to you.</p>
-<!-- np-seo:assoc -->
-<p style="margin-top:8px;font-size:12px;color:rgba(200,184,154,0.75);">As an Amazon Associate I earn from qualifying purchases. <a href="about.html">How picks are chosen</a></p>
-<!-- /np-seo:assoc -->
+  <p>Nest &amp; Paws · <a href="/start-here.html">Start here</a> · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy</a> · <a href="https://pinterest.com/NestandPaws" target="_blank" rel="noopener">@NestandPaws on Pinterest</a></p>
+  <p class="foot-note">Independent. Not affiliated with or endorsed by Amazon. Prices change, so check the listing.</p>
 </footer>
 
 <script src="products.js"></script>
 <script>
-  // Static cards above are pre-rendered at build time so crawlers that don't run
-  // JavaScript (GPTBot, ClaudeBot, PerplexityBot) still see real product content.
-  // This script re-renders on load so human visitors (and live search) always see
-  // current data even if the static HTML above is out of date.
-  // Render featured products (latest 3)
   function renderCard(p) {
     return `
       <a href="products/${p.id}.html" class="product-card">
         <div class="card-img">
-          ${p.image ? `<img src="${p.image}" alt="${p.title}" onerror="this.parentElement.innerHTML='<div class=img-placeholder>🛍️</div>'">` : `<div class="img-placeholder">🛍️</div>`}
+          ${p.image ? `<img src="${p.image}" alt="${p.title}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=img-placeholder>🛍️</div>'">` : `<div class="img-placeholder">🛍️</div>`}
         </div>
         <div class="card-body">
           <div class="card-bracket">${p.price_bracket}</div>
           <div class="card-title">${p.title}</div>
           <div class="card-subtitle">${p.subtitle}</div>
-          <span class="card-cta">Shop on Amazon →</span>
+          <span class="card-cta">See the pick →</span>
         </div>
       </a>`;
   }
-
-  const featured = [...PRODUCTS].sort((a,b) => new Date(b.date_added) - new Date(a.date_added)).slice(0,3);
-  document.getElementById('featured-grid').innerHTML = featured.map(renderCard).join('');
-
-  // Search
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
   const resultsGrid = document.getElementById('results-grid');
-  const categories = document.getElementById('categories');
-  const featuredSection = document.getElementById('featured');
-
+  const homeSections = document.getElementById('home-sections');
   searchInput.addEventListener('input', function() {
     const q = this.value.toLowerCase().trim();
-    if (!q) {
-      searchResults.style.display = 'none';
-      categories.style.display = 'block';
-      featuredSection.style.display = 'block';
-      return;
-    }
+    if (!q) { searchResults.style.display = 'none'; homeSections.style.display = 'block'; return; }
     const matches = PRODUCTS.filter(p =>
-      p.title.toLowerCase().includes(q) ||
-      p.subtitle.toLowerCase().includes(q) ||
-      p.category.toLowerCase().includes(q) ||
-      p.price_bracket.toLowerCase().includes(q)
-    );
-    categories.style.display = 'none';
-    featuredSection.style.display = 'none';
+      p.title.toLowerCase().includes(q) || p.subtitle.toLowerCase().includes(q) ||
+      p.category.toLowerCase().includes(q) || p.price_bracket.toLowerCase().includes(q) ||
+      (p.tags || []).join(' ').toLowerCase().includes(q));
+    homeSections.style.display = 'none';
     searchResults.style.display = 'block';
     resultsGrid.innerHTML = matches.length
       ? matches.map(renderCard).join('')
-      : '<p style="color:var(--wood);font-size:15px;">No finds matched that search. Try "home", "pets", or "under $25".</p>';
+      : '<p style="color:var(--wood);font-size:15px;">No finds matched that search. Try "hooks", "shelf", or "under $25".</p>';
   });
 </script>
 </body>

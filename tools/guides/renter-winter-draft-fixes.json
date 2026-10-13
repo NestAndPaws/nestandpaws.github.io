@@ -1,0 +1,62 @@
+{
+  "slug": "renter-winter-draft-fixes",
+  "title": "Stop Winter Drafts in a Rental Apartment",
+  "short_title": "Winter Draft Fixes for Renters",
+  "description": "Two draft fixes for renters under $30: a window film kit and a door bottom seal. Weight, surfaces, removal notes, and what reviewers say goes wrong.",
+  "dek": "Two fixes for the two places cold air gets in: the window glass and the gap under the door.",
+  "constraint": "Renters, no tools, under $30",
+  "published": "2026-10-13",
+  "updated": "2026-10-13",
+  "last_checked": "Oct 13, 2026",
+  "problem_tag": "Renter",
+  "hook": [
+    "In most rentals the cold comes from two places: the window and the gap under the door. Both have a no-drill fix.",
+    "I did not test these. I read each listing and the review summary Amazon shows on each page. Both use adhesive, so the notes below focus on what sticks, what fails, and what to check before you press anything on."
+  ],
+  "picks": [
+    {
+      "id": "grotheory-door-draft-stopper",
+      "name": "Grotheory Self-Adhesive Door Draft Stopper, 2-pack (silicone)",
+      "asin": "B07ZQ2ZKLW",
+      "image": "grotheory-door-draft-stopper",
+      "alt": "Illustration of a white silicone seal strip along the bottom of a door",
+      "best_for": "The gap under an entry or bedroom door",
+      "limit": "Adhesive hold is mixed; removal is not described",
+      "price_bracket": "Under $10",
+      "stars": "4.3",
+      "ratings": "39,744",
+      "safe": 3,
+      "safe_note": "Adhesive on the door with no removal guidance in the listing.",
+      "why": "Two silicone strips, about 39 inches long and 2 inches wide, that you cut to length and stick to the bottom of the door. Amazon's review summary says it is easy to install and does a good job blocking drafts. With nearly 40,000 ratings, it has the most feedback of anything in this guide.",
+      "con": "The same summary says adhesion is mixed: some say it holds up, others say it came off within days or peeled after a few weeks. The listing does not say how to remove it, so do not use it on a finish you cannot afford to mark. Wipe the door clean and dry first."
+    },
+    {
+      "id": "duck-window-insulation-kit-10-windows",
+      "name": "Duck Brand Window Insulation Kit (fits up to 10 windows)",
+      "asin": "B09JM8DCYL",
+      "image": "duck-window-insulation-kit-10-windows",
+      "alt": "Illustration of clear shrink film sealed over a window frame in a living room",
+      "best_for": "Single-pane or leaky windows you do not open in winter",
+      "limit": "Tape sticks to the frame; tears easily during install",
+      "price_bracket": "Under $30",
+      "stars": "4.5",
+      "ratings": "5,814",
+      "safe": 4,
+      "safe_note": "Listing says it removes easily. Tape on weak paint is the risk.",
+      "why": "Clear shrink film and tape for the inside of the window. You cut the film to size and shrink it tight with a hair dryer. The listing says it covers up to 10 standard 3 by 5 foot windows and removes easily when the season ends. Amazon's review summary says it is easy to apply and keeps rooms warmer.",
+      "con": "The review summary also says adhesion and durability are mixed: some say the tape does not stick, and others say the film tears easily during install. The listing says to apply it to clean, dry painted or finished wood, aluminum, or vinyl. If your frame paint is old or flaking, test a short piece of tape in a corner first. The price on the page varied on Oct 13, so check it."
+    }
+  ],
+  "skipped": [
+    "ENJOYBASICS no-drill curtain rod: 3.9 stars from 3,347 ratings. Amazon's summary says the adhesive does not hold and some rods fell within a month, and the listing says light to medium curtains. Thick winter curtains need more than that.",
+    "Anything with under 4.3 stars or under 3,000 ratings on Oct 13, 2026."
+  ],
+  "how_picked": [
+    "4.3 stars or higher and at least 3,000 ratings on Oct 13, 2026.",
+    "The listing says what surface it works on.",
+    "No tools beyond scissors and a hair dryer.",
+    "I read Amazon's review summary for the most common failure."
+  ],
+  "final": "Start with the door strip. It is under $10 and takes a minute. Add the window kit if you can feel cold air at the glass, and check your frame paint first.",
+  "related": ["no-drill-hooks-for-renters"]
+}

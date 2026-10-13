@@ -1,0 +1,95 @@
+{
+  "slug": "no-drill-hooks-for-renters",
+  "title": "No-Drill Hooks for Renters That Hold",
+  "short_title": "No-Drill Hooks for Renters",
+  "description": "Four no-drill hooks matched to the surface: painted wall, entry wall, glass or tile, and door. Weight limits, removal rules, and what reviewers say goes wrong.",
+  "dek": "Four picks matched to the surface. Each under $20. Nothing goes into the wall.",
+  "constraint": "Renters, no holes, under $20 each",
+  "published": "2026-10-13",
+  "updated": "2026-10-13",
+  "last_checked": "Oct 13, 2026",
+  "problem_tag": "Renter",
+  "hook": [
+    "No-drill hooks fail for three reasons: the wrong surface, too much weight, or not enough wait time before loading them. So the right hook depends on where it goes.",
+    "These four cover a painted wall, an entry wall, glass or smooth tile, and a door. I did not test them. I read each listing, the maker's own instructions where they exist, and the review summary Amazon shows on each page."
+  ],
+  "picks": [
+    {
+      "id": "command-variety-pack-19pc",
+      "name": "Command Variety Pack (picture strips, wire hooks, utility hooks)",
+      "asin": "B07712H557",
+      "image": "command-variety-pack-19pc",
+      "alt": "Illustration of Command picture hanging strips and utility hooks on a painted wall",
+      "best_for": "Painted walls: frames, light items, a few hooks",
+      "limit": "Not for textured walls, wallpaper, or over beds",
+      "price_bracket": "Under $20",
+      "stars": "4.7",
+      "ratings": "11,979",
+      "safe": 4,
+      "safe_note": "Maker publishes a clean-removal method. Risk is weak, new, or damaged paint.",
+      "why": "This is the only pick here with a maker you can check. Command's own FAQ says its hooks and strips work on painted walls once the paint has cured for at least 7 days, and that they pull off cleanly when you pull the tab straight down, slowly. The pack covers picture strips plus wire and utility hooks, so one box handles a gallery wall and a few hooks.",
+      "con": "Command says its strips are not for heavily textured walls or wallpaper, and the listing says not to hang over beds. Strips are one use, so rehanging takes new strips. Standard strips also struggle in steamy rooms, where Command points to its bath line."
+    },
+    {
+      "id": "pickpiff-adhesive-wall-hooks",
+      "name": "pickpiff Adhesive Wall Hooks, 4-pack (aluminum, black)",
+      "asin": "B0BNL5MBMY",
+      "image": "pickpiff-adhesive-wall-hooks",
+      "alt": "Illustration of black adhesive wall hooks holding coats and a bag by an entry",
+      "best_for": "Entry wall: coats, bags, damp towels",
+      "limit": "Hold is split in reviews; no removal method listed",
+      "price_bracket": "Under $10",
+      "stars": "4.4",
+      "ratings": "7,558",
+      "safe": 3,
+      "safe_note": "Strong adhesive with no removal guidance in the listing.",
+      "why": "Four double hooks with an aluminum body, listed at up to 13 lb. Amazon's review summary says people like how they look and how much they carry, wet towels included. It is the cheapest way here to get a real row of coat hooks.",
+      "con": "The same summary says hold is mixed: some say they stay up, others say they fall off the wall. The listing bullets say nothing about taking them off, and this is not a Command product. Try one hook in a spot that does not show before you commit a whole wall. Amazon also lists a newer version of this item."
+    },
+    {
+      "id": "korcci-suction-cup-hooks-12pack",
+      "name": "KORCCI Clear Suction Cup Hooks, 12-pack",
+      "asin": "B0DFLZ5FX4",
+      "image": "korcci-suction-cup-hooks-12pack",
+      "alt": "Illustration of clear suction cup hooks holding towels on a shower tile wall",
+      "best_for": "Glass, mirrors, and smooth tile: shower, window",
+      "limit": "Smooth, non-porous surfaces only; hold is mixed",
+      "price_bracket": "Under $10",
+      "stars": "4.6",
+      "ratings": "4,851",
+      "safe": 5,
+      "safe_note": "No adhesive. The cup lifts off with a tab.",
+      "why": "Twelve clear suction cups with stainless steel hooks, listed at up to 10 lb. They press onto glass, mirrors, and smooth tile and lift off with a release tab, so there is nothing to scrape or patch. The listing's own surface line says glass.",
+      "con": "Amazon's review summary calls the grip mixed: some say they stick great, others say they do not stick at all. Textured, painted, or porous surfaces will not work. Press them onto a clean, dry spot and check them after a few days before loading them."
+    },
+    {
+      "id": "optish-over-door-hooks",
+      "name": "Optish Over-the-Door Hooks, 12 hooks",
+      "asin": "B0BR8SX468",
+      "image": "optish-over-door-hooks",
+      "alt": "Illustration of a black metal rack with twelve hooks hanging over a bedroom door",
+      "best_for": "Coats, towels, and bags on any standard door",
+      "limit": "Door must be about 1.5 to 1.7 in thick; fit reviews are split",
+      "price_bracket": "Under $10",
+      "stars": "4.4",
+      "ratings": "7,277",
+      "safe": 5,
+      "safe_note": "Nothing sticks to the wall. A foam pad protects the door.",
+      "why": "A metal rack with 12 hooks that hangs over the top of a door. It touches no wall, so there is nothing to remove at move-out. The listing says it holds up to 44 lb and fits doors about 1.5 to 1.7 inches thick. Amazon's review summary says it is sturdy enough for winter jackets and towels.",
+      "con": "Measure your door first. Reviewers disagree on fit: some say the part that goes over the door is too large, others say the rack is small, and some say the hooks do not secure tightly. The listing mentions included screws and a screwdriver for assembly, so check what that covers before you buy."
+    }
+  ],
+  "skipped": [
+    "Hooks under 4.3 stars or under 3,000 ratings on Oct 13, 2026.",
+    "Any hook sold with no weight limit and no surface guidance.",
+    "Anything that needs a screw into the wall, even when the title says renter-friendly."
+  ],
+  "how_picked": [
+    "4.3 stars or higher and at least 3,000 ratings on Oct 13, 2026.",
+    "The listing states a weight limit and the surfaces it works on.",
+    "The maker or the listing explains how it comes off.",
+    "I read Amazon's review summary for the most common failure."
+  ],
+  "final": "If you buy one, buy the Command Variety Pack for walls. It is the only pick with a maker's removal method. For a door or a shower, the Optish or the KORCCI leave no adhesive at all.",
+  "related": ["renter-winter-draft-fixes"]
+}
