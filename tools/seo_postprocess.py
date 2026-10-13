@@ -179,7 +179,7 @@ def process_products(products):
                 '.np-related span{color:var(--wood);white-space:nowrap;font-size:12px}'
                 '.np-related .np-cat{display:inline-block;margin-top:14px;color:var(--terra);font-size:14px;text-decoration:none}</style>\n'
                 '<section class="np-related" aria-label="Related finds">\n'
-                f'  <h2>More {esc(CATS[cat][1].replace(" Finds", "").lower())} finds</h2>\n'
+                f'  <h2>More {esc(CATS[cat][1].replace(" Finds", "").replace(" Upgrades", "").lower())} picks</h2>\n'
                 f'  <ul>\n{items}\n  </ul>\n'
                 f'  <a class="np-cat" href="../{CATS[cat][0]}">See all {esc(CATS[cat][1])} →</a>\n'
                 '</section>')

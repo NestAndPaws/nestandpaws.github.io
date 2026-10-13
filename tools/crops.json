@@ -1,21 +1,818 @@
 {
-  "korcci-suction-cup-hooks-12pack": [0, 0.11, 1, 0.71],
-  "yasonic-adhesive-shower-caddy-2pack": [0, 0.31, 1, 0.91],
-  "meohui-cat-wand-toys-2pack": [0, 0.15, 1, 0.52],
-  "duck-window-insulation-kit-10-windows": [0, 0.12, 1, 0.91],
-  "innqoo-candle-warmer-lamp": [0, 0.31, 0.93, 0.92],
-  "kitty-city-xl-cat-scratcher-pads-3pack": [0, 0, 1, 0.67],
-  "lumigens-6-tier-pants-hangers": [0.03, 0.14, 0.97, 0.93],
-  "anua-pdrn-hyaluronic-acid-100-cream": [0, 0, 1, 0.63],
-  "command-picture-strips": [0, 0, 1, 0.8],
-  "cisily-sink-caddy": [0, 0.32, 1, 0.92],
-  "bluestars-outlet-extender-night-light": [0, 0, 1, 0.77],
-  "artoid-mode-fall-table-runner": [0, 0.08, 1, 0.69],
-  "dog-cooling-mat": [0, 0.18, 1, 0.97],
-  "cosrx-snail-mucin": [0, 0.17, 1, 0.93],
-  "ourholiday-acrylic-wedding-table-numbers": [0, 0.32, 1, 0.98],
-  "command-variety-pack-19pc": [0, 0.33, 1, 0.89],
-  "pickpiff-adhesive-wall-hooks": [0, 0, 1, 0.72],
-  "optish-over-door-hooks": [0.27, 0.02, 1, 0.92],
-  "grotheory-door-draft-stopper": [0, 0.23, 1, 0.91]
+"korcci-suction-cup-hooks-12pack": [
+0,
+0.125,
+1,
+0.71
+],
+"yasonic-adhesive-shower-caddy-2pack": [
+0,
+0.31,
+1,
+0.91
+],
+"meohui-cat-wand-toys-2pack": [
+0,
+0.19,
+1,
+0.52
+],
+"duck-window-insulation-kit-10-windows": [
+0,
+0.135,
+1,
+0.91
+],
+"innqoo-candle-warmer-lamp": [
+0,
+0.31,
+0.93,
+0.92
+],
+"kitty-city-xl-cat-scratcher-pads-3pack": [
+0,
+0,
+1,
+0.67
+],
+"lumigens-6-tier-pants-hangers": [
+0.03,
+0.14,
+0.97,
+0.93
+],
+"anua-pdrn-hyaluronic-acid-100-cream": [
+0,
+0,
+1,
+0.63
+],
+"command-picture-strips": [
+0,
+0,
+1,
+0.8
+],
+"cisily-sink-caddy": [
+0,
+0.32,
+1,
+0.92
+],
+"bluestars-outlet-extender-night-light": [
+0,
+0,
+1,
+0.77
+],
+"artoid-mode-fall-table-runner": [
+0,
+0.08,
+1,
+0.69
+],
+"dog-cooling-mat": [
+0,
+0.22,
+1,
+0.97
+],
+"cosrx-snail-mucin": [
+0,
+0.17,
+1,
+0.93
+],
+"ourholiday-acrylic-wedding-table-numbers": [
+0,
+0.32,
+1,
+0.98
+],
+"command-variety-pack-19pc": [
+0,
+0.33,
+1,
+0.89
+],
+"pickpiff-adhesive-wall-hooks": [
+0,
+0,
+1,
+0.72
+],
+"optish-over-door-hooks": [
+0.27,
+0.02,
+1,
+0.92
+],
+"grotheory-door-draft-stopper": [
+0,
+0.23,
+1,
+0.91
+],
+"acrylic-floating-shelves-renter": [
+0,
+0.155,
+1,
+0.875
+],
+"afiing-desk-pad": [
+0,
+0.135,
+1,
+0.905
+],
+"alpha-grillers-meat-thermometer": [
+0,
+0.195,
+1,
+0.615
+],
+"angry-mama-microwave-cleaner": [
+0,
+0,
+1,
+0.635
+],
+"anua-collagen-glow-serum-spray": [
+0,
+0.315,
+1,
+0.865
+],
+"arm-hammer-dental-water": [
+0,
+0.145,
+1,
+0.885
+],
+"barn-door-hardware": [
+0.4,
+0.055,
+1,
+0.915
+],
+"beauty-of-joseon-relief-sun": [
+0,
+0.125,
+1,
+0.925
+],
+"bentgo-modern-bento-lunch-box": [
+0,
+0,
+1,
+0.645
+],
+"biodance-collagen-mask": [
+0,
+0.135,
+1,
+0.885
+],
+"blue-buffalo-pumpkin-dog-biscuits": [
+0,
+0,
+1,
+0.885
+],
+"btartbox-dark-red-press-on-nails-32pc": [
+0.59,
+0.465,
+1,
+0.865
+],
+"btartbox-halloween-french-tip-nails-32pc": [
+0.59,
+0.465,
+1,
+0.865
+],
+"cabinet-organizer": [
+0,
+0,
+1,
+0.735
+],
+"chesapeake-bay-ocean-retreat-candle": [
+0,
+0.215,
+1,
+0.905
+],
+"chesapeake-bay-serene-waters-candle": [
+0,
+0.215,
+1,
+0.885
+],
+"chomchom-pet-hair-roller": [
+0,
+0.135,
+1,
+0.895
+],
+"cocorrina-reed-diffuser": [
+0,
+0.125,
+1,
+0.885
+],
+"codoule-no-drill-curtain-rod-brackets": [
+0,
+0.15,
+1,
+0.885
+],
+"cosrx-collagen-eye-patch": [
+0,
+0.24,
+1,
+0.855
+],
+"craftalent-kids-art-portfolio": [
+0,
+0.265,
+1,
+0.925
+],
+"desominor-mirror-border": [
+0,
+0,
+1,
+0.755
+],
+"dewoo-marble-backsplash": [
+0,
+0,
+1,
+0.755
+],
+"drain-snake-hair-clog-remover-kit": [
+0,
+0.195,
+1,
+0.905
+],
+"enjoybasics-no-drill-curtain-rod": [
+0,
+0,
+1,
+0.725
+],
+"etekcity-kitchen-scale": [
+0,
+0.125,
+1,
+0.655
+],
+"ezvalo-led-puck-lights": [
+0,
+0,
+1,
+0.735
+],
+"ezvalo-wall-sconces": [
+0,
+0.205,
+1,
+0.935
+],
+"fall-harvest-sunflower-pumpkin-wreath": [
+0,
+0.115,
+1,
+0.675
+],
+"faux-oak-door-wrap": [
+0,
+0,
+1,
+0.905
+],
+"flylead-cable-clips": [
+0,
+0.135,
+1,
+0.855
+],
+"fridge-bin-organizer-set": [
+0,
+0.145,
+1,
+0.675
+],
+"fullstar-vegetable-chopper-4in1": [
+0,
+0.215,
+1,
+0.835
+],
+"funtouch-led-touch-vanity-mirror": [
+0,
+0.125,
+1,
+0.845
+],
+"furniture-floor-touchup-marker-kit": [
+0,
+0.255,
+1,
+0.855
+],
+"gohdiwh-fall-pillow-cover-set": [
+0,
+0,
+1,
+0.545
+],
+"gushbin-brass-key-bowl-entryway": [
+0,
+0.275,
+1,
+0.815
+],
+"Hair-oil": [
+0,
+0,
+1,
+1
+],
+"hero-mighty-patch": [
+0,
+0.115,
+1,
+0.925
+],
+"hertzko-deshedding-brush": [
+0,
+0.435,
+1,
+0.885
+],
+"hipiwe-seagrass-storage-baskets": [
+0,
+0.155,
+1,
+0.755
+],
+"homerays-bamboo-lazy-susan": [
+0,
+0,
+1,
+0.725
+],
+"hrx-adhesive-door-handle": [
+0,
+0.245,
+1,
+0.915
+],
+"huanuo-monitor-arm": [
+0.5,
+0,
+1,
+0.935
+],
+"hyhao-washable-runner-rug": [
+0,
+0,
+1,
+0.615
+],
+"ispecle-under-sink-organizer": [
+0.07,
+0.065,
+0.95,
+0.655
+],
+"ivoler-laptop-stand-riser": [
+0,
+0,
+1,
+0.625
+],
+"jarlink-over-door-5-shelf-organizer": [
+0,
+0.355,
+1,
+0.925
+],
+"jasiway-expandable-sink-dish-rack": [
+0,
+0.205,
+1,
+0.915
+],
+"jikiou-mini-hand-paper-shredder": [
+0,
+0,
+1,
+0.625
+],
+"joyusaen-wall-mirror-jewelry-organizer": [
+0,
+0.145,
+1,
+0.885
+],
+"k18-leave-in-repair-mask": [
+0,
+0.135,
+1,
+0.735
+],
+"kakanuo-cordless-table-lamp-2pack": [
+0,
+0.145,
+1,
+0.895
+],
+"karseell-collagen-hair-mask": [
+0,
+0,
+1,
+0.555
+],
+"kitsch-satin-heatless-curls-sunset": [
+0,
+0.19,
+1,
+0.635
+],
+"kitstorack-pullout-organizer": [
+0,
+0,
+1,
+0.735
+],
+"kmm-handheld-car-vacuum": [
+0,
+0.135,
+1,
+0.925
+],
+"kristin-ess-hair-gloss-brunette": [
+0,
+0.19,
+1,
+0.83
+],
+"lenify-grasscloth-wallpaper": [
+0,
+0.185,
+1,
+0.935
+],
+"levoit-core-mini-air-purifier": [
+0,
+0.255,
+1,
+0.885
+],
+"lindas-silicone-stove-gap-covers": [
+0,
+0.275,
+1,
+0.905
+],
+"lockermate-7-piece-locker-organizer-navy": [
+0,
+0,
+1,
+0.715
+],
+"loreal-everpure-purple-shampoo": [
+0.06,
+0.115,
+1,
+0.885
+],
+"magnetic-spice-rack": [
+0,
+0,
+1,
+0.725
+],
+"Massage-gun": [
+0,
+0.185,
+1,
+0.875
+],
+"mcgor-rechargeable-under-cabinet-lights": [
+0,
+0.255,
+1,
+0.895
+],
+"medicube-collagen-night-wrapping-mask": [
+0,
+0.365,
+1,
+0.855
+],
+"medicube-pink-peptide-serum": [
+0,
+0.115,
+1,
+0.905
+],
+"mediheal-collagen-firming-pads": [
+0,
+0,
+1,
+0.515
+],
+"mielle-rosemary-mint-hair-oil": [
+0,
+0.265,
+1,
+0.885
+],
+"Mirror": [
+0,
+0.165,
+1,
+0.925
+],
+"nizoral-shampoo": [
+0,
+0.295,
+1,
+0.925
+],
+"nordik-felt-desk-mat": [
+0,
+0.225,
+1,
+0.885
+],
+"nyx-butter-gloss-sugar-glass": [
+0,
+0.125,
+1,
+0.835
+],
+"ogx-collagen-shampoo": [
+0,
+0.135,
+1,
+0.8
+],
+"oqqlin-mirror-molding": [
+0,
+0,
+1,
+0.775
+],
+"ordinary-hair-density-serum": [
+0,
+0.245,
+1,
+0.835
+],
+"osivaex-laundry-rolling-cart": [
+0,
+0.155,
+1,
+0.865
+],
+"ouai-hair-gloss": [
+0,
+0.125,
+1,
+0.785
+],
+"owala-freesip-water-bottle": [
+0,
+0.245,
+1,
+0.905
+],
+"oxo-good-grips-vegetable-chopper": [
+0,
+0.145,
+1,
+0.885
+],
+"oxo-pop-pantry-canister": [
+0,
+0,
+1,
+0.615
+],
+"oye-garlic-press": [
+0,
+0.285,
+1,
+0.895
+],
+"petsta-zoom-treat-puzzle": [
+0,
+0,
+1,
+0.615
+],
+"pink-stuff-cleaning-paste": [
+0,
+0.115,
+1,
+0.925
+],
+"pink-stuff-paste": [
+0,
+0,
+1,
+1
+],
+"quntis-monitor-light-bar": [
+0,
+0.265,
+1,
+0.925
+],
+"rabenda-rug-corner-grippers": [
+0,
+0.115,
+1,
+0.635
+],
+"rainbow-grout-pen-white": [
+0,
+0.45,
+1,
+0.89
+],
+"rocdeer-monitor-riser-storage-drawer": [
+0,
+0.165,
+1,
+0.885
+],
+"sailstar-led-desk-lamp-wireless-charger": [
+0,
+0.215,
+1,
+0.855
+],
+"sandjest-teacher-tumbler-big-heart": [
+0,
+0.185,
+1,
+0.915
+],
+"sasttie-reading-backrest-pillow": [
+0,
+0.105,
+1,
+0.835
+],
+"shinelife-rechargeable-desk-lamp": [
+0,
+0.245,
+1,
+0.915
+],
+"simplehouseware-3-tier-rolling-cart": [
+0,
+0.245,
+1,
+0.905
+],
+"simplyvital-collagen-cream": [
+0,
+0.435,
+1,
+0.885
+],
+"skydue-rotating-desk-organizer": [
+0,
+0.105,
+1,
+0.885
+],
+"slow-feeder-lick-bowl": [
+0,
+0,
+1,
+0.795
+],
+"Snuffle-mat": [
+0,
+0.115,
+1,
+0.895
+],
+"spicy-shelf-cabinet-riser": [
+0,
+0.195,
+1,
+0.655
+],
+"tebery-under-shelf-basket-4pack": [
+0,
+0,
+1,
+0.915
+],
+"the-ordinary-glycolic-acid": [
+0,
+0.255,
+1,
+0.895
+],
+"tousea-peel-stick-caulk-tape": [
+0,
+0.095,
+1,
+0.655
+],
+"tsrarey-sunset-lamp-projection": [
+0,
+0,
+1,
+0.675
+],
+"ulg-over-door-storage-organizer": [
+0,
+0.225,
+1,
+0.915
+],
+"veken-pet-water-fountain": [
+0,
+0.165,
+1,
+0.885
+],
+"vtopmart-airtight-pantry-containers": [
+0,
+0.215,
+1,
+0.805
+],
+"vtopmart-drawer-organizers": [
+0,
+0,
+1,
+0.685
+],
+"vtopmart-stackable-drawers": [
+0,
+0,
+1,
+0.685
+],
+"vusign-magnetic-whiteboard-small": [
+0,
+0.135,
+1,
+0.845
+],
+"Wallet": [
+0,
+0.205,
+1,
+0.915
+],
+"wallshelfie-bedside-dorm-shelf": [
+0,
+0,
+1,
+0.715
+],
+"wanpeegoo-cat-cooling-bed": [
+0,
+0.455,
+1,
+0.915
+],
+"wet-brush-original-detangler": [
+0,
+0.105,
+1,
+0.635
+],
+"wooden-happy-halloween-porch-wreath": [
+0,
+0,
+1,
+0.625
+],
+"yankee-candle-spiced-pumpkin": [
+0,
+0.135,
+1,
+0.615
+],
+"zulay-frother": [
+0,
+0.19,
+1,
+0.925
+]
 }
