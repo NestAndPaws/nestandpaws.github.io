@@ -92,7 +92,7 @@ def render_guide(g, all_guides):
     hero_file = os.path.join(ROOT, "images", "guides", "hero", g["slug"] + ".jpg")
     hero = ""
     if os.path.exists(hero_file):
-        hero = (f'<figure class="g-hero"><img src="/images/guides/hero/{g["slug"]}.jpg" alt="{esc(g.get("hero_alt", g["title"]))}" width="1600" height="900" fetchpriority="high">'
+        hero = (f'<figure class="g-hero"><img src="/images/guides/hero/{g["slug"]}.jpg" alt="{esc(g.get("hero_alt", g["title"]))}" width="1376" height="768" fetchpriority="high">'
                 f'<figcaption>{esc(g.get("hero_caption", "Illustration, not a photo of the item"))}</figcaption></figure>')
     jump = "".join(f'<a href="#pick-{i+1}">{esc(p["name"].split(" (")[0].split(",")[0])}</a>' for i, p in enumerate(picks))
     bar = f'<div class="pick-bar" role="navigation" aria-label="Jump to a pick"><b>Jump to</b>{jump}</div>'
