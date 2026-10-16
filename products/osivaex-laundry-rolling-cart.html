@@ -8,6 +8,7 @@
   <link rel="canonical" href="https://nestandpaws.github.io/products/osivaex-laundry-rolling-cart.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/shared.css">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -15,29 +16,6 @@
       --wood: #8B6F4E; --charcoal: #2C2420; --white: #FDFAF5;
     }
     body { background: var(--cream); color: var(--charcoal); font-family: 'DM Sans', sans-serif; }
-
-    nav {
-      background: var(--charcoal);
-      padding: 14px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .nav-brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      color: var(--white);
-      text-decoration: none;
-    }
-    .nav-back {
-      font-size: 13px;
-      color: var(--sand);
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .nav-back:hover { color: var(--white); }
 
     .product-wrap {
       max-width: 800px;
@@ -124,19 +102,19 @@
       transition: background 0.2s, transform 0.1s;
       margin-bottom: 12px;
     }
-    .cta-btn:hover { background: var(--wood); transform: translateY(-1px); }
+    @media (hover: hover) and (pointer: fine) { .cta-btn:hover { background: var(--wood); transform: translateY(-1px); } }
     .cta-btn:active { transform: translateY(0); }
 
     .disclosure {
       font-size: 12px;
-      color: var(--sand);
+      color: var(--wood);
       text-align: center;
       font-weight: 300;
     }
 
     .product-date {
       font-size: 12px;
-      color: var(--sand);
+      color: var(--wood);
       text-align: center;
       font-weight: 300;
       margin-top: 6px;
@@ -150,7 +128,7 @@
       color: var(--wood);
       text-decoration: none;
     }
-    .back-link:hover { color: var(--terra); }
+    @media (hover: hover) and (pointer: fine) { .back-link:hover { color: var(--terra); } }
   </style>
 <script type="application/ld+json">
 {
@@ -205,15 +183,20 @@
 </head>
 <body>
 
-<nav>
-  <a href="../index.html" class="nav-brand">Nest & Paws</a>
-  <a href="../index.html" class="nav-back">← All finds</a>
+<a class="skip-link" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main">
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">Nest <span>&amp;</span> Paws</a>
+    <div class="nav-links"><a href="/guides/">Guides</a><a href="/renter.html">Renter</a><a href="/home.html">Home</a><a href="/pets.html">Pets</a><a href="/beauty.html">Beauty</a><a href="/under25.html">Under $25</a><a href="/start-here.html">Start here</a></div>
+  </div>
 </nav>
+<div id="main" tabindex="-1"></div>
 
-<div class="product-wrap">
+<main class="product-wrap">
+  <p class="crumbs"><a href="/">Home</a> <span aria-hidden="true">›</span> <a href="https://nestandpaws.github.io/home.html">Home &amp; Kitchen Finds</a></p>
   <div class="product-layout">
     <div class="product-img">
-      <img src="https://nestandpaws.github.io/images/web/osivaex-laundry-rolling-cart.jpg" alt="Osivaex Utility Slim Rolling Cart with Table Top — Narrow Laundry Room Organizer, Fits Washer &amp; Dryer Gap" onerror="this.outerHTML='<div class=img-placeholder>🛍️</div>'">
+      <img src="/images/web/osivaex-laundry-rolling-cart.jpg" alt="Osivaex Utility Slim Rolling Cart with Table Top — Narrow Laundry Room Organizer, Fits Washer &amp; Dryer Gap" fetchpriority="high">
     </div>
     <div class="product-info">
       <div class="product-bracket">Under $30</div>
@@ -226,8 +209,8 @@
 <p class="product-date">Added Jul 14, 2026</p>
     </div>
   </div>
-  <a href="../index.html" class="back-link">← Browse all finds</a>
-</div>
+  <a href="https://nestandpaws.github.io/home.html" class="back-link">More in Home &amp; Kitchen Finds</a>
+</main>
 <!-- np-seo:related -->
 <style>.np-related{max-width:800px;margin:0 auto;padding:0 24px 48px}.np-related h2{font-family:"Playfair Display",serif;font-size:20px;font-weight:600;margin-bottom:12px}.np-related ul{list-style:none;display:grid;gap:10px}.np-related li{background:var(--white);border-radius:12px;padding:12px 16px;font-size:14px;display:flex;justify-content:space-between;gap:12px}.np-related a{color:var(--charcoal);text-decoration:none}.np-related a:hover{color:var(--terra)}.np-related span{color:var(--wood);white-space:nowrap;font-size:12px}.np-related .np-cat{display:inline-block;margin-top:14px;color:var(--terra);font-size:14px;text-decoration:none}</style>
 <section class="np-related" aria-label="Related finds">
@@ -241,5 +224,13 @@
   <a class="np-cat" href="../home.html">See all Home &amp; Kitchen Finds →</a>
 </section>
 <!-- /np-seo:related -->
+<footer class="site-footer">
+  <div class="foot-grid">
+    <div><p class="foot-brand">Nest &amp; Paws</p><p class="foot-tag">Independent picks for small spaces, pets and everyday routines. Researched from listings, not tested by us.</p></div>
+    <div><p class="foot-h">Browse</p><div class="foot-links"><a href="/guides/">Guides</a><a href="/renter.html">Renter friendly</a><a href="/home.html">Home and kitchen</a><a href="/pets.html">Pets</a><a href="/beauty.html">Beauty</a><a href="/under25.html">Under $25</a></div></div>
+    <div><p class="foot-h">About</p><div class="foot-links"><a href="/start-here.html">Start here</a><a href="/about.html">About</a><a href="/privacy.html">Privacy</a><a href="https://pinterest.com/NestandPaws" target="_blank" rel="noopener">Pinterest</a></div></div>
+  </div>
+  <p class="foot-note">Independent. Not affiliated with or endorsed by Amazon. Links go to Amazon. Prices change, so check the listing. Product images are illustrations, not photos of the item.</p>
+</footer>
 </body>
 </html>

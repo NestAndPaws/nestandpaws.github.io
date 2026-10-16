@@ -25,12 +25,12 @@ def assoc_block(doc, block, anchor, before=True):
     return re.sub(r"\n?<!-- np-seo:assoc -->.*?<!-- /np-seo:assoc -->\n?", "\n", doc, flags=re.S)
 
 CATS = {
-    "home":     ("home.html",     "Home & Kitchen Finds",     "Home & kitchen Amazon finds picked one at a time: storage, cleaning, kitchen tools and small upgrades, each with a short note on what it fixes and who it suits."),
-    "renter":   ("renter.html",   "Renter Friendly Upgrades", "Renter-friendly Amazon finds: no-drill, peel-and-stick and removable upgrades for apartments, dorms and rentals, each with a note on what it fixes."),
-    "pets":     ("pets.html",     "Pet Must Haves",           "Dog and cat products from Amazon picked for daily use, not novelty: grooming, feeding, scratchers and treats, with a short note on each pick."),
-    "beauty":   ("beauty.html",   "Beauty Finds",             "Hair and skincare Amazon finds, weighted toward hair: brushes, tools, moisturizers and sunscreen, each with a plain note on who it suits."),
-    "seasonal": ("seasonal.html", "Seasonal Finds",           "Seasonal Amazon finds for the current season and gifting window: decor, hosting and small gifts, grouped by price bracket."),
-    "wedding":  ("wedding.html",  "Wedding Table Decor",      "Wedding table decor and hosting finds from Amazon: centerpieces, runners, linens and small details, grouped by price bracket."),
+    "home":     ("home.html",     "Home & Kitchen Finds",     "Home and kitchen picks, chosen one at a time: storage, cleaning, kitchen tools and small upgrades, each with a short note on what it fixes and who it suits."),
+    "renter":   ("renter.html",   "Renter Friendly Upgrades", "Renter-friendly picks: no-drill, peel-and-stick and removable upgrades for apartments, dorms and rentals, each with a note on what it fixes."),
+    "pets":     ("pets.html",     "Pet Must Haves",           "Dog and cat picks for daily use, not novelty: grooming, feeding, scratchers and treats, each with a short note."),
+    "beauty":   ("beauty.html",   "Beauty Finds",             "Hair and skin care picks, weighted toward hair: brushes, tools, moisturizers and sunscreen, each with a plain note on who it suits."),
+    "seasonal": ("seasonal.html", "Seasonal Finds",           "Seasonal picks for the current season and gifting window: decor, hosting and small gifts, grouped by price bracket."),
+    "wedding":  ("wedding.html",  "Wedding Table Decor",      "Wedding table decor and hosting picks: centerpieces, runners, linens and small details, grouped by price bracket."),
 }
 EXTRA_PAGES = {
     "index.html":   ("Nest & Paws", "Short buying guides for renters and small homes. Each one matches picks to a job, shows the weight limit and the catch, and says how it was chosen."),

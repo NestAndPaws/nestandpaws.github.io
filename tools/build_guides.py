@@ -66,7 +66,7 @@ def render_guide(g, all_guides):
     <div class="pick-body">
       <p class="pick-num">Pick {i+1}</p>
       <h3>{esc(p["name"])}</h3>
-      <p class="pick-meta"><span>{esc(p["price_bracket"])}</span><span>{p["stars"]} stars, {p["ratings"]} ratings</span></p>
+      <p class="pick-meta"><span class="chip">{esc(p["price_bracket"])}</span><span class="chip">{p["stars"]} stars, {p["ratings"]} ratings</span></p>
       <p class="safe" title="Deposit-safe score, research-based"><span class="dots" aria-hidden="true">{stars_row(p["safe"])}</span> Deposit-safe {p["safe"]} of 5. {esc(p["safe_note"])}</p>
       <p>{esc(p["why"])}</p>
       <p class="watch"><strong>Watch out:</strong> {esc(p["con"])}</p>
@@ -89,6 +89,13 @@ def render_guide(g, all_guides):
         {"@type": "ListItem", "position": 1, "name": "Nest & Paws", "item": SITE + "/"},
         {"@type": "ListItem", "position": 2, "name": "Guides", "item": SITE + "/guides/"},
         {"@type": "ListItem", "position": 3, "name": g["title"], "item": url}]}
+    hero_file = os.path.join(ROOT, "images", "guides", "hero", g["slug"] + ".jpg")
+    hero = ""
+    if os.path.exists(hero_file):
+        hero = (f'<figure class="g-hero"><img src="/images/guides/hero/{g["slug"]}.jpg" alt="{esc(g.get("hero_alt", g["title"]))}" width="1600" height="900" fetchpriority="high">'
+                f'<figcaption>{esc(g.get("hero_caption", "Illustration, not a photo of the item"))}</figcaption></figure>')
+    jump = "".join(f'<a href="#pick-{i+1}">{esc(p["name"].split(" (")[0].split(",")[0])}</a>' for i, p in enumerate(picks))
+    bar = f'<div class="pick-bar" role="navigation" aria-label="Jump to a pick"><b>Jump to</b>{jump}</div>'
     disc = f'<p class="disclosure-line">{esc(DISCLOSURE)}</p>' if DISCLOSURE else ""
     skipped = "".join(f"<li>{esc(s)}</li>" for s in g["skipped"])
     how = "".join(f"<li>{esc(s)}</li>" for s in g["how_picked"])
@@ -122,6 +129,8 @@ def render_guide(g, all_guides):
     <p class="g-by">By Nest &amp; Paws · Checked {esc(g["last_checked"])} · <a href="/start-here.html">How I pick</a></p>
     {disc}
   </header>
+  {hero}
+  {bar}
   <section class="g-section">
     {hook}
   </section>
