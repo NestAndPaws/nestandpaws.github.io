@@ -46,14 +46,16 @@ CSS = """
     .search-wrap { max-width:480px; margin:0 auto; }
     .search-wrap input { width:100%; padding:15px 22px; border-radius:100px; border:2px solid transparent; background:var(--white); color:var(--charcoal); font-family:'DM Sans',sans-serif; font-size:16px; outline:none; box-shadow:0 8px 28px rgba(0,0,0,.25); transition:border-color .2s; }
     .search-wrap input:focus-visible { border-color:var(--terra); }
-    .float { position:absolute; z-index:1; border-radius:50%; object-fit:cover; border:4px solid rgba(253,250,245,.92); box-shadow:0 10px 30px rgba(0,0,0,.35); animation: bob 7s ease-in-out infinite; }
-    .f1 { left:6%; top:64px; width:118px; height:118px; } .f2 { right:7%; top:104px; width:96px; height:96px; animation-delay:-2.5s; } .f3 { left:15%; bottom:84px; width:84px; height:84px; animation-delay:-4.5s; } .f4 { right:15%; bottom:74px; width:100px; height:100px; animation-delay:-1.2s; }
-    .f5 { left:2%; top:238px; width:72px; height:72px; animation-delay:-3.4s; animation-duration:8.5s; } .f6 { right:3%; top:290px; width:80px; height:80px; animation-delay:-5.2s; animation-duration:6.2s; }
-    .f7 { left:24%; top:34px; width:62px; height:62px; animation-delay:-1.9s; animation-duration:7.8s; } .f8 { right:25%; top:30px; width:68px; height:68px; animation-delay:-6.1s; animation-duration:9s; }
-    .f9 { left:26%; bottom:60px; width:68px; height:68px; animation-delay:-0.8s; animation-duration:6.8s; } .f10 { right:26%; bottom:56px; width:64px; height:64px; animation-delay:-4.1s; animation-duration:7.4s; }
-    @media (max-width:1180px) { .f5,.f6,.f7,.f8,.f9,.f10 { display:none; } }
+    .float { position:absolute; z-index:1; width:84px; height:84px; animation: bob 7s ease-in-out infinite; }
+    .float img { box-sizing:border-box; max-width:none; width:100%; height:100%; aspect-ratio:1/1; clip-path:circle(50%); border-radius:50%; object-fit:cover; border:4px solid rgba(253,250,245,.92); box-shadow:0 10px 30px rgba(0,0,0,.35); display:block; transition:transform 1.1s cubic-bezier(.3,.7,.2,1); }
+    .float.big { z-index:3; } .float.big img { transform:scale(1.6); }
+    .f1 { left:3%; top:11%; } .f2 { left:13%; top:25.5%; animation-delay:-1.4s; } .f3 { left:3%; top:40%; animation-delay:-3.1s; } .f4 { left:13%; top:54.5%; animation-delay:-4.6s; } .f5 { left:3%; top:69%; animation-delay:-2.2s; }
+    .f6 { right:3%; top:11%; animation-delay:-5.3s; } .f7 { right:13%; top:25.5%; animation-delay:-0.7s; } .f8 { right:3%; top:40%; animation-delay:-3.9s; } .f9 { right:13%; top:54.5%; animation-delay:-6.1s; } .f10 { right:3%; top:69%; animation-delay:-2.8s; }
+    .f2,.f7 { animation-duration:8.2s; } .f4,.f9 { animation-duration:6.4s; } .f5,.f8 { animation-duration:7.6s; }
+    @media (max-width:1180px) { .f2,.f4,.f7,.f9 { display:none; } }
     @keyframes bob { 25% { transform: translate3d(5px,-9px,0); } 50% { transform: translate3d(0,-14px,0); } 75% { transform: translate3d(-5px,-7px,0); } }
     @media (max-width:760px) { .float { display:none; } }
+    @media (prefers-reduced-motion:reduce) { .float { animation:none; } .float img { transition:none; } }
     .trust { position:relative; z-index:2; margin:0 -24px; border-top:1px solid rgba(245,237,214,.16); background:rgba(245,237,214,.06); }
     .trust div { max-width:1000px; margin:0 auto; padding:14px 20px; display:flex; flex-wrap:wrap; gap:6px 26px; justify-content:center; font-size:14px; color:var(--sand); }
     .trust span::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--terra); margin-right:9px; vertical-align:middle; }
@@ -99,13 +101,30 @@ CSS = """
 """
 
 def build():
-    floats = "".join(f'<img class="float f{n+1}" src="{img(i,260,260)}" alt="" aria-hidden="true">' for n, i in enumerate(["korcci-suction-cup-hooks-12pack", "meohui-cat-wand-toys-2pack", "cisily-sink-caddy", "cosrx-snail-mucin", "kitty-city-xl-cat-scratcher-pads-3pack", "innqoo-candle-warmer-lamp", "dog-cooling-mat", "lumigens-6-tier-pants-hangers", "anua-pdrn-hyaluronic-acid-100-cream", "yasonic-adhesive-shower-caddy-2pack"]))
+    floats = "".join(f'<span class="float f{n+1}" aria-hidden="true"><img src="{img(i,260,260)}" alt=""></span>' for n, i in enumerate(["korcci-suction-cup-hooks-12pack", "meohui-cat-wand-toys-2pack", "cisily-sink-caddy", "cosrx-snail-mucin", "kitty-city-xl-cat-scratcher-pads-3pack", "innqoo-candle-warmer-lamp", "dog-cooling-mat", "lumigens-6-tier-pants-hangers", "anua-pdrn-hyaluronic-acid-100-cream", "yasonic-adhesive-shower-caddy-2pack"]))
     tick = "".join(f"<span>{t}</span>" for t in ["Independent", "Researched from listings", "Checked Oct 2026"])
     gcards = "".join(f'<a class="gcard reveal" href="/guides/{g["slug"]}.html"><div class="gimg"><img src="/images/guides/hero/{g["slug"]}.jpg" alt="" width="1376" height="768" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>{E(g["problem_tag"])} guide</b>, {len(g["picks"])} picks</p><h3>{E(g["title"])}</h3><p>{E(g["dek"])}</p></div></a>' for g in load_guides())
     fresh = "".join(f'<a class="fcard" href="/products/{i}.html"><img src="{img(i,420,420)}" alt="{E(t)}" loading="lazy"><div>{E(t)}<small>{b}</small></div></a>' for i, t, b in FRESH)
     tiles = "".join(f'<a class="tile" href="/{u}"><img src="{img(i,720,540)}" alt="" loading="lazy"><b>{E(n)}</b><span>{E(s)}</span></a>' for u, n, s, i in CATS)
     body = f'''<header class="hero">
   {floats}
+  <script>
+  (function(){{
+    var f=[].slice.call(document.querySelectorAll('.float'));
+    if(!f.length||window.matchMedia('(prefers-reduced-motion: reduce)').matches||window.innerWidth<761) return;
+    function vis(a){{return a.filter(function(e){{return e.offsetParent!==null;}});}}
+    function shuffle(a){{for(var i=a.length-1;i>0;i--){{var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}}return a;}}
+    var queue=[],prev=null;
+    function next(){{
+      if(document.hidden){{setTimeout(next,1500);return;}}
+      if(!queue.length){{queue=shuffle(vis(f));if(queue.length>1&&queue[0]===prev){{queue.push(queue.shift());}}}}
+      var el=queue.shift(); if(!el){{setTimeout(next,1500);return;}}
+      prev=el; el.classList.add('big');
+      setTimeout(function(){{el.classList.remove('big'); setTimeout(next,700+Math.random()*900);}},2600);
+    }}
+    setTimeout(next,1200);
+  }})();
+  </script>
   <div class="hero-inner">
     <div class="brand-tag">@NestandPaws</div>
     <h1>Nest <em>&amp;</em> Paws</h1>
@@ -143,7 +162,7 @@ def build():
 </div>
 '''
     p = os.path.join(ROOT, "index.html"); s = open(p, encoding="utf-8").read()
-    s = re.sub(r"(<link rel=\"stylesheet\" href=\"/shared.css\">\s*)<style>.*?</style>(\s*<script>document.documentElement.classList.add\('js'\)</script>)?", lambda m: m.group(1) + "<style>" + CSS + "  </style>", s, count=1, flags=re.S)
+    s = re.sub(r"(<link rel=\"stylesheet\" href=\"/shared.css(?:\?v=\d+)?\">\s*)<style>.*?</style>(\s*<script>document.documentElement.classList.add\('js'\)</script>)?", lambda m: m.group(1) + "<style>" + CSS + "  </style>", s, count=1, flags=re.S)
     s = re.sub(r"<body>.*?(<footer[\s>])", lambda m: "<body>\n" + body + "\n" + m.group(1), s, count=1, flags=re.S)
     s = re.sub(r"<script>\s*\(function\(\)\{var els=document.querySelectorAll\('.reveal'\).*?</script>\n", "", s, flags=re.S)
     open(p, "w", encoding="utf-8").write(s); print("home rebuilt")

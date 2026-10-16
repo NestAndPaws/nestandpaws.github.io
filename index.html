@@ -25,14 +25,16 @@
     .search-wrap { max-width:480px; margin:0 auto; }
     .search-wrap input { width:100%; padding:15px 22px; border-radius:100px; border:2px solid transparent; background:var(--white); color:var(--charcoal); font-family:'DM Sans',sans-serif; font-size:16px; outline:none; box-shadow:0 8px 28px rgba(0,0,0,.25); transition:border-color .2s; }
     .search-wrap input:focus-visible { border-color:var(--terra); }
-    .float { position:absolute; z-index:1; border-radius:50%; object-fit:cover; border:4px solid rgba(253,250,245,.92); box-shadow:0 10px 30px rgba(0,0,0,.35); animation: bob 7s ease-in-out infinite; }
-    .f1 { left:6%; top:64px; width:118px; height:118px; } .f2 { right:7%; top:104px; width:96px; height:96px; animation-delay:-2.5s; } .f3 { left:15%; bottom:84px; width:84px; height:84px; animation-delay:-4.5s; } .f4 { right:15%; bottom:74px; width:100px; height:100px; animation-delay:-1.2s; }
-    .f5 { left:2%; top:238px; width:72px; height:72px; animation-delay:-3.4s; animation-duration:8.5s; } .f6 { right:3%; top:290px; width:80px; height:80px; animation-delay:-5.2s; animation-duration:6.2s; }
-    .f7 { left:24%; top:34px; width:62px; height:62px; animation-delay:-1.9s; animation-duration:7.8s; } .f8 { right:25%; top:30px; width:68px; height:68px; animation-delay:-6.1s; animation-duration:9s; }
-    .f9 { left:6%; bottom:26px; width:92px; height:92px; animation-delay:-0.8s; animation-duration:6.8s; } .f10 { right:7%; bottom:34px; width:76px; height:76px; animation-delay:-4.1s; animation-duration:7.4s; }
-    @media (max-width:1180px) { .f5,.f6,.f7,.f8,.f9,.f10 { display:none; } }
+    .float { position:absolute; z-index:1; width:84px; height:84px; animation: bob 7s ease-in-out infinite; }
+    .float img { box-sizing:border-box; max-width:none; width:100%; height:100%; aspect-ratio:1/1; clip-path:circle(50%); border-radius:50%; object-fit:cover; border:4px solid rgba(253,250,245,.92); box-shadow:0 10px 30px rgba(0,0,0,.35); display:block; transition:transform 1.1s cubic-bezier(.3,.7,.2,1); }
+    .float.big { z-index:3; } .float.big img { transform:scale(1.6); }
+    .f1 { left:3%; top:11%; } .f2 { left:13%; top:25.5%; animation-delay:-1.4s; } .f3 { left:3%; top:40%; animation-delay:-3.1s; } .f4 { left:13%; top:54.5%; animation-delay:-4.6s; } .f5 { left:3%; top:69%; animation-delay:-2.2s; }
+    .f6 { right:3%; top:11%; animation-delay:-5.3s; } .f7 { right:13%; top:25.5%; animation-delay:-0.7s; } .f8 { right:3%; top:40%; animation-delay:-3.9s; } .f9 { right:13%; top:54.5%; animation-delay:-6.1s; } .f10 { right:3%; top:69%; animation-delay:-2.8s; }
+    .f2,.f7 { animation-duration:8.2s; } .f4,.f9 { animation-duration:6.4s; } .f5,.f8 { animation-duration:7.6s; }
+    @media (max-width:1180px) { .f2,.f4,.f7,.f9 { display:none; } }
     @keyframes bob { 25% { transform: translate3d(5px,-9px,0); } 50% { transform: translate3d(0,-14px,0); } 75% { transform: translate3d(-5px,-7px,0); } }
     @media (max-width:760px) { .float { display:none; } }
+    @media (prefers-reduced-motion:reduce) { .float { animation:none; } .float img { transition:none; } }
     .trust { position:relative; z-index:2; margin:0 -24px; border-top:1px solid rgba(245,237,214,.16); background:rgba(245,237,214,.06); }
     .trust div { max-width:1000px; margin:0 auto; padding:14px 20px; display:flex; flex-wrap:wrap; gap:6px 26px; justify-content:center; font-size:14px; color:var(--sand); }
     .trust span::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--terra); margin-right:9px; vertical-align:middle; }
@@ -114,7 +116,24 @@
 </nav>
 <div id="main" tabindex="-1"></div>
 <header class="hero">
-  <img class="float f1" src="/images/home/korcci-suction-cup-hooks-12pack.jpg" alt="" aria-hidden="true"><img class="float f2" src="/images/home/meohui-cat-wand-toys-2pack.jpg" alt="" aria-hidden="true"><img class="float f3" src="/images/home/cisily-sink-caddy.jpg" alt="" aria-hidden="true"><img class="float f4" src="/images/home/cosrx-snail-mucin.jpg" alt="" aria-hidden="true"><img class="float f5" src="/images/home/kitty-city-xl-cat-scratcher-pads-3pack.jpg" alt="" aria-hidden="true"><img class="float f6" src="/images/home/innqoo-candle-warmer-lamp.jpg" alt="" aria-hidden="true"><img class="float f7" src="/images/home/dog-cooling-mat.jpg" alt="" aria-hidden="true"><img class="float f8" src="/images/home/lumigens-6-tier-pants-hangers.jpg" alt="" aria-hidden="true"><img class="float f9" src="/images/home/anua-pdrn-hyaluronic-acid-100-cream.jpg" alt="" aria-hidden="true"><img class="float f10" src="/images/home/yasonic-adhesive-shower-caddy-2pack.jpg" alt="" aria-hidden="true">
+  <span class="float f1" aria-hidden="true"><img src="/images/home/korcci-suction-cup-hooks-12pack.jpg" alt=""></span><span class="float f2" aria-hidden="true"><img src="/images/home/meohui-cat-wand-toys-2pack.jpg" alt=""></span><span class="float f3" aria-hidden="true"><img src="/images/home/cisily-sink-caddy.jpg" alt=""></span><span class="float f4" aria-hidden="true"><img src="/images/home/cosrx-snail-mucin.jpg" alt=""></span><span class="float f5" aria-hidden="true"><img src="/images/home/kitty-city-xl-cat-scratcher-pads-3pack.jpg" alt=""></span><span class="float f6" aria-hidden="true"><img src="/images/home/innqoo-candle-warmer-lamp.jpg" alt=""></span><span class="float f7" aria-hidden="true"><img src="/images/home/dog-cooling-mat.jpg" alt=""></span><span class="float f8" aria-hidden="true"><img src="/images/home/lumigens-6-tier-pants-hangers.jpg" alt=""></span><span class="float f9" aria-hidden="true"><img src="/images/home/anua-pdrn-hyaluronic-acid-100-cream.jpg" alt=""></span><span class="float f10" aria-hidden="true"><img src="/images/home/yasonic-adhesive-shower-caddy-2pack.jpg" alt=""></span>
+  <script>
+  (function(){
+    var f=[].slice.call(document.querySelectorAll('.float'));
+    if(!f.length||window.matchMedia('(prefers-reduced-motion: reduce)').matches||window.innerWidth<761) return;
+    function vis(a){return a.filter(function(e){return e.offsetParent!==null;});}
+    function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}return a;}
+    var queue=[],prev=null;
+    function next(){
+      if(document.hidden){setTimeout(next,1500);return;}
+      if(!queue.length){queue=shuffle(vis(f));if(queue.length>1&&queue[0]===prev){queue.push(queue.shift());}}
+      var el=queue.shift(); if(!el){setTimeout(next,1500);return;}
+      prev=el; el.classList.add('big');
+      setTimeout(function(){el.classList.remove('big'); setTimeout(next,700+Math.random()*900);},2600);
+    }
+    setTimeout(next,1200);
+  })();
+  </script>
   <div class="hero-inner">
     <div class="brand-tag">@NestandPaws</div>
     <h1>Nest <em>&amp;</em> Paws</h1>
