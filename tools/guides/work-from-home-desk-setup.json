@@ -1,0 +1,81 @@
+{
+  "slug": "work-from-home-desk-setup",
+  "title": "Work-From-Home Desk Setup: Four Picks for a Cleaner Desk",
+  "short_title": "Work-From-Home Desk Setup",
+  "description": "Four desk picks: a foldable laptop stand, a monitor light bar, magnetic cable clips and a large felt desk mat. What each does and what to check.",
+  "dek": "Raise the laptop, light the desk, hold the cables, cover the surface.",
+  "constraint": "A home desk, each under $35",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "last_checked": "Oct 16, 2026",
+  "problem_tag": "Home",
+  "hook": [
+    "A better desk does not need a new desk. These four picks raise the screen, light the work, tame the cables and cover the surface.",
+    "I did not test these. I read each listing and use only what it says, so check the details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is or what size it is.",
+    "Anything that needs tools, wiring or a permanent change, for the renter and small-space guides."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and its size or capacity.",
+    "The listing gives a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "Start with the stand if you work on a laptop. Add the light bar if the desk is dark, and the clips and mat to finish the setup.",
+  "related": [
+    "small-kitchen-organization"
+  ],
+  "hero_alt": "A tidy work-from-home desk by a window with a felt desk mat, a laptop on a stand and a monitor with a light bar",
+  "picks": [
+    {
+      "id": "ivoler-laptop-stand-riser",
+      "name": "ivoler Adjustable Aluminum Laptop Stand, 6-Angle Foldable Riser",
+      "asin": "B07WBYCTNX",
+      "image": "ivoler-laptop-stand-riser",
+      "alt": "Illustration of a foldable aluminum laptop stand with a laptop",
+      "best_for": "Raising a laptop to a better viewing height",
+      "limit": "Fits 10 to 15.6 inch laptops",
+      "price_bracket": "Under $10",
+      "why": "Raises a 10 to 15.6 inch laptop to a better viewing height, with 6 angles, and folds flat for a bag.",
+      "con": "Check that your laptop is within the 10 to 15.6 inch range."
+    },
+    {
+      "id": "quntis-monitor-light-bar",
+      "name": "Quntis Monitor Light Bar, Auto-Dimming, Remote Control",
+      "asin": "B0C5JMWZC9",
+      "image": "quntis-monitor-light-bar",
+      "alt": "Illustration of a light bar clipped on top of a monitor",
+      "best_for": "Lighting the desk without screen glare",
+      "limit": "Clips on top of a monitor",
+      "price_bracket": "Under $35",
+      "why": "A bar that clips on top of a monitor, lights the desk without screen glare, and has a remote.",
+      "con": "Check your monitor's top edge on the listing before you buy."
+    },
+    {
+      "id": "flylead-cable-clips",
+      "name": "FLYLEAD Magnetic Cable Management Clips (Silicone, Adhesive)",
+      "asin": "B0F9KGWG46",
+      "image": "flylead-cable-clips",
+      "alt": "Illustration of small silicone cable clips on a desk edge",
+      "best_for": "Charging cables that keep sliding off",
+      "limit": "Adhesive, so think about where they go",
+      "price_bracket": "Under $15",
+      "why": "Small adhesive clips that hold charging cables in place at a desk or bedside so they stop sliding off.",
+      "con": "They use adhesive. Pick the spot with care, especially on rented furniture."
+    },
+    {
+      "id": "nordik-felt-desk-mat",
+      "name": "Nordik Large Felt Desk Mat, 35\" x 17\"",
+      "asin": "B0F8Q7L4CF",
+      "image": "nordik-felt-desk-mat",
+      "alt": "Illustration of a large beige felt desk mat",
+      "best_for": "Covering a desk and quieting typing",
+      "limit": "Measure the desk against 35 by 17 inches",
+      "price_bracket": "Under $35",
+      "why": "Full-surface felt, 35 by 17 inches, that covers a desk, quiets typing noise and protects the surface.",
+      "con": "Measure your desk against the listed size."
+    }
+  ]
+}

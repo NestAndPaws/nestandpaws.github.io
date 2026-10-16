@@ -1,0 +1,70 @@
+{
+  "slug": "no-wire-lighting-for-renters",
+  "title": "No-Wire Lighting for Renters: Under-Cabinet and Wall Lights",
+  "short_title": "No-Wire Lighting for Renters",
+  "description": "Three renter-friendly lighting picks that need no wiring or drilling: motion under-cabinet lights, peel-and-stick sconces and magnetic puck lights.",
+  "dek": "Rechargeable, stick-on and magnetic. Three ways to light a rental with no wiring.",
+  "constraint": "Renters, no wiring, under $40",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "last_checked": "Oct 16, 2026",
+  "problem_tag": "Renter",
+  "hook": [
+    "Rental lighting is stuck with the fixtures the landlord chose. These three picks add light with no wiring: they charge by USB, stick on, or attach with magnets.",
+    "I did not test these. I read each listing and use only what it says, so check the details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is or what size it is.",
+    "Anything that needs tools, wiring or a permanent change, for the renter and small-space guides."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and its size or capacity.",
+    "The listing gives a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "Start with the under-cabinet lights if the counter is dark. Add the sconces for a bedside or reading corner.",
+  "related": [
+    "no-drill-hooks-for-renters",
+    "renter-winter-draft-fixes"
+  ],
+  "hero_alt": "A cozy kitchen counter at dusk with soft under-cabinet light, a mug, a plant and a linen-shaded wall sconce",
+  "picks": [
+    {
+      "id": "mcgor-rechargeable-under-cabinet-lights",
+      "name": "MCGOR 14.7\" Rechargeable Motion Sensor Under Cabinet Lights, 2-Pack",
+      "asin": "B0CSJQMVYZ",
+      "image": "mcgor-rechargeable-under-cabinet-lights",
+      "alt": "Illustration of strip lights glowing under a kitchen cabinet",
+      "best_for": "Dark counters and closets",
+      "limit": "Recharge by USB",
+      "price_bracket": "Under $40",
+      "why": "Two 14.7 inch strip lights that turn on when you move. USB rechargeable, so no wiring.",
+      "con": "Battery lights need recharging. Check the run time on the listing."
+    },
+    {
+      "id": "ezvalo-wall-sconces",
+      "name": "EZVALO Battery Operated Wall Sconces Set of 2, Peel & Stick",
+      "asin": "B0G441XVQJ",
+      "image": "ezvalo-wall-sconces",
+      "alt": "Illustration of a battery wall sconce with a linen shade beside a bed",
+      "best_for": "A lamp on the wall with no wiring",
+      "limit": "Check how the adhesive holds on your wall finish",
+      "price_bracket": "Under $40",
+      "why": "Rechargeable sconces with fabric linen shades and a remote for dimming. They stick to the wall, so no wiring.",
+      "con": "Check how the adhesive holds on your wall finish, and think about removal before you press on."
+    },
+    {
+      "id": "ezvalo-led-puck-lights",
+      "name": "EZVALO 6-Pack Rechargeable LED Under-Cabinet Puck Lights",
+      "asin": "B0D25JS2MX",
+      "image": "ezvalo-led-puck-lights",
+      "alt": "Illustration of magnetic puck lights under a shelf",
+      "best_for": "Dark counters and shelves",
+      "limit": "Needs a metal surface for the magnetic mount",
+      "price_bracket": "Under $35",
+      "why": "Six USB-rechargeable lights that attach magnetically, with no wiring or drilling.",
+      "con": "Magnets need a surface they can hold on to. Check the mounting on the listing."
+    }
+  ]
+}

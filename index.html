@@ -8,7 +8,7 @@
   <meta name="description" content="Short buying guides for renters and small homes. Each one matches picks to a job, shows the weight limit and the catch, and says how it was chosen.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/shared.css">
+  <link rel="stylesheet" href="/shared.css?v=3">
   <style>
     :root { --sage:#5C7A5A; --blush:#F2D9C8; --butter:#F3E7C2; --s1:8px; --s2:12px; --s3:16px; --s4:24px; --s5:32px; --s6:48px; --s7:72px; --ease:cubic-bezier(.22,1,.36,1); }
     @media (prefers-reduced-motion:no-preference) { html { scroll-behavior:smooth; } }
@@ -27,7 +27,11 @@
     .search-wrap input:focus-visible { border-color:var(--terra); }
     .float { position:absolute; z-index:1; border-radius:50%; object-fit:cover; border:4px solid rgba(253,250,245,.92); box-shadow:0 10px 30px rgba(0,0,0,.35); animation: bob 7s ease-in-out infinite; }
     .f1 { left:6%; top:64px; width:118px; height:118px; } .f2 { right:7%; top:104px; width:96px; height:96px; animation-delay:-2.5s; } .f3 { left:15%; bottom:84px; width:84px; height:84px; animation-delay:-4.5s; } .f4 { right:15%; bottom:74px; width:100px; height:100px; animation-delay:-1.2s; }
-    @keyframes bob { 50% { transform: translateY(-12px); } }
+    .f5 { left:2%; top:238px; width:72px; height:72px; animation-delay:-3.4s; animation-duration:8.5s; } .f6 { right:3%; top:290px; width:80px; height:80px; animation-delay:-5.2s; animation-duration:6.2s; }
+    .f7 { left:24%; top:34px; width:62px; height:62px; animation-delay:-1.9s; animation-duration:7.8s; } .f8 { right:25%; top:30px; width:68px; height:68px; animation-delay:-6.1s; animation-duration:9s; }
+    .f9 { left:6%; bottom:26px; width:92px; height:92px; animation-delay:-0.8s; animation-duration:6.8s; } .f10 { right:7%; bottom:34px; width:76px; height:76px; animation-delay:-4.1s; animation-duration:7.4s; }
+    @media (max-width:1180px) { .f5,.f6,.f7,.f8,.f9,.f10 { display:none; } }
+    @keyframes bob { 25% { transform: translate3d(5px,-9px,0); } 50% { transform: translate3d(0,-14px,0); } 75% { transform: translate3d(-5px,-7px,0); } }
     @media (max-width:760px) { .float { display:none; } }
     .trust { position:relative; z-index:2; margin:0 -24px; border-top:1px solid rgba(245,237,214,.16); background:rgba(245,237,214,.06); }
     .trust div { max-width:1000px; margin:0 auto; padding:14px 20px; display:flex; flex-wrap:wrap; gap:6px 26px; justify-content:center; font-size:14px; color:var(--sand); }
@@ -42,7 +46,7 @@
     .sec-head a { color:var(--terra); font-size:15px; text-decoration:underline; text-underline-offset:3px; }
     .guides2 { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr)); gap:var(--s5) var(--s4); }
     .gcard { text-decoration:none; color:var(--charcoal); display:block; }
-    .gimg { border-radius:20px; overflow:hidden; aspect-ratio:4/3; background:var(--blush); }
+    .gimg { border-radius:20px; overflow:hidden; aspect-ratio:16/9; background:var(--blush); }
     .gimg img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .6s var(--ease); }
     @media (hover:hover) and (pointer:fine) { .gcard:hover .gimg img { transform:scale(1.04); } .gcard:hover h3 { color:var(--terra); } .fcard:hover div { color:var(--terra); } .tile:hover img { transform:scale(1.06); } .start-cta a:hover { background:var(--terra); } }
     .gbody { padding:var(--s3) 2px 0; }
@@ -110,17 +114,17 @@
 </nav>
 <div id="main" tabindex="-1"></div>
 <header class="hero">
-  <img class="float f1" src="/images/home/korcci-suction-cup-hooks-12pack.jpg" alt="" aria-hidden="true"><img class="float f2" src="/images/home/meohui-cat-wand-toys-2pack.jpg" alt="" aria-hidden="true"><img class="float f3" src="/images/home/cisily-sink-caddy.jpg" alt="" aria-hidden="true"><img class="float f4" src="/images/home/cosrx-snail-mucin.jpg" alt="" aria-hidden="true">
+  <img class="float f1" src="/images/home/korcci-suction-cup-hooks-12pack.jpg" alt="" aria-hidden="true"><img class="float f2" src="/images/home/meohui-cat-wand-toys-2pack.jpg" alt="" aria-hidden="true"><img class="float f3" src="/images/home/cisily-sink-caddy.jpg" alt="" aria-hidden="true"><img class="float f4" src="/images/home/cosrx-snail-mucin.jpg" alt="" aria-hidden="true"><img class="float f5" src="/images/home/kitty-city-xl-cat-scratcher-pads-3pack.jpg" alt="" aria-hidden="true"><img class="float f6" src="/images/home/innqoo-candle-warmer-lamp.jpg" alt="" aria-hidden="true"><img class="float f7" src="/images/home/dog-cooling-mat.jpg" alt="" aria-hidden="true"><img class="float f8" src="/images/home/lumigens-6-tier-pants-hangers.jpg" alt="" aria-hidden="true"><img class="float f9" src="/images/home/anua-pdrn-hyaluronic-acid-100-cream.jpg" alt="" aria-hidden="true"><img class="float f10" src="/images/home/yasonic-adhesive-shower-caddy-2pack.jpg" alt="" aria-hidden="true">
   <div class="hero-inner">
     <div class="brand-tag">@NestandPaws</div>
     <h1>Nest <em>&amp;</em> Paws</h1>
     <p class="hero-sub">Home, pet and beauty picks, researched so you do not have to.</p>
-    <div class="chips"><span>Renter fixes</span><span>Home and kitchen</span><span>Pets</span><span>Beauty</span></div>
+    <div class="chips"><span>Renter fixes</span><span>Home &amp; Kitchen</span><span>Pets</span><span>Beauty</span></div>
     <div class="search-wrap">
       <input type="text" id="search-input" placeholder="Search picks: hooks, scratcher, serum..." autocomplete="off" aria-label="Search finds">
     </div>
   </div>
-  <div class="trust"><div><span>Independent</span><span>Researched from listings</span><span>Not tested by us</span><span>Checked Oct 2026</span></div></div>
+  <div class="trust"><div><span>Independent</span><span>Researched from listings</span><span>Checked Oct 2026</span></div></div>
 </header>
 
 <div class="home-wrap">
@@ -131,7 +135,7 @@
 
   <div id="home-sections">
     <div class="sec-head"><h2>Latest guides</h2><a href="/guides/">All guides</a></div>
-    <div class="guides2"><a class="gcard" href="/guides/renter-winter-draft-fixes.html"><div class="gimg"><img src="/images/home/duck-window-insulation-kit-10-windows.jpg" alt="Window insulation kit box on a sunny windowsill" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>Renter guide</b>, 2 picks, under $30</p><h3>Stop Winter Drafts in a Rental Apartment</h3><p>Two fixes for the two places cold air gets in: the window glass and the gap under the door.</p></div></a><a class="gcard" href="/guides/no-drill-hooks-for-renters.html"><div class="gimg"><img src="/images/home/korcci-suction-cup-hooks-12pack.jpg" alt="Clear suction cup hooks holding a towel and a tote on a tiled wall" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>Renter guide</b>, 4 picks, under $20 each</p><h3>No-Drill Hooks for Renters That Hold</h3><p>Four picks matched to the surface. Each under $20. Nothing goes into the wall.</p></div></a></div>
+    <div class="guides2"><a class="gcard reveal" href="/guides/renter-winter-draft-fixes.html"><div class="gimg"><img src="/images/guides/hero/renter-winter-draft-fixes.jpg" alt="" width="1376" height="768" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>Renter guide</b>, 2 picks</p><h3>Stop Winter Drafts in a Rental Apartment</h3><p>Two fixes for the two places cold air gets in: the window glass and the gap under the door.</p></div></a><a class="gcard reveal" href="/guides/no-drill-hooks-for-renters.html"><div class="gimg"><img src="/images/guides/hero/no-drill-hooks-for-renters.jpg" alt="" width="1376" height="768" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>Renter guide</b>, 4 picks</p><h3>No-Drill Hooks for Renters That Hold</h3><p>Four picks matched to the surface. Each under $20. Nothing goes into the wall.</p></div></a><a class="gcard reveal" href="/guides/indoor-cat-toys-and-scratchers.html"><div class="gimg"><img src="/images/guides/hero/indoor-cat-toys-and-scratchers.jpg" alt="" width="1376" height="768" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>Pets guide</b>, 3 picks</p><h3>Indoor Cat Toys and Scratchers Under $20</h3><p>A wand for play, pads for the sofa, and a bed that works in summer and winter.</p></div></a><a class="gcard reveal" href="/guides/simple-k-beauty-routine.html"><div class="gimg"><img src="/images/guides/hero/simple-k-beauty-routine.jpg" alt="" width="1376" height="768" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>Beauty guide</b>, 4 picks</p><h3>A Simple K-Beauty Routine in Four Steps</h3><p>Essence, serum, cream, sunscreen. A short routine built from four picks.</p></div></a></div>
 
     <div class="sec-head"><h2>Fresh finds</h2><a href="/under25.html">Everything under $25</a></div>
     <div class="strip"><a class="fcard" href="/products/korcci-suction-cup-hooks-12pack.html"><img src="/images/home/korcci-suction-cup-hooks-12pack.jpg" alt="Clear suction cup hooks" loading="lazy"><div>Clear suction cup hooks<small>Under $10</small></div></a><a class="fcard" href="/products/yasonic-adhesive-shower-caddy-2pack.html"><img src="/images/home/yasonic-adhesive-shower-caddy-2pack.jpg" alt="Adhesive shower caddy" loading="lazy"><div>Adhesive shower caddy<small>Under $10</small></div></a><a class="fcard" href="/products/meohui-cat-wand-toys-2pack.html"><img src="/images/home/meohui-cat-wand-toys-2pack.jpg" alt="Cat feather wand toys" loading="lazy"><div>Cat feather wand toys<small>Under $10</small></div></a><a class="fcard" href="/products/duck-window-insulation-kit-10-windows.html"><img src="/images/home/duck-window-insulation-kit-10-windows.jpg" alt="Window insulation kit" loading="lazy"><div>Window insulation kit<small>Under $20</small></div></a><a class="fcard" href="/products/innqoo-candle-warmer-lamp.html"><img src="/images/home/innqoo-candle-warmer-lamp.jpg" alt="Candle warmer lamp" loading="lazy"><div>Candle warmer lamp<small>Under $20</small></div></a><a class="fcard" href="/products/kitty-city-xl-cat-scratcher-pads-3pack.html"><img src="/images/home/kitty-city-xl-cat-scratcher-pads-3pack.jpg" alt="XL cat scratcher pads" loading="lazy"><div>XL cat scratcher pads<small>Under $20</small></div></a><a class="fcard" href="/products/lumigens-6-tier-pants-hangers.html"><img src="/images/home/lumigens-6-tier-pants-hangers.jpg" alt="6-tier pants hangers" loading="lazy"><div>6-tier pants hangers<small>Under $15</small></div></a><a class="fcard" href="/products/anua-pdrn-hyaluronic-acid-100-cream.html"><img src="/images/home/anua-pdrn-hyaluronic-acid-100-cream.jpg" alt="Hyaluronic acid cream" loading="lazy"><div>Hyaluronic acid cream<small>Under $25</small></div></a></div>

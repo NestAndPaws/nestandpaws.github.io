@@ -1925,14 +1925,14 @@ const PRODUCTS = [
   {
     id: "barn-door-hardware",
     title: "SMARTSTANDARD 6.6ft Sliding Barn Door Hardware Kit (Black)",
-    category: "renter",
+    category: "home",
     price: 39.99,
     price_bracket: "Under $40",
     affiliate_link: "https://www.amazon.com/dp/B01JWHSHBK",
     image: "images/web/barn-door-hardware.jpg",
     subtitle: "A 6.6 ft sliding barn door track kit",
     story: "Black steel hardware kit for a sliding door, with a 6.6 ft track. It mounts to the wall above the opening and needs basic tools, so it suits owners more than most renters. Check door weight and width against the listing.",
-    tags: ["Renter Friendly", "Barn Door", "Home Upgrade", "Amazon Home Finds", "Apartment Decor"],
+    tags: ["Barn Door", "Home Upgrade", "Amazon Home Finds"],
     badge: null,
     date_added: "2026-06-08"
   },

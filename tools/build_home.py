@@ -22,9 +22,13 @@ FRESH = [("korcci-suction-cup-hooks-12pack", "Clear suction cup hooks", "Under $
          ("kitty-city-xl-cat-scratcher-pads-3pack", "XL cat scratcher pads", "Under $20"),
          ("lumigens-6-tier-pants-hangers", "6-tier pants hangers", "Under $15"),
          ("anua-pdrn-hyaluronic-acid-100-cream", "Hyaluronic acid cream", "Under $25")]
-# (slug, title, dek, meta, product image id, alt)
-GUIDES = [("renter-winter-draft-fixes", "Stop Winter Drafts in a Rental Apartment", "Two fixes for the two places cold air gets in: the window glass and the gap under the door.", "2 picks, under $30", "duck-window-insulation-kit-10-windows", "Window insulation kit box on a sunny windowsill"),
-          ("no-drill-hooks-for-renters", "No-Drill Hooks for Renters That Hold", "Four picks matched to the surface. Each under $20. Nothing goes into the wall.", "4 picks, under $20 each", "korcci-suction-cup-hooks-12pack", "Clear suction cup hooks holding a towel and a tote on a tiled wall")]
+import json, glob
+FEATURED = ["renter-winter-draft-fixes", "no-drill-hooks-for-renters", "indoor-cat-toys-and-scratchers", "simple-k-beauty-routine"]
+def load_guides():
+    gs = {}
+    for f in glob.glob(os.path.join(ROOT, "tools", "guides", "*.json")):
+        g = json.load(open(f, encoding="utf-8")); gs[g["slug"]] = g
+    return [gs[k] for k in FEATURED if k in gs]
 
 CSS = """
     :root { --sage:#5C7A5A; --blush:#F2D9C8; --butter:#F3E7C2; --s1:8px; --s2:12px; --s3:16px; --s4:24px; --s5:32px; --s6:48px; --s7:72px; --ease:cubic-bezier(.22,1,.36,1); }
@@ -44,7 +48,11 @@ CSS = """
     .search-wrap input:focus-visible { border-color:var(--terra); }
     .float { position:absolute; z-index:1; border-radius:50%; object-fit:cover; border:4px solid rgba(253,250,245,.92); box-shadow:0 10px 30px rgba(0,0,0,.35); animation: bob 7s ease-in-out infinite; }
     .f1 { left:6%; top:64px; width:118px; height:118px; } .f2 { right:7%; top:104px; width:96px; height:96px; animation-delay:-2.5s; } .f3 { left:15%; bottom:84px; width:84px; height:84px; animation-delay:-4.5s; } .f4 { right:15%; bottom:74px; width:100px; height:100px; animation-delay:-1.2s; }
-    @keyframes bob { 50% { transform: translateY(-12px); } }
+    .f5 { left:2%; top:238px; width:72px; height:72px; animation-delay:-3.4s; animation-duration:8.5s; } .f6 { right:3%; top:290px; width:80px; height:80px; animation-delay:-5.2s; animation-duration:6.2s; }
+    .f7 { left:24%; top:34px; width:62px; height:62px; animation-delay:-1.9s; animation-duration:7.8s; } .f8 { right:25%; top:30px; width:68px; height:68px; animation-delay:-6.1s; animation-duration:9s; }
+    .f9 { left:26%; bottom:60px; width:68px; height:68px; animation-delay:-0.8s; animation-duration:6.8s; } .f10 { right:26%; bottom:56px; width:64px; height:64px; animation-delay:-4.1s; animation-duration:7.4s; }
+    @media (max-width:1180px) { .f5,.f6,.f7,.f8,.f9,.f10 { display:none; } }
+    @keyframes bob { 25% { transform: translate3d(5px,-9px,0); } 50% { transform: translate3d(0,-14px,0); } 75% { transform: translate3d(-5px,-7px,0); } }
     @media (max-width:760px) { .float { display:none; } }
     .trust { position:relative; z-index:2; margin:0 -24px; border-top:1px solid rgba(245,237,214,.16); background:rgba(245,237,214,.06); }
     .trust div { max-width:1000px; margin:0 auto; padding:14px 20px; display:flex; flex-wrap:wrap; gap:6px 26px; justify-content:center; font-size:14px; color:var(--sand); }
@@ -59,7 +67,7 @@ CSS = """
     .sec-head a { color:var(--terra); font-size:15px; text-decoration:underline; text-underline-offset:3px; }
     .guides2 { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr)); gap:var(--s5) var(--s4); }
     .gcard { text-decoration:none; color:var(--charcoal); display:block; }
-    .gimg { border-radius:20px; overflow:hidden; aspect-ratio:4/3; background:var(--blush); }
+    .gimg { border-radius:20px; overflow:hidden; aspect-ratio:16/9; background:var(--blush); }
     .gimg img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .6s var(--ease); }
     @media (hover:hover) and (pointer:fine) { .gcard:hover .gimg img { transform:scale(1.04); } .gcard:hover h3 { color:var(--terra); } .fcard:hover div { color:var(--terra); } .tile:hover img { transform:scale(1.06); } .start-cta a:hover { background:var(--terra); } }
     .gbody { padding:var(--s3) 2px 0; }
@@ -91,9 +99,9 @@ CSS = """
 """
 
 def build():
-    floats = "".join(f'<img class="float f{n+1}" src="{img(i,260,260)}" alt="" aria-hidden="true">' for n, i in enumerate(["korcci-suction-cup-hooks-12pack", "meohui-cat-wand-toys-2pack", "cisily-sink-caddy", "cosrx-snail-mucin"]))
-    tick = "".join(f"<span>{t}</span>" for t in ["Independent", "Researched from listings", "Not tested by us", "Checked Oct 2026"])
-    gcards = "".join(f'<a class="gcard" href="/guides/{s}.html"><div class="gimg"><img src="{img(i,900,675)}" alt="{E(a)}" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>Renter guide</b>, {m}</p><h3>{E(t)}</h3><p>{E(d)}</p></div></a>' for s, t, d, m, i, a in GUIDES)
+    floats = "".join(f'<img class="float f{n+1}" src="{img(i,260,260)}" alt="" aria-hidden="true">' for n, i in enumerate(["korcci-suction-cup-hooks-12pack", "meohui-cat-wand-toys-2pack", "cisily-sink-caddy", "cosrx-snail-mucin", "kitty-city-xl-cat-scratcher-pads-3pack", "innqoo-candle-warmer-lamp", "dog-cooling-mat", "lumigens-6-tier-pants-hangers", "anua-pdrn-hyaluronic-acid-100-cream", "yasonic-adhesive-shower-caddy-2pack"]))
+    tick = "".join(f"<span>{t}</span>" for t in ["Independent", "Researched from listings", "Checked Oct 2026"])
+    gcards = "".join(f'<a class="gcard reveal" href="/guides/{g["slug"]}.html"><div class="gimg"><img src="/images/guides/hero/{g["slug"]}.jpg" alt="" width="1376" height="768" loading="lazy"></div><div class="gbody"><p class="gmeta"><b>{E(g["problem_tag"])} guide</b>, {len(g["picks"])} picks</p><h3>{E(g["title"])}</h3><p>{E(g["dek"])}</p></div></a>' for g in load_guides())
     fresh = "".join(f'<a class="fcard" href="/products/{i}.html"><img src="{img(i,420,420)}" alt="{E(t)}" loading="lazy"><div>{E(t)}<small>{b}</small></div></a>' for i, t, b in FRESH)
     tiles = "".join(f'<a class="tile" href="/{u}"><img src="{img(i,720,540)}" alt="" loading="lazy"><b>{E(n)}</b><span>{E(s)}</span></a>' for u, n, s, i in CATS)
     body = f'''<header class="hero">
@@ -102,7 +110,7 @@ def build():
     <div class="brand-tag">@NestandPaws</div>
     <h1>Nest <em>&amp;</em> Paws</h1>
     <p class="hero-sub">Home, pet and beauty picks, researched so you do not have to.</p>
-    <div class="chips"><span>Renter fixes</span><span>Home and kitchen</span><span>Pets</span><span>Beauty</span></div>
+    <div class="chips"><span>Renter fixes</span><span>Home &amp; Kitchen</span><span>Pets</span><span>Beauty</span></div>
     <div class="search-wrap">
       <input type="text" id="search-input" placeholder="Search picks: hooks, scratcher, serum..." autocomplete="off" aria-label="Search finds">
     </div>

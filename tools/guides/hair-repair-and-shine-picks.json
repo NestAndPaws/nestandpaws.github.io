@@ -1,0 +1,81 @@
+{
+  "slug": "hair-repair-and-shine-picks",
+  "title": "Hair Care Picks: Detangle, Repair, Shine, Curl",
+  "short_title": "Hair Care Picks",
+  "description": "Four hair picks under $40: a detangling brush, a leave-in repair treatment, a shine gloss and a no-heat curl set. What each does and what to check.",
+  "dek": "Four jobs, four picks: knots, damage, shine and curls without heat.",
+  "constraint": "Hair, each under $40",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "last_checked": "Oct 16, 2026",
+  "problem_tag": "Beauty",
+  "hook": [
+    "Hair care gets expensive fast. These four picks each solve one clear problem, from knots to shine to curls without a heat tool.",
+    "I did not test these. I read each listing and use only what it says, so check the details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is or what size it is.",
+    "Anything that needs tools, wiring or a permanent change, for the renter and small-space guides."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and its size or capacity.",
+    "The listing gives a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "Start with the brush if knots are the problem, or the heatless curls if you want to skip the curling iron. Add the leave-in or gloss for repair and shine.",
+  "related": [
+    "simple-k-beauty-routine"
+  ],
+  "hero_alt": "A wooden dressing table with a paddle hair brush, satin scrunchies, amber bottles and a hand mirror",
+  "picks": [
+    {
+      "id": "wet-brush-original-detangler",
+      "name": "Wet Brush Original Detangler Hair Brush, Black Frost",
+      "asin": "B0DMZT3JT2",
+      "image": "wet-brush-original-detangler",
+      "alt": "Illustration of a detangling hair brush with flexible bristles",
+      "best_for": "Knots on wet or dry hair",
+      "limit": "None noted on the listing",
+      "price_bracket": "Under $10",
+      "why": "A detangling brush with flexible bristles for knots when hair is wet or dry.",
+      "con": "The listing gives few details beyond the bristles. Check the size and the style shown."
+    },
+    {
+      "id": "k18-leave-in-repair-mask",
+      "name": "K18 Leave-In Molecular Repair Hair Mask",
+      "asin": "B09HR5KSR8",
+      "image": "k18-leave-in-repair-mask",
+      "alt": "Illustration of a small leave-in repair hair treatment bottle",
+      "best_for": "Damaged or bleached hair",
+      "limit": "Price per ounce is high, so check the size",
+      "price_bracket": "Under $30",
+      "why": "A short leave-in treatment for damaged or bleached hair that goes on after shampoo. The brand positions it as bond repair.",
+      "con": "Price per ounce is high, so check the size before you buy."
+    },
+    {
+      "id": "ouai-hair-gloss",
+      "name": "OUAI Hair Gloss In-Shower Shine Treatment, 6 oz",
+      "asin": "B0CT5S5WGN",
+      "image": "ouai-hair-gloss",
+      "alt": "Illustration of an in-shower hair gloss bottle on a shelf",
+      "best_for": "Shine and smoother hair after shampoo",
+      "limit": "Rinse after the time on the label",
+      "price_bracket": "Under $40",
+      "why": "A 6 oz gloss used after shampoo for shine and smoother hair.",
+      "con": "Rinse after the time stated on the label. Check the size and the price per ounce on the listing."
+    },
+    {
+      "id": "kitsch-satin-heatless-curls-sunset",
+      "name": "Kitsch Satin Heatless Curls Overnight Set with Scrunchies, Sunset Tie Dye",
+      "asin": "B09S4PVZ81",
+      "image": "kitsch-satin-heatless-curls-sunset",
+      "alt": "Illustration of a satin heatless curl tube with tie dye scrunchies",
+      "best_for": "Curls with no heat",
+      "limit": "Worn overnight",
+      "price_bracket": "Under $15",
+      "why": "A satin tube you wrap hair around overnight for curls with no heat, plus matching tie-dye scrunchies.",
+      "con": "It is worn overnight. Try it on a night when you can sleep comfortably with it."
+    }
+  ]
+}

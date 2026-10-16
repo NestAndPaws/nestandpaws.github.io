@@ -20,3 +20,10 @@ Heroes are optional and file-gated. A guide shows a hero only if `images/guides/
 
 ## Rebuild order
 `build_home.py`, `build_guides.py`, `redesign.py` (all idempotent).
+
+## Round 3 (Oct 16, 2026)
+- Hero captions/AI pill removed. Heroes are file-gated: images/guides/hero/{slug}.jpg, no caption, none going forward.
+- 7 new guides (tools/guides/*.json) with Gemini heroes; guides index now image cards; home guide cards use heroes.
+- Home hero: 10 floating product images (extras hidden under 1180px; all hidden under 760px). Trust strip replaces "Not tested by us". "Home & Kitchen" label.
+- barn-door-hardware moved from renter to home.
+- Revert this round: git revert <this commit>. Full rollback: tag pre-redesign-2026-10-16.

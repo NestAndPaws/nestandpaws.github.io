@@ -80,6 +80,8 @@ def footer_html():
 
 
 def swap_chrome(s, page):
+    s = re.sub(r'href="/?shared\.css(?:\?v=\d+)?"', 'href="/shared.css?v=3"', s)
+    s = s.replace('content="/images/', 'content="' + SITE + '/images/').replace('"image": "/images/', '"image": "' + SITE + '/images/')
     nav = nav_html(page)
     if re.search(r"<nav[\s>]", s):
         s = re.sub(r'(?:<a class="skip-link"[^>]*>[^<]*</a>\s*)?<nav[\s>].*?</nav>(?:\s*<div id="main" tabindex="-1"></div>)?', lambda m: nav, s, count=1, flags=re.S)
@@ -127,6 +129,9 @@ def asin_of(link):
     return m.group(1) if m else None
 
 
+ALL_IDS = set()
+
+
 def do_category(page, products):
     p = os.path.join(ROOT, page); s = read(p)
     h1, sub, desc = CATS[page]
@@ -139,7 +144,7 @@ def do_category(page, products):
                                    asin=asin_of(pr.get("affiliate_link")), iso=pr.get("date_added"))
             order.append(pr["id"])
     for pid, c in old.items():          # HTML-only products stay
-        if pid not in cards:
+        if pid not in cards and pid not in ALL_IDS:
             cards[pid] = dict(c, asin=None, iso=None); order.append(pid)
     # old LD for sku/date of HTML-only cards
     ld_old = {}
@@ -174,6 +179,11 @@ def do_category(page, products):
     d = E(desc)
     s = re.sub(r'(<meta name="description" content=")[^"]*(")', lambda m: m.group(1) + d + m.group(2), s)
     s = re.sub(r'(<meta property="og:description" content=")[^"]*(")', lambda m: m.group(1) + d + m.group(2), s)
+    # compare table: drop rows for products no longer in this collection
+    def keep_row(m):
+        r = re.search(r'href="products/([^"]+)\.html"', m.group(0))
+        return m.group(0) if (not r or r.group(1) in cards) else ''
+    s = re.sub(r'\s*<tr>\s*<td class="compare-product".*?</tr>', keep_row, s, flags=re.S)
     # main landmark
     s = swap_chrome(s, page)
     write(p, s)
@@ -216,6 +226,7 @@ def do_product(path):
 
 def main():
     products = load_products()
+    ALL_IDS.update(p['id'] for p in products)
     for page in CATS:
         n = do_category(page, products); print(page, n, "cards")
     for path in sorted(glob.glob(os.path.join(ROOT, "products", "*.html"))):

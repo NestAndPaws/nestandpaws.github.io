@@ -1,0 +1,81 @@
+{
+  "slug": "small-kitchen-organization",
+  "title": "Small Kitchen Organization: Four Picks for Cabinets and Pantries",
+  "short_title": "Small Kitchen Organization",
+  "description": "Four organizers for small kitchens: an expandable spice shelf, under-shelf baskets, an airtight canister and an under-sink shelf. Sizes and what to measure first.",
+  "dek": "Use the shelf height, the dead space and the cabinet under the sink.",
+  "constraint": "Small kitchens, each under $30",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "last_checked": "Oct 16, 2026",
+  "problem_tag": "Home",
+  "hook": [
+    "A small kitchen usually has the space it needs. It is just in the wrong shape. These four picks add levels to a cabinet, a shelf, a pantry and the space under the sink.",
+    "I did not test these. I read each listing and use only what it says, so check the details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is or what size it is.",
+    "Anything that needs tools, wiring or a permanent change, for the renter and small-space guides."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and its size or capacity.",
+    "The listing gives a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "Start with the spot that annoys you most. If it is the pantry, the baskets and the canister come first. If it is the sink cabinet, start with the shelf.",
+  "related": [
+    "no-wire-lighting-for-renters"
+  ],
+  "hero_alt": "A tidy pantry cabinet with clear canisters, a two-tier shelf and wire baskets hanging under a shelf",
+  "picks": [
+    {
+      "id": "spicy-shelf-cabinet-riser",
+      "name": "Spicy Shelf 3.0 Expandable 2-Tier Spice Rack Organizer",
+      "asin": "B0CN2L5GR8",
+      "image": "spicy-shelf-cabinet-riser",
+      "alt": "Illustration of an expandable two-tier spice shelf in a cabinet",
+      "best_for": "Doubling usable space in a cabinet or pantry",
+      "limit": "Measure the cabinet width first",
+      "price_bracket": "Under $30",
+      "why": "An expandable 2-tier shelf that fits a cabinet or pantry and doubles the usable space for jars and spices.",
+      "con": "Measure the cabinet width and height against the expanded size on the listing."
+    },
+    {
+      "id": "tebery-under-shelf-basket-4pack",
+      "name": "Tebery 4-Pack Black Under Shelf Wire Baskets",
+      "asin": "B09K7FWQLG",
+      "image": "tebery-under-shelf-basket-4pack",
+      "alt": "Illustration of black wire baskets hanging under a pantry shelf",
+      "best_for": "Using the gap below a shelf",
+      "limit": "Check the shelf thickness",
+      "price_bracket": "Under $30",
+      "why": "Four black wire baskets that hang from a shelf edge to add storage in a pantry or cabinet.",
+      "con": "Check the shelf thickness against the listing before you buy."
+    },
+    {
+      "id": "oxo-pop-pantry-canister",
+      "name": "OXO Good Grips POP Container Airtight Food Storage, 1.2 Qt",
+      "asin": "B077VLKTYH",
+      "image": "oxo-pop-pantry-canister",
+      "alt": "Illustration of a clear airtight canister with a push button lid",
+      "best_for": "Dry goods you want to see and stack",
+      "limit": "1.2 qt holds a little less than a standard bag",
+      "price_bracket": "Under $15",
+      "why": "A clear 1.2 qt canister with a push-button airtight lid. It stacks and fits dry goods.",
+      "con": "1.2 qt is small. Check the size against what you want to store."
+    },
+    {
+      "id": "ispecle-under-sink-organizer",
+      "name": "iSPECLE Under-Sink 2-Tier Expandable Cabinet Organizer Shelf",
+      "asin": "B0DPKRGTCY",
+      "image": "ispecle-under-sink-organizer",
+      "alt": "Illustration of a two-tier shelf around pipes under a sink",
+      "best_for": "The cabinet under the sink",
+      "limit": "Measure the cabinet width and pipe position",
+      "price_bracket": "Under $20",
+      "why": "An adjustable shelf that sits around pipes and splits the cabinet into two levels.",
+      "con": "Measure the cabinet width and where the pipes sit before you buy."
+    }
+  ]
+}

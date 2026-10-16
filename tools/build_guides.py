@@ -38,13 +38,35 @@ def footer():
 
 
 def thumb(img_id):
-    import sys; sys.path.insert(0, os.path.join(ROOT, "tools"))
-    from imgcrop import cropped
-    return cropped(img_id, "guides", 900, 900)
+    """Guide pick image: the already-cropped web jpg, resized. Existing guide images are left alone."""
+    from PIL import Image
+    out = os.path.join(ROOT, "images", "guides", img_id + ".jpg")
+    if not os.path.exists(out):
+        im = Image.open(os.path.join(ROOT, "images", "web", img_id + ".jpg")).convert("RGB"); im.thumbnail((900, 900))
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        im.save(out, "JPEG", quality=82, optimize=True)
+    return f"/images/guides/{img_id}.jpg"
 
 
 def link(asin):
     return f"https://www.amazon.com/dp/{asin}{AFFILIATE_QUERY}"
+
+
+def rating_chip(p):
+    return f'<span class="chip">{p["stars"]} stars, {p["ratings"]} ratings</span>' if p.get("stars") else ""
+
+
+def safe_line(p):
+    if not p.get("safe"):
+        return ""
+    return (f'<p class="safe" title="Deposit-safe score, research-based"><span class="dots" aria-hidden="true">{stars_row(p["safe"])}</span> '
+            f'Deposit-safe {p["safe"]} of 5. {esc(p["safe_note"])}</p>')
+
+
+def check_line(p, g):
+    if p.get("stars"):
+        return f'Check the current price on the listing. Rating and count as of {esc(g["last_checked"])}.'
+    return "Check the current price, size and details on the listing."
 
 
 def stars_row(n):
@@ -66,12 +88,12 @@ def render_guide(g, all_guides):
     <div class="pick-body">
       <p class="pick-num">Pick {i+1}</p>
       <h3>{esc(p["name"])}</h3>
-      <p class="pick-meta"><span class="chip">{esc(p["price_bracket"])}</span><span class="chip">{p["stars"]} stars, {p["ratings"]} ratings</span></p>
-      <p class="safe" title="Deposit-safe score, research-based"><span class="dots" aria-hidden="true">{stars_row(p["safe"])}</span> Deposit-safe {p["safe"]} of 5. {esc(p["safe_note"])}</p>
+      <p class="pick-meta"><span class="chip">{esc(p["price_bracket"])}</span>{rating_chip(p)}</p>
+      {safe_line(p)}
       <p>{esc(p["why"])}</p>
       <p class="watch"><strong>Watch out:</strong> {esc(p["con"])}</p>
       <a class="btn" href="{link(p["asin"])}" target="_blank" rel="noopener noreferrer">See it on Amazon →</a>
-      <p class="check">Check the current price on the listing. Rating and count as of {esc(g["last_checked"])}.</p>
+      <p class="check">{check_line(p, g)}</p>
     </div>
   </article>''')
     related = [x for x in all_guides if x["slug"] in g.get("related", [])]
@@ -93,7 +115,7 @@ def render_guide(g, all_guides):
     hero = ""
     if os.path.exists(hero_file):
         hero = (f'<figure class="g-hero"><img src="/images/guides/hero/{g["slug"]}.jpg" alt="{esc(g.get("hero_alt", g["title"]))}" width="1376" height="768" fetchpriority="high">'
-                f'<figcaption>{esc(g.get("hero_caption", "Illustration, not a photo of the item"))}</figcaption></figure>')
+                '</figure>')
     jump = "".join(f'<a href="#pick-{i+1}">{esc(p["name"].split(" (")[0].split(",")[0])}</a>' for i, p in enumerate(picks))
     bar = f'<div class="pick-bar" role="navigation" aria-label="Jump to a pick"><b>Jump to</b>{jump}</div>'
     disc = f'<p class="disclosure-line">{esc(DISCLOSURE)}</p>' if DISCLOSURE else ""
@@ -169,14 +191,25 @@ def render_guide(g, all_guides):
 '''
 
 
+def hero_src(g):
+    f = os.path.join(ROOT, "images", "guides", "hero", g["slug"] + ".jpg")
+    return f"/images/guides/hero/{g['slug']}.jpg" if os.path.exists(f) else ""
+
+
 def render_index(all_guides):
     items = []
-    for g in all_guides:
-        items.append(f'''    <a class="g-card" href="/guides/{g["slug"]}.html">
-      <p class="g-kicker">{esc(g["problem_tag"])} · {esc(g["constraint"])}</p>
-      <h2>{esc(g["title"])}</h2>
-      <p>{esc(g["dek"])}</p>
-      <span class="g-more">Read the guide →</span>
+    for n, g in enumerate(all_guides):
+        src = hero_src(g)
+        img = f'<span class="gx-img"><img src="{src}" alt="" width="1376" height="768" loading="{"eager" if n < 2 else "lazy"}"></span>' if src else ""
+        items.append(f'''    <a class="gx{" gx-lead" if n == 0 else ""} reveal" href="/guides/{g["slug"]}.html">
+      {img}
+      <span class="gx-body">
+        <span class="gx-tag">{esc(g["problem_tag"])} guide</span>
+        <span class="gx-title">{esc(g["title"])}</span>
+        <span class="gx-dek">{esc(g["dek"])}</span>
+        <span class="gx-meta">{len(g["picks"])} picks · {esc(g["constraint"])}</span>
+        <span class="g-more">Read the guide →</span>
+      </span>
     </a>''')
     url = SITE + "/guides/"
     lst = {"@context": "https://schema.org", "@type": "ItemList", "name": "Nest & Paws guides", "itemListElement": [
@@ -186,26 +219,26 @@ def render_index(all_guides):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Renter Guides | Nest &amp; Paws</title>
-  <meta name="description" content="Short buying guides for renters and small homes. Each one matches picks to a job, shows the weight limit and the catch, and says how it was chosen.">
+  <title>Guides | Nest &amp; Paws</title>
+  <meta name="description" content="Short buying guides for renters, pet owners and small homes. Each one matches picks to a job, notes the catch, and says how it was chosen.">
   <link rel="canonical" href="{url}">
   {FONTS}
   <link rel="stylesheet" href="/shared.css">
   <meta property="og:site_name" content="Nest &amp; Paws">
-  <meta property="og:title" content="Renter Guides | Nest &amp; Paws">
+  <meta property="og:title" content="Guides | Nest &amp; Paws">
   <meta property="og:url" content="{url}">
   <meta property="og:type" content="website">
   <script type="application/ld+json">{json.dumps(lst, ensure_ascii=False)}</script>
 </head>
 <body>
 {nav()}
-<main class="guide">
+<main class="guide guide-wide">
   <header class="g-head">
     <p class="g-kicker">Guides</p>
-    <h1>Guides for renters and small homes</h1>
-    <p class="g-dek">Each guide starts with a problem, shows three to five picks, and says what can go wrong.</p>
+    <h1>Guides for renters, pets and small homes</h1>
+    <p class="g-dek">Each guide starts with a problem, shows a few picks, and says what can go wrong.</p>
   </header>
-  <section class="g-list">
+  <section class="gx-grid">
 {chr(10).join(items)}
   </section>
 </main>

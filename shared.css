@@ -173,7 +173,7 @@ nav.site-nav {
 }
 
 /* ---- guides + static pages (Oct 2026 blog repurpose) ---- */
-.guide { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.65; }
+.guide { max-width: 880px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.65; }
 .guide p, .guide li { font-size: 16px; }
 .guide a { color: var(--terra); }
 .g-head { margin-bottom: 24px; }
@@ -280,4 +280,40 @@ nav.site-nav {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
   @view-transition { navigation: none; }
+}
+
+/* ---- guides: wider layout, zigzag picks, image cards ---- */
+.guide .g-section > p, .guide .g-head p { max-width: 68ch; }
+.guide-wide { max-width: 1040px; }
+@media (min-width: 800px) {
+  .pick { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); align-items: stretch; }
+  .pick-img img { height: 100%; max-height: none; min-height: 100%; }
+  .pick-img { min-height: 360px; }
+  .pick:nth-of-type(even) .pick-img { order: 2; }
+  .pick-body { padding: 26px 28px 28px; display: flex; flex-direction: column; justify-content: center; }
+}
+.pick-img { overflow: hidden; }
+.pick-img img { transition: transform .8s var(--ease); }
+@media (hover: hover) and (pointer: fine) { .pick:hover .pick-img img { transform: scale(1.04); } }
+.g-hero { overflow: hidden; }
+.gx-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.guide .gx { display: flex; flex-direction: column; text-decoration: none; color: var(--charcoal); background: var(--white); border-radius: 22px; overflow: hidden; box-shadow: 0 1px 3px rgba(44, 36, 32, .06), 0 8px 26px rgba(44, 36, 32, .08); transition: transform .35s var(--ease); }
+.gx-lead { grid-column: 1 / -1; flex-direction: row !important; }
+.gx-img { display: block; overflow: hidden; aspect-ratio: 16 / 9; background: var(--cream); }
+.gx-lead .gx-img { flex: 1.35; aspect-ratio: auto; min-height: 340px; }
+.gx-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .9s var(--ease); }
+.gx-body { display: flex; flex-direction: column; gap: 8px; padding: 22px 24px 26px; flex: 1; justify-content: center; }
+.gx-tag { font-size: 12px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: var(--terra); }
+.gx-title { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 600; line-height: 1.25; }
+.gx-lead .gx-title { font-size: clamp(26px, 3.2vw, 34px); }
+.gx-dek { font-size: 15px; color: var(--wood); line-height: 1.55; }
+.gx-meta { font-size: 13px; color: var(--wood); }
+.guide .gx .g-more { margin-top: 6px; }
+@media (hover: hover) and (pointer: fine) { .guide .gx:hover { transform: translateY(-4px); } .gx:hover .gx-img img { transform: scale(1.05); } }
+@media (max-width: 719px) { .gx-grid { grid-template-columns: 1fr; } .gx-lead { flex-direction: column !important; } .gx-lead .gx-img { min-height: 0; aspect-ratio: 16 / 9; flex: none; } }
+@keyframes np-hero { from { transform: scale(1); } to { transform: scale(1.09) translateY(3%); } }
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .g-hero img { animation: np-hero linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
+  }
 }

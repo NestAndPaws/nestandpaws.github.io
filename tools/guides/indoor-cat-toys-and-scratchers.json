@@ -1,0 +1,69 @@
+{
+  "slug": "indoor-cat-toys-and-scratchers",
+  "title": "Indoor Cat Toys and Scratchers Under $20",
+  "short_title": "Indoor Cat Toys and Scratchers",
+  "description": "Three cat picks under $20: a wand toy with refills, XL scratcher pads, and a reversible bed. What each one is, the size, and what to check first.",
+  "dek": "A wand for play, pads for the sofa, and a bed that works in summer and winter.",
+  "constraint": "Indoor cats, each under $20",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "last_checked": "Oct 16, 2026",
+  "problem_tag": "Pets",
+  "hook": [
+    "Indoor cats need three things: something to chase, something to scratch, and somewhere to sleep. These three cover each one for under $20.",
+    "I did not test these. I read each listing and use only what it says, so check the details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is or what size it is.",
+    "Anything that needs tools, wiring or a permanent change, for the renter and small-space guides."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and its size or capacity.",
+    "The listing gives a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "Start with the scratcher pads if the sofa is the problem. Add the wand for play, and the bed if your cat sleeps on the floor.",
+  "related": [
+    "pet-hair-and-daily-care"
+  ],
+  "hero_alt": "A sunny living room corner with a sofa, a terracotta throw and a ginger cat pouncing at a feather toy",
+  "picks": [
+    {
+      "id": "meohui-cat-wand-toys-2pack",
+      "name": "MeoHui Cat Feather Wand Toys, 2 Pack Retractable Wands with 9 Refills",
+      "asin": "B07F45GGPT",
+      "image": "meohui-cat-wand-toys-2pack",
+      "alt": "Illustration of two retractable cat wands with feather and worm refills",
+      "best_for": "Daily play sessions with a cat that likes to chase",
+      "limit": "Refills wear out and get chewed",
+      "price_bracket": "Under $10",
+      "why": "Two extendable wands come with 9 refills in feather and worm styles. The listing says the refills are easy to swap when one gets chewed, so one pack covers a lot of play.",
+      "con": "Wands are play tools, not toys to leave out. Put the wand away after a session so a cat cannot chew the string."
+    },
+    {
+      "id": "kitty-city-xl-cat-scratcher-pads-3pack",
+      "name": "Kitty City XL 3-Pack Cat Scratcher Pads with Catnip, 10 x 18 in",
+      "asin": "B01MZG54L6",
+      "image": "kitty-city-xl-cat-scratcher-pads-3pack",
+      "alt": "Illustration of three flat cat scratcher pads with catnip on a floor",
+      "best_for": "Giving a cat a place to scratch other than the sofa",
+      "limit": "Flat pads, not a post",
+      "price_bracket": "Under $20",
+      "why": "Three flat pads, each 10 by 18 inches, with catnip. They give a cat an alternative to the sofa and are light enough to move to wherever the scratching is happening.",
+      "con": "Cats that prefer vertical scratching may skip a flat pad. Place one where the cat already scratches."
+    },
+    {
+      "id": "wanpeegoo-cat-cooling-bed",
+      "name": "WanpeeGoo Cat Cooling Mat, Reversible Warm & Cooling Cat Bed, 18\" x 24\"",
+      "asin": "B0G4VV618K",
+      "image": "wanpeegoo-cat-cooling-bed",
+      "alt": "Illustration of a reversible cat bed mat on a living room floor",
+      "best_for": "A cat bed that works across seasons",
+      "limit": "Check the size against your cat",
+      "price_bracket": "Under $20",
+      "why": "A two-sided bed: one side for summer, one for winter, at 18 by 24 inches. The listing says it is machine washable.",
+      "con": "Check the size against your cat before you buy, and check the washing instructions on the listing."
+    }
+  ]
+}

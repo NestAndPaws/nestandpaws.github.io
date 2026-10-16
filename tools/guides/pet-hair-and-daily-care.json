@@ -1,0 +1,81 @@
+{
+  "slug": "pet-hair-and-daily-care",
+  "title": "Pet Hair and Daily Care: Four Picks for Dogs and Cats",
+  "short_title": "Pet Hair and Daily Care",
+  "description": "Four everyday pet care picks: a self-cleaning brush, a reusable hair roller, a stainless steel water fountain and a dog dental water additive.",
+  "dek": "Brush it, roll it, refill it. Four small routines that make daily pet care easier.",
+  "constraint": "Dog and cat owners, each under $30",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "last_checked": "Oct 16, 2026",
+  "problem_tag": "Pets",
+  "hook": [
+    "Most daily pet care comes down to hair, water and teeth. These four picks each cover one of those jobs.",
+    "I did not test these. I read each listing and use only what it says, so check the details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is or what size it is.",
+    "Anything that needs tools, wiring or a permanent change, for the renter and small-space guides."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and its size or capacity.",
+    "The listing gives a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "If the sofa is the problem, start with the roller. If your pet drinks little, try the fountain, and add the brush if you are seeing hair everywhere.",
+  "related": [
+    "indoor-cat-toys-and-scratchers"
+  ],
+  "hero_alt": "A sunlit kitchen corner with a stainless steel pet water fountain and a golden retriever resting on a rug",
+  "picks": [
+    {
+      "id": "hertzko-deshedding-brush",
+      "name": "Hertzko Self-Cleaning Slicker Brush for Dogs & Cats",
+      "asin": "B00ZGPI3OY",
+      "image": "hertzko-deshedding-brush",
+      "alt": "Illustration of a slicker brush with a retract button beside a dog",
+      "best_for": "Brushing out loose hair on a dog or cat",
+      "limit": "Check the size and coat type on the listing",
+      "price_bracket": "Under $15",
+      "why": "A slicker brush with a button that retracts the bristles to release the hair it collected, so clearing the brush takes a second.",
+      "con": "The listing covers sizes and coat types. Pick the size that fits your pet and check the coat type before buying."
+    },
+    {
+      "id": "chomchom-pet-hair-roller",
+      "name": "ChomChom Roller Pet Hair Remover, Reusable, No Batteries",
+      "asin": "B00BAGTNAQ",
+      "image": "chomchom-pet-hair-roller",
+      "alt": "Illustration of a reusable pet hair roller on a sofa",
+      "best_for": "Pet hair on sofas, rugs and bedding",
+      "limit": "Roll in one direction only",
+      "price_bracket": "Under $25",
+      "why": "Roll it one direction over a sofa or rug and hair collects in a chamber you empty. There are no batteries, tape sheets or refills, and it works on dog and cat hair.",
+      "con": "It collects hair into a chamber, so empty it often. Follow the direction on the listing."
+    },
+    {
+      "id": "veken-pet-water-fountain",
+      "name": "Veken 95oz Stainless Steel Pet Water Fountain",
+      "asin": "B0FPFZ7XFJ",
+      "image": "veken-pet-water-fountain",
+      "alt": "Illustration of a stainless steel pet water fountain on a kitchen floor",
+      "best_for": "Pets that ignore a still water bowl",
+      "limit": "Needs filter and pump cleaning on a schedule",
+      "price_bracket": "Under $30",
+      "why": "A circulating fountain with a 95 oz tank, made of stainless steel, that encourages drinking.",
+      "con": "Clean the filter and the pump on schedule, as the listing says. Expect to do it regularly."
+    },
+    {
+      "id": "arm-hammer-dental-water",
+      "name": "Arm & Hammer Complete Care Dog Dental Water Additive, 16 fl oz",
+      "asin": "B08QJMZPNH",
+      "image": "arm-hammer-dental-water",
+      "alt": "Illustration of a bottle of dental water additive next to a dog bowl",
+      "best_for": "Adding to a dog's routine alongside brushing",
+      "limit": "Does not replace brushing or a vet check",
+      "price_bracket": "Under $10",
+      "why": "A 16 fl oz additive that goes in the water bowl. It is marketed as odorless and flavorless and supports a dental routine.",
+      "con": "It supports a dental routine and does not replace brushing or a vet check. It is for dogs."
+    }
+  ]
+}

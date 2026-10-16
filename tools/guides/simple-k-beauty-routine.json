@@ -1,0 +1,81 @@
+{
+  "slug": "simple-k-beauty-routine",
+  "title": "A Simple K-Beauty Routine in Four Steps",
+  "short_title": "A Simple K-Beauty Routine",
+  "description": "Four Korean skincare picks that cover essence, serum, moisturizer and sunscreen, each under $30, with what the listing says and who should skip each.",
+  "dek": "Essence, serum, cream, sunscreen. A short routine built from four picks.",
+  "constraint": "Skincare, each under $30",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "last_checked": "Oct 16, 2026",
+  "problem_tag": "Beauty",
+  "hook": [
+    "A short routine is easier to keep. These four picks cover the order most routines follow: essence, serum, moisturizer, then sunscreen in the morning.",
+    "I did not test these. I read each listing and use only what it says, so check the details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is or what size it is.",
+    "Anything that needs tools, wiring or a permanent change, for the renter and small-space guides."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and its size or capacity.",
+    "The listing gives a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "If you only buy one, make it the sunscreen. Add the essence and cream next, and the serum if you want a fourth step.",
+  "related": [
+    "hair-repair-and-shine-picks"
+  ],
+  "hero_alt": "A bright bathroom vanity with a marble tray of unlabeled skincare bottles, a linen towel and a plant",
+  "picks": [
+    {
+      "id": "cosrx-snail-mucin",
+      "name": "COSRX Advanced Snail 96 Mucin Power Essence, 100ml",
+      "asin": "B00PBX3L7K",
+      "image": "cosrx-snail-mucin",
+      "alt": "Illustration of a bottle of Korean snail essence on a bathroom tray",
+      "best_for": "The first step after cleansing",
+      "limit": "Skip it if you are sensitive to snail-derived ingredients",
+      "price_bracket": "Under $30",
+      "why": "A lightweight 100 ml essence with 96% snail secretion filtrate, used after cleansing. It is known for a quick-absorbing, slightly bouncy texture.",
+      "con": "Skip it if you are sensitive to snail-derived ingredients, and patch test any new product first."
+    },
+    {
+      "id": "medicube-pink-peptide-serum",
+      "name": "Medicube PDRN Pink Peptide Serum, 1.01 fl oz",
+      "asin": "B0DCJ7952P",
+      "image": "medicube-pink-peptide-serum",
+      "alt": "Illustration of a small pink serum bottle on a marble tray",
+      "best_for": "A serum step between toner and moisturizer",
+      "limit": "Small 1.01 fl oz size",
+      "price_bracket": "Under $15",
+      "why": "A lightweight serum with PDRN and peptides. It goes on after toner and before moisturizer.",
+      "con": "Check the size on the listing. It is a 1.01 fl oz bottle."
+    },
+    {
+      "id": "anua-pdrn-hyaluronic-acid-100-cream",
+      "name": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz",
+      "asin": "B0DWFLY18Y",
+      "image": "anua-pdrn-hyaluronic-acid-100-cream",
+      "alt": "Illustration of a jar of light moisturizing cream",
+      "best_for": "A light moisturizer that layers under other skincare",
+      "limit": "PDRN on the label is salmon DNA",
+      "price_bracket": "Under $25",
+      "why": "A 2.02 fl oz cream with PDRN (salmon DNA) and hyaluronic acid on the label. The texture is described as lightweight and non-greasy, which suits layering.",
+      "con": "Check the ingredient list for anything you avoid. Patch test first."
+    },
+    {
+      "id": "beauty-of-joseon-relief-sun",
+      "name": "RELIEF SUN Korean Sunscreen SPF50+ PA++++, Rice & Probiotics",
+      "asin": "B0G4Z5G1NT",
+      "image": "beauty-of-joseon-relief-sun",
+      "alt": "Illustration of a sunscreen tube on a bathroom shelf",
+      "best_for": "The last morning step, every day",
+      "limit": "Reapply as directed",
+      "price_bracket": "Under $20",
+      "why": "A daily face sunscreen rated SPF50+ PA++++, with rice extract and probiotics on the label. The listing positions it as a lighter-feel option compared with many chemical sunscreens.",
+      "con": "Sunscreen only works when it is reapplied as directed on the label."
+    }
+  ]
+}
