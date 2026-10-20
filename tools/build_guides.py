@@ -113,6 +113,7 @@ def render_gallery(g):
 
 
 def render_guide(g, all_guides):
+    safe_note_html = ("<p class=\"g-note\">Deposit-safe score: how likely the item is to leave no mark if installed and removed the way the maker says (1 to 5). It comes from the mounting method and the maker's removal guidance. Research-based, not tested by us.</p>" if any(p.get("safe") for p in g["picks"]) else "")
     url = f"{SITE}/guides/{g['slug']}.html"
     picks = g["picks"]
     rows = "\n".join(
@@ -206,7 +207,7 @@ def render_guide(g, all_guides):
 {rows}
       </tbody>
     </table></div>
-    <p class="g-note">Deposit-safe score: how likely the item is to leave no mark if installed and removed the way the maker says (1 to 5). It comes from the mounting method and the maker's removal guidance. Research-based, not tested by us.</p>
+    {safe_note_html}
   </section>
   <section class="g-section">
     <h2>The picks</h2>

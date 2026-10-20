@@ -1,5 +1,158 @@
 const PRODUCTS = [
 
+  // ── FASHION BUILD (WOMEN AND MEN) — OCTOBER 20 2026 ──
+
+  {
+    id: "amazon-essentials-womens-cable-knit-sweater",
+    title: "Amazon Essentials Women's Relaxed-Fit Cable Knit Sweater, Soft-Touch Modern Crewneck (Plus Size Available)",
+    category: "fashion",
+    price: 18.69,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B09QXSBF8P",
+    image: "images/web/amazon-essentials-womens-cable-knit-sweater.jpg",
+    subtitle: "Relaxed-fit cable knit crewneck",
+    story: "A relaxed-fit cable knit crewneck from Amazon Essentials. The listing describes a soft-touch knit and says plus sizes are available.",
+    tags: ["Fall Outfits", "Cable Knit Sweater", "Women's Fashion", "Fall Sweater", "Under $20"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "amazon-essentials-womens-high-rise-straight-jean",
+    title: "Amazon Essentials Women's High-Rise Straight Leg Jean",
+    category: "fashion",
+    price: 24.1,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B0DX231Q62",
+    image: "images/web/amazon-essentials-womens-high-rise-straight-jean.jpg",
+    subtitle: "High-rise straight leg denim",
+    story: "A high-rise, straight-leg jean from Amazon Essentials. Washes and sizes are on the listing, so check the size chart before you order.",
+    tags: ["Fall Outfits", "Straight Leg Jeans", "Women's Fashion", "High Rise Jeans", "Under $25"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "womens-slip-on-chelsea-ankle-boots",
+    title: "Women's Slip on Chelsea Ankle Boots",
+    category: "fashion",
+    price: 39.97,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/dp/B0B2XRMN91",
+    image: "images/web/womens-slip-on-chelsea-ankle-boots.jpg",
+    subtitle: "Slip-on Chelsea ankle boots",
+    story: "A slip-on Chelsea ankle boot style sold in several colors. Check the heel height, width and size notes on the listing before you order.",
+    tags: ["Fall Outfits", "Chelsea Boots", "Women's Fashion", "Ankle Boots", "Under $40"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "blatial-chunky-blanket-scarf",
+    title: "BLATIAL Winter Scarf for Women, Big Thick Warm Blanket Chunky Scarves",
+    category: "fashion",
+    price: 14.99,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B0C4TJ8C12",
+    image: "images/web/blatial-chunky-blanket-scarf.jpg",
+    subtitle: "Oversized chunky blanket scarf",
+    story: "A big, thick blanket-style scarf with tassels, sold in checked patterns. Check the dimensions and color options on the listing.",
+    tags: ["Fall Outfits", "Blanket Scarf", "Women's Fashion", "Winter Scarf", "Under $15"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "mixmatchy-womens-utility-anorak-jacket",
+    title: "MixMatchy Women's Utility Anorak Jacket Hooded Military Safari Coat",
+    category: "fashion",
+    price: 36.99,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/dp/B07W5XC27C",
+    image: "images/web/mixmatchy-womens-utility-anorak-jacket.jpg",
+    subtitle: "Hooded cotton utility jacket",
+    story: "A hooded, military-style utility jacket in a junior fit, sold in many colors. Check the size chart, since the cut runs to junior sizing.",
+    tags: ["Fall Outfits", "Utility Jacket", "Women's Fashion", "Olive Jacket", "Under $40"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "amazon-essentials-mens-cable-knit-crewneck-sweater",
+    title: "Amazon Essentials Men's Cable Knit Long-Sleeve Crewneck Sweater, 100% Cotton, Big & Tall Options Available",
+    category: "fashion",
+    price: 25.5,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/dp/B079RF74TV",
+    image: "images/web/amazon-essentials-mens-cable-knit-crewneck-sweater.jpg",
+    subtitle: "Cotton cable knit crewneck",
+    story: "A long-sleeve cable knit crewneck in 100% cotton from Amazon Essentials. Big and tall sizes are listed.",
+    tags: ["Fall Outfits", "Cable Knit Sweater", "Men's Fashion", "Crewneck Sweater", "Under $30"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "amazon-essentials-mens-slim-fit-stretch-chino",
+    title: "Amazon Essentials Men's Slim-Fit Casual Stretch Chino Pant",
+    category: "fashion",
+    price: 24.1,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B07BJL9YXY",
+    image: "images/web/amazon-essentials-mens-slim-fit-stretch-chino.jpg",
+    subtitle: "Slim-fit stretch chinos",
+    story: "A slim-fit casual chino with stretch from Amazon Essentials, sold in many colors. Check the waist and inseam options on the listing.",
+    tags: ["Fall Outfits", "Chino Pants", "Men's Fashion", "Slim Fit Chinos", "Under $25"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "chaoren-mens-leather-belt",
+    title: "CHAOREN Men's Leather Belt - 1 3/8\" Dress Belt for Business & Casual Wear",
+    category: "fashion",
+    price: 9.99,
+    price_bracket: "Under $10",
+    affiliate_link: "https://www.amazon.com/dp/B0FMDL1FQ3",
+    image: "images/web/chaoren-mens-leather-belt.jpg",
+    subtitle: "Leather dress belt, 1 3/8 inch",
+    story: "A leather belt about 1 3/8 inches wide, sold for business and casual wear. Measure a belt you already own before you pick a size.",
+    tags: ["Fall Outfits", "Leather Belt", "Men's Fashion", "Dress Belt", "Under $10"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "jousen-mens-chelsea-boots",
+    title: "Jousen Men's Chelsea Boots Casual Slip On Ankle Boots with Memory Foam",
+    category: "fashion",
+    price: 39.99,
+    price_bracket: "Under $40",
+    affiliate_link: "https://www.amazon.com/dp/B0C231FV5L",
+    image: "images/web/jousen-mens-chelsea-boots.jpg",
+    subtitle: "Slip-on Chelsea boots",
+    story: "A slip-on Chelsea boot with memory foam, per the listing title. Check the sizing notes and the upper material on the listing.",
+    tags: ["Fall Outfits", "Chelsea Boots", "Men's Fashion", "Ankle Boots", "Under $40"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+  {
+    id: "amazon-essentials-mens-quarter-zip-mock-neck-sweater",
+    title: "Amazon Essentials Men's Quarter-Zip French Rib Mock Neck Sweater, Casual Wear",
+    category: "fashion",
+    price: 20.1,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B07N4JQL48",
+    image: "images/web/amazon-essentials-mens-quarter-zip-mock-neck-sweater.jpg",
+    subtitle: "Rib knit mock neck quarter-zip",
+    story: "A French rib mock neck sweater with a quarter zip from Amazon Essentials. Colors and sizes are on the listing.",
+    tags: ["Fall Outfits", "Quarter Zip Sweater", "Men's Fashion", "Mock Neck Sweater", "Under $25"],
+    badge: null,
+    date_added: "2026-10-20"
+  },
+
+
   // ── WAVE 1 FALL & HALLOWEEN NAILS BUILD — OCTOBER 9 2026 ──
 
   {

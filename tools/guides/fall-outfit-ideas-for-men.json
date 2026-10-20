@@ -1,0 +1,292 @@
+{
+ "published": "2026-10-20",
+ "updated": "2026-10-20",
+ "last_checked": "Oct 20, 2026",
+ "problem_tag": "Fashion",
+ "gallery_note": "AI-generated concept images. They show the idea of each look, not photos of real outfits or of the exact items in the picks below.",
+ "slug": "fall-outfit-ideas-for-men",
+ "title": "12 Fall Outfit Ideas for Men, Built From Earth Tones",
+ "short_title": "Fall Outfit Ideas for Men",
+ "description": "Twelve fall outfit ideas in camel, navy, forest and cream, plus five basics from Amazon listings to build them, each under $40, with one honest limit per pick.",
+ "dek": "Camel, navy, forest and cream. Twelve looks to browse, five basics to build them.",
+ "constraint": "Fall basics, each under $40",
+ "hook": [
+  "A fall wardrobe runs on a few repeat pieces: a knit, a chino or jean, a boot and a jacket. Browse the twelve looks first, then pick the basics that fit the ones you like.",
+  "We did not test these. We read each listing and use only what it says, so check the size chart and details on the page before you buy."
+ ],
+ "skipped": [
+  "Anything where the listing does not say what the item is made of or how it is sized.",
+  "Brand-name designer pieces, since this guide is about fall basics at everyday prices.",
+  "Anything sold only in one color or size range with no size chart on the listing."
+ ],
+ "how_picked": [
+  "Each pick is under the price bracket shown.",
+  "The listing says what the item is and how it is cut or sized.",
+  "The listing gives a check or limit worth knowing before you buy.",
+  "Specs come from the listing text. Review counts and star ratings are not used here."
+ ],
+ "final": "If you only buy one, make it the chino. It works with every knit in the gallery. Add the cable knit next, then the boots and belt.",
+ "related": [
+  "work-from-home-desk-setup",
+  "simple-k-beauty-routine"
+ ],
+ "hero_alt": "Four fall outfit concept images in camel, navy, forest and cream tones side by side",
+ "gallery_title": "Twelve fall looks to browse",
+ "gallery_intro": "Each look uses a short palette and four pieces. The swatches show the colors, and the picks below cover the basics that appear most often.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Camel Cord Jacket and Denim",
+   "alt": "Flat lay of a camel corduroy shirt jacket, a white tee, dark jeans and white sneakers",
+   "colors": [
+    "#B98B5E",
+    "#FFFFFF",
+    "#1F2D4A"
+   ],
+   "pieces": [
+    "Camel cord jacket",
+    "White tee",
+    "Dark jeans",
+    "White sneakers"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Camel Overcoat Classic",
+   "alt": "Man in a long camel overcoat over black with black trousers and brown boots",
+   "colors": [
+    "#B98B5E",
+    "#1E1E1E",
+    "#8B5A2B"
+   ],
+   "pieces": [
+    "Camel overcoat",
+    "Black knit",
+    "Black trousers",
+    "Brown boots"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Charcoal Knit and Khaki",
+   "alt": "Flat lay of a charcoal sweater over a blue collar, khaki chinos, a brown leather belt and brown loafers",
+   "colors": [
+    "#4A4A4A",
+    "#C8B08A",
+    "#8B5A2B"
+   ],
+   "pieces": [
+    "Charcoal knit",
+    "Khaki chinos",
+    "Brown belt",
+    "Brown loafers"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Forest Quarter-Zip",
+   "alt": "Flat lay of a forest green quarter-zip sweater, khaki chinos, a brown belt and suede Chelsea boots",
+   "colors": [
+    "#2F4A34",
+    "#C8B08A",
+    "#8B5A2B"
+   ],
+   "pieces": [
+    "Green quarter-zip",
+    "Khaki chinos",
+    "Brown belt",
+    "Suede boots"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Navy Cable Knit",
+   "alt": "Flat lay of a navy cable knit sweater, gray trousers, a gray scarf and black boots",
+   "colors": [
+    "#1F2D4A",
+    "#6A6A6A",
+    "#1E1E1E"
+   ],
+   "pieces": [
+    "Navy cable knit",
+    "Gray trousers",
+    "Gray scarf",
+    "Black boots"
+   ]
+  },
+  {
+   "file": "look-06.jpg",
+   "title": "Navy Peacoat and Denim",
+   "alt": "Man in a navy peacoat with dark jeans and brown Chelsea boots",
+   "colors": [
+    "#1F2D4A",
+    "#8A8A8A",
+    "#1F3A66"
+   ],
+   "pieces": [
+    "Navy peacoat",
+    "Gray knit",
+    "Dark jeans",
+    "Brown Chelsea boots"
+   ]
+  },
+  {
+   "file": "look-07.jpg",
+   "title": "Maroon Weekend Set",
+   "alt": "Flat lay of a maroon sweatshirt, gray joggers, a gray beanie and white sneakers",
+   "colors": [
+    "#6E1F2B",
+    "#3A3A3A",
+    "#FFFFFF"
+   ],
+   "pieces": [
+    "Maroon sweatshirt",
+    "Gray joggers",
+    "Gray beanie",
+    "White sneakers"
+   ]
+  },
+  {
+   "file": "look-08.jpg",
+   "title": "Mustard and Cord",
+   "alt": "Flat lay of a mustard knit sweater, brown corduroy pants, a cream beanie and brown lace-up boots",
+   "colors": [
+    "#C99A2E",
+    "#4A2E1E",
+    "#E8DCC0"
+   ],
+   "pieces": [
+    "Mustard knit",
+    "Brown cords",
+    "Cream beanie",
+    "Brown boots"
+   ]
+  },
+  {
+   "file": "look-09.jpg",
+   "title": "Cream Fisherman Knit",
+   "alt": "Flat lay of a cream cable fisherman sweater, olive chinos, a rust scarf and brown Chelsea boots",
+   "colors": [
+    "#F1E6D2",
+    "#6B6B3A",
+    "#C2622D"
+   ],
+   "pieces": [
+    "Cream fisherman knit",
+    "Olive chinos",
+    "Rust scarf",
+    "Brown Chelsea boots"
+   ]
+  },
+  {
+   "file": "look-10.jpg",
+   "title": "Denim Trucker Layers",
+   "alt": "Flat lay of a light denim trucker jacket, a gray hoodie, black jeans and black sneakers",
+   "colors": [
+    "#7F9CBF",
+    "#9A9A9A",
+    "#1E1E1E"
+   ],
+   "pieces": [
+    "Denim jacket",
+    "Gray hoodie",
+    "Black jeans",
+    "Black sneakers"
+   ]
+  },
+  {
+   "file": "look-11.jpg",
+   "title": "Suede Trucker and Cream Knit",
+   "alt": "Man in a tan suede trucker jacket over a cream knit with dark jeans and white sneakers",
+   "colors": [
+    "#B98B5E",
+    "#F1E6D2",
+    "#1F2D4A"
+   ],
+   "pieces": [
+    "Suede jacket",
+    "Cream knit",
+    "Dark jeans",
+    "White sneakers"
+   ]
+  },
+  {
+   "file": "look-12.jpg",
+   "title": "Olive Jacket, Black Denim",
+   "alt": "Man in an olive field jacket over a white tee with black jeans and white sneakers",
+   "colors": [
+    "#6B6B3A",
+    "#1E1E1E",
+    "#FFFFFF"
+   ],
+   "pieces": [
+    "Olive jacket",
+    "White tee",
+    "Black jeans",
+    "White sneakers"
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "id": "amazon-essentials-mens-cable-knit-crewneck-sweater",
+   "name": "Amazon Essentials Men's Long-Sleeve Cotton Cable Knit Crewneck Sweater",
+   "asin": "B079RF74TV",
+   "image": "amazon-essentials-mens-cable-knit-crewneck-sweater",
+   "alt": "Illustration of a folded navy cable knit sweater",
+   "best_for": "A classic knit under a jacket or on its own",
+   "limit": "Cotton only, so it is not a heavy winter knit",
+   "price_bracket": "Under $30",
+   "why": "A long-sleeve cable knit crewneck in 100% cotton. Big and tall sizes are listed.",
+   "con": "Cotton knits are lighter than wool, so plan a coat for cold days."
+  },
+  {
+   "id": "amazon-essentials-mens-slim-fit-stretch-chino",
+   "name": "Amazon Essentials Men's Slim-Fit Casual Stretch Chino",
+   "asin": "B07BJL9YXY",
+   "image": "amazon-essentials-mens-slim-fit-stretch-chino",
+   "alt": "Illustration of folded khaki chinos",
+   "best_for": "Pants that dress up or down with any knit",
+   "limit": "Slim cut, check waist and inseam",
+   "price_bracket": "Under $25",
+   "why": "A slim-fit casual chino with stretch, sold in many colors. It pairs with most looks above.",
+   "con": "The cut is slim, so check the waist and inseam options if you prefer a looser fit."
+  },
+  {
+   "id": "chaoren-mens-leather-belt",
+   "name": "Chaoren Men's Leather Belt, 1 3/8 Inch",
+   "asin": "B0FMDL1FQ3",
+   "image": "chaoren-mens-leather-belt",
+   "alt": "Illustration of a coiled brown leather belt",
+   "best_for": "Finishing a chino or jean outfit",
+   "limit": "Size by measuring a belt you own",
+   "price_bracket": "Under $10",
+   "why": "A leather belt about 1 3/8 inches wide, sold for business and casual wear.",
+   "con": "Belt sizing is easy to get wrong, so measure a belt you already own first."
+  },
+  {
+   "id": "jousen-mens-chelsea-boots",
+   "name": "JOUSEN Men's Chelsea Boots, Slip-On with Memory Foam",
+   "asin": "B0C231FV5L",
+   "image": "jousen-mens-chelsea-boots",
+   "alt": "Illustration of a pair of brown Chelsea boots",
+   "best_for": "A slip-on boot for jeans or chinos",
+   "limit": "Check sizing notes and upper material",
+   "price_bracket": "Under $40",
+   "why": "A slip-on Chelsea boot with memory foam, per the listing title.",
+   "con": "Read the sizing notes and the upper material on the listing before you order."
+  },
+  {
+   "id": "amazon-essentials-mens-quarter-zip-mock-neck-sweater",
+   "name": "Amazon Essentials Men's Quarter-Zip Mock Neck Sweater",
+   "asin": "B07N4JQL48",
+   "image": "amazon-essentials-mens-quarter-zip-mock-neck-sweater",
+   "alt": "Illustration of a folded gray quarter-zip sweater",
+   "best_for": "A neat layer without a collared shirt",
+   "limit": "Check colors and sizes on the listing",
+   "price_bracket": "Under $25",
+   "why": "A French rib mock neck sweater with a quarter zip. It suits the quarter-zip look in the gallery.",
+   "con": "Colors and sizes vary, so check the listing for the one you want."
+  }
+ ]
+}

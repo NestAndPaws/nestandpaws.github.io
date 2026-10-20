@@ -19,7 +19,7 @@ SITE = "https://nestandpaws.github.io"
 E = html.escape
 
 NAV_LINKS = [("/guides/", "Guides"), ("/renter.html", "Renter"), ("/home.html", "Home"), ("/pets.html", "Pets"),
-             ("/beauty.html", "Beauty"), ("/under25.html", "Under $25"), ("/start-here.html", "Start here")]
+             ("/beauty.html", "Beauty"), ("/fashion.html", "Fashion"), ("/under25.html", "Under $25"), ("/start-here.html", "Start here")]
 
 CATS = {  # page: (h1, subtitle, meta description)
     "renter.html": ("Renter Friendly Upgrades", "No-drill, peel-and-stick and removable fixes for rentals",
@@ -30,6 +30,8 @@ CATS = {  # page: (h1, subtitle, meta description)
                   "Dog and cat picks for daily use, not novelty: grooming, feeding, scratchers and treats, each with a short note."),
     "beauty.html": ("Beauty Finds", "Hair and skin care picks, each with a plain note on who it suits",
                     "Hair and skin care picks, weighted toward hair: brushes, tools, moisturizers and sunscreen, each with a plain note on who it suits."),
+    "fashion.html": ("Fashion Finds", "Fall outfit pieces for women and men, picked from listings",
+                     "Fall outfit pieces for women and men: sweaters, jeans, boots, jackets and layers, each with a short note on fit and who it suits."),
     "under25.html": ("Under $25 Finds", "Small fixes at small prices, across every category",
                      "Picks under $25 across home, renter-friendly, pets and beauty: small upgrades, each with a short note on what it fixes."),
     "seasonal.html": ("Seasonal Finds", "Timely picks for the current season",
@@ -40,7 +42,8 @@ CATS = {  # page: (h1, subtitle, meta description)
 FILTERS = {"renter.html": lambda p: p["category"] == "renter", "home.html": lambda p: p["category"] == "home",
            "pets.html": lambda p: p["category"] == "pets", "beauty.html": lambda p: p["category"] == "beauty",
            "under25.html": lambda p: p["price"] <= 25.0, "seasonal.html": lambda p: p["category"] == "seasonal",
-           "wedding.html": lambda p: p["category"] == "wedding"}
+           "wedding.html": lambda p: p["category"] == "wedding",
+           "fashion.html": lambda p: p["category"] == "fashion"}
 
 
 def read(p):
@@ -69,7 +72,7 @@ def nav_html(page):
 
 def footer_html():
     cols = "".join(f'<a href="{u}">{E(t)}</a>' for u, t in [("/guides/", "Guides"), ("/renter.html", "Renter friendly"), ("/home.html", "Home and kitchen"),
-                                                         ("/pets.html", "Pets"), ("/beauty.html", "Beauty"), ("/under25.html", "Under $25")])
+                                                         ("/pets.html", "Pets"), ("/beauty.html", "Beauty"), ("/fashion.html", "Fashion"), ("/under25.html", "Under $25")])
     about = "".join(f'<a href="{u}"{x}>{E(t)}</a>' for u, t, x in [("/start-here.html", "Start here", ""), ("/about.html", "About", ""), ("/privacy.html", "Privacy", ""),
                                                                    ("https://pinterest.com/NestandPaws", "Pinterest", ' target="_blank" rel="noopener"')])
     return ('<footer class="site-footer">\n  <div class="foot-grid">\n'

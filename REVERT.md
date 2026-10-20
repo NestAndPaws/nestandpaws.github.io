@@ -27,3 +27,10 @@ Heroes are optional and file-gated. A guide shows a hero only if `images/guides/
 - Home hero: 10 floating product images (extras hidden under 1180px; all hidden under 760px). Trust strip replaces "Not tested by us". "Home & Kitchen" label.
 - barn-door-hardware moved from renter to home.
 - Revert this round: git revert <this commit>. Full rollback: tag pre-redesign-2026-10-16.
+
+## Fashion build, Oct 20, 2026 (branch `fashion-build`, not pushed until Vatsal says "push")
+- New `fashion` category: `fashion.html`, nav and footer link on every page, home tile, sitemap entry (`tools/redesign.py`, `seo_postprocess.py`, `build_home.py`).
+- 10 new products prepended to `products.js` (category `fashion`) plus 10 product pages, images and crops.
+- 2 new guides: `guides/fall-outfit-ideas-for-women.html`, `guides/fall-outfit-ideas-for-men.html` (JSON in `tools/guides/`), 12-look galleries and hero images.
+- `tools/build_guides.py`: look-book gallery block, and the deposit-safe footnote now shows only on guides with safe scores.
+- Revert: `git revert` the fashion commits, or `git checkout main -- <file>`.

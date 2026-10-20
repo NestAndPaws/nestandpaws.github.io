@@ -30,6 +30,7 @@ CATS = {
     "pets":     ("pets.html",     "Pet Must Haves",           "Dog and cat picks for daily use, not novelty: grooming, feeding, scratchers and treats, each with a short note."),
     "beauty":   ("beauty.html",   "Beauty Finds",             "Hair and skin care picks, weighted toward hair: brushes, tools, moisturizers and sunscreen, each with a plain note on who it suits."),
     "seasonal": ("seasonal.html", "Seasonal Finds",           "Seasonal picks for the current season and gifting window: decor, hosting and small gifts, grouped by price bracket."),
+    "fashion":  ("fashion.html",  "Fashion Finds",            "Fall outfit pieces for women and men: sweaters, jeans, boots, jackets and layers, each with a short note on fit and who it suits."),
     "wedding":  ("wedding.html",  "Wedding Table Decor",      "Wedding table decor and hosting picks: centerpieces, runners, linens and small details, grouped by price bracket."),
 }
 EXTRA_PAGES = {

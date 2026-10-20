@@ -13,6 +13,7 @@ CATS = [("renter.html", "Renter friendly", "No drilling, no damage", "command-pi
         ("seasonal.html", "Seasonal", "Timely picks", "artoid-mode-fall-table-runner"),
         ("pets.html", "Pets", "Dogs and cats", "dog-cooling-mat"),
         ("beauty.html", "Beauty", "Hair and skin", "cosrx-snail-mucin"),
+        ("fashion.html", "Fashion", "Fall outfit picks", "amazon-essentials-womens-cable-knit-sweater"),
         ("wedding.html", "Wedding table", "Decor and hosting", "ourholiday-acrylic-wedding-table-numbers")]
 FRESH = [("korcci-suction-cup-hooks-12pack", "Clear suction cup hooks", "Under $10"),
          ("yasonic-adhesive-shower-caddy-2pack", "Adhesive shower caddy", "Under $10"),

@@ -1,0 +1,292 @@
+{
+ "published": "2026-10-20",
+ "updated": "2026-10-20",
+ "last_checked": "Oct 20, 2026",
+ "problem_tag": "Fashion",
+ "gallery_note": "AI-generated concept images. They show the idea of each look, not photos of real outfits or of the exact items in the picks below.",
+ "slug": "fall-outfit-ideas-for-women",
+ "title": "12 Fall Outfit Ideas for Women, Built From Earth Tones",
+ "short_title": "Fall Outfit Ideas for Women",
+ "description": "Twelve fall outfit ideas in rust, camel, olive and cream, plus five basics from Amazon listings to build them, each under $40, with one honest limit per pick.",
+ "dek": "Rust, camel, olive and cream. Twelve looks to browse, five basics to build them.",
+ "constraint": "Fall basics, each under $40",
+ "hook": [
+  "Fall outfits come down to a few repeat pieces: a knit, a straight jean, a boot and one layer on top. Browse the twelve looks first, then pick the basics that fit the ones you like.",
+  "We did not test these. We read each listing and use only what it says, so check the size chart and details on the page before you buy."
+ ],
+ "skipped": [
+  "Anything where the listing does not say what the item is made of or how it is sized.",
+  "Brand-name designer pieces, since this guide is about fall basics at everyday prices.",
+  "Anything sold only in one color or size range with no size chart on the listing."
+ ],
+ "how_picked": [
+  "Each pick is under the price bracket shown.",
+  "The listing says what the item is and how it is cut or sized.",
+  "The listing gives a check or limit worth knowing before you buy.",
+  "Specs come from the listing text. Review counts and star ratings are not used here."
+ ],
+ "final": "If you only buy one, make it the straight jean. It works with every look in the gallery. Add the cable knit next, then boots and a scarf once the weather turns.",
+ "related": [
+  "hair-repair-and-shine-picks",
+  "simple-k-beauty-routine"
+ ],
+ "hero_alt": "Four fall outfit concept images in rust, olive, cream and camel tones side by side",
+ "gallery_title": "Twelve fall looks to browse",
+ "gallery_intro": "Each look uses a short palette and four to five pieces. The swatches show the colors, and the picks below cover the basics that appear most often.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Rust and Camel Layers",
+   "alt": "Flat lay of a rust chunky sweater, dark brown jeans, camel suede ankle boots and a camel scarf",
+   "colors": [
+    "#B5562F",
+    "#C9A27A",
+    "#F1E6D2"
+   ],
+   "pieces": [
+    "Rust sweater",
+    "Dark brown jeans",
+    "Camel suede boots",
+    "Camel scarf"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Olive Jacket, Black Denim",
+   "alt": "Woman in an olive utility jacket over a white tee, black straight jeans and white sneakers",
+   "colors": [
+    "#6B6B3A",
+    "#1E1E1E",
+    "#FFFFFF"
+   ],
+   "pieces": [
+    "Olive utility jacket",
+    "White tee",
+    "Black jeans",
+    "White sneakers"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Cream and Chocolate",
+   "alt": "Flat lay of a cream cable sweater, chocolate pleated trousers, brown loafers and a tan shoulder bag",
+   "colors": [
+    "#F2E8D5",
+    "#5A3A29",
+    "#C8B89A"
+   ],
+   "pieces": [
+    "Cream cable sweater",
+    "Chocolate trousers",
+    "Brown loafers",
+    "Tan bag"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Burgundy and Denim",
+   "alt": "Flat lay of a burgundy sweater, light jeans, black ankle boots and a black scarf",
+   "colors": [
+    "#6E1F2B",
+    "#4A6A8C",
+    "#F1E6D2"
+   ],
+   "pieces": [
+    "Burgundy sweater",
+    "Light jeans",
+    "Black ankle boots",
+    "Black scarf"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Plaid and Black",
+   "alt": "Flat lay of a brown plaid flannel shirt, black jeans, brown boots and a gray beanie",
+   "colors": [
+    "#7A2E2E",
+    "#1E1E1E",
+    "#C8B89A"
+   ],
+   "pieces": [
+    "Plaid flannel",
+    "Black jeans",
+    "Brown boots",
+    "Gray beanie"
+   ]
+  },
+  {
+   "file": "look-06.jpg",
+   "title": "Mustard and Denim",
+   "alt": "Flat lay of a mustard cardigan over a white tee, light jeans and tan Chelsea boots",
+   "colors": [
+    "#C99A2E",
+    "#4A6A8C",
+    "#F1E6D2"
+   ],
+   "pieces": [
+    "Mustard cardigan",
+    "White tee",
+    "Light jeans",
+    "Tan Chelsea boots"
+   ]
+  },
+  {
+   "file": "look-07.jpg",
+   "title": "Soft Gray Comfort",
+   "alt": "Flat lay of a gray hoodie, black leggings, white sneakers and a cream beanie",
+   "colors": [
+    "#9A9A9A",
+    "#E6E1D8",
+    "#5A5A5A"
+   ],
+   "pieces": [
+    "Gray hoodie",
+    "Black leggings",
+    "White sneakers",
+    "Cream beanie"
+   ]
+  },
+  {
+   "file": "look-08.jpg",
+   "title": "Forest and Corduroy",
+   "alt": "Flat lay of a forest green knit sweater, tan corduroy pants, a plaid scarf and brown Chelsea boots",
+   "colors": [
+    "#2F4A34",
+    "#8B6F4E",
+    "#F1E6D2"
+   ],
+   "pieces": [
+    "Green knit",
+    "Tan corduroys",
+    "Plaid scarf",
+    "Brown Chelsea boots"
+   ]
+  },
+  {
+   "file": "look-09.jpg",
+   "title": "Burnt Orange Cardigan",
+   "alt": "Flat lay of a burnt orange cardigan over a white tee, light jeans, a cream beanie and brown boots",
+   "colors": [
+    "#C2622D",
+    "#F1E6D2",
+    "#4A6A8C"
+   ],
+   "pieces": [
+    "Orange cardigan",
+    "White tee",
+    "Light jeans",
+    "Brown boots"
+   ]
+  },
+  {
+   "file": "look-10.jpg",
+   "title": "Camel Coat Classic",
+   "alt": "Woman in a long camel coat over a black top and black trousers with black boots",
+   "colors": [
+    "#B98B5E",
+    "#1E1E1E",
+    "#F1E6D2"
+   ],
+   "pieces": [
+    "Camel coat",
+    "Black top",
+    "Black trousers",
+    "Black boots"
+   ]
+  },
+  {
+   "file": "look-11.jpg",
+   "title": "Charcoal Blazer Day",
+   "alt": "Woman in a charcoal blazer over a cream shirt, black trousers and brown loafers",
+   "colors": [
+    "#3A3A3F",
+    "#F1E6D2",
+    "#8B6F4E"
+   ],
+   "pieces": [
+    "Charcoal blazer",
+    "Cream shirt",
+    "Black trousers",
+    "Brown loafers"
+   ]
+  },
+  {
+   "file": "look-12.jpg",
+   "title": "Leather Jacket Edge",
+   "alt": "Woman in a brown leather jacket over a cream knit with black skinny jeans and black ankle boots",
+   "colors": [
+    "#2A2220",
+    "#F1E6D2",
+    "#4A6A8C"
+   ],
+   "pieces": [
+    "Leather jacket",
+    "Cream knit",
+    "Black jeans",
+    "Black boots"
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "id": "amazon-essentials-womens-cable-knit-sweater",
+   "name": "Amazon Essentials Women's Relaxed-Fit Cable Knit Sweater, Soft-Touch Modern Crewneck",
+   "asin": "B09QXSBF8P",
+   "image": "amazon-essentials-womens-cable-knit-sweater",
+   "alt": "Illustration of a folded cream cable knit sweater",
+   "best_for": "A plain knit to layer over jeans or trousers",
+   "limit": "Relaxed fit, so check the size chart",
+   "price_bracket": "Under $20",
+   "why": "A relaxed-fit cable knit crewneck described as soft to the touch. The listing says plus sizes are available.",
+   "con": "The fit is relaxed, so size down only after checking the chart on the listing."
+  },
+  {
+   "id": "amazon-essentials-womens-high-rise-straight-jean",
+   "name": "Amazon Essentials Women's High-Rise Straight-Leg Jean",
+   "asin": "B0DX231Q62",
+   "image": "amazon-essentials-womens-high-rise-straight-jean",
+   "alt": "Illustration of a pair of folded straight-leg jeans",
+   "best_for": "An everyday jean for boots and knits",
+   "limit": "Washes and sizes vary, check the chart",
+   "price_bracket": "Under $25",
+   "why": "A high-rise, straight-leg jean. It pairs with most looks above, from the olive jacket to the cream cable knit.",
+   "con": "Washes and sizes differ by listing, so read the size chart before you order."
+  },
+  {
+   "id": "womens-slip-on-chelsea-ankle-boots",
+   "name": "Women's Slip-On Chelsea Ankle Boots",
+   "asin": "B0B2XRMN91",
+   "image": "womens-slip-on-chelsea-ankle-boots",
+   "alt": "Illustration of a pair of tan Chelsea ankle boots",
+   "best_for": "A flat ankle boot that finishes a fall outfit",
+   "limit": "Check heel height and width",
+   "price_bracket": "Under $40",
+   "why": "A pull-on Chelsea ankle boot sold in several colors, with no laces to deal with.",
+   "con": "Check the heel height, width and size notes on the listing before you order."
+  },
+  {
+   "id": "blatial-chunky-blanket-scarf",
+   "name": "Blatial Chunky Blanket Scarf, Oversized with Tassels",
+   "asin": "B0C4TJ8C12",
+   "image": "blatial-chunky-blanket-scarf",
+   "alt": "Illustration of a folded checked blanket scarf",
+   "best_for": "A cozy layer over a plain coat or sweater",
+   "limit": "Check dimensions and colors",
+   "price_bracket": "Under $15",
+   "why": "A big, thick blanket-style scarf with tassels, sold in checked patterns.",
+   "con": "Colors and sizes vary, so check the dimensions on the listing."
+  },
+  {
+   "id": "mixmatchy-womens-utility-anorak-jacket",
+   "name": "MIXMATCHY Women's Hooded Utility Anorak Jacket",
+   "asin": "B07W5XC27C",
+   "image": "mixmatchy-womens-utility-anorak-jacket",
+   "alt": "Illustration of an olive hooded utility jacket",
+   "best_for": "A light layer for cool days over knits",
+   "limit": "Junior fit, check the size chart",
+   "price_bracket": "Under $40",
+   "why": "A hooded, military-style utility jacket in cotton, sold in many colors, like the olive jacket in the gallery.",
+   "con": "The cut runs to junior sizing, so go by the size chart and not your usual size."
+  }
+ ]
+}
