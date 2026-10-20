@@ -317,3 +317,15 @@ nav.site-nav {
     .g-hero img { animation: np-hero linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
   }
 }
+
+/* ---- Look-book gallery (guides with a "gallery" block) ---- */
+.look-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 18px 0 8px; }
+@media (min-width: 760px) { .look-grid { grid-template-columns: repeat(3, 1fr); gap: 18px; } }
+.look { margin: 0; background: var(--white); border-radius: 16px; overflow: hidden; border: 1px solid rgba(44, 36, 32, .08); }
+.look img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; background: var(--sand); }
+.look figcaption { display: grid; gap: 4px; padding: 10px 12px 12px; font-size: 13px; line-height: 1.4; color: var(--charcoal); }
+.look-num { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--terra); font-weight: 500; }
+.look-name { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 600; }
+.look-sws { display: flex; gap: 5px; }
+.look-sw { width: 14px; height: 14px; border-radius: 50%; border: 1px solid rgba(44, 36, 32, .2); display: inline-block; }
+.look-pieces { color: var(--wood); font-weight: 300; }

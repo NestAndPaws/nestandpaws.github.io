@@ -73,6 +73,45 @@ def stars_row(n):
     return "●" * n + "○" * (5 - n)
 
 
+def render_gallery(g):
+    """Look-book gallery (optional). g["gallery"] is a list of looks; images live in
+    images/guides/looks/{slug}/{file}. Text-only fallback is never shown: a look without
+    its image file is skipped so a half-built gallery cannot ship broken tiles."""
+    looks = g.get("gallery") or []
+    items, ld = [], []
+    n = 0
+    for lk in looks:
+        f = os.path.join(ROOT, "images", "guides", "looks", g["slug"], lk["file"])
+        if not os.path.exists(f):
+            continue
+        n += 1
+        src = f"/images/guides/looks/{g['slug']}/{lk['file']}"
+        chips = "".join(f'<span class="look-sw" style="background:{esc(c)}" aria-hidden="true"></span>' for c in lk.get("colors", []))
+        pieces = ", ".join(esc(x) for x in lk.get("pieces", []))
+        items.append(f'''    <figure class="look">
+      <img src="{src}" alt="{esc(lk["alt"])}" width="800" height="1200" loading="{"eager" if n <= 2 else "lazy"}">
+      <figcaption><span class="look-num">Look {n}</span><span class="look-name">{esc(lk["title"])}</span>
+        <span class="look-sws">{chips}</span>
+        <span class="look-pieces">{pieces}</span></figcaption>
+    </figure>''')
+        ld.append({"@type": "ImageObject", "contentUrl": SITE + src, "name": lk["title"], "description": lk["alt"]})
+    if not items:
+        return "", None
+    intro = esc(g.get("gallery_intro", ""))
+    note = esc(g.get("gallery_note", "AI-generated concept images. They show the idea of each look, not photos of real outfits or of the exact items in the picks below."))
+    html_ = (f'''  <section class="g-section" id="looks">
+    <h2>{esc(g.get("gallery_title", "The looks"))}</h2>
+    {"<p>" + intro + "</p>" if intro else ""}
+    <div class="look-grid">
+{chr(10).join(items)}
+    </div>
+    <p class="g-note">{note}</p>
+  </section>''')
+    schema = {"@context": "https://schema.org", "@type": "ImageGallery", "name": g["title"] + ": the looks",
+              "url": f"{SITE}/guides/{g['slug']}.html", "image": ld}
+    return html_, schema
+
+
 def render_guide(g, all_guides):
     url = f"{SITE}/guides/{g['slug']}.html"
     picks = g["picks"]
@@ -119,6 +158,8 @@ def render_guide(g, all_guides):
     jump = "".join(f'<a href="#pick-{i+1}">{esc(p["name"].split(" (")[0].split(",")[0])}</a>' for i, p in enumerate(picks))
     bar = f'<div class="pick-bar" role="navigation" aria-label="Jump to a pick"><b>Jump to</b>{jump}</div>'
     disc = f'<p class="disclosure-line">{esc(DISCLOSURE)}</p>' if DISCLOSURE else ""
+    gallery_html, gallery_schema = render_gallery(g)
+    gallery_ld = (f'<script type="application/ld+json">{json.dumps(gallery_schema, ensure_ascii=False)}</script>\n  ' if gallery_schema else "")
     skipped = "".join(f"<li>{esc(s)}</li>" for s in g["skipped"])
     how = "".join(f"<li>{esc(s)}</li>" for s in g["how_picked"])
     hook = "".join(f"<p>{esc(t)}</p>" for t in g["hook"])
@@ -140,7 +181,7 @@ def render_guide(g, all_guides):
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{json.dumps(article, ensure_ascii=False)}</script>
   <script type="application/ld+json">{json.dumps(crumbs, ensure_ascii=False)}</script>
-</head>
+  {gallery_ld}</head>
 <body>
 {nav()}
 <main class="guide">
@@ -156,6 +197,7 @@ def render_guide(g, all_guides):
   <section class="g-section">
     {hook}
   </section>
+{gallery_html}
   <section class="g-section" id="quick-picks">
     <h2>Quick picks</h2>
     <div class="qp-scroll"><table class="qp">
