@@ -2167,6 +2167,80 @@ const PRODUCTS = [
     date_added: "2026-06-05"
   },
 
+  {
+    id: "amazon-essentials-boys-fleece-pullover-hoodie",
+    title: "Amazon Essentials Boys and Toddlers' Fleece Pullover Hoodie Sweatshirt",
+    category: "fashion",
+    price: 12.6,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B07PZ8LLVJ",
+    image: "images/web/amazon-essentials-boys-fleece-pullover-hoodie.jpg",
+    subtitle: "Pullover fleece hoodie for kids",
+    story: "A pullover hoodie in a 56% cotton and 44% polyester brushed-back fleece, with a lined hood, front pockets and rib cuffs and hem. Check the listing for current sizes and details.",
+    tags: ["Kids Fall Outfits", "Kids Hoodie", "Fleece Hoodie", "Boys Fashion", "Under $15"],
+    badge: null,
+    date_added: "2026-10-22"
+  },
+
+  {
+    id: "amazon-essentials-girls-jogger-sweatpants",
+    title: "Amazon Essentials Girls and Toddlers' Jogger Sweatpants with Elastic Waist and Drawstring",
+    category: "fashion",
+    price: 13.5,
+    price_bracket: "Under $15",
+    affiliate_link: "https://www.amazon.com/dp/B07HL29M4Z",
+    image: "images/web/amazon-essentials-girls-jogger-sweatpants.jpg",
+    subtitle: "Fleece jogger sweatpants for kids",
+    story: "Tapered-leg joggers in a 56% cotton and 44% polyester brushed-back fleece, with an elastic drawcord waist, rib cuffs and pockets. Check the listing for current sizes and details.",
+    tags: ["Kids Fall Outfits", "Kids Joggers", "Fleece Joggers", "Girls Fashion", "Under $15"],
+    badge: null,
+    date_added: "2026-10-22"
+  },
+
+  {
+    id: "amazon-essentials-boys-packable-puffer-vest",
+    title: "Amazon Essentials Boys and Toddlers' Lightweight Water-Resistant Packable Hooded Puffer Vest",
+    category: "fashion",
+    price: 25.2,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/dp/B0738JTXGG",
+    image: "images/web/amazon-essentials-boys-packable-puffer-vest.jpg",
+    subtitle: "Packable hooded puffer vest for kids",
+    story: "A lightweight, water-resistant hooded puffer vest that packs into its own pouch. Reviewers say it is warm enough for cool fall mornings. Check the listing for current sizes and details.",
+    tags: ["Kids Fall Outfits", "Kids Puffer Vest", "Packable Vest", "Boys Fashion", "Under $30"],
+    badge: null,
+    date_added: "2026-10-22"
+  },
+
+  {
+    id: "amazon-essentials-girls-skinny-stretch-jeans",
+    title: "Amazon Essentials Girls' Skinny Fit Stretch Jeans",
+    category: "fashion",
+    price: 18.3,
+    price_bracket: "Under $20",
+    affiliate_link: "https://www.amazon.com/dp/B07QFBQ6HJ",
+    image: "images/web/amazon-essentials-girls-skinny-stretch-jeans.jpg",
+    subtitle: "Stretch skinny jeans for kids",
+    story: "Mid-rise skinny jeans in a stretch cotton blend with five pockets, a zipper with shank button and an internal adjustable waist. Check the listing for current sizes and details.",
+    tags: ["Kids Fall Outfits", "Kids Jeans", "Stretch Jeans", "Girls Fashion", "Under $20"],
+    badge: null,
+    date_added: "2026-10-22"
+  },
+
+  {
+    id: "skechers-kids-dynamatic-sneakers-black",
+    title: "Skechers Unisex-Child Dynamatic Sneaker",
+    category: "fashion",
+    price: 26.98,
+    price_bracket: "Under $30",
+    affiliate_link: "https://www.amazon.com/dp/B0C33PGSHK",
+    image: "images/web/skechers-kids-dynamatic-sneakers-black.jpg",
+    subtitle: "Black hook-and-loop sneakers for kids",
+    story: "A black mesh-upper kids sneaker with a cushioned insole, hook-and-loop strap and machine-washable build. Check the listing for current sizes and details.",
+    tags: ["Kids Fall Outfits", "Kids Sneakers", "Hook and Loop Shoes", "School Shoes", "Under $30"],
+    badge: null,
+    date_added: "2026-10-22"
+  },
 ];
 
 // ── Category helpers ────────────────────────────────────────────────────

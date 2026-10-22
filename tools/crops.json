@@ -874,5 +874,35 @@
 0.17,
 1,
 0.83
+],
+"amazon-essentials-boys-fleece-pullover-hoodie": [
+0.05,
+0.15,
+0.95,
+0.8
+],
+"amazon-essentials-girls-jogger-sweatpants": [
+0.05,
+0.15,
+0.95,
+0.8
+],
+"amazon-essentials-boys-packable-puffer-vest": [
+0.05,
+0.15,
+0.95,
+0.8
+],
+"amazon-essentials-girls-skinny-stretch-jeans": [
+0,
+0.15,
+0.8,
+0.8
+],
+"skechers-kids-dynamatic-sneakers-black": [
+0.15,
+0.15,
+0.85,
+0.8
 ]
 }

@@ -34,3 +34,6 @@ Heroes are optional and file-gated. A guide shows a hero only if `images/guides/
 - 2 new guides: `guides/fall-outfit-ideas-for-women.html`, `guides/fall-outfit-ideas-for-men.html` (JSON in `tools/guides/`), 12-look galleries and hero images.
 - `tools/build_guides.py`: look-book gallery block, and the deposit-safe footnote now shows only on guides with safe scores.
 - Revert: `git revert` the fashion commits, or `git checkout main -- <file>`.
+
+## Oct 22, 2026: Kids fall guide
+Added `guides/fall-outfit-ideas-for-kids.html` (from `tools/guides/fall-outfit-ideas-for-kids.json`), 5 products appended to `products.js` (category fashion), their product pages and images, 12 look images, hero, and crops.json entries. Revert: `git revert <commit>` or delete those files and re-run the build order.

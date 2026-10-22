@@ -1,0 +1,292 @@
+{
+  "published": "2026-10-22",
+  "updated": "2026-10-22",
+  "last_checked": "Oct 22, 2026",
+  "problem_tag": "Fashion",
+  "gallery_note": "AI-generated concept images. They show the idea of each look, not photos of real outfits or of the exact items in the picks below.",
+  "slug": "fall-outfit-ideas-for-kids",
+  "title": "12 Fall Outfit Ideas for Kids, Built From Cozy Basics",
+  "short_title": "Fall Outfit Ideas for Kids",
+  "description": "Twelve fall outfit ideas for kids in rust, navy, forest and cream, plus five basics from listings to build them, each under $30, with one honest limit per pick.",
+  "dek": "Rust, navy, forest and cream. Twelve looks to browse, five basics to build them.",
+  "constraint": "Kids fall basics, each under $30",
+  "hook": [
+    "Kids outgrow things fast, so fall outfits work best as a few repeat pieces: a fleece layer, easy bottoms, a vest and a shoe that goes on quick. Browse the twelve looks first, then pick the basics that fit the ones you like.",
+    "We did not test these. We read each listing and use only what it says, so check the size chart and details on the page before you buy."
+  ],
+  "skipped": [
+    "Anything where the listing does not say what the item is made of or how it is sized.",
+    "Licensed character pieces, since this guide is about plain basics that mix and match.",
+    "Anything with no size chart on the listing."
+  ],
+  "how_picked": [
+    "Each pick is under the price bracket shown.",
+    "The listing says what the item is and how it is cut or sized.",
+    "The listing or reviewers give a check or limit worth knowing before you buy.",
+    "Specs come from the listing text. Review counts and star ratings are not used here."
+  ],
+  "final": "If you only buy one, make it the fleece hoodie. It layers under the vest and pairs with the jeans and joggers in most looks. Add the vest next, then the joggers.",
+  "related": [
+    "fall-outfit-ideas-for-women",
+    "fall-outfit-ideas-for-men"
+  ],
+  "hero_alt": "Four kids fall outfit concept images in rust, forest, olive and cream tones side by side",
+  "gallery_title": "Twelve fall looks to browse",
+  "gallery_intro": "Each look uses a short palette and four pieces. The swatches show the colors, and the picks below cover the basics that appear most often.",
+  "gallery": [
+    {
+      "file": "look-01.jpg",
+      "title": "Rust Hoodie and Light Denim",
+      "alt": "Flat lay of a rust kids hoodie, light-wash jeans, a mustard beanie and white velcro sneakers",
+      "colors": [
+        "#B5532F",
+        "#A9C0D8",
+        "#D9A441"
+      ],
+      "pieces": [
+        "Rust hoodie",
+        "Light-wash jeans",
+        "Mustard beanie",
+        "White velcro sneakers"
+      ]
+    },
+    {
+      "file": "look-02.jpg",
+      "title": "Navy Hoodie and Gray Joggers",
+      "alt": "Flat lay of a navy kids hoodie, heather gray joggers, a navy beanie and white and gray sneakers",
+      "colors": [
+        "#1F2D4A",
+        "#B5B5B5",
+        "#F2F2F2"
+      ],
+      "pieces": [
+        "Navy hoodie",
+        "Heather gray joggers",
+        "Navy beanie",
+        "White and gray sneakers"
+      ]
+    },
+    {
+      "file": "look-03.jpg",
+      "title": "Forest Puffer Vest and Dark Denim",
+      "alt": "Flat lay of a forest green kids puffer vest, dark denim, a cream beanie and brown lace-up boots",
+      "colors": [
+        "#2F4A38",
+        "#2B3446",
+        "#EDE3CF"
+      ],
+      "pieces": [
+        "Forest puffer vest",
+        "Dark denim",
+        "Cream beanie",
+        "Brown lace-up boots"
+      ]
+    },
+    {
+      "file": "look-04.jpg",
+      "title": "Mustard Hoodie and Black Joggers",
+      "alt": "Flat lay of a mustard kids hoodie, black joggers, a gray beanie and black velcro sneakers",
+      "colors": [
+        "#D9A441",
+        "#1E1E1E",
+        "#8A8A8A"
+      ],
+      "pieces": [
+        "Mustard hoodie",
+        "Black joggers",
+        "Gray beanie",
+        "Black velcro sneakers"
+      ]
+    },
+    {
+      "file": "look-05.jpg",
+      "title": "Buffalo Plaid and Dark Denim",
+      "alt": "Flat lay of a red and black buffalo plaid kids flannel, dark denim, a gray beanie and brown boots",
+      "colors": [
+        "#B3282D",
+        "#1E1E1E",
+        "#2B3446"
+      ],
+      "pieces": [
+        "Buffalo plaid flannel",
+        "Dark denim",
+        "Gray beanie",
+        "Brown boots"
+      ]
+    },
+    {
+      "file": "look-06.jpg",
+      "title": "Burgundy Knit and Black Leggings",
+      "alt": "Flat lay of a burgundy knit kids sweater, black leggings, a cream scarf and tan ankle boots",
+      "colors": [
+        "#6E1F2F",
+        "#1E1E1E",
+        "#F0E6D2"
+      ],
+      "pieces": [
+        "Burgundy knit sweater",
+        "Black leggings",
+        "Cream scarf",
+        "Tan ankle boots"
+      ]
+    },
+    {
+      "file": "look-07.jpg",
+      "title": "Gray Hoodie Set With a Red Beanie",
+      "alt": "Flat lay of a gray kids hoodie, black joggers, a red beanie and black and white sneakers",
+      "colors": [
+        "#A8A8A8",
+        "#1E1E1E",
+        "#B3282D"
+      ],
+      "pieces": [
+        "Gray hoodie",
+        "Black joggers",
+        "Red beanie",
+        "Black and white sneakers"
+      ]
+    },
+    {
+      "file": "look-08.jpg",
+      "title": "Denim Jacket Over Stripes",
+      "alt": "Flat lay of a light denim kids jacket over a navy and white striped tee, khaki pants, a brown belt and white sneakers",
+      "colors": [
+        "#A9C0D8",
+        "#1F2D4A",
+        "#C9B48A"
+      ],
+      "pieces": [
+        "Denim jacket over striped tee",
+        "Khaki pants",
+        "Brown belt",
+        "White sneakers"
+      ]
+    },
+    {
+      "file": "look-09.jpg",
+      "title": "Olive Vest and Cream Cable Knit",
+      "alt": "Flat lay of an olive kids puffer vest, a cream cable knit sweater, dark jeans and brown boots",
+      "colors": [
+        "#6B7040",
+        "#F0E6D2",
+        "#2B3446"
+      ],
+      "pieces": [
+        "Olive vest",
+        "Cream cable sweater",
+        "Dark jeans",
+        "Brown boots"
+      ]
+    },
+    {
+      "file": "look-10.jpg",
+      "title": "Dusty Pink Hoodie and Cream Joggers",
+      "alt": "Flat lay of a dusty pink kids hoodie, cream joggers, cream knit mittens and white sneakers",
+      "colors": [
+        "#D9A3A0",
+        "#F0E6D2",
+        "#FFFFFF"
+      ],
+      "pieces": [
+        "Dusty pink hoodie",
+        "Cream joggers",
+        "Cream knit mittens",
+        "White sneakers"
+      ]
+    },
+    {
+      "file": "look-11.jpg",
+      "title": "Cream Knit and Camel Cords",
+      "alt": "Flat lay of a cream knit kids sweater, camel corduroy pants, a rust scarf and brown boots",
+      "colors": [
+        "#F0E6D2",
+        "#B98B5E",
+        "#B5532F"
+      ],
+      "pieces": [
+        "Cream knit sweater",
+        "Camel corduroy pants",
+        "Rust scarf",
+        "Brown boots"
+      ]
+    },
+    {
+      "file": "look-12.jpg",
+      "title": "Black Vest and Thermal Tee",
+      "alt": "Flat lay of a black kids puffer vest, a heather gray thermal tee, light-wash jeans and black velcro sneakers",
+      "colors": [
+        "#1E1E1E",
+        "#B5B5B5",
+        "#A9C0D8"
+      ],
+      "pieces": [
+        "Black puffer vest",
+        "Gray thermal tee",
+        "Light-wash jeans",
+        "Black velcro sneakers"
+      ]
+    }
+  ],
+  "picks": [
+    {
+      "id": "amazon-essentials-boys-fleece-pullover-hoodie",
+      "name": "Amazon Essentials Boys and Toddlers' Fleece Pullover Hoodie Sweatshirt",
+      "asin": "B07PZ8LLVJ",
+      "image": "amazon-essentials-boys-fleece-pullover-hoodie",
+      "alt": "Illustration of a folded blue fleece pullover hoodie with a kangaroo pocket",
+      "best_for": "A warm layer under a vest or jacket",
+      "limit": "Reviewers say it runs small, so size up",
+      "price_bracket": "Under $15",
+      "why": "A pullover hoodie in a 56% cotton and 44% polyester brushed-back fleece, with a lined hood, front pockets and rib cuffs and hem.",
+      "con": "Reviewers say it runs small, so check the size chart and size up if your child is between sizes."
+    },
+    {
+      "id": "amazon-essentials-girls-jogger-sweatpants",
+      "name": "Amazon Essentials Girls and Toddlers' Jogger Sweatpants with Elastic Waist and Drawstring",
+      "asin": "B07HL29M4Z",
+      "image": "amazon-essentials-girls-jogger-sweatpants",
+      "alt": "Illustration of folded heather gray fleece jogger sweatpants with a drawstring",
+      "best_for": "Easy school-day and weekend bottoms",
+      "limit": "Listed as a girls and toddlers cut",
+      "price_bracket": "Under $15",
+      "why": "Tapered-leg joggers in a 56% cotton and 44% polyester brushed-back fleece, with an elastic drawcord waist, rib cuffs and pockets.",
+      "con": "Listed as a girls and toddlers style, so check the size chart and inseam before you buy."
+    },
+    {
+      "id": "amazon-essentials-boys-packable-puffer-vest",
+      "name": "Amazon Essentials Boys and Toddlers' Lightweight Water-Resistant Packable Hooded Puffer Vest",
+      "asin": "B0738JTXGG",
+      "image": "amazon-essentials-boys-packable-puffer-vest",
+      "alt": "Illustration of a folded black lightweight hooded puffer vest",
+      "best_for": "Cool fall mornings and layering",
+      "limit": "Some reviewers call it thin",
+      "price_bracket": "Under $30",
+      "why": "A lightweight, water-resistant hooded puffer vest that packs into its own pouch. Reviewers say it is warm enough for cool fall mornings.",
+      "con": "Reviewers are mixed on fit and warmth, with some saying it runs small or feels thin, so check sizing and plan a layer under it."
+    },
+    {
+      "id": "amazon-essentials-girls-skinny-stretch-jeans",
+      "name": "Amazon Essentials Girls' Skinny Fit Stretch Jeans",
+      "asin": "B07QFBQ6HJ",
+      "image": "amazon-essentials-girls-skinny-stretch-jeans",
+      "alt": "Illustration of folded medium-wash skinny stretch jeans",
+      "best_for": "Everyday jeans with some give",
+      "limit": "Skinny fit, not a roomy leg",
+      "price_bracket": "Under $20",
+      "why": "Mid-rise skinny jeans in a stretch cotton blend with five pockets, a zipper with shank button and an internal adjustable waist.",
+      "con": "Skinny fit, so check the size chart if your child likes a roomier leg."
+    },
+    {
+      "id": "skechers-kids-dynamatic-sneakers-black",
+      "name": "Skechers Unisex-Child Dynamatic Sneaker",
+      "asin": "B0C33PGSHK",
+      "image": "skechers-kids-dynamatic-sneakers-black",
+      "alt": "Illustration of a pair of black kids hook-and-loop sneakers",
+      "best_for": "Daily school and play shoes",
+      "limit": "Measure the foot before sizing",
+      "price_bracket": "Under $30",
+      "why": "A black mesh-upper kids sneaker with a cushioned insole, hook-and-loop strap and machine-washable build.",
+      "con": "Check the size and strap notes on the listing, and measure your child's foot first."
+    }
+  ]
+}
