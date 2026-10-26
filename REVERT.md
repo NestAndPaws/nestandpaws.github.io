@@ -37,3 +37,6 @@ Heroes are optional and file-gated. A guide shows a hero only if `images/guides/
 
 ## Oct 22, 2026: Kids fall guide
 Added `guides/fall-outfit-ideas-for-kids.html` (from `tools/guides/fall-outfit-ideas-for-kids.json`), 5 products appended to `products.js` (category fashion), their product pages and images, 12 look images, hero, and crops.json entries. Revert: `git revert <commit>` or delete those files and re-run the build order.
+
+## Oct 25, 2026: Bedroom wall paint colors look-book guide
+Added `guides/bedroom-wall-paint-colors-on-paneled-wall.html` (from `tools/guides/bedroom-wall-paint-colors-on-paneled-wall.json`), 8 look images and a hero (`images/guides/looks/...`, `images/guides/hero/...`), 2 pick thumbnails, guides index and sitemap entries. No `products.js` change. Revert: `git revert <commit>` or delete those files and re-run the build order.
