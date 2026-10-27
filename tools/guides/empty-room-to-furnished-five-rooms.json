@@ -1,0 +1,168 @@
+{
+ "slug": "empty-room-to-furnished-five-rooms",
+ "title": "5 Empty Rooms Furnished: One Hero Piece Per Room, Plus Renter-Safe Swaps",
+ "short_title": "Empty Rooms Furnished",
+ "description": "Five empty rooms (living, dining, bedroom, office, entryway) furnished with one hero piece each, plus five renter-safe swaps to get the look.",
+ "dek": "Same warm, empty shell in five rooms. One hero piece changes each one. See the five, then pick the small swaps that fit.",
+ "constraint": "Furnishing an empty room, renter picks under $25",
+ "published": "2026-10-27",
+ "updated": "2026-10-27",
+ "last_checked": "Oct 27, 2026",
+ "problem_tag": "Home",
+ "hook": [
+  "An empty room is hard to picture. This guide shows five of them (living, dining, bedroom, office and entryway) with the same limewash walls and oak floor, then one hero piece added to each, so you can see how much one choice changes a space.",
+  "The images are AI-generated concept pictures, not photos of real rooms, and the furniture shown is a style idea rather than a specific product. The picks below are small renter-safe swaps you can use to get closer to the look without buying the big piece."
+ ],
+ "gallery_title": "Five rooms, one hero piece each",
+ "gallery_intro": "Each room starts empty with limewash walls and an oak floor. Furniture and decor are the only thing added.",
+ "gallery_note": "AI-generated concept images of five rooms. They show the idea of each look, not photos of real rooms or of the exact items in the picks below.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Living room",
+   "alt": "AI-generated living room concept with a curved cream boucle sofa, travertine coffee table and jute rug",
+   "colors": [
+    "#E4D9C7"
+   ],
+   "pieces": [
+    "Curved boucle sofa",
+    "travertine coffee table",
+    "jute rug"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Dining room",
+   "alt": "AI-generated dining room concept with a round oak pedestal table and four boucle chairs",
+   "colors": [
+    "#B98B5C"
+   ],
+   "pieces": [
+    "Round oak table",
+    "boucle chairs",
+    "jute rug"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Bedroom",
+   "alt": "AI-generated bedroom concept with a low platform bed, curved headboard and a wood slat accent wall",
+   "colors": [
+    "#C9AD8A"
+   ],
+   "pieces": [
+    "Low platform bed",
+    "curved headboard",
+    "slat accent wall"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Office",
+   "alt": "AI-generated home office concept with a rounded oak desk and a cream linen chair",
+   "colors": [
+    "#A9783F"
+   ],
+   "pieces": [
+    "Rounded oak desk",
+    "linen chair",
+    "table lamp"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Entryway",
+   "alt": "AI-generated entryway concept with a slim oak console, round oak-framed mirror and seagrass basket",
+   "colors": [
+    "#8A6A43"
+   ],
+   "pieces": [
+    "Slim oak console",
+    "round oak mirror",
+    "seagrass basket"
+   ]
+  }
+ ],
+ "hero_alt": "AI-generated concept of an empty living room furnished with a curved cream boucle sofa",
+ "cta_text": "View the item →",
+ "how_note": "Prices are brackets because prices change, so check the listing. Product images on this page are illustrations.",
+ "picks": [
+  {
+   "id": "kakanuo-cordless-table-lamp-2pack",
+   "name": "Kakanuo Cordless Rechargeable Table Lamp, 2-Pack (touch dimming, 3 color temperatures)",
+   "asin": "B0DJYBF17N",
+   "image": "kakanuo-cordless-table-lamp-2pack",
+   "alt": "Illustration of two cordless table lamps",
+   "best_for": "Warm light on a console, nightstand or side table with no outlet",
+   "limit": "Check the size on the listing",
+   "price_bracket": "Under $25",
+   "why": "Two battery lamps with three color temperatures. The warm setting gives the soft glow in the living, bedroom and entryway looks, and you can move them room to room.",
+   "con": "Check the lamp size and battery notes on the listing to be sure it fits your table."
+  },
+  {
+   "id": "hipiwe-seagrass-storage-baskets",
+   "name": "Hipiwe Set of 2 Woven Seagrass Storage Bins with Lid, Natural",
+   "asin": "B08GKMFWM7",
+   "image": "hipiwe-seagrass-storage-baskets",
+   "alt": "Illustration of two woven seagrass storage bins with lids",
+   "best_for": "Adding the natural texture seen in the entryway and living looks",
+   "limit": "Natural fiber varies in shade",
+   "price_bracket": "Under $25",
+   "why": "Two stackable seagrass bins with lids. They hide clutter under a console or on a shelf and bring in the woven texture the hero rooms use.",
+   "con": "Natural fiber varies in shade, so check the listing photos and size."
+  },
+  {
+   "id": "hyhao-washable-runner-rug",
+   "name": "2x6 Washable Runner Rug, Vintage Non-Slip Entryway Mat",
+   "asin": "B0D89V1RX1",
+   "image": "hyhao-washable-runner-rug",
+   "alt": "Illustration of a washable runner rug",
+   "best_for": "A runner for an entryway or hall, no installation",
+   "limit": "Check the care label for the wash method",
+   "price_bracket": "Under $25",
+   "why": "A 2 by 6 foot washable runner with a non-slip backing. A rug is the fastest way to warm up a bare floor and it lifts off with no marks.",
+   "con": "The pattern is vintage, not plain jute, so check the listing photo against your look."
+  },
+  {
+   "id": "shinelife-rechargeable-desk-lamp",
+   "name": "Rechargeable Cordless LED Desk Lamp, 4000mAh, Touch Dimming, White",
+   "asin": "B0GCN659JF",
+   "image": "shinelife-rechargeable-desk-lamp",
+   "alt": "Illustration of a cordless LED desk lamp",
+   "best_for": "The office look when there is no outlet near the desk",
+   "limit": "Check the base size on the listing",
+   "price_bracket": "Under $30",
+   "why": "A rechargeable lamp with touch dimming and an adjustable neck. It gives a desk the lit, finished look without a cord.",
+   "con": "Check the base size and battery notes on the listing."
+  },
+  {
+   "id": "enjoybasics-no-drill-curtain-rod",
+   "name": "ENJOYBASICS No-Drill Curtain Rod, 28 to 47 Inch, Adhesive Brackets",
+   "asin": "B0DFCWNBQG",
+   "image": "enjoybasics-no-drill-curtain-rod",
+   "alt": "Illustration of a no-drill curtain rod",
+   "best_for": "Hanging sheer curtains the way the dining and living looks do",
+   "limit": "Use lightweight curtains and check the weight limit",
+   "price_bracket": "Under $10",
+   "why": "An adjustable rod that mounts with adhesive brackets on smooth surfaces, so no drilling. Sheer curtains soften a window the same way they do in the images.",
+   "con": "Use lightweight curtains and check the weight limit and surface notes on the listing."
+  }
+ ],
+ "final": "If you buy one, make it the lamps. Light changes how every room reads at night, and cordless lamps work in any of the five. Add the runner for an entryway and the curtain rod for any bare window.",
+ "skipped": [
+  "Sofas, beds, desks and other large furniture, since the images are style ideas, not products.",
+  "Anything that needs drilling or wiring.",
+  "Anything with no size or hanging details on the listing."
+ ],
+ "how_picked": [
+  "Each pick is under the price bracket shown.",
+  "The listing says the item is renter friendly, cordless, non-slip or removable.",
+  "The listing gives a check or limit worth knowing before you buy.",
+  "Specs come from the listing text."
+ ],
+ "related": [
+  "living-room-furniture-styles-one-room",
+  "bedroom-furniture-styles-one-room",
+  "no-wire-lighting-for-renters"
+ ]
+}

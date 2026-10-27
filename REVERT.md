@@ -47,3 +47,7 @@ Adds guides/bedroom-furniture-styles-one-room.html, tools/guides/bedroom-furnitu
 ## Oct 26, 2026: guide "6 Living Room Furniture Styles in One Room"
 Adds guides/living-room-furniture-styles-one-room.html, tools/guides/living-room-furniture-styles-one-room.json, hero + 6 look images, 2 new pick thumbs (hipiwe, enjoybasics; command pack thumb already existed); updates guides/index.html, sitemap.xml. No products.js change. Revert: `git revert <this commit>`.
 Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/redesign.py; all rebuilt pages, one line each). Revert: `git revert <this commit>`. Not changed: start-here.html body text and the product button links (they go to amazon.com/dp pages).
+
+## Oct 27 2026: Idea 2 guide
+- Added `guides/empty-room-to-furnished-five-rooms.html` (+ hero, 5 look images, 2 pick images, `tools/guides/empty-room-to-furnished-five-rooms.json`); `guides/index.html` and `sitemap.xml` regenerated.
+- Revert: `git revert <this commit>`.
