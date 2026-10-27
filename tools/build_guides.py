@@ -34,7 +34,7 @@ def nav():
 def footer():
     return ('<footer>\n  <p>Nest &amp; Paws · <a href="/start-here.html">Start here</a> · <a href="/about.html">About</a> · '
             '<a href="/privacy.html">Privacy</a> · <a href="https://pinterest.com/NestandPaws" target="_blank" rel="noopener">@NestandPaws on Pinterest</a></p>\n'
-            '  <p class="foot-note">Independent. Not affiliated with or endorsed by Amazon. Prices change, so check the listing.</p>\n</footer>')
+            '  <p class="foot-note">Independent. Prices change, so check the listing.</p>\n</footer>')
 
 
 def thumb(img_id):
