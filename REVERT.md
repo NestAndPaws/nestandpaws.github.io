@@ -40,3 +40,6 @@ Added `guides/fall-outfit-ideas-for-kids.html` (from `tools/guides/fall-outfit-i
 
 ## Oct 25, 2026: Bedroom wall paint colors look-book guide
 Added `guides/bedroom-wall-paint-colors-on-paneled-wall.html` (from `tools/guides/bedroom-wall-paint-colors-on-paneled-wall.json`), 8 look images and a hero (`images/guides/looks/...`, `images/guides/hero/...`), 2 pick thumbnails, guides index and sitemap entries. No `products.js` change. Revert: `git revert <commit>` or delete those files and re-run the build order.
+
+## Oct 26, 2026: guide "6 Bedroom Furniture Styles in One Room"
+Adds guides/bedroom-furniture-styles-one-room.html, tools/guides/bedroom-furniture-styles-one-room.json, hero + 6 look images, 2 pick thumbs; updates guides/index.html, sitemap.xml; tools/build_guides.py gets optional `cta_text` and `how_note` flags (default unchanged). Revert: `git revert <this commit>`.

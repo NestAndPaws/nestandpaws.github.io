@@ -132,7 +132,7 @@ def render_guide(g, all_guides):
       {safe_line(p)}
       <p>{esc(p["why"])}</p>
       <p class="watch"><strong>Watch out:</strong> {esc(p["con"])}</p>
-      <a class="btn" href="{link(p["asin"])}" target="_blank" rel="noopener noreferrer">See it on Amazon →</a>
+      <a class="btn" href="{link(p["asin"])}" target="_blank" rel="noopener noreferrer">{esc(g.get("cta_text", "See it on Amazon →"))}</a>
       <p class="check">{check_line(p, g)}</p>
     </div>
   </article>''')
@@ -224,7 +224,7 @@ def render_guide(g, all_guides):
   <section class="g-section">
     <h2>How I picked</h2>
     <ul>{how}</ul>
-    <p class="g-note">Not tested by us. Ratings and review notes come from the Amazon listing on {esc(g["last_checked"])}; review summaries on Amazon are generated from customer reviews. Prices are brackets because Amazon prices change. Product images on this page are illustrations.</p>
+    <p class="g-note">Not tested by us. {esc(g["how_note"]) if g.get("how_note") else "Ratings and review notes come from the Amazon listing on " + esc(g["last_checked"]) + "; review summaries on Amazon are generated from customer reviews. Prices are brackets because Amazon prices change. Product images on this page are illustrations."}</p>
   </section>
   {rel_html}
 </main>
