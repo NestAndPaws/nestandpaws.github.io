@@ -1,0 +1,696 @@
+{
+ "published": "2026-11-01",
+ "updated": "2026-11-01",
+ "last_checked": "Nov 1, 2026",
+ "problem_tag": "Fashion",
+ "gallery_note": "AI-generated concept images. Each look is a flat lay composed from AI-generated illustrations of the picks below, so it shows the idea of the outfit, not photos of the exact items.",
+ "slug": "fall-capsule-wardrobe-for-men-625-outfits",
+ "title": "Fall Capsule Wardrobe for Men: 20 Pieces, 625 Outfits",
+ "short_title": "Fall Capsule Wardrobe for Men",
+ "description": "A 20-piece fall capsule for men from Target, one layer, top, bottom and pair of shoes per outfit, with 12 looks to browse and one honest limit per pick.",
+ "dek": "Five layers, five tops, five bottoms, five pairs of shoes. 625 outfits, twelve to browse.",
+ "constraint": "20 core pieces plus 10 finishing picks, from Target",
+ "hook": [
+  "A capsule works when every piece goes with every other piece. Pick one layer, one top, one bottom and one pair of shoes from the five in each row. That is 5 x 5 x 5 x 5 = 625 raw combinations. Not all 625 are great, so twelve of them are shown below, built on one shared palette: olive, indigo, camel, charcoal, navy and cream.",
+  "We did not test these. We read each Target listing and use only what it says, so check the size chart, color options and care label on the page before you buy. Prices change, so each pick says to check the current price."
+ ],
+ "skipped": [
+  "Anything where the listing does not say what the item is made of.",
+  "Pieces that only work in one outfit, since a capsule needs every piece to mix.",
+  "Brand-name designer items, since this guide is about everyday prices."
+ ],
+ "how_picked": [
+  "Every piece is sold by Target and the link goes to Target's own page.",
+  "The listing states the material, fit or cut.",
+  "Each pick has one limit worth knowing before you buy.",
+  "Specs come from the listing text. Review counts and star ratings are not used here."
+ ],
+ "how_note": "Specs come from each Target listing as read on Nov 1, 2026. Prices are not shown because they change, so check the listing. Product images on this page are AI-generated illustrations, not photos of the items. Listing colors can differ from the art.",
+ "final": "If you only buy four pieces, buy one from each row in the same palette, then add a belt and an accessory later. The formula does the rest.",
+ "related": [
+  "fall-outfit-ideas-for-women",
+  "fall-outfit-ideas-for-men"
+ ],
+ "hero_alt": "Five men from the collarbone down in olive, indigo, black and cream layers with camel and black pants",
+ "gallery_title": "Twelve looks from the 625",
+ "gallery_intro": "Each look is one layer, one top, one bottom and one pair of shoes from the picks below. Add a belt or an accessory to finish.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Olive over navy",
+   "alt": "Flat lay of olive field jacket, navy crew sweater, camel chinos and tan moc boots",
+   "colors": [],
+   "pieces": [
+    "Olive field jacket",
+    "Navy crew sweater",
+    "Camel chinos",
+    "Tan moc boots"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Indigo and stripes",
+   "alt": "Flat lay of indigo chore jacket, green striped sweater, black straight jeans and black combat boots",
+   "colors": [],
+   "pieces": [
+    "Indigo chore jacket",
+    "Green striped sweater",
+    "Black straight jeans",
+    "Black combat boots"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Black coat, oatmeal knit",
+   "alt": "Flat lay of black overcoat, oatmeal cable sweater, black tech trousers and black combat boots",
+   "colors": [],
+   "pieces": [
+    "Black overcoat",
+    "Oatmeal cable sweater",
+    "Black tech trousers",
+    "Black combat boots"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Denim over yellow",
+   "alt": "Flat lay of blue denim trucker, yellow oxford shirt, black slim jeans and white court sneakers",
+   "colors": [],
+   "pieces": [
+    "Blue denim trucker",
+    "Yellow oxford shirt",
+    "Black slim jeans",
+    "White court sneakers"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Cream hoodie, camel chinos",
+   "alt": "Flat lay of cream zip hoodie, sage pocket tee, camel chinos and brown suede sneakers",
+   "colors": [],
+   "pieces": [
+    "Cream zip hoodie",
+    "Sage pocket tee",
+    "Camel chinos",
+    "Brown suede sneakers"
+   ]
+  },
+  {
+   "file": "look-06.jpg",
+   "title": "Denim and oatmeal",
+   "alt": "Flat lay of blue denim trucker, oatmeal cable sweater, black straight jeans and white court sneakers",
+   "colors": [],
+   "pieces": [
+    "Blue denim trucker",
+    "Oatmeal cable sweater",
+    "Black straight jeans",
+    "White court sneakers"
+   ]
+  },
+  {
+   "file": "look-07.jpg",
+   "title": "Chore jacket, utility pants",
+   "alt": "Flat lay of indigo chore jacket, yellow oxford shirt, camel utility pants and tan moc boots",
+   "colors": [],
+   "pieces": [
+    "Indigo chore jacket",
+    "Yellow oxford shirt",
+    "Camel utility pants",
+    "Tan moc boots"
+   ]
+  },
+  {
+   "file": "look-08.jpg",
+   "title": "Overcoat and navy",
+   "alt": "Flat lay of black overcoat, navy crew sweater, black tech trousers and black combat boots",
+   "colors": [],
+   "pieces": [
+    "Black overcoat",
+    "Navy crew sweater",
+    "Black tech trousers",
+    "Black combat boots"
+   ]
+  },
+  {
+   "file": "look-09.jpg",
+   "title": "Olive and black",
+   "alt": "Flat lay of olive field jacket, sage pocket tee, black straight jeans and black combat boots",
+   "colors": [],
+   "pieces": [
+    "Olive field jacket",
+    "Sage pocket tee",
+    "Black straight jeans",
+    "Black combat boots"
+   ]
+  },
+  {
+   "file": "look-10.jpg",
+   "title": "Trucker and camel",
+   "alt": "Flat lay of blue denim trucker, navy crew sweater, camel chinos and cream sneakers",
+   "colors": [],
+   "pieces": [
+    "Blue denim trucker",
+    "Navy crew sweater",
+    "Camel chinos",
+    "Cream sneakers"
+   ]
+  },
+  {
+   "file": "look-11.jpg",
+   "title": "Hoodie and stripes",
+   "alt": "Flat lay of cream zip hoodie, green striped sweater, black slim jeans and white court sneakers",
+   "colors": [],
+   "pieces": [
+    "Cream zip hoodie",
+    "Green striped sweater",
+    "Black slim jeans",
+    "White court sneakers"
+   ]
+  },
+  {
+   "file": "look-12.jpg",
+   "title": "Chore jacket, camel chinos",
+   "alt": "Flat lay of indigo chore jacket, oatmeal cable sweater, camel chinos and brown suede sneakers",
+   "colors": [],
+   "pieces": [
+    "Indigo chore jacket",
+    "Oatmeal cable sweater",
+    "Camel chinos",
+    "Brown suede sneakers"
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "id": "mens-men-s-canvas-field-jacket-goodfellow-co-1009021667",
+   "name": "Men's Canvas Field Jacket, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1009021667"
+    }
+   ],
+   "image": "mens-men-s-canvas-field-jacket-goodfellow-co-1009021667",
+   "alt": "Illustration of olive field jacket",
+   "best_for": "A heavy outer layer for cool days",
+   "limit": "Heavyweight and fully lined, so it may run warm indoors.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Canvas Field Jacket. The listing says 100% cotton canvas, regular fit, zip and snap front, four pockets, fully lined, below-hip length, heavyweight. The art here follows the lead photo colorway: olive field jacket.",
+   "con": "Heavyweight and fully lined, so it may run warm indoors."
+  },
+  {
+   "id": "mens-men-s-denim-chore-jacket-goodfellow-co-95249529",
+   "name": "Men's Denim Chore Jacket, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95249529"
+    }
+   ],
+   "image": "mens-men-s-denim-chore-jacket-goodfellow-co-95249529",
+   "alt": "Illustration of indigo chore jacket",
+   "best_for": "A sturdy denim layer",
+   "limit": "Heavyweight denim, so check the size chart.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Denim Chore Jacket. The listing says 100% cotton heavyweight denim, standard fit, at-waist length, four patch pockets. The art here follows the lead photo colorway: indigo chore jacket.",
+   "con": "Heavyweight denim, so check the size chart."
+  },
+  {
+   "id": "mens-men-s-double-breasted-overcoat-goodfellow-co-95196172",
+   "name": "Men's Double Breasted Overcoat, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95196172"
+    }
+   ],
+   "image": "mens-men-s-double-breasted-overcoat-goodfellow-co-95196172",
+   "alt": "Illustration of black overcoat",
+   "best_for": "A long coat over knits",
+   "limit": "100% polyester, so it is not wool.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Double Breasted Overcoat. The listing says 100% recycled polyester double knit, a peak lapel, at-knee length, back vent and three pockets. The art here follows the lead photo colorway: black overcoat.",
+   "con": "100% polyester, so it is not wool."
+  },
+  {
+   "id": "mens-men-s-denim-trucker-jacket-goodfellow-co-94983105",
+   "name": "Men's Denim Trucker Jacket, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94983105"
+    }
+   ],
+   "image": "mens-men-s-denim-trucker-jacket-goodfellow-co-94983105",
+   "alt": "Illustration of blue denim trucker",
+   "best_for": "A lighter denim layer",
+   "limit": "Midweight, so it is a fall layer, not a winter coat.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Denim Trucker Jacket. The listing says 100% cotton midweight denim, standard fit, flap pockets. The art here follows the lead photo colorway: blue denim trucker.",
+   "con": "Midweight, so it is a fall layer, not a winter coat."
+  },
+  {
+   "id": "mens-men-s-hooded-fleece-zip-up-sweatshirt-original-use-94974955",
+   "name": "Men's Hooded Fleece Zip-Up Sweatshirt, Original Use",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94974955"
+    }
+   ],
+   "image": "mens-men-s-hooded-fleece-zip-up-sweatshirt-original-use-94974955",
+   "alt": "Illustration of cream zip hoodie",
+   "best_for": "A casual layer",
+   "limit": "Colorways vary, so confirm the color on the page.",
+   "price_bracket": "Check current price",
+   "why": "Original Use's Hooded Fleece Zip-Up Sweatshirt. The listing says 77% cotton, 23% recycled polyester, regular fit, at-hip length, kangaroo pocket. The art here follows the lead photo colorway: cream zip hoodie.",
+   "con": "Colorways vary, so confirm the color on the page."
+  },
+  {
+   "id": "mens-men-s-soft-knit-wool-blend-crewneck-sweater-goodfellow-co-95081628",
+   "name": "Men's Soft Knit Wool Blend Crewneck Sweater, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95081628"
+    }
+   ],
+   "image": "mens-men-s-soft-knit-wool-blend-crewneck-sweater-goodfellow-co-95081628",
+   "alt": "Illustration of navy crew sweater",
+   "best_for": "A base knit in a dark color",
+   "limit": "Contains 10% wool, and it is lightweight, so layer in the cold.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Soft Knit Wool Blend Crewneck Sweater. The listing says 60% cotton, 30% nylon, 10% wool, lightweight, regular fit. The art here follows the lead photo colorway: navy crew sweater.",
+   "con": "Contains 10% wool, and it is lightweight, so layer in the cold."
+  },
+  {
+   "id": "mens-men-s-heavy-weight-nep-crewneck-sweater-goodfellow-co-95106205",
+   "name": "Men's Heavy Weight Nep Crewneck Sweater, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95106205"
+    }
+   ],
+   "image": "mens-men-s-heavy-weight-nep-crewneck-sweater-goodfellow-co-95106205",
+   "alt": "Illustration of green striped sweater",
+   "best_for": "A heavy knit with texture",
+   "limit": "Colorways and patterns vary, so confirm the color on the page.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Heavy Weight Nep Crewneck Sweater. The listing says 54% cotton, 27% recycled polyester, 17% nylon, 2% spandex, regular fit. The art here follows the lead photo colorway: green striped sweater.",
+   "con": "Colorways and patterns vary, so confirm the color on the page."
+  },
+  {
+   "id": "mens-men-s-long-sleeve-chunky-cable-knit-sweater-goodfellow-co-1010653131",
+   "name": "Men's Long Sleeve Chunky Cable Knit Sweater, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010653131"
+    }
+   ],
+   "image": "mens-men-s-long-sleeve-chunky-cable-knit-sweater-goodfellow-co-1010653131",
+   "alt": "Illustration of oatmeal cable sweater",
+   "best_for": "A chunky cable knit under a coat",
+   "limit": "Casual fit, so check the size chart if you want it closer.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Long Sleeve Chunky Cable Knit Sweater. The listing says 55% cotton, 26% recycled polyester, cable knit, casual fit. The art here follows the lead photo colorway: oatmeal cable sweater.",
+   "con": "Casual fit, so check the size chart if you want it closer."
+  },
+  {
+   "id": "mens-men-s-every-wear-long-sleeve-oxford-button-down-shirt-goodfellow-co-9527526",
+   "name": "Men's Every Wear Long Sleeve Oxford Button-Down Shirt, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95275269"
+    }
+   ],
+   "image": "mens-men-s-every-wear-long-sleeve-oxford-button-down-shirt-goodfellow-co-9527526",
+   "alt": "Illustration of yellow oxford shirt",
+   "best_for": "A shirt under denim or a sweater",
+   "limit": "Cotton oxford can wrinkle, so read the care label.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Every Wear Long Sleeve Oxford Button-Down Shirt. The listing says 100% cotton oxford, standard fit, chest pocket. The art here follows the lead photo colorway: yellow oxford shirt.",
+   "con": "Cotton oxford can wrinkle, so read the care label."
+  },
+  {
+   "id": "mens-men-s-vintage-long-sleeve-pocket-t-shirt-goodfellow-co-95256974",
+   "name": "Men's Vintage Long Sleeve Pocket T-Shirt, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95256974"
+    }
+   ],
+   "image": "mens-men-s-vintage-long-sleeve-pocket-t-shirt-goodfellow-co-95256974",
+   "alt": "Illustration of sage pocket tee",
+   "best_for": "An easy tee under a jacket",
+   "limit": "Relaxed fit, so check the size chart.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Vintage Long Sleeve Pocket T-Shirt. The listing says 100% cotton jersey, relaxed fit, chest pocket. The art here follows the lead photo colorway: sage pocket tee.",
+   "con": "Relaxed fit, so check the size chart."
+  },
+  {
+   "id": "mens-men-s-every-wear-straight-fit-chino-pants-goodfellow-co-52511732",
+   "name": "Men's Every Wear Straight Fit Chino Pants, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-52511732"
+    }
+   ],
+   "image": "mens-men-s-every-wear-straight-fit-chino-pants-goodfellow-co-52511732",
+   "alt": "Illustration of camel chinos",
+   "best_for": "A camel chino that works with olive and navy",
+   "limit": "30 in inseam, so check the length options.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Every Wear Straight Fit Chino Pants. The listing says 98% cotton, 2% spandex twill, mid rise, 30 in inseam. The art here follows the lead photo colorway: camel chinos.",
+   "con": "30 in inseam, so check the length options."
+  },
+  {
+   "id": "mens-men-s-slim-fit-jeans-goodfellow-co-78653190",
+   "name": "Men's Slim Fit Jeans, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-78653190"
+    }
+   ],
+   "image": "mens-men-s-slim-fit-jeans-goodfellow-co-78653190",
+   "alt": "Illustration of black slim jeans",
+   "best_for": "A slim jean",
+   "limit": "The listing text mentions a white wash while the lead photo shows a darker color, so ch...",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Slim Fit Jeans. The listing says 63% cotton-blend denim with stretch, mid rise, slim fit, lightweight. The art here follows the lead photo colorway: black slim jeans.",
+   "con": "The listing text mentions a white wash while the lead photo shows a darker color, so check the color before you order."
+  },
+  {
+   "id": "mens-men-s-straight-fit-jeans-goodfellow-co-54475621",
+   "name": "Men's Straight Fit Jeans, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-54475621"
+    }
+   ],
+   "image": "mens-men-s-straight-fit-jeans-goodfellow-co-54475621",
+   "alt": "Illustration of black straight jeans",
+   "best_for": "A straight jean for boots",
+   "limit": "Only 1% spandex, so expect little stretch.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Straight Fit Jeans. The listing says 99% cotton, 1% spandex denim, mid rise, straight fit. The art here follows the lead photo colorway: black straight jeans.",
+   "con": "Only 1% spandex, so expect little stretch."
+  },
+  {
+   "id": "mens-men-s-slim-straight-fit-tech-trousers-goodfellow-co-95219073",
+   "name": "Men's Slim Straight Fit Tech Trousers, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95219073"
+    }
+   ],
+   "image": "mens-men-s-slim-straight-fit-tech-trousers-goodfellow-co-95219073",
+   "alt": "Illustration of black tech trousers",
+   "best_for": "A dressier black bottom",
+   "limit": "High rise, so check how it sits on you.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Slim Straight Fit Tech Trousers. The listing says 100% recycled polyester twill, high rise, with zip pockets. The art here follows the lead photo colorway: black tech trousers.",
+   "con": "High rise, so check how it sits on you."
+  },
+  {
+   "id": "mens-men-s-straight-fit-vintage-washed-utility-pants-goodfellow-co-95231296",
+   "name": "Men's Straight Fit Vintage Washed Utility Pants, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95231296"
+    }
+   ],
+   "image": "mens-men-s-straight-fit-vintage-washed-utility-pants-goodfellow-co-95231296",
+   "alt": "Illustration of camel utility pants",
+   "best_for": "A camel utility pant",
+   "limit": "Heavyweight with a snap front, so check the fit notes.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Straight Fit Vintage Washed Utility Pants. The listing says 100% cotton oxford cloth, mid rise, snap front, heavyweight. The art here follows the lead photo colorway: camel utility pants.",
+   "con": "Heavyweight with a snap front, so check the fit notes."
+  },
+  {
+   "id": "mens-men-s-bastian-moc-toe-boots-goodfellow-co-95286157",
+   "name": "Men's Bastian Moc Toe Boots, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95286157"
+    }
+   ],
+   "image": "mens-men-s-bastian-moc-toe-boots-goodfellow-co-95286157",
+   "alt": "Illustration of tan moc boots",
+   "best_for": "A tan boot for chinos",
+   "limit": "Faux suede, not real suede.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Bastian Moc Toe Boots. The listing says a faux suede (PU) upper, lace-up, 4.5 in shaft. The art here follows the lead photo colorway: tan moc boots.",
+   "con": "Faux suede, not real suede."
+  },
+  {
+   "id": "mens-men-s-jeffrey-combat-boots-goodfellow-co-94661665",
+   "name": "Men's Jeffrey Combat Boots, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94661665"
+    }
+   ],
+   "image": "mens-men-s-jeffrey-combat-boots-goodfellow-co-94661665",
+   "alt": "Illustration of black combat boots",
+   "best_for": "A black boot for denim and trousers",
+   "limit": "The 1 in platform adds height.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Jeffrey Combat Boots. The listing says a faux leather upper, 1 in platform, 5 in shaft, memory foam. The art here follows the lead photo colorway: black combat boots.",
+   "con": "The 1 in platform adds height."
+  },
+  {
+   "id": "mens-men-s-cade-court-sneakers-goodfellow-co-94812290",
+   "name": "Men's Cade Court Sneakers, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94812290"
+    }
+   ],
+   "image": "mens-men-s-cade-court-sneakers-goodfellow-co-94812290",
+   "alt": "Illustration of white court sneakers",
+   "best_for": "A clean white sneaker",
+   "limit": "White colorway, so check the cleaning notes.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Cade Court Sneakers. The listing says a PU upper, almond toe, lace-up, in white. The art here follows the lead photo colorway: white court sneakers.",
+   "con": "White colorway, so check the cleaning notes."
+  },
+  {
+   "id": "mens-men-s-harj-pu-suede-sneakers-goodfellow-co-94812150",
+   "name": "Men's Harj PU Suede Sneakers, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94812150"
+    }
+   ],
+   "image": "mens-men-s-harj-pu-suede-sneakers-goodfellow-co-94812150",
+   "alt": "Illustration of brown suede sneakers",
+   "best_for": "A brown sneaker that warms up denim",
+   "limit": "PU suede, not real suede.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Harj PU Suede Sneakers. The listing says a PU suede upper, almond toe, lace-up, in brown. The art here follows the lead photo colorway: brown suede sneakers.",
+   "con": "PU suede, not real suede."
+  },
+  {
+   "id": "mens-men-s-simon-laser-cut-sneakers-goodfellow-co-94819750",
+   "name": "Men's Simon Laser Cut Sneakers, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94819750"
+    }
+   ],
+   "image": "mens-men-s-simon-laser-cut-sneakers-goodfellow-co-94819750",
+   "alt": "Illustration of cream sneakers",
+   "best_for": "A lighter neutral sneaker",
+   "limit": "The listing title says tan while the lead photo shows cream, so confirm the color on th...",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Simon Laser Cut Sneakers. The listing says a perforated PU upper with memory foam. The art here follows the lead photo colorway: cream sneakers.",
+   "con": "The listing title says tan while the lead photo shows cream, so confirm the color on the page."
+  },
+  {
+   "id": "mens-men-s-leather-jeans-belt-goodfellow-co-94906843",
+   "name": "Men's Leather Jeans Belt, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94906843"
+    }
+   ],
+   "image": "mens-men-s-leather-jeans-belt-goodfellow-co-94906843",
+   "alt": "Illustration of brown leather belt",
+   "best_for": "A brown belt for jeans and chinos",
+   "limit": "38 mm wide, so check your belt loops.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Leather Jeans Belt. The listing says 100% leather, 38 mm wide, in brown. The art here follows the lead photo colorway: brown leather belt.",
+   "con": "38 mm wide, so check your belt loops."
+  },
+  {
+   "id": "mens-men-s-bevel-edge-dress-belt-goodfellow-co-94906847",
+   "name": "Men's Bevel Edge Dress Belt, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94906847"
+    }
+   ],
+   "image": "mens-men-s-bevel-edge-dress-belt-goodfellow-co-94906847",
+   "alt": "Illustration of black dress belt",
+   "best_for": "A black belt for trousers",
+   "limit": "The listing mixes leather and faux leather wording, so check the material line.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Bevel Edge Dress Belt. The listing says a black dress belt with a bevel edge. The art here follows the lead photo colorway: black dress belt.",
+   "con": "The listing mixes leather and faux leather wording, so check the material line."
+  },
+  {
+   "id": "mens-men-s-reversible-dress-belt-goodfellow-co-95155518",
+   "name": "Men's Reversible Dress Belt, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95155518"
+    }
+   ],
+   "image": "mens-men-s-reversible-dress-belt-goodfellow-co-95155518",
+   "alt": "Illustration of reversible black belt",
+   "best_for": "One belt for black or brown shoes",
+   "limit": "A bonded blend, not full-grain leather.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Reversible Dress Belt. The listing says a bonded faux leather blend with a silver buckle, black on one side and brown on the other. The art here follows the lead photo colorway: reversible black belt.",
+   "con": "A bonded blend, not full-grain leather."
+  },
+  {
+   "id": "mens-men-s-sleek-square-center-bar-buckle-belt-goodfellow-co-89823462",
+   "name": "Men's Sleek Square Center Bar Buckle Belt, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-89823462"
+    }
+   ],
+   "image": "mens-men-s-sleek-square-center-bar-buckle-belt-goodfellow-co-89823462",
+   "alt": "Illustration of black center-bar belt",
+   "best_for": "A black belt with a modern buckle",
+   "limit": "Mixed PU and bonded leather.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Sleek Square Center Bar Buckle Belt. The listing says PU and bonded leather with a square center-bar buckle, in black. The art here follows the lead photo colorway: black center-bar belt.",
+   "con": "Mixed PU and bonded leather."
+  },
+  {
+   "id": "mens-men-s-leather-braided-belt-goodfellow-co-93505983",
+   "name": "Men's Leather Braided Belt, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-93505983"
+    }
+   ],
+   "image": "mens-men-s-leather-braided-belt-goodfellow-co-93505983",
+   "alt": "Illustration of brown braided belt",
+   "best_for": "A braided brown belt",
+   "limit": "Bonded leather, not full-grain.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Leather Braided Belt. The listing says bonded leather, braided, in brown. The art here follows the lead photo colorway: brown braided belt.",
+   "con": "Bonded leather, not full-grain."
+  },
+  {
+   "id": "mens-men-s-circular-knit-cuffed-beanie-goodfellow-co-95170689",
+   "name": "Men's Circular Knit Cuffed Beanie, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95170689"
+    }
+   ],
+   "image": "mens-men-s-circular-knit-cuffed-beanie-goodfellow-co-95170689",
+   "alt": "Illustration of charcoal cuffed beanie",
+   "best_for": "A charcoal beanie",
+   "limit": "The material line is on the listing, so check it before you buy.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Circular Knit Cuffed Beanie. The listing says a circular-knit beanie with a cuff. The art here follows the lead photo colorway: charcoal cuffed beanie.",
+   "con": "The material line is on the listing, so check it before you buy."
+  },
+  {
+   "id": "mens-men-s-cabin-cable-beanie-goodfellow-co-1012230415",
+   "name": "Men's Cabin Cable Beanie, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1012230415"
+    }
+   ],
+   "image": "mens-men-s-cabin-cable-beanie-goodfellow-co-1012230415",
+   "alt": "Illustration of gray cable beanie",
+   "best_for": "A gray cable beanie",
+   "limit": "100% acrylic, so it is not wool.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Cabin Cable Beanie. The listing says 100% acrylic cable knit. The art here follows the lead photo colorway: gray cable beanie.",
+   "con": "100% acrylic, so it is not wool."
+  },
+  {
+   "id": "mens-men-s-classic-knit-touch-gloves-goodfellow-co-95170687",
+   "name": "Men's Classic Knit Touch Gloves, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95170687"
+    }
+   ],
+   "image": "mens-men-s-classic-knit-touch-gloves-goodfellow-co-95170687",
+   "alt": "Illustration of black knit gloves",
+   "best_for": "Gloves for the commute",
+   "limit": "Check how the listing describes the touchscreen fingertips.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Classic Knit Touch Gloves. The listing says knit gloves titled as touch gloves. The art here follows the lead photo colorway: black knit gloves.",
+   "con": "Check how the listing describes the touchscreen fingertips."
+  },
+  {
+   "id": "mens-men-s-ivy-hat-goodfellow-co-95219106",
+   "name": "Men's Ivy Hat, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95219106"
+    }
+   ],
+   "image": "mens-men-s-ivy-hat-goodfellow-co-95219106",
+   "alt": "Illustration of charcoal ivy hat",
+   "best_for": "A flat cap with a wool-coat look",
+   "limit": "Check sizing on the listing, since caps run by head size.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Ivy Hat. The listing says a recycled polyester marl flat cap. The art here follows the lead photo colorway: charcoal ivy hat.",
+   "con": "Check sizing on the listing, since caps run by head size."
+  },
+  {
+   "id": "mens-men-s-beanie-goodfellow-co-1011253279",
+   "name": "Men's Beanie, Goodfellow & Co",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1011253279"
+    }
+   ],
+   "image": "mens-men-s-beanie-goodfellow-co-1011253279",
+   "alt": "Illustration of gray marl beanie",
+   "best_for": "A plain gray beanie",
+   "limit": "100% polyester, so read the care label.",
+   "price_bracket": "Check current price",
+   "why": "Goodfellow & Co's Beanie. The listing says 100% recycled polyester knit, midweight, unlined, pull-on, 2.75 in cuff. The art here follows the lead photo colorway: gray marl beanie.",
+   "con": "100% polyester, so read the care label."
+  }
+ ],
+ "cta_text": "See it at Target →"
+}

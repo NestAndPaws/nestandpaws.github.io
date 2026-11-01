@@ -48,8 +48,12 @@ def thumb(img_id):
     return f"/images/guides/{img_id}.jpg"
 
 
-def link(asin):
-    return f"https://www.amazon.com/dp/{asin}{AFFILIATE_QUERY}"
+def link(p):
+    """Retailer link: where_to_buy[0].url when present (Target etc.), else a plain Amazon /dp/ link."""
+    w = p.get("where_to_buy")
+    if w:
+        return w[0]["url"]
+    return f"https://www.amazon.com/dp/{p['asin']}{AFFILIATE_QUERY}"
 
 
 def rating_chip(p):
@@ -132,7 +136,7 @@ def render_guide(g, all_guides):
       {safe_line(p)}
       <p>{esc(p["why"])}</p>
       <p class="watch"><strong>Watch out:</strong> {esc(p["con"])}</p>
-      <a class="btn" href="{link(p["asin"])}" target="_blank" rel="noopener noreferrer">{esc(g.get("cta_text", "See it on Amazon →"))}</a>
+      <a class="btn" href="{link(p)}" target="_blank" rel="noopener noreferrer">{esc(g.get("cta_text", "See it on Amazon →"))}</a>
       <p class="check">{check_line(p, g)}</p>
     </div>
   </article>''')

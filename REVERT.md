@@ -51,3 +51,9 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## Oct 27 2026: Idea 2 guide
 - Added `guides/empty-room-to-furnished-five-rooms.html` (+ hero, 5 look images, 2 pick images, `tools/guides/empty-room-to-furnished-five-rooms.json`); `guides/index.html` and `sitemap.xml` regenerated.
 - Revert: `git revert <this commit>`.
+
+## Nov 1, 2026: Series C capsule guides (Women's and Men's)
+- Added `guides/fall-capsule-wardrobe-for-women-625-outfits.html` and `guides/fall-capsule-wardrobe-for-men-625-outfits.html` (+ `tools/guides/*.json`, 12 look images each in `images/guides/looks/...`, 30 pick images each in `images/guides/`). Guides index and sitemap regenerated. No hero image. No `products.js` change and no product pages (deferred).
+- `tools/build_guides.py`: `link()` now takes the pick and uses `where_to_buy[0].url` when present (Target), else the plain Amazon link as before. Existing guides unchanged.
+- Picks link to Target product pages (target.com/p/-/A-<id>); no affiliate tag, no Amazon wording on the new pages.
+- Revert: `git revert <this commit>`.

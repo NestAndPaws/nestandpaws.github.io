@@ -1,0 +1,696 @@
+{
+ "published": "2026-11-01",
+ "updated": "2026-11-01",
+ "last_checked": "Nov 1, 2026",
+ "problem_tag": "Fashion",
+ "gallery_note": "AI-generated concept images. Each look is a flat lay composed from AI-generated illustrations of the picks below, so it shows the idea of the outfit, not photos of the exact items.",
+ "slug": "fall-capsule-wardrobe-for-women-625-outfits",
+ "title": "Fall Capsule Wardrobe for Women: 20 Pieces, 625 Outfits",
+ "short_title": "Fall Capsule Wardrobe for Women",
+ "description": "A 20-piece fall capsule for women from Target, one layer, top, bottom and pair of shoes per outfit, with 12 looks to browse and one honest limit per pick.",
+ "dek": "Five layers, five tops, five bottoms, five pairs of shoes. 625 outfits, twelve to browse.",
+ "constraint": "20 core pieces plus 10 finishing picks, from Target",
+ "hook": [
+  "A capsule works when every piece goes with every other piece. Pick one layer, one top, one bottom and one pair of shoes from the five in each row. That is 5 x 5 x 5 x 5 = 625 raw combinations. Not all 625 are great, so twelve of them are shown below, built on one shared palette: olive, chocolate, cream, indigo, oxblood and black.",
+  "We did not test these. We read each Target listing and use only what it says, so check the size chart, color options and care label on the page before you buy. Prices change, so each pick says to check the current price."
+ ],
+ "skipped": [
+  "Anything where the listing does not say what the item is made of.",
+  "Pieces that only work in one outfit, since a capsule needs every piece to mix.",
+  "Brand-name designer items, since this guide is about everyday prices."
+ ],
+ "how_picked": [
+  "Every piece is sold by Target and the link goes to Target's own page.",
+  "The listing states the material, fit or cut.",
+  "Each pick has one limit worth knowing before you buy.",
+  "Specs come from the listing text. Review counts and star ratings are not used here."
+ ],
+ "how_note": "Specs come from each Target listing as read on Nov 1, 2026. Prices are not shown because they change, so check the listing. Product images on this page are AI-generated illustrations, not photos of the items. Listing colors can differ from the art.",
+ "final": "If you only buy four pieces, buy one from each row in the same palette, then add a belt and an accessory later. The formula does the rest.",
+ "related": [
+  "fall-outfit-ideas-for-women",
+  "fall-outfit-ideas-for-men"
+ ],
+ "hero_alt": "Five women from the collarbone down in olive, brown, oxblood and raspberry layers with matching boots",
+ "gallery_title": "Twelve looks from the 625",
+ "gallery_intro": "Each look is one layer, one top, one bottom and one pair of shoes from the picks below. Add a belt or an accessory to finish.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Olive over cream",
+   "alt": "Flat lay of olive utility jacket, cream ribbed turtleneck, indigo wide-leg jeans and brown chelsea boots",
+   "colors": [],
+   "pieces": [
+    "Olive utility jacket",
+    "Cream ribbed turtleneck",
+    "Indigo wide-leg jeans",
+    "Brown Chelsea boots"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Chocolate and indigo",
+   "alt": "Flat lay of chocolate cable cardigan, black ribbed v sweater, indigo wide-leg jeans and black ankle boots",
+   "colors": [],
+   "pieces": [
+    "Chocolate cable cardigan",
+    "Black ribbed V sweater",
+    "Indigo wide-leg jeans",
+    "Black ankle boots"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Oxblood, cream, black",
+   "alt": "Flat lay of oxblood cropped jacket, cream ribbed turtleneck, black wide-leg jeans and black chunky loafers",
+   "colors": [],
+   "pieces": [
+    "Oxblood cropped jacket",
+    "Cream ribbed turtleneck",
+    "Black wide-leg jeans",
+    "Black chunky loafers"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Brown on brown",
+   "alt": "Flat lay of brown faux-leather trench, brown striped tee, navy linen pants and chocolate mary janes",
+   "colors": [],
+   "pieces": [
+    "Brown faux-leather trench",
+    "Brown striped tee",
+    "Navy linen pants",
+    "Chocolate Mary Janes"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Olive and black",
+   "alt": "Flat lay of olive utility jacket, black tie-front blouse, black twill trousers and cream sneakers",
+   "colors": [],
+   "pieces": [
+    "Olive utility jacket",
+    "Black tie-front blouse",
+    "Black twill trousers",
+    "Cream sneakers"
+   ]
+  },
+  {
+   "file": "look-06.jpg",
+   "title": "Chocolate stripes",
+   "alt": "Flat lay of chocolate cable cardigan, brown striped tee, navy linen pants and chocolate mary janes",
+   "colors": [],
+   "pieces": [
+    "Chocolate cable cardigan",
+    "Brown striped tee",
+    "Navy linen pants",
+    "Chocolate Mary Janes"
+   ]
+  },
+  {
+   "file": "look-07.jpg",
+   "title": "Raspberry and indigo",
+   "alt": "Flat lay of raspberry zip hoodie, cream ribbed turtleneck, indigo wide-leg jeans and cream sneakers",
+   "colors": [],
+   "pieces": [
+    "Raspberry zip hoodie",
+    "Cream ribbed turtleneck",
+    "Indigo wide-leg jeans",
+    "Cream sneakers"
+   ]
+  },
+  {
+   "file": "look-08.jpg",
+   "title": "Trench in black",
+   "alt": "Flat lay of brown faux-leather trench, black tie-front blouse, black wide-leg jeans and black ankle boots",
+   "colors": [],
+   "pieces": [
+    "Brown faux-leather trench",
+    "Black tie-front blouse",
+    "Black wide-leg jeans",
+    "Black ankle boots"
+   ]
+  },
+  {
+   "file": "look-09.jpg",
+   "title": "Oxblood and stripes",
+   "alt": "Flat lay of oxblood cropped jacket, brown striped tee, indigo wide-leg jeans and brown chelsea boots",
+   "colors": [],
+   "pieces": [
+    "Oxblood cropped jacket",
+    "Brown striped tee",
+    "Indigo wide-leg jeans",
+    "Brown Chelsea boots"
+   ]
+  },
+  {
+   "file": "look-10.jpg",
+   "title": "Olive and mauve",
+   "alt": "Flat lay of olive utility jacket, mauve cable collared sweater, black satin trousers and black ankle boots",
+   "colors": [],
+   "pieces": [
+    "Olive utility jacket",
+    "Mauve cable collared sweater",
+    "Black satin trousers",
+    "Black ankle boots"
+   ]
+  },
+  {
+   "file": "look-11.jpg",
+   "title": "Chocolate and cream",
+   "alt": "Flat lay of chocolate cable cardigan, cream ribbed turtleneck, black twill trousers and black chunky loafers",
+   "colors": [],
+   "pieces": [
+    "Chocolate cable cardigan",
+    "Cream ribbed turtleneck",
+    "Black twill trousers",
+    "Black chunky loafers"
+   ]
+  },
+  {
+   "file": "look-12.jpg",
+   "title": "Trench with Mary Janes",
+   "alt": "Flat lay of brown faux-leather trench, black ribbed v sweater, navy linen pants and chocolate mary janes",
+   "colors": [],
+   "pieces": [
+    "Brown faux-leather trench",
+    "Black ribbed V sweater",
+    "Navy linen pants",
+    "Chocolate Mary Janes"
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "id": "womens-women-s-utility-fashion-jacket-universal-thread-95228521",
+   "name": "Women's Utility Fashion Jacket, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95228521"
+    }
+   ],
+   "image": "womens-women-s-utility-fashion-jacket-universal-thread-95228521",
+   "alt": "Illustration of olive utility jacket",
+   "best_for": "A light outer layer over any top",
+   "limit": "Tunic length, so check that the cut suits your height.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Utility Fashion Jacket. The listing says 98% cotton canvas, tunic length, a storm placket, two patch pockets and a regular fit. The art here follows the lead photo colorway: olive utility jacket.",
+   "con": "Tunic length, so check that the cut suits your height."
+  },
+  {
+   "id": "womens-women-s-tie-waist-trench-coat-a-new-day-95144195",
+   "name": "Women's Tie-Waist Trench Coat, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95144195"
+    }
+   ],
+   "image": "womens-women-s-tie-waist-trench-coat-a-new-day-95144195",
+   "alt": "Illustration of brown faux-leather trench",
+   "best_for": "A dressy layer over knits",
+   "limit": "100% polyurethane, so it is a faux leather look, not leather.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Tie-Waist Trench Coat. The listing says 100% polyurethane, loose fit, below-hip length, lined, with notched lapels. The art here follows the lead photo colorway: brown faux-leather trench.",
+   "con": "100% polyurethane, so it is a faux leather look, not leather."
+  },
+  {
+   "id": "womens-women-s-crewneck-heritage-cable-cardigan-wild-fable-95256645",
+   "name": "Women's Crewneck Heritage Cable Cardigan, Wild Fable",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95256645"
+    }
+   ],
+   "image": "womens-women-s-crewneck-heritage-cable-cardigan-wild-fable-95256645",
+   "alt": "Illustration of chocolate cable cardigan",
+   "best_for": "A cozy cardigan layer",
+   "limit": "Regular fit, so check the size chart if you want room to layer.",
+   "price_bracket": "Check current price",
+   "why": "Wild Fable's Crewneck Heritage Cable Cardigan. The listing says 67% cotton, a cable pattern, button front, ribbed hem and a regular fit. The art here follows the lead photo colorway: chocolate cable cardigan.",
+   "con": "Regular fit, so check the size chart if you want room to layer."
+  },
+  {
+   "id": "womens-women-s-faux-leather-point-collar-cropped-zip-up-jacket-a-new-day-1014390",
+   "name": "Women's Faux Leather Point Collar Cropped Zip-Up Jacket, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1014390355"
+    }
+   ],
+   "image": "womens-women-s-faux-leather-point-collar-cropped-zip-up-jacket-a-new-day-1014390",
+   "alt": "Illustration of oxblood cropped jacket",
+   "best_for": "A cropped jacket over high-rise bottoms",
+   "limit": "Cropped cut, so it sits high on the hip.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Faux Leather Point Collar Cropped Zip-Up Jacket. The listing says 100% recycled polyester faux leather, cropped, lined, with elastic cuffs. The art here follows the lead photo colorway: oxblood cropped jacket.",
+   "con": "Cropped cut, so it sits high on the hip."
+  },
+  {
+   "id": "womens-women-s-hooded-spongy-zip-up-sweatshirt-wild-fable-1011397124",
+   "name": "Women's Hooded Spongy Zip-Up Sweatshirt, Wild Fable",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1011397124"
+    }
+   ],
+   "image": "womens-women-s-hooded-spongy-zip-up-sweatshirt-wild-fable-1011397124",
+   "alt": "Illustration of raspberry zip hoodie",
+   "best_for": "An easy weekend layer",
+   "limit": "Slim fit, so check the size chart if you want to layer under it.",
+   "price_bracket": "Check current price",
+   "why": "Wild Fable's Hooded Spongy Zip-Up Sweatshirt. The listing says a modal and recycled polyester fleece, slim fit, full zip, mid length. The art here follows the lead photo colorway: raspberry zip hoodie.",
+   "con": "Slim fit, so check the size chart if you want to layer under it."
+  },
+  {
+   "id": "womens-women-s-cable-collared-pullover-sweater-universal-thread-95148001",
+   "name": "Women's Cable Collared Pullover Sweater, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95148001"
+    }
+   ],
+   "image": "womens-women-s-cable-collared-pullover-sweater-universal-thread-95148001",
+   "alt": "Illustration of mauve cable collared sweater",
+   "best_for": "A textured knit under a jacket",
+   "limit": "Contains wool, so check the care label if you avoid it.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Cable Collared Pullover Sweater. The listing says a cable knit with a three-button collar, regular fit, in a wool-cotton blend. The art here follows the lead photo colorway: mauve cable collared sweater.",
+   "con": "Contains wool, so check the care label if you avoid it."
+  },
+  {
+   "id": "womens-women-s-ribbed-knit-pullover-sweater-a-new-day-95138903",
+   "name": "Women's Ribbed Knit Pullover Sweater, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95138903"
+    }
+   ],
+   "image": "womens-women-s-ribbed-knit-pullover-sweater-a-new-day-95138903",
+   "alt": "Illustration of black ribbed v sweater",
+   "best_for": "A base knit with a V neckline",
+   "limit": "Lightweight, so it needs a layer in cold weather.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Ribbed Knit Pullover Sweater. The listing says a 2x2 rib, deep V neck with a button-and-loop placket, lightweight. The art here follows the lead photo colorway: black ribbed v sweater.",
+   "con": "Lightweight, so it needs a layer in cold weather."
+  },
+  {
+   "id": "womens-women-s-puff-sleeve-tassel-tie-front-blouse-universal-thread-1009926342",
+   "name": "Women's Puff Sleeve Tassel Tie-Front Blouse, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1009926342"
+    }
+   ],
+   "image": "womens-women-s-puff-sleeve-tassel-tie-front-blouse-universal-thread-1009926342",
+   "alt": "Illustration of black tie-front blouse",
+   "best_for": "A dressier top for evenings",
+   "limit": "Puff sleeves can be snug under a fitted jacket, so check sleeve room.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Puff Sleeve Tassel Tie-Front Blouse. The listing says 100% cotton woven, hip length, with puff sleeves and a tie front. The art here follows the lead photo colorway: black tie-front blouse.",
+   "con": "Puff sleeves can be snug under a fitted jacket, so check sleeve room."
+  },
+  {
+   "id": "womens-women-s-long-sleeve-boyfriend-t-shirt-universal-thread-95293515",
+   "name": "Women's Long Sleeve Boyfriend T-Shirt, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95293515"
+    }
+   ],
+   "image": "womens-women-s-long-sleeve-boyfriend-t-shirt-universal-thread-95293515",
+   "alt": "Illustration of brown striped tee",
+   "best_for": "An easy everyday tee",
+   "limit": "Loose fit, so size down only after checking the chart.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Long Sleeve Boyfriend T-Shirt. The listing says cotton jersey, a loose boyfriend fit and a crew neck. The art here follows the lead photo colorway: brown striped tee.",
+   "con": "Loose fit, so size down only after checking the chart."
+  },
+  {
+   "id": "womens-women-s-long-sleeve-turtleneck-ribbed-shirt-universal-thread-1011277417",
+   "name": "Women's Long Sleeve Turtleneck Ribbed Shirt, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1011277417"
+    }
+   ],
+   "image": "womens-women-s-long-sleeve-turtleneck-ribbed-shirt-universal-thread-1011277417",
+   "alt": "Illustration of cream ribbed turtleneck",
+   "best_for": "A neutral base under any layer",
+   "limit": "Slim fit, so check the size chart if you layer over it.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Long Sleeve Turtleneck Ribbed Shirt. The listing says 92% cotton, 8% spandex, a ribbed turtleneck with a slim fit. The art here follows the lead photo colorway: cream ribbed turtleneck.",
+   "con": "Slim fit, so check the size chart if you layer over it."
+  },
+  {
+   "id": "womens-women-s-high-rise-wide-leg-jeans-universal-thread-94441288",
+   "name": "Women's High-Rise Wide Leg Jeans, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94441288"
+    }
+   ],
+   "image": "womens-women-s-high-rise-wide-leg-jeans-universal-thread-94441288",
+   "alt": "Illustration of black wide-leg jeans",
+   "best_for": "Wide-leg denim that pairs with boots",
+   "limit": "32 in inseam, so check the length if you are petite.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's High-Rise Wide Leg Jeans. The listing says high-stretch, cotton-rich denim with a 32 in inseam. The art here follows the lead photo colorway: black wide-leg jeans.",
+   "con": "32 in inseam, so check the length if you are petite."
+  },
+  {
+   "id": "womens-women-s-high-rise-denim-wide-leg-pants-a-new-day-95250294",
+   "name": "Women's High-Rise Denim Wide Leg Pants, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95250294"
+    }
+   ],
+   "image": "womens-women-s-high-rise-denim-wide-leg-pants-a-new-day-95250294",
+   "alt": "Illustration of indigo wide-leg jeans",
+   "best_for": "An indigo wide leg for chunky shoes",
+   "limit": "Ankle length at 30.5 in, so check how it sits at your height.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's High-Rise Denim Wide Leg Pants. The listing says 99% cotton denim, ankle length, 30.5 in inseam. The art here follows the lead photo colorway: indigo wide-leg jeans.",
+   "con": "Ankle length at 30.5 in, so check how it sits at your height."
+  },
+  {
+   "id": "womens-women-s-cotton-twill-wide-leg-trousers-a-new-day-1010263645",
+   "name": "Women's Cotton Twill Wide Leg Trousers, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010263645"
+    }
+   ],
+   "image": "womens-women-s-cotton-twill-wide-leg-trousers-a-new-day-1010263645",
+   "alt": "Illustration of black twill trousers",
+   "best_for": "A tailored black trouser",
+   "limit": "Listed as no stretch, so check waist and hip sizing.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Cotton Twill Wide Leg Trousers. The listing says a cotton-spandex twill with a pleated look, listed as no stretch. The art here follows the lead photo colorway: black twill trousers.",
+   "con": "Listed as no stretch, so check waist and hip sizing."
+  },
+  {
+   "id": "womens-women-s-high-rise-wide-leg-trousers-a-new-day-94957060",
+   "name": "Women's High-Rise Wide Leg Trousers, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94957060"
+    }
+   ],
+   "image": "womens-women-s-high-rise-wide-leg-trousers-a-new-day-94957060",
+   "alt": "Illustration of black satin trousers",
+   "best_for": "A dressy bottom that goes with knits",
+   "limit": "100% polyester, so check the care label before you wash.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's High-Rise Wide Leg Trousers. The listing says 100% polyester satin with an elastic waist. The art here follows the lead photo colorway: black satin trousers.",
+   "con": "100% polyester, so check the care label before you wash."
+  },
+  {
+   "id": "womens-women-s-high-rise-linen-wide-leg-pull-on-pants-a-new-day-95094614",
+   "name": "Women's High-Rise Linen Wide Leg Pull-On Pants, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95094614"
+    }
+   ],
+   "image": "womens-women-s-high-rise-linen-wide-leg-pull-on-pants-a-new-day-95094614",
+   "alt": "Illustration of navy linen pants",
+   "best_for": "A relaxed navy bottom",
+   "limit": "Linen blends wrinkle, so read the care label.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's High-Rise Linen Wide Leg Pull-On Pants. The listing says 55% linen, 45% rayon, pull-on, relaxed fit. The art here follows the lead photo colorway: navy linen pants.",
+   "con": "Linen blends wrinkle, so read the care label."
+  },
+  {
+   "id": "womens-soda-women-s-thumb-lug-sole-chelsea-ankle-boots-soda-1010625011",
+   "name": "Soda Women's Thumb Lug Sole Chelsea Ankle Boots, Soda",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010625011"
+    }
+   ],
+   "image": "womens-soda-women-s-thumb-lug-sole-chelsea-ankle-boots-soda-1010625011",
+   "alt": "Illustration of brown chelsea boots",
+   "best_for": "A chunky boot for jeans",
+   "limit": "Faux leather upper on a 2.5 in heel, so check the size notes.",
+   "price_bracket": "Check current price",
+   "why": "Soda's Soda Women's Thumb Lug Sole Chelsea Ankle Boots. The listing says a PU upper, elastic side panels, side zip, 2.5 in block heel and a 1 in platform lug sole. The art here follows the lead photo colorway: brown chelsea boots.",
+   "con": "Faux leather upper on a 2.5 in heel, so check the size notes."
+  },
+  {
+   "id": "womens-peridot-faux-leather-chunky-loafers-london-rag-1006131883",
+   "name": "PERIDOT Faux Leather Chunky Loafers, London Rag",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1006131883"
+    }
+   ],
+   "image": "womens-peridot-faux-leather-chunky-loafers-london-rag-1006131883",
+   "alt": "Illustration of black chunky loafers",
+   "best_for": "A loafer that dresses up trousers",
+   "limit": "Color is not stated in the listing text, so confirm it on the page.",
+   "price_bracket": "Check current price",
+   "why": "London Rag's PERIDOT Faux Leather Chunky Loafers. The listing says a PU upper, slip-on, 1.5 in platform block heel and a lug sole. The art here follows the lead photo colorway: black chunky loafers.",
+   "con": "Color is not stated in the listing text, so confirm it on the page."
+  },
+  {
+   "id": "womens-women-s-spencer-sneakers-with-memory-foam-universal-thread-94855591",
+   "name": "Women's Spencer Sneakers with Memory Foam, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94855591"
+    }
+   ],
+   "image": "womens-women-s-spencer-sneakers-with-memory-foam-universal-thread-94855591",
+   "alt": "Illustration of cream sneakers",
+   "best_for": "A cream sneaker for denim",
+   "limit": "Cream colorway, so check the cleaning notes on the listing.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Spencer Sneakers with Memory Foam. The listing says a polyester and PU upper, lace-up, low top, with a ruffled detail. The art here follows the lead photo colorway: cream sneakers.",
+   "con": "Cream colorway, so check the cleaning notes on the listing."
+  },
+  {
+   "id": "womens-women-s-henrietta-double-strap-mary-jane-ballet-flats-universal-thread-95",
+   "name": "Women's Henrietta Double Strap Mary Jane Ballet Flats, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95173023"
+    }
+   ],
+   "image": "womens-women-s-henrietta-double-strap-mary-jane-ballet-flats-universal-thread-95",
+   "alt": "Illustration of chocolate mary janes",
+   "best_for": "A flat that softens trousers",
+   "limit": "Flat sole, so there is no heel lift. Confirm the color on the page.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Henrietta Double Strap Mary Jane Ballet Flats. The listing says a faux-suede upper, double buckle straps, memory foam and a flat sole. The art here follows the lead photo colorway: chocolate mary janes.",
+   "con": "Flat sole, so there is no heel lift. Confirm the color on the page."
+  },
+  {
+   "id": "womens-women-s-gabrielle-ankle-boots-a-new-day-1011128867",
+   "name": "Women's Gabrielle Ankle Boots, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1011128867"
+    }
+   ],
+   "image": "womens-women-s-gabrielle-ankle-boots-a-new-day-1011128867",
+   "alt": "Illustration of black ankle boots",
+   "best_for": "A black boot that works with everything",
+   "limit": "Color is not stated in the listing text, so confirm it on the page.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Gabrielle Ankle Boots. The listing says faux leather with a zipper, square toe, 2.5 in block heel and a 5.5 in shaft. The art here follows the lead photo colorway: black ankle boots.",
+   "con": "Color is not stated in the listing text, so confirm it on the page."
+  },
+  {
+   "id": "womens-women-s-laser-cut-belt-a-new-day-85804624",
+   "name": "Women's Laser Cut Belt, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-85804624"
+    }
+   ],
+   "image": "womens-women-s-laser-cut-belt-a-new-day-85804624",
+   "alt": "Illustration of black perforated belt",
+   "best_for": "A finishing belt with silver hardware",
+   "limit": "Color is not stated in the text, so confirm it on the page.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Laser Cut Belt. The listing says faux or bonded leather, 1.2 in wide, perforated all around, with a silver-tone rounded buckle. The art here follows the lead photo colorway: black perforated belt.",
+   "con": "Color is not stated in the text, so confirm it on the page."
+  },
+  {
+   "id": "womens-women-s-reversible-wide-suede-round-center-buckle-belt-universal-thread-8",
+   "name": "Women's Reversible Wide Suede Round Center Buckle Belt, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-89558322"
+    }
+   ],
+   "image": "womens-women-s-reversible-wide-suede-round-center-buckle-belt-universal-thread-8",
+   "alt": "Illustration of tan suede belt",
+   "best_for": "A wide belt over cardigans and coats",
+   "limit": "38 mm is wide, so check it fits your belt loops.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Reversible Wide Suede Round Center Buckle Belt. The listing says tan brown on one side and off-white on the other, with a gold-tone round buckle, 38 mm wide. The art here follows the lead photo colorway: tan suede belt.",
+   "con": "38 mm is wide, so check it fits your belt loops."
+  },
+  {
+   "id": "womens-women-s-organic-gold-buckle-belt-a-new-day-93905598",
+   "name": "Women's Organic Gold Buckle Belt, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-93905598"
+    }
+   ],
+   "image": "womens-women-s-organic-gold-buckle-belt-a-new-day-93905598",
+   "alt": "Illustration of black belt, gold buckle",
+   "best_for": "A skinny belt for trousers",
+   "limit": "Skinny at 25 mm, so it may not suit a wide-loop waistband.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Organic Gold Buckle Belt. The listing says black with a gold-tone buckle, skinny at 25 mm. The art here follows the lead photo colorway: black belt, gold buckle.",
+   "con": "Skinny at 25 mm, so it may not suit a wide-loop waistband."
+  },
+  {
+   "id": "womens-women-s-double-harness-metal-loop-belt-universal-thread-82886311",
+   "name": "Women's Double Harness Metal Loop Belt, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-82886311"
+    }
+   ],
+   "image": "womens-women-s-double-harness-metal-loop-belt-universal-thread-82886311",
+   "alt": "Illustration of black belt, double ring",
+   "best_for": "A belt that adds one gold detail",
+   "limit": "The double loop buckle is a statement, so check the size chart.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Double Harness Metal Loop Belt. The listing says black with a golden double metal loop buckle, 27 mm wide. The art here follows the lead photo colorway: black belt, double ring.",
+   "con": "The double loop buckle is a statement, so check the size chart."
+  },
+  {
+   "id": "womens-women-s-solid-horseshoe-belt-universal-thread-81547525",
+   "name": "Women's Solid Horseshoe Belt, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-81547525"
+    }
+   ],
+   "image": "womens-women-s-solid-horseshoe-belt-universal-thread-81547525",
+   "alt": "Illustration of black horseshoe belt",
+   "best_for": "A belt for cardigans and tunics",
+   "limit": "Color is not stated in the text, so confirm it on the page.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Solid Horseshoe Belt. The listing says faux leather with a gold-tone horseshoe buckle, 35 mm wide. The art here follows the lead photo colorway: black horseshoe belt.",
+   "con": "Color is not stated in the text, so confirm it on the page."
+  },
+  {
+   "id": "womens-cable-knit-beanie-hat-universal-thread-95100151",
+   "name": "Cable Knit Beanie Hat, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95100151"
+    }
+   ],
+   "image": "womens-cable-knit-beanie-hat-universal-thread-95100151",
+   "alt": "Illustration of black cable beanie",
+   "best_for": "A beanie in black",
+   "limit": "A synthetic blend, so warmth differs from wool.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Cable Knit Beanie Hat. The listing says 96% recycled polyester, 4% spandex, with a ribbed cuff. The art here follows the lead photo colorway: black cable beanie.",
+   "con": "A synthetic blend, so warmth differs from wool."
+  },
+  {
+   "id": "womens-cashmere-beanie-a-new-day-1010801894",
+   "name": "Cashmere Beanie, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010801894"
+    }
+   ],
+   "image": "womens-cashmere-beanie-a-new-day-1010801894",
+   "alt": "Illustration of black cashmere beanie",
+   "best_for": "A softer beanie",
+   "limit": "Cashmere needs gentle care, so read the label.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Cashmere Beanie. The listing says 100% cashmere with a ribbed cuff. The art here follows the lead photo colorway: black cashmere beanie.",
+   "con": "Cashmere needs gentle care, so read the label."
+  },
+  {
+   "id": "womens-core-essential-gloves-wild-fable-95095368",
+   "name": "Core Essential Gloves, Wild Fable",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95095368"
+    }
+   ],
+   "image": "womens-core-essential-gloves-wild-fable-95095368",
+   "alt": "Illustration of gray knit gloves",
+   "best_for": "Gloves that match a gray palette",
+   "limit": "The listing photo can differ from the text, so confirm the color on the page.",
+   "price_bracket": "Check current price",
+   "why": "Wild Fable's Core Essential Gloves. The listing says at-wrist knit gloves, listed as gray in the text. The art here follows the lead photo colorway: gray knit gloves.",
+   "con": "The listing photo can differ from the text, so confirm the color on the page."
+  },
+  {
+   "id": "womens-cotton-square-scarf-universal-thread-95049021",
+   "name": "Cotton Square Scarf, Universal Thread",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95049021"
+    }
+   ],
+   "image": "womens-cotton-square-scarf-universal-thread-95049021",
+   "alt": "Illustration of blue paisley square scarf",
+   "best_for": "A printed accent around the neck or a bag",
+   "limit": "Prints and colors vary by option, so check the page.",
+   "price_bracket": "Check current price",
+   "why": "Universal Thread's Cotton Square Scarf. The listing says 100% cotton, 28 in square, printed. The art here follows the lead photo colorway: blue paisley square scarf.",
+   "con": "Prints and colors vary by option, so check the page."
+  },
+  {
+   "id": "womens-polka-dot-pattern-square-scarf-a-new-day-94769776",
+   "name": "Polka Dot Pattern Square Scarf, A New Day",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94769776"
+    }
+   ],
+   "image": "womens-polka-dot-pattern-square-scarf-a-new-day-94769776",
+   "alt": "Illustration of brown polka-dot scarf",
+   "best_for": "A brown accent that works with chocolate and cream",
+   "limit": "Polyester, so check the care label.",
+   "price_bracket": "Check current price",
+   "why": "A New Day's Polka Dot Pattern Square Scarf. The listing says recycled polyester, 29 in square, white dots on brown. The art here follows the lead photo colorway: brown polka-dot scarf.",
+   "con": "Polyester, so check the care label."
+  }
+ ],
+ "cta_text": "See it at Target →"
+}
