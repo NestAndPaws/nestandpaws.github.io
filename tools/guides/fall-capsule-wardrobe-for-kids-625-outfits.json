@@ -1,0 +1,695 @@
+{
+ "published": "2026-11-01",
+ "updated": "2026-11-01",
+ "last_checked": "Nov 1, 2026",
+ "problem_tag": "Fashion",
+ "gallery_note": "AI-generated concept images. Each look is a flat lay composed from AI-generated illustrations of the picks below, so it shows the idea of the outfit, not photos of the exact items.",
+ "slug": "fall-capsule-wardrobe-for-kids-625-outfits",
+ "title": "Fall Capsule Wardrobe for Kids: 20 Pieces, 625 Outfits",
+ "short_title": "Fall Capsule Wardrobe for Kids",
+ "description": "A 20-piece fall capsule for kids from Target, one layer, top, bottom and pair of shoes per outfit, with 12 looks to browse and one honest limit per pick.",
+ "dek": "Five layers, five tops, five bottoms, five pairs of shoes. 625 outfits, twelve to browse.",
+ "constraint": "20 core pieces plus 10 finishing picks (socks and hat sets), from Target",
+ "hook": [
+  "A capsule works when every piece goes with every other piece. Pick one layer, one top, one bottom and one pair of shoes from the five in each row. That is 5 x 5 x 5 x 5 = 625 raw combinations. Not all 625 are great, so twelve of them are shown below, built on one shared palette: forest green, camel, rust and navy.",
+  "We did not test these. We read each Target listing and use only what it says, so check the size chart, color options and care label on the page before you buy. Prices change, so each pick says to check the current price."
+ ],
+ "skipped": [
+  "Anything where the listing does not say what the item is made of.",
+  "Pieces that only work in one outfit, since a capsule needs every piece to mix.",
+  "Brand-name designer items, since this guide is about everyday prices."
+ ],
+ "how_picked": [
+  "Every piece is sold by Target and the link goes to Target's own page.",
+  "The listing states the material, fit or cut.",
+  "Each pick has one limit worth knowing before you buy.",
+  "Specs come from the listing text. Review counts and star ratings are not used here."
+ ],
+ "how_note": "Specs come from each Target listing as read on Nov 1, 2026. Prices are not shown because they change, so check the listing. Product images on this page are AI-generated illustrations, not photos of the items. Listing colors can differ from the art.",
+ "final": "If you only buy four pieces, buy one from each row in the same palette, then add socks and a hat set later. The formula does the rest.",
+ "related": [
+  "fall-outfit-ideas-for-kids"
+ ],
+ "hero_alt": "A rail of five kids outfits in green, mauve, brown, cream and forest with matching boots below",
+ "gallery_title": "Twelve looks from the 625",
+ "gallery_intro": "Each look is one layer, one top, one bottom and one pair of shoes from the picks below. Add socks, a hat and gloves to finish.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Green vest, navy stripes",
+   "alt": "Flat lay of a green vest, navy striped sweater, dark jeans and cognac sneakers",
+   "colors": [],
+   "pieces": [
+    "Green vest",
+    "Navy striped sweater",
+    "Dark jeans",
+    "Cognac sneakers"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Camel over rust",
+   "alt": "Flat lay of a camel cardigan, rust waffle sweater, brown cords and cognac boots",
+   "colors": [],
+   "pieces": [
+    "Camel cardigan",
+    "Rust waffle sweater",
+    "Brown cords",
+    "Cognac boots"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Shearling and rugby stripes",
+   "alt": "Flat lay of a cream shearling jacket, burgundy rugby sweater, gray jeans and white sneakers",
+   "colors": [],
+   "pieces": [
+    "Cream shearling jacket",
+    "Burgundy rugby sweater",
+    "Gray jeans",
+    "White sneakers"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Denim over brown",
+   "alt": "Flat lay of a denim jacket, brown henley, olive joggers and brown boots",
+   "colors": [],
+   "pieces": [
+    "Denim jacket",
+    "Brown henley",
+    "Olive joggers",
+    "Brown boots"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Black hoodie, sage stripes",
+   "alt": "Flat lay of a black fleece hoodie, sage striped sweater, wide-leg jeans and gray sneakers",
+   "colors": [],
+   "pieces": [
+    "Black fleece hoodie",
+    "Sage striped sweater",
+    "Wide-leg jeans",
+    "Gray sneakers"
+   ]
+  },
+  {
+   "file": "look-06.jpg",
+   "title": "Denim, navy stripes, gray jeans",
+   "alt": "Flat lay of a denim jacket, navy striped sweater, gray jeans and white sneakers",
+   "colors": [],
+   "pieces": [
+    "Denim jacket",
+    "Navy striped sweater",
+    "Gray jeans",
+    "White sneakers"
+   ]
+  },
+  {
+   "file": "look-07.jpg",
+   "title": "Camel and burgundy",
+   "alt": "Flat lay of a camel cardigan, burgundy rugby sweater, dark jeans and cognac boots",
+   "colors": [],
+   "pieces": [
+    "Camel cardigan",
+    "Burgundy rugby sweater",
+    "Dark jeans",
+    "Cognac boots"
+   ]
+  },
+  {
+   "file": "look-08.jpg",
+   "title": "Green vest, brown henley",
+   "alt": "Flat lay of a green vest, brown henley, brown cords and cognac sneakers",
+   "colors": [],
+   "pieces": [
+    "Green vest",
+    "Brown henley",
+    "Brown cords",
+    "Cognac sneakers"
+   ]
+  },
+  {
+   "file": "look-09.jpg",
+   "title": "Shearling and rust",
+   "alt": "Flat lay of a cream shearling jacket, rust waffle sweater, dark jeans and brown boots",
+   "colors": [],
+   "pieces": [
+    "Cream shearling jacket",
+    "Rust waffle sweater",
+    "Dark jeans",
+    "Brown boots"
+   ]
+  },
+  {
+   "file": "look-10.jpg",
+   "title": "Hoodie and rugby",
+   "alt": "Flat lay of a black fleece hoodie, burgundy rugby sweater, olive joggers and white sneakers",
+   "colors": [],
+   "pieces": [
+    "Black fleece hoodie",
+    "Burgundy rugby sweater",
+    "Olive joggers",
+    "White sneakers"
+   ]
+  },
+  {
+   "file": "look-11.jpg",
+   "title": "Camel and sage",
+   "alt": "Flat lay of a camel cardigan, sage striped sweater, olive joggers and cognac sneakers",
+   "colors": [],
+   "pieces": [
+    "Camel cardigan",
+    "Sage striped sweater",
+    "Olive joggers",
+    "Cognac sneakers"
+   ]
+  },
+  {
+   "file": "look-12.jpg",
+   "title": "Denim over rust",
+   "alt": "Flat lay of a denim jacket, rust waffle sweater, wide-leg jeans and brown boots",
+   "colors": [],
+   "pieces": [
+    "Denim jacket",
+    "Rust waffle sweater",
+    "Wide-leg jeans",
+    "Brown boots"
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "id": "kids-girls-puffer-vest-cat-jack-95099277",
+   "name": "Girls' Puffer Vest, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95099277"
+    }
+   ],
+   "image": "kids-girls-puffer-vest-cat-jack-95099277",
+   "alt": "Illustration of green puffer vest",
+   "best_for": "A light warm layer over any top",
+   "limit": "At-hip length with no sleeves, so check the size chart for torso fit.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Puffer Vest. The listing says 100% recycled nylon woven, full-length zip with a zipper garage, regular fit, at-hip length, two front pockets. The art here is a stand-in: green puffer vest. Listing colors can differ, so check the colors on the page.",
+   "con": "At-hip length with no sleeves, so check the size chart for torso fit."
+  },
+  {
+   "id": "kids-boys-jeans-jacket-cat-jack-94803294",
+   "name": "Boys' Jeans Jacket, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94803294"
+    }
+   ],
+   "image": "kids-boys-jeans-jacket-cat-jack-94803294",
+   "alt": "Illustration of medium wash hooded denim jacket",
+   "best_for": "A sturdy denim layer with a hood",
+   "limit": "Denim has less give than knit, so check the size chart for layering room.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Jeans Jacket. The listing says a cotton and recycled cotton blend denim, attached hood, full-length zip, buttoned cuffs, jetted pockets, regular fit. The art here is a stand-in: medium wash hooded denim jacket. Listing colors can differ, so check the colors on the page.",
+   "con": "Denim has less give than knit, so check the size chart for layering room."
+  },
+  {
+   "id": "kids-girls-button-front-cardigan-sweater-cat-jack-95060350",
+   "name": "Girls' Button-Front Cardigan Sweater, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95060350"
+    }
+   ],
+   "image": "kids-girls-button-front-cardigan-sweater-cat-jack-95060350",
+   "alt": "Illustration of camel balloon-sleeve cardigan",
+   "best_for": "A soft layer for school days",
+   "limit": "Relaxed and below-waist, so check the size chart. Some colors have shown as out of stock, so check availability.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Button-Front Cardigan Sweater. The listing says a balloon-sleeve cardigan, V-neckline with a button front, ribbed cuffs and hem, relaxed fit, below-waist length. A sibling colorway listing names a cotton and recycled polyester shaker fabric, so check this color's page for the fabric line. The art here is a stand-in: camel balloon-sleeve cardigan. Listing colors can differ, so check the colors on the page.",
+   "con": "Relaxed and below-waist, so check the size chart. Some colors have shown as out of stock, so check availability."
+  },
+  {
+   "id": "kids-boys-fleece-zip-up-sweatshirt-cat-jack-85208711",
+   "name": "Boys' Fleece Zip-Up Sweatshirt, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-85208711"
+    }
+   ],
+   "image": "kids-boys-fleece-zip-up-sweatshirt-cat-jack-85208711",
+   "alt": "Illustration of black fleece zip hoodie",
+   "best_for": "An easy zip layer for every day",
+   "limit": "The listing gives no fit or length line, so check the size chart.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Fleece Zip-Up Sweatshirt. The listing says a long-sleeve fleece hoodie with a zip front, front kangaroo pocket and recycled polyester fabric. The art here is a stand-in: black fleece zip hoodie. Listing colors can differ, so check the colors on the page.",
+   "con": "The listing gives no fit or length line, so check the size chart."
+  },
+  {
+   "id": "kids-boys-faux-shearling-oversized-fit-zip-up-jacket-cat-jack-1010753913",
+   "name": "Boys' Faux Shearling Oversized Fit Zip-Up Jacket, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010753913"
+    }
+   ],
+   "image": "kids-boys-faux-shearling-oversized-fit-zip-up-jacket-cat-jack-1010753913",
+   "alt": "Illustration of cream faux shearling jacket",
+   "best_for": "A cozy statement layer",
+   "limit": "Oversized fit, so check the size chart and the care label before you buy.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Faux Shearling Oversized Fit Zip-Up Jacket. The listing says an oversized-fit faux shearling zip-up jacket. The art here is a stand-in: cream faux shearling jacket. Listing colors can differ, so check the colors on the page.",
+   "con": "Oversized fit, so check the size chart and the care label before you buy."
+  },
+  {
+   "id": "kids-boys-striped-waffle-knit-crewneck-pullover-sweater-cat-jack-1010626401",
+   "name": "Boys' Striped Waffle Knit Crewneck Pullover Sweater, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010626401"
+    }
+   ],
+   "image": "kids-boys-striped-waffle-knit-crewneck-pullover-sweater-cat-jack-1010626401",
+   "alt": "Illustration of sage green and khaki striped waffle knit sweater",
+   "best_for": "A textured knit with a stripe",
+   "limit": "The listing gives little fabric detail here, so check the material line on the page.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Striped Waffle Knit Crewneck Pullover Sweater. The listing says a striped waffle knit crewneck pullover sweater. The art here is a stand-in: sage green and khaki striped waffle knit sweater. Listing colors can differ, so check the colors on the page.",
+   "con": "The listing gives little fabric detail here, so check the material line on the page."
+  },
+  {
+   "id": "kids-boys-striped-relaxed-fit-crewneck-pullover-sweater-cat-jack-1010527124",
+   "name": "Boys' Striped Relaxed Fit Crewneck Pullover Sweater, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010527124"
+    }
+   ],
+   "image": "kids-boys-striped-relaxed-fit-crewneck-pullover-sweater-cat-jack-1010527124",
+   "alt": "Illustration of navy and cream striped crewneck sweater",
+   "best_for": "A classic stripe that mixes with everything",
+   "limit": "Relaxed fit, so check the size chart if you want a closer fit.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Striped Relaxed Fit Crewneck Pullover Sweater. The listing says a relaxed-fit striped crewneck pullover sweater, at-hip length, no cuff. The art here is a stand-in: navy and cream striped crewneck sweater. Listing colors can differ, so check the colors on the page.",
+   "con": "Relaxed fit, so check the size chart if you want a closer fit."
+  },
+  {
+   "id": "kids-girls-waffle-knit-crewneck-pullover-sweater-cat-jack-1010765035",
+   "name": "Girls' Waffle Knit Crewneck Pullover Sweater, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010765035"
+    }
+   ],
+   "image": "kids-girls-waffle-knit-crewneck-pullover-sweater-cat-jack-1010765035",
+   "alt": "Illustration of rust waffle knit sweater",
+   "best_for": "A warm color for fall",
+   "limit": "The listing gives little fabric detail, so check the material line on the page.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Waffle Knit Crewneck Pullover Sweater. The listing says a waffle knit crewneck pullover sweater. The art here is a stand-in: rust waffle knit sweater. Listing colors can differ, so check the colors on the page.",
+   "con": "The listing gives little fabric detail, so check the material line on the page."
+  },
+  {
+   "id": "kids-girls-long-sleeve-waffle-knit-henley-t-shirt-cat-jack-95299057",
+   "name": "Girls' Long Sleeve Waffle Knit Henley T-Shirt, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95299057"
+    }
+   ],
+   "image": "kids-girls-long-sleeve-waffle-knit-henley-t-shirt-cat-jack-95299057",
+   "alt": "Illustration of brown waffle knit henley",
+   "best_for": "A thermal henley for layering",
+   "limit": "Check the size chart, since fit is not stated in the listing text.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Long Sleeve Waffle Knit Henley T-Shirt. The listing says a thermal long-sleeve T-shirt with a henley neckline. The art here is a stand-in: brown waffle knit henley. Listing colors can differ, so check the colors on the page.",
+   "con": "Check the size chart, since fit is not stated in the listing text."
+  },
+  {
+   "id": "kids-boys-long-sleeve-johnny-collar-rugby-striped-pullover-sweater-cat-jack-95062804",
+   "name": "Boys' Long Sleeve Johnny Collar Rugby Striped Pullover Sweater, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95062804"
+    }
+   ],
+   "image": "kids-boys-long-sleeve-johnny-collar-rugby-striped-pullover-sweater-cat-jack-95062804",
+   "alt": "Illustration of burgundy and cream rugby striped sweater",
+   "best_for": "A collared stripe for picture day",
+   "limit": "Check the care label, since knits can need gentler washing.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Long Sleeve Johnny Collar Rugby Striped Pullover Sweater. The listing says a long-sleeve rugby striped pullover sweater with a johnny collar. The art here is a stand-in: burgundy and cream rugby striped sweater. Listing colors can differ, so check the colors on the page.",
+   "con": "Check the care label, since knits can need gentler washing."
+  },
+  {
+   "id": "kids-girls-mid-rise-pull-on-wide-leg-jeans-cat-jack-94902966",
+   "name": "Girls' Mid-Rise Pull-On Wide-Leg Jeans, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94902966"
+    }
+   ],
+   "image": "kids-girls-mid-rise-pull-on-wide-leg-jeans-cat-jack-94902966",
+   "alt": "Illustration of wide-leg medium wash jeans",
+   "best_for": "A relaxed jean with an easy waist",
+   "limit": "100% cotton has less stretch, so check the size chart.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Mid-Rise Pull-On Wide-Leg Jeans. The listing says 100% cotton denim, mid rise, wide leg, full elastic waistband with a front drawstring. The art here is a stand-in: wide-leg medium wash jeans. Listing colors can differ, so check the colors on the page.",
+   "con": "100% cotton has less stretch, so check the size chart."
+  },
+  {
+   "id": "kids-boys-slim-fit-jeans-cat-jack-94335925",
+   "name": "Boys' Slim Fit Jeans, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-94335925"
+    }
+   ],
+   "image": "kids-boys-slim-fit-jeans-cat-jack-94335925",
+   "alt": "Illustration of gray slim fit jeans",
+   "best_for": "A slim jean in a neutral wash",
+   "limit": "Slim legs, so check the size chart for room to move.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Slim Fit Jeans. The listing says a cotton and spandex blend, adjustable waistband, slim legs, regular fit, two front and two back pockets plus a coin pocket. The art here is a stand-in: gray slim fit jeans. Listing colors can differ, so check the colors on the page.",
+   "con": "Slim legs, so check the size chart for room to move."
+  },
+  {
+   "id": "kids-boys-corduroy-baggy-fit-pull-on-pants-cat-jack-1010625711",
+   "name": "Boys' Corduroy Baggy Fit Pull-On Pants, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010625711"
+    }
+   ],
+   "image": "kids-boys-corduroy-baggy-fit-pull-on-pants-cat-jack-1010625711",
+   "alt": "Illustration of brown corduroy pants",
+   "best_for": "A fall texture that goes with every top",
+   "limit": "Baggy cut, so check the size chart if you want a closer fit.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Corduroy Baggy Fit Pull-On Pants. The listing says baggy-fit pull-on corduroy pants. The art here is a stand-in: brown corduroy pants. Listing colors can differ, so check the colors on the page.",
+   "con": "Baggy cut, so check the size chart if you want a closer fit."
+  },
+  {
+   "id": "kids-boys-stretch-woven-jogger-pull-on-pants-cat-jack-87985477",
+   "name": "Boys' Stretch Woven Jogger Pull-On Pants, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-87985477"
+    }
+   ],
+   "image": "kids-boys-stretch-woven-jogger-pull-on-pants-cat-jack-87985477",
+   "alt": "Illustration of olive jogger pants",
+   "best_for": "A comfortable jogger for play",
+   "limit": "The listing offers several colors, so confirm the color you pick matches the art here.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Stretch Woven Jogger Pull-On Pants. The listing says midweight pull-on jogger pants with a reinforced knee, elastic waistband and side and back pockets. The art here is a stand-in: olive jogger pants. Listing colors can differ, so check the colors on the page.",
+   "con": "The listing offers several colors, so confirm the color you pick matches the art here."
+  },
+  {
+   "id": "kids-girls-mid-rise-straight-leg-jeans-cat-jack-95093082",
+   "name": "Girls' Mid-Rise Straight Leg Jeans, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95093082"
+    }
+   ],
+   "image": "kids-girls-mid-rise-straight-leg-jeans-cat-jack-95093082",
+   "alt": "Illustration of dark wash straight leg jeans",
+   "best_for": "A dark jean that dresses up",
+   "limit": "Sold in two washes, so confirm the wash you pick matches the art here.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Mid-Rise Straight Leg Jeans. The listing says mid-rise straight leg jeans sold in dark and light wash. The art here is a stand-in: dark wash straight leg jeans. Listing colors can differ, so check the colors on the page.",
+   "con": "Sold in two washes, so confirm the wash you pick matches the art here."
+  },
+  {
+   "id": "kids-kids-benton-lace-up-suede-boots-with-toe-shield-cat-jack-95241971",
+   "name": "Kids' Benton Lace-Up Suede Boots with Toe Shield, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95241971"
+    }
+   ],
+   "image": "kids-kids-benton-lace-up-suede-boots-with-toe-shield-cat-jack-95241971",
+   "alt": "Illustration of cognac lace-up suede boots",
+   "best_for": "A boot with a protected toe",
+   "limit": "Medium width only, so check the size chart if your child has wide feet.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Kids' Benton Lace-Up Suede Boots with Toe Shield. The listing says lace-up boots with pull loops, a closed round toe, medium width and an approximate three-inch shaft. The art here is a stand-in: cognac lace-up suede boots. Listing colors can differ, so check the colors on the page.",
+   "con": "Medium width only, so check the size chart if your child has wide feet."
+  },
+  {
+   "id": "kids-kids-boaz-lace-up-sneakers-cat-jack-95090155",
+   "name": "Kids' Boaz Lace-Up Sneakers, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95090155"
+    }
+   ],
+   "image": "kids-kids-boaz-lace-up-sneakers-cat-jack-95090155",
+   "alt": "Illustration of cognac lace-up sneakers",
+   "best_for": "A low-top that looks put together",
+   "limit": "Faux leather, so it will not breathe like canvas.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Kids' Boaz Lace-Up Sneakers. The listing says cognac faux leather low-top lace-up sneakers with an off-white midsole. The art here is a stand-in: cognac lace-up sneakers. Listing colors can differ, so check the colors on the page.",
+   "con": "Faux leather, so it will not breathe like canvas."
+  },
+  {
+   "id": "kids-kids-boston-court-lace-up-sneakers-cat-jack-1011102525",
+   "name": "Kids' Boston Court Lace-Up Sneakers, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1011102525"
+    }
+   ],
+   "image": "kids-kids-boston-court-lace-up-sneakers-cat-jack-1011102525",
+   "alt": "Illustration of white court sneakers",
+   "best_for": "A clean white sneaker",
+   "limit": "White shows scuffs fast, so expect to wipe them.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Kids' Boston Court Lace-Up Sneakers. The listing says low-top lace-up court sneakers with a polyurethane-leather upper and side taping, medium width, for big kids sizes 13 to 6. The art here is a stand-in: white court sneakers. Listing colors can differ, so check the colors on the page.",
+   "con": "White shows scuffs fast, so expect to wipe them."
+  },
+  {
+   "id": "kids-kids-zuko-lace-up-boots-cat-jack-1011044622",
+   "name": "Kids' Zuko Lace-Up Boots, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1011044622"
+    }
+   ],
+   "image": "kids-kids-zuko-lace-up-boots-cat-jack-1011044622",
+   "alt": "Illustration of brown lace-up boots",
+   "best_for": "A boot that is easy to put on",
+   "limit": "Boots with a zip and laces take a little longer to put on than slip-ons.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Kids' Zuko Lace-Up Boots. The listing says lace-up boots with a zipper closure, closed round toe and cushioned insole. The art here is a stand-in: brown lace-up boots. Listing colors can differ, so check the colors on the page.",
+   "con": "Boots with a zip and laces take a little longer to put on than slip-ons."
+  },
+  {
+   "id": "kids-kids-jaxx-lace-up-sneakers-cat-jack-95078263",
+   "name": "Kids' Jaxx Lace-Up Sneakers, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95078263"
+    }
+   ],
+   "image": "kids-kids-jaxx-lace-up-sneakers-cat-jack-95078263",
+   "alt": "Illustration of gray mesh sneakers",
+   "best_for": "A breathable everyday sneaker",
+   "limit": "Mesh lets cold air in, so it is better for early fall than deep fall.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Kids' Jaxx Lace-Up Sneakers. The listing says low-top lace-up sneakers with an airy mesh upper and faux leather accents, medium width. The art here is a stand-in: gray mesh sneakers. Listing colors can differ, so check the colors on the page.",
+   "con": "Mesh lets cold air in, so it is better for early fall than deep fall."
+  },
+  {
+   "id": "kids-girls-3pk-bobby-socks-cat-jack-51258242",
+   "name": "Girls' 3pk Bobby Socks, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-51258242"
+    }
+   ],
+   "image": "kids-girls-3pk-bobby-socks-cat-jack-51258242",
+   "alt": "Illustration of white, navy and black bobby socks",
+   "best_for": "A basic pack that goes under everything",
+   "limit": "Bobby socks sit low, so they will not cover the ankle in boots.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' 3pk Bobby Socks. The listing says a three-pack of bobby socks in white, navy and black. The art here is a stand-in: white, navy and black bobby socks. Listing colors can differ, so check the colors on the page.",
+   "con": "Bobby socks sit low, so they will not cover the ankle in boots."
+  },
+  {
+   "id": "kids-girls-3pk-turn-cuff-crew-socks-cat-jack-87882392",
+   "name": "Girls' 3pk Turn Cuff Crew Socks, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-87882392"
+    }
+   ],
+   "image": "kids-girls-3pk-turn-cuff-crew-socks-cat-jack-87882392",
+   "alt": "Illustration of white and pink turn cuff crew socks",
+   "best_for": "A soft cuffed sock",
+   "limit": "Lightweight, so they are not winter-weight socks.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' 3pk Turn Cuff Crew Socks. The listing says a three-pack of lightweight fold-over crew socks with a hint of stretch, in sizes small (5.5T to 8.5T), medium (9T to 2.5K) and large (3K to 7K). The art here is a stand-in: white and pink turn cuff crew socks. Listing colors can differ, so check the colors on the page.",
+   "con": "Lightweight, so they are not winter-weight socks."
+  },
+  {
+   "id": "kids-boys-3pk-duck-printed-and-striped-crew-socks-cat-jack-95075385",
+   "name": "Boys' 3pk Duck Printed and Striped Crew Socks, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95075385"
+    }
+   ],
+   "image": "kids-boys-3pk-duck-printed-and-striped-crew-socks-cat-jack-95075385",
+   "alt": "Illustration of navy and light blue striped crew socks",
+   "best_for": "A patterned pack for play",
+   "limit": "Sizes are small, medium and large only, so check the shoe-size chart.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' 3pk Duck Printed and Striped Crew Socks. The listing says a three-pack of crew socks in a recycled polyester, nylon and spandex blend, with ribbed and banded cuffs, machine washable. The art here is a stand-in: navy and light blue striped crew socks. Listing colors can differ, so check the colors on the page.",
+   "con": "Sizes are small, medium and large only, so check the shoe-size chart."
+  },
+  {
+   "id": "kids-kids-3pk-dress-socks-cat-jack-79468018",
+   "name": "Kids' 3pk Dress Socks, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-79468018"
+    }
+   ],
+   "image": "kids-kids-3pk-dress-socks-cat-jack-79468018",
+   "alt": "Illustration of gray, black and navy dress socks",
+   "best_for": "A dressy pack for picture day",
+   "limit": "Thin dress socks are not for cold boots.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Kids' 3pk Dress Socks. The listing says a three-pack of crew dress socks in a light fabric with a hint of spandex and banded cuffs. The art here is a stand-in: gray, black and navy dress socks. Listing colors can differ, so check the colors on the page.",
+   "con": "Thin dress socks are not for cold boots."
+  },
+  {
+   "id": "kids-boys-2pk-mountain-crew-socks-cat-jack-1010547891",
+   "name": "Boys' 2pk Mountain Crew Socks, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1010547891"
+    }
+   ],
+   "image": "kids-boys-2pk-mountain-crew-socks-cat-jack-1010547891",
+   "alt": "Illustration of tan, ivory and green mountain crew socks",
+   "best_for": "A fun fall pattern",
+   "limit": "Only two pairs in the pack, so it costs more per pair than a three-pack.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' 2pk Mountain Crew Socks. The listing says a two-pack of striped crew socks with a mountain pattern. The art here is a stand-in: tan, ivory and green mountain crew socks. Listing colors can differ, so check the colors on the page.",
+   "con": "Only two pairs in the pack, so it costs more per pair than a three-pack."
+  },
+  {
+   "id": "kids-boys-knit-hat-glove-set-cat-jack-95071100",
+   "name": "Boys' Knit Hat & Glove Set, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95071100"
+    }
+   ],
+   "image": "kids-boys-knit-hat-glove-set-cat-jack-95071100",
+   "alt": "Illustration of navy knit hat and glove set",
+   "best_for": "A matched set in navy",
+   "limit": "One size fits ages 5 to 12, so it can run big or small at the ends.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Knit Hat & Glove Set. The listing says a knit hat and glove set with ribbed and banded glove cuffs, one size for ages 5 to 12. The art here is a stand-in: navy knit hat and glove set. Listing colors can differ, so check the colors on the page.",
+   "con": "One size fits ages 5 to 12, so it can run big or small at the ends."
+  },
+  {
+   "id": "kids-boys-knit-hat-glove-set-cat-jack-95071098",
+   "name": "Boys' Knit Hat & Glove Set, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95071098"
+    }
+   ],
+   "image": "kids-boys-knit-hat-glove-set-cat-jack-95071098",
+   "alt": "Illustration of green knit hat and glove set",
+   "best_for": "A matched set in green",
+   "limit": "Gloves are knit, not waterproof, so they are not snow gear.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Knit Hat & Glove Set. The listing says a knit hat and glove set, gloves in a recycled polyester and spandex knit with ribbed and banded cuffs. The art here is a stand-in: green knit hat and glove set. Listing colors can differ, so check the colors on the page.",
+   "con": "Gloves are knit, not waterproof, so they are not snow gear."
+  },
+  {
+   "id": "kids-girls-knit-hat-glove-set-cat-jack-95071103",
+   "name": "Girls' Knit Hat & Glove Set, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-95071103"
+    }
+   ],
+   "image": "kids-girls-knit-hat-glove-set-cat-jack-95071103",
+   "alt": "Illustration of pink knit hat and glove set",
+   "best_for": "A matched set in pink",
+   "limit": "Gloves are knit, not waterproof, so they are not snow gear.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Knit Hat & Glove Set. The listing says a knit hat and glove set, gloves in a recycled polyester and spandex knit with ribbed and banded cuffs, one size for ages 5 to 12. The art here is a stand-in: pink knit hat and glove set. Listing colors can differ, so check the colors on the page.",
+   "con": "Gloves are knit, not waterproof, so they are not snow gear."
+  },
+  {
+   "id": "kids-boys-knit-hat-glove-set-cat-jack-1012643955",
+   "name": "Boys' Knit Hat & Glove Set, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1012643955"
+    }
+   ],
+   "image": "kids-boys-knit-hat-glove-set-cat-jack-1012643955",
+   "alt": "Illustration of gray knit hat and glove set",
+   "best_for": "A matched set in gray",
+   "limit": "Gloves are knit, not waterproof, so they are not snow gear.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Boys' Knit Hat & Glove Set. The listing says a hat made of recycled polyester knit and gloves made of a recycled polyester and spandex blend knit. The art here is a stand-in: gray knit hat and glove set. Listing colors can differ, so check the colors on the page.",
+   "con": "Gloves are knit, not waterproof, so they are not snow gear."
+  },
+  {
+   "id": "kids-girls-knit-gloves-2pk-cat-jack-1013589111",
+   "name": "Girls' Knit Gloves 2pk, Cat & Jack",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/A-1013589111"
+    }
+   ],
+   "image": "kids-girls-knit-gloves-2pk-cat-jack-1013589111",
+   "alt": "Illustration of cream and brown knit gloves",
+   "best_for": "Two pairs, one printed",
+   "limit": "Gloves only, so you need a hat from another pick.",
+   "price_bracket": "Check current price",
+   "why": "Cat & Jack's Girls' Knit Gloves 2pk. The listing says a two-pack of gloves, one printed and one solid, in a recycled polyester and spandex blend knit. The art here is a stand-in: cream and brown knit gloves. Listing colors can differ, so check the colors on the page.",
+   "con": "Gloves only, so you need a hat from another pick."
+  }
+ ],
+ "cta_text": "See it at Target →"
+}

@@ -57,3 +57,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 - `tools/build_guides.py`: `link()` now takes the pick and uses `where_to_buy[0].url` when present (Target), else the plain Amazon link as before. Existing guides unchanged.
 - Picks link to Target product pages (target.com/p/-/A-<id>); no affiliate tag, no Amazon wording on the new pages.
 - Revert: `git revert <this commit>`.
+
+## Nov 1, 2026 (PM): Series C Kids guide
+- Added `guides/fall-capsule-wardrobe-for-kids-625-outfits.html` (tools/guides JSON, 30 Target picks via where_to_buy, 12 looks), 30 pick images (images/guides/kids-*), 12 look images, guides index and sitemap updated.
+- Revert: `git revert <this commit>`.
