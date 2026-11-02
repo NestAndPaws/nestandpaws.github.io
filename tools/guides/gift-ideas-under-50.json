@@ -1,0 +1,143 @@
+{
+ "slug": "gift-ideas-under-50",
+ "title": "Gift Ideas Under $50: Home, Renter and Dog Picks",
+ "short_title": "Gift Ideas Under $50",
+ "description": "Five gift ideas under $50: a water pitcher, an insulated bottle, smart bulbs for renters, a dog deshedding tool and dental chews. Each checked at two retailers on Nov 1, 2026.",
+ "dek": "Five gift ideas between $25 and $50 from brands sold at two or more major retailers.",
+ "constraint": "Gifts, under $50 each",
+ "published": "2026-11-02",
+ "updated": "2026-11-02",
+ "last_checked": "Nov 1, 2026",
+ "problem_tag": "Gifts",
+ "hook": [
+  "Under $50 is the easy middle of gift giving: useful, a little special, and not a splurge.",
+  "These five come from brands sold at two retailers, with listing ratings read on Nov 1, 2026. We did not test them."
+ ],
+ "picks": [
+  {
+   "id": "furminator-deshedding-tool-large-dog",
+   "name": "FURminator Undercoat deShedding Tool, Large Dog, Long Hair",
+   "image": "furminator-deshedding-tool-large-dog",
+   "alt": "Concept image of a grooming tool with a charcoal handle on a folded gray wool blanket with a cream ribbon",
+   "best_for": "Dog owners dealing with shedding",
+   "limit": "Pick the size and coat type for your dog",
+   "price_bracket": "Under $50",
+   "why": "FURminator is a known name for shedding dogs, and the tool is sold in sizes by dog size and coat length. It is a practical gift for anyone with fur on the couch.",
+   "con": "Ratings differ by store (4.7 on Amazon, 4.2 on Target on Nov 1, 2026). Pick the size and coat type that match your dog on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B07MZDTG76"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/furminator-long-hair-deshedding-tool-for-dogs/-/A-79708819"
+    }
+   ]
+  },
+  {
+   "id": "brita-large-10-cup-water-pitcher",
+   "name": "Brita Large 10-Cup Water Filter Pitcher, Standard Filter",
+   "image": "brita-large-10-cup-water-pitcher",
+   "alt": "Concept image of a white 10-cup water filter pitcher on a kitchen counter with lemon slices",
+   "best_for": "First apartments and everyday water",
+   "limit": "Replacement filters are a recurring cost",
+   "price_bracket": "Under $50",
+   "why": "A big-brand pitcher at a similar price at Amazon and Target. It ships with one filter, so it works out of the box. It is a gift idea that gets used daily.",
+   "con": "It ships with one filter, and replacements are a recurring cost. Check the filter life on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B01FXN3E74"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/brita-water-filter-10-cup-tahoe-water-pitcher-dispenser-with-standard-water-filter/-/A-85731859"
+    }
+   ]
+  },
+  {
+   "id": "govee-smart-led-bulbs-4-pack",
+   "name": "Govee Smart LED Bulbs, 800LM RGBWW A19, 4-Pack",
+   "image": "govee-smart-led-bulbs-4-pack",
+   "alt": "Concept image of four frosted smart light bulbs glowing amber, pink, warm white and pale blue on a cream linen surface",
+   "best_for": "Renters who want mood lighting",
+   "limit": "2.4GHz Wi-Fi only",
+   "price_bracket": "Under $50",
+   "why": "Smart bulbs swap into a lamp you already own, so a renter can change the light and take the bulbs along when they move. The 4-pack covers a few lamps.",
+   "con": "The Target listing says 2.4GHz Wi-Fi only, so check your router and app setup before gifting.",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/govee-wi-fi-800lm-rgbww-4pk-led-bulb/-/A-88232823"
+    },
+    {
+     "retailer": "Walmart",
+     "url": "https://www.walmart.com/ip/Govee-RGBWW-Smart-LED-A19-Bulb-800-Lumens-4-Pack/5318849827"
+    }
+   ]
+  },
+  {
+   "id": "hydro-flask-32-oz-wide-mouth-bottle",
+   "name": "Hydro Flask 32 oz Wide Mouth Bottle with Flex Straw Cap",
+   "image": "hydro-flask-32-oz-wide-mouth-bottle",
+   "alt": "Concept image of a sage green insulated water bottle with a straw cap on a desk beside a linen notebook",
+   "best_for": "Desk workers, gym bags and road trips",
+   "limit": "Price changes by color",
+   "price_bracket": "Under $50",
+   "why": "Hydro Flask is a common gift bottle, and the 32 oz size with a straw cap suits a desk or a car cup holder. Both Amazon and Target carry it.",
+   "con": "Price changes by color, and ratings differ by store (4.7 on Amazon, 4.4 on Target on Nov 1, 2026). Check your color on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B09SQQL36M"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/hydro-flask-wide-mouth-flex-straw-bottle/-/A-95210344"
+    }
+   ]
+  },
+  {
+   "id": "greenies-large-dental-dog-treats",
+   "name": "Greenies Large Original Dental Dog Treats, 24 Count",
+   "image": "greenies-large-dental-dog-treats",
+   "alt": "Concept image of green twisted dental chews in a cream ceramic bowl on a wooden table",
+   "best_for": "Dog owners and stocking stuffers",
+   "limit": "Sized by dog weight",
+   "price_bracket": "Under $50",
+   "why": "Greenies is a familiar dental chew brand with a high Amazon rating. The 24-count large pack lasts a while, which makes it an easy gift for a dog owner.",
+   "con": "Large treats are sized by dog weight. Check the size guide on the listing, and give treats only as the maker directs.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B006W6YHV4"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/greenies-large-original-chicken-adult-dental-dog-treats/-/A-54557368"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "Items sold only by marketplace sellers with few reviews.",
+  "Items sold at only one major retailer.",
+  "Items whose price sits outside the band at either retailer on Nov 1, 2026."
+ ],
+ "how_picked": [
+  "Sold at Amazon and at least one other major retailer, or at two non-Amazon retailers.",
+  "A price inside the band at both retailers on Nov 1, 2026.",
+  "A listing rating of 4.2 stars or higher at each retailer that shows one."
+ ],
+ "how_note": "Ratings and listing facts come from the retailer pages read on Nov 1, 2026. Prices are brackets because retailer prices change, and holiday sales can change them again. Product images on this page are concept images, not photos of the item.",
+ "final": "If you buy one, the Hydro Flask bottle is the broadest gift: most people use a bottle daily. For a renter, the Govee bulbs need no tools.",
+ "related": [
+  "gift-ideas-under-25",
+  "home-and-kitchen-gift-ideas",
+  "gifts-for-dog-owners"
+ ],
+ "cta_text": "Find it on the retailer",
+ "hero_alt": "Gift Ideas Under $50: Home, Renter and Dog Picks",
+ "hero_caption": "AI-generated concept images, not photos of the items"
+}

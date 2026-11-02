@@ -24,7 +24,7 @@ FRESH = [("korcci-suction-cup-hooks-12pack", "Clear suction cup hooks", "Under $
          ("lumigens-6-tier-pants-hangers", "6-tier pants hangers", "Under $15"),
          ("anua-pdrn-hyaluronic-acid-100-cream", "Hyaluronic acid cream", "Under $25")]
 import json, glob
-FEATURED = ["renter-winter-draft-fixes", "no-drill-hooks-for-renters", "indoor-cat-toys-and-scratchers", "simple-k-beauty-routine"]
+FEATURED = ["holiday-gift-ideas-2026", "renter-winter-draft-fixes", "no-drill-hooks-for-renters", "indoor-cat-toys-and-scratchers", "simple-k-beauty-routine"]
 def load_guides():
     gs = {}
     for f in glob.glob(os.path.join(ROOT, "tools", "guides", "*.json")):

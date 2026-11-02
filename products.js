@@ -2241,6 +2241,196 @@ const PRODUCTS = [
     badge: null,
     date_added: "2026-10-22"
   },
+
+  {
+    id: "lodge-8-inch-cast-iron-skillet",
+    title: "Lodge 8-Inch Pre-Seasoned Cast Iron Skillet",
+    category: "home",
+    price: 17.9,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B00008GKDG",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B00008GKDG" },
+      { retailer: "Target", url: "https://www.target.com/p/lodge-8-cast-iron-skillet/-/A-10291926" }
+    ],
+    image: "images/web/lodge-8-inch-cast-iron-skillet.jpg",
+    subtitle: "A small cast iron pan for a cook who likes simple gear",
+    story: "A pre-seasoned 8-inch cast iron skillet sized for one or two eggs, a single burger or a side of vegetables. Amazon's listing calls it pre-seasoned and PFAS-free. A gift idea for a first apartment or a small kitchen.",
+    tags: ["Gift Ideas", "Kitchen Gifts", "Cast Iron Skillet", "Gifts Under $25"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "lego-botanicals-rocking-plants-11506",
+    title: "LEGO Botanicals Rocking Plants 11506",
+    category: "home",
+    price: 19.97,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B0G2SZQS1C",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0G2SZQS1C" },
+      { retailer: "Target", url: "https://www.target.com/p/lego-botanicals-rocking-plants-flower-building-set-mother-39-s-day-gift-11506/-/A-94939978" }
+    ],
+    image: "images/web/lego-botanicals-rocking-plants-11506.jpg",
+    subtitle: "A brick-built plant set that never needs watering",
+    story: "A LEGO Botanicals set of small brick-built plants for a shelf or desk. The Amazon listing says ages 9 and up, so it suits teens and adults who like to build. A gift idea for plant lovers who want no plant care.",
+    tags: ["Gift Ideas", "Home Decor Gifts", "LEGO Botanicals", "Gifts Under $25"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "dash-mini-waffle-maker",
+    title: "Dash Mini Waffle Maker (4-Inch)",
+    category: "home",
+    price: 14.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B010TCP3SC",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B010TCP3SC" },
+      { retailer: "Walmart", url: "https://www.walmart.com/ip/Dash-Mini-Waffle-Maker-4-Waffle-Mold-Nonstick-Waffle-Iron-Quick-Heat-Up-Nonstick-Surface-Perfect-Mini-Waffle-Maker-Kids-Families-Just-Add-Batter-Rain/936862750" }
+    ],
+    image: "images/web/dash-mini-waffle-maker.jpg",
+    subtitle: "A pocket-size waffle maker for dorms and small kitchens",
+    story: "A 4-inch nonstick mini waffle maker that makes one small waffle at a time. It suits a single serving, a dorm room or a kids' breakfast. Colors and prices vary by listing.",
+    tags: ["Gift Ideas", "Kitchen Gifts", "Mini Waffle Maker", "Gifts Under $25"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "kong-classic-dog-toy-large",
+    title: "KONG Classic Dog Toy, Large",
+    category: "pets",
+    price: 13.96,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B0002AR0I8",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0002AR0I8" },
+      { retailer: "Chewy", url: "https://www.chewy.com/kong-classic-dog-toy-large/dp/38485" }
+    ],
+    image: "images/web/kong-classic-dog-toy-large.jpg",
+    subtitle: "A stuffable rubber chew toy for dogs",
+    story: "A red natural rubber chew toy with a hollow center you can fill with treats. Sizes run from small to extra large, so match the size to the dog. Amazon lists the Large at 4.6 stars, and Chewy lists 4.6 stars from about 8,500 reviews as of Nov 1, 2026.",
+    tags: ["Gift Ideas", "Dog Gifts", "KONG Classic", "Gifts Under $25"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "chuckit-ultra-ball-2-pack",
+    title: "Chuckit! Ultra Ball, Medium, 2-Pack",
+    category: "pets",
+    price: 9.99,
+    price_bracket: "Under $25",
+    affiliate_link: "https://www.amazon.com/dp/B000F4AVPA",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B000F4AVPA" },
+      { retailer: "Target", url: "https://www.target.com/p/chuckit-ultra-ball-2pk-orange-blue-m/-/A-53477347" }
+    ],
+    image: "images/web/chuckit-ultra-ball-2-pack.jpg",
+    subtitle: "Two floating rubber fetch balls for dogs",
+    story: "Two medium rubber fetch balls, 2.5 inches across. Amazon's title says they float, which suits water play. Amazon rates it 4.8 stars and Target rates it 4.6 as of Nov 1, 2026.",
+    tags: ["Gift Ideas", "Dog Gifts", "Fetch Toys", "Gifts Under $25"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "furminator-deshedding-tool-large-dog",
+    title: "FURminator Undercoat deShedding Tool, Large Dog, Long Hair",
+    category: "pets",
+    price: 35.27,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/dp/B07MZDTG76",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B07MZDTG76" },
+      { retailer: "Target", url: "https://www.target.com/p/furminator-long-hair-deshedding-tool-for-dogs/-/A-79708819" }
+    ],
+    image: "images/web/furminator-deshedding-tool-large-dog.jpg",
+    subtitle: "A grooming tool that pulls loose undercoat",
+    story: "A grooming tool with a stainless steel edge made to remove loose undercoat hair. Amazon lists the large dog, long hair version at 4.7 stars. Target lists the same tool family at 4.2 stars as of Nov 1, 2026.",
+    tags: ["Gift Ideas", "Dog Gifts", "Dog Grooming", "Gifts Under $50"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "brita-large-10-cup-water-pitcher",
+    title: "Brita Large 10-Cup Water Filter Pitcher, Standard Filter",
+    category: "home",
+    price: 29.99,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/dp/B01FXN3E74",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B01FXN3E74" },
+      { retailer: "Target", url: "https://www.target.com/p/brita-water-filter-10-cup-tahoe-water-pitcher-dispenser-with-standard-water-filter/-/A-85731859" }
+    ],
+    image: "images/web/brita-large-10-cup-water-pitcher.jpg",
+    subtitle: "A 10-cup filter pitcher with one filter included",
+    story: "A white 10-cup water filter pitcher with a standard filter included. Amazon rates it 4.6 stars as of Nov 1, 2026. A practical gift for a first apartment or a kitchen without a filter tap.",
+    tags: ["Gift Ideas", "Kitchen Gifts", "Water Filter Pitcher", "Gifts Under $50"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "govee-smart-led-bulbs-4-pack",
+    title: "Govee Smart LED Bulbs, 800LM RGBWW A19, 4-Pack",
+    category: "renter",
+    price: 32.99,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.target.com/p/govee-wi-fi-800lm-rgbww-4pk-led-bulb/-/A-88232823",
+    where_to_buy: [
+      { retailer: "Target", url: "https://www.target.com/p/govee-wi-fi-800lm-rgbww-4pk-led-bulb/-/A-88232823" },
+      { retailer: "Walmart", url: "https://www.walmart.com/ip/Govee-RGBWW-Smart-LED-A19-Bulb-800-Lumens-4-Pack/5318849827" }
+    ],
+    image: "images/web/govee-smart-led-bulbs-4-pack.jpg",
+    subtitle: "Color-changing smart bulbs, no drilling or wiring",
+    story: "A 4-pack of color-changing smart A19 bulbs that screw into existing lamps. Nothing is drilled or rewired, so it suits renters. Target and Walmart list the same 800 lumen 4-pack as of Nov 1, 2026.",
+    tags: ["Gift Ideas", "Renter Friendly Gifts", "Smart Bulbs", "Gifts Under $50"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "hydro-flask-32-oz-wide-mouth-bottle",
+    title: "Hydro Flask 32 oz Wide Mouth Bottle with Flex Straw Cap",
+    category: "home",
+    price: 44.95,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/dp/B09SQQL36M",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B09SQQL36M" },
+      { retailer: "Target", url: "https://www.target.com/p/hydro-flask-wide-mouth-flex-straw-bottle/-/A-95210344" }
+    ],
+    image: "images/web/hydro-flask-32-oz-wide-mouth-bottle.jpg",
+    subtitle: "An insulated 32 oz bottle with a straw cap",
+    story: "An insulated stainless steel 32 oz bottle with a flex straw cap. Amazon rates it 4.7 stars and Target 4.4 as of Nov 1, 2026. Prices vary by color.",
+    tags: ["Gift Ideas", "Home Gifts", "Insulated Bottle", "Gifts Under $50"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "greenies-large-dental-dog-treats",
+    title: "Greenies Large Original Dental Dog Treats, 24 Count",
+    category: "pets",
+    price: 36.97,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/dp/B006W6YHV4",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B006W6YHV4" },
+      { retailer: "Target", url: "https://www.target.com/p/greenies-large-original-chicken-adult-dental-dog-treats/-/A-54557368" }
+    ],
+    image: "images/web/greenies-large-dental-dog-treats.jpg",
+    subtitle: "A 24-count pack of dental chews for large dogs",
+    story: "A 36 oz, 24-count pack of large dental chews, per the Target listing. Amazon rates it 4.8 stars as of Nov 1, 2026. A gift idea for dog owners that doubles as a stocking stuffer.",
+    tags: ["Gift Ideas", "Dog Gifts", "Dental Chews", "Gifts Under $50"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
 ];
 
 // ── Category helpers ────────────────────────────────────────────────────

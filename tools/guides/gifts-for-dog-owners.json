@@ -1,0 +1,122 @@
+{
+ "slug": "gifts-for-dog-owners",
+ "title": "Gifts for Dog Owners: Four Picks Under $50",
+ "short_title": "Gifts for Dog Owners",
+ "description": "Four gift ideas for dog owners under $50: KONG Classic, Chuckit! Ultra Balls, a FURminator deshedding tool and Greenies dental chews.",
+ "dek": "Two toys, a grooming tool and a pack of dental chews.",
+ "constraint": "Dog gifts, under $50 each",
+ "published": "2026-11-02",
+ "updated": "2026-11-02",
+ "last_checked": "Nov 1, 2026",
+ "problem_tag": "Gifts",
+ "hook": [
+  "Dog gifts are easiest when they are things dogs and owners both use. These four are each under $50.",
+  "We did not test them. Listings and ratings were read on Nov 1, 2026."
+ ],
+ "picks": [
+  {
+   "id": "kong-classic-dog-toy-large",
+   "name": "KONG Classic Dog Toy, Large",
+   "image": "kong-classic-dog-toy-large",
+   "alt": "Concept image of a red rubber dog chew toy on an oak floor beside a cream knit dog bed",
+   "best_for": "Dogs that like to chew and puzzle over treats",
+   "limit": "Sizes vary, so match to your dog's weight",
+   "price_bracket": "Under $25",
+   "why": "KONG Classic is a long-running stuffable chew toy. The hollow center holds treats or paste, which gives a dog something to work on. Both Amazon and Chewy list it at 4.6 stars.",
+   "con": "Sizes vary a lot. Match the size to your dog's weight on the listing before you buy.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B0002AR0I8"
+    },
+    {
+     "retailer": "Chewy",
+     "url": "https://www.chewy.com/kong-classic-dog-toy-large/dp/38485"
+    }
+   ]
+  },
+  {
+   "id": "chuckit-ultra-ball-2-pack",
+   "name": "Chuckit! Ultra Ball, Medium, 2-Pack",
+   "image": "chuckit-ultra-ball-2-pack",
+   "alt": "Concept image of a blue and an orange rubber ball on a wooden porch step with frosty evergreen",
+   "best_for": "Fetch fans and dogs that love water",
+   "limit": "Medium is 2.5 inches, so size matters",
+   "price_bracket": "Under $25",
+   "why": "A simple fetch gift with strong ratings at both retailers. The 2-pack means one is always ready when the other is lost in the yard.",
+   "con": "Medium is 2.5 inches. Check the ball size against your dog's mouth, and small dogs may need the small size.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B000F4AVPA"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/chuckit-ultra-ball-2pk-orange-blue-m/-/A-53477347"
+    }
+   ]
+  },
+  {
+   "id": "furminator-deshedding-tool-large-dog",
+   "name": "FURminator Undercoat deShedding Tool, Large Dog, Long Hair",
+   "image": "furminator-deshedding-tool-large-dog",
+   "alt": "Concept image of a grooming tool with a charcoal handle on a folded gray wool blanket with a cream ribbon",
+   "best_for": "Dog owners dealing with shedding",
+   "limit": "Pick the size and coat type for your dog",
+   "price_bracket": "Under $50",
+   "why": "FURminator is a known name for shedding dogs, and the tool is sold in sizes by dog size and coat length. It is a practical gift for anyone with fur on the couch.",
+   "con": "Ratings differ by store (4.7 on Amazon, 4.2 on Target on Nov 1, 2026). Pick the size and coat type that match your dog on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B07MZDTG76"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/furminator-long-hair-deshedding-tool-for-dogs/-/A-79708819"
+    }
+   ]
+  },
+  {
+   "id": "greenies-large-dental-dog-treats",
+   "name": "Greenies Large Original Dental Dog Treats, 24 Count",
+   "image": "greenies-large-dental-dog-treats",
+   "alt": "Concept image of green twisted dental chews in a cream ceramic bowl on a wooden table",
+   "best_for": "Dog owners and stocking stuffers",
+   "limit": "Sized by dog weight",
+   "price_bracket": "Under $50",
+   "why": "Greenies is a familiar dental chew brand with a high Amazon rating. The 24-count large pack lasts a while, which makes it an easy gift for a dog owner.",
+   "con": "Large treats are sized by dog weight. Check the size guide on the listing, and give treats only as the maker directs.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B006W6YHV4"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/greenies-large-original-chicken-adult-dental-dog-treats/-/A-54557368"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "Items sold only by marketplace sellers with few reviews.",
+  "Items sold at only one major retailer.",
+  "Items whose price sits outside the band at either retailer on Nov 1, 2026."
+ ],
+ "how_picked": [
+  "Sold at Amazon and at least one other major retailer, or at two non-Amazon retailers.",
+  "A price inside the band at both retailers on Nov 1, 2026.",
+  "A listing rating of 4.2 stars or higher at each retailer that shows one."
+ ],
+ "how_note": "Ratings and listing facts come from the retailer pages read on Nov 1, 2026. Prices are brackets because retailer prices change, and holiday sales can change them again. Product images on this page are concept images, not photos of the item.",
+ "final": "If you buy one, the KONG is the safest toy. For an owner with a shedding dog, the FURminator.",
+ "related": [
+  "gift-ideas-under-25",
+  "gift-ideas-under-50",
+  "home-and-kitchen-gift-ideas"
+ ],
+ "cta_text": "Find it on the retailer",
+ "hero_alt": "Gifts for Dog Owners: Four Picks Under $50",
+ "hero_caption": "AI-generated concept images, not photos of the items"
+}

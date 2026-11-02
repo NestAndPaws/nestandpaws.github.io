@@ -1,0 +1,143 @@
+{
+ "slug": "gift-ideas-under-25",
+ "title": "Gift Ideas Under $25: Kitchen, Home and Dog Picks",
+ "short_title": "Gift Ideas Under $25",
+ "description": "Five gift ideas under $25: a cast iron skillet, a LEGO plant set, a mini waffle maker and two dog toys. Each checked at two retailers on Nov 1, 2026.",
+ "dek": "Five gift ideas under $25 from brands sold at two or more major retailers.",
+ "constraint": "Gifts, under $25 each",
+ "published": "2026-11-02",
+ "updated": "2026-11-02",
+ "last_checked": "Nov 1, 2026",
+ "problem_tag": "Gifts",
+ "hook": [
+  "Gift lists get long fast. This one is five picks, each under $25, each sold at Amazon and one other major retailer.",
+  "We did not test these. We read the listings and compared ratings on Nov 1, 2026."
+ ],
+ "picks": [
+  {
+   "id": "lodge-8-inch-cast-iron-skillet",
+   "name": "Lodge 8-Inch Pre-Seasoned Cast Iron Skillet",
+   "image": "lodge-8-inch-cast-iron-skillet",
+   "alt": "Concept image of a black cast iron skillet on a wooden board with a cream ribbon and an evergreen sprig",
+   "best_for": "Small kitchens and first apartments",
+   "limit": "Heavy for its size, hand wash only",
+   "price_bracket": "Under $25",
+   "why": "Lodge's 8-inch skillet is a small, simple pan for one or two servings. The listing says it comes pre-seasoned, so it is ready to cook in. It is a gift idea for someone setting up a first kitchen.",
+   "con": "Cast iron needs hand washing and a light coat of oil after use. Check the care notes on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B00008GKDG"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/lodge-8-cast-iron-skillet/-/A-10291926"
+    }
+   ]
+  },
+  {
+   "id": "lego-botanicals-rocking-plants-11506",
+   "name": "LEGO Botanicals Rocking Plants 11506",
+   "image": "lego-botanicals-rocking-plants-11506",
+   "alt": "Concept image of three small brick-built potted plants on an oak shelf with a cream ribbon",
+   "best_for": "Plant lovers who like to build",
+   "limit": "You assemble it, and it is a display piece",
+   "price_bracket": "Under $25",
+   "why": "This set builds three small potted plants from bricks. It gives a builder something to make and a shelf something green that stays green. The listing says ages 9 and up.",
+   "con": "It is a building set that takes time to assemble. Check the piece count and age range on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B0G2SZQS1C"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/lego-botanicals-rocking-plants-flower-building-set-mother-39-s-day-gift-11506/-/A-94939978"
+    }
+   ]
+  },
+  {
+   "id": "dash-mini-waffle-maker",
+   "name": "Dash Mini Waffle Maker (4-Inch)",
+   "image": "dash-mini-waffle-maker",
+   "alt": "Concept image of a compact red mini waffle maker beside a small golden waffle on a white plate",
+   "best_for": "Dorms, small kitchens and kids' breakfasts",
+   "limit": "Makes one 4-inch waffle at a time",
+   "price_bracket": "Under $25",
+   "why": "Dash's mini waffle maker is a low-cost gift for someone short on counter space. The listings describe a 4-inch nonstick cooking surface. Amazon shows 4.4 to 4.6 stars across colors as of Nov 1, 2026.",
+   "con": "It makes one small waffle per round, so it is slow for a crowd. Prices and colors vary by listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B010TCP3SC"
+    },
+    {
+     "retailer": "Walmart",
+     "url": "https://www.walmart.com/ip/Dash-Mini-Waffle-Maker-4-Waffle-Mold-Nonstick-Waffle-Iron-Quick-Heat-Up-Nonstick-Surface-Perfect-Mini-Waffle-Maker-Kids-Families-Just-Add-Batter-Rain/936862750"
+    }
+   ]
+  },
+  {
+   "id": "kong-classic-dog-toy-large",
+   "name": "KONG Classic Dog Toy, Large",
+   "image": "kong-classic-dog-toy-large",
+   "alt": "Concept image of a red rubber dog chew toy on an oak floor beside a cream knit dog bed",
+   "best_for": "Dogs that like to chew and puzzle over treats",
+   "limit": "Sizes vary, so match to your dog's weight",
+   "price_bracket": "Under $25",
+   "why": "KONG Classic is a long-running stuffable chew toy. The hollow center holds treats or paste, which gives a dog something to work on. Both Amazon and Chewy list it at 4.6 stars.",
+   "con": "Sizes vary a lot. Match the size to your dog's weight on the listing before you buy.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B0002AR0I8"
+    },
+    {
+     "retailer": "Chewy",
+     "url": "https://www.chewy.com/kong-classic-dog-toy-large/dp/38485"
+    }
+   ]
+  },
+  {
+   "id": "chuckit-ultra-ball-2-pack",
+   "name": "Chuckit! Ultra Ball, Medium, 2-Pack",
+   "image": "chuckit-ultra-ball-2-pack",
+   "alt": "Concept image of a blue and an orange rubber ball on a wooden porch step with frosty evergreen",
+   "best_for": "Fetch fans and dogs that love water",
+   "limit": "Medium is 2.5 inches, so size matters",
+   "price_bracket": "Under $25",
+   "why": "A simple fetch gift with strong ratings at both retailers. The 2-pack means one is always ready when the other is lost in the yard.",
+   "con": "Medium is 2.5 inches. Check the ball size against your dog's mouth, and small dogs may need the small size.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B000F4AVPA"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/chuckit-ultra-ball-2pk-orange-blue-m/-/A-53477347"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "Items sold only by marketplace sellers with few reviews.",
+  "Items sold at only one major retailer.",
+  "Items whose price sits outside the band at either retailer on Nov 1, 2026."
+ ],
+ "how_picked": [
+  "Sold at Amazon and at least one other major retailer, or at two non-Amazon retailers.",
+  "A price inside the band at both retailers on Nov 1, 2026.",
+  "A listing rating of 4.2 stars or higher at each retailer that shows one."
+ ],
+ "how_note": "Ratings and listing facts come from the retailer pages read on Nov 1, 2026. Prices are brackets because retailer prices change, and holiday sales can change them again. Product images on this page are concept images, not photos of the item.",
+ "final": "If you buy one, the Lodge skillet is the safest gift: it has a long-running brand, a small size and the same price at two retailers. For a dog owner, start with the KONG.",
+ "related": [
+  "gift-ideas-under-50",
+  "home-and-kitchen-gift-ideas",
+  "gifts-for-dog-owners"
+ ],
+ "cta_text": "Find it on the retailer",
+ "hero_alt": "Gift Ideas Under $25: Kitchen, Home and Dog Picks",
+ "hero_caption": "AI-generated concept images, not photos of the items"
+}

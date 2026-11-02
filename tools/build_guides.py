@@ -56,6 +56,15 @@ def link(p):
     return f"https://www.amazon.com/dp/{p['asin']}{AFFILIATE_QUERY}"
 
 
+def buttons(p, g):
+    """One button per retailer when where_to_buy has several entries, else the single CTA."""
+    w = p.get("where_to_buy") or []
+    if len(w) > 1:
+        b = "".join(f'<a class="btn" href="{x["url"]}" target="_blank" rel="noopener noreferrer">Find it on {esc(x["retailer"])} →</a> ' for x in w)
+        return f'<div class="btn-row" style="display:flex;flex-wrap:wrap;gap:8px">{b}</div>'
+    return f'<a class="btn" href="{link(p)}" target="_blank" rel="noopener noreferrer">{esc(g.get("cta_text", "See it on Amazon →"))}</a>'
+
+
 def rating_chip(p):
     return f'<span class="chip">{p["stars"]} stars, {p["ratings"]} ratings</span>' if p.get("stars") else ""
 
@@ -136,7 +145,7 @@ def render_guide(g, all_guides):
       {safe_line(p)}
       <p>{esc(p["why"])}</p>
       <p class="watch"><strong>Watch out:</strong> {esc(p["con"])}</p>
-      <a class="btn" href="{link(p)}" target="_blank" rel="noopener noreferrer">{esc(g.get("cta_text", "See it on Amazon →"))}</a>
+      {buttons(p, g)}
       <p class="check">{check_line(p, g)}</p>
     </div>
   </article>''')

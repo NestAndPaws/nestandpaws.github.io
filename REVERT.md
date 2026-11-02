@@ -61,3 +61,10 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## Nov 1, 2026 (PM): Series C Kids guide
 - Added `guides/fall-capsule-wardrobe-for-kids-625-outfits.html` (tools/guides JSON, 30 Target picks via where_to_buy, 12 looks), 30 pick images (images/guides/kids-*), 12 look images, guides index and sitemap updated.
 - Revert: `git revert <this commit>`.
+
+## Holiday gift pack, Wave A (Nov 2, 2026)
+- Added 10 gift products (products.js entries with optional `where_to_buy`, product pages, cards on home/pets/renter/under25), 5 guides (gift-ideas-under-25, gift-ideas-under-50, home-and-kitchen-gift-ideas, gifts-for-dog-owners, holiday-gift-ideas-2026 hub with hero), and the hub as the first Featured guide on the home page.
+- `tools/build_guides.py`: new `buttons()` renders one "Find it on [Retailer]" button per `where_to_buy` entry (single-entry guides unchanged).
+- New `tools/gifts_data.py` and `tools/build_gifts.py` (idempotent) hold the Wave A data and builder.
+- Product images are AI-generated concept images (Higgsfield, Seedream 5.0 lite), not listing photos.
+- Revert: `git revert <this commit>`; products.js entries are additive.
