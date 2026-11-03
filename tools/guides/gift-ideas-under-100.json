@@ -1,0 +1,139 @@
+{
+ "slug": "gift-ideas-under-100",
+ "title": "Gift Ideas Under $100: Home, Renter and Dog Picks",
+ "short_title": "Gift Ideas Under $100",
+ "description": "Five gift ideas under $100: a Levoit air purifier, a Keurig coffee maker, a Ninja blender, a Bedsure dog bed and a Tractive GPS tracker. Listings read Nov 2, 2026.",
+ "dek": "Five gift ideas under $100: an air purifier, a coffee maker, a blender and two dog gifts.",
+ "constraint": "Gifts, under $100 each",
+ "published": "2026-11-02",
+ "updated": "2026-11-02",
+ "last_checked": "Nov 2, 2026",
+ "problem_tag": "Gifts",
+ "hook": [
+  "Under $100 is the sweet spot for a gift that feels thoughtful. This list has five, covering a renter, a coffee drinker, a smoothie fan and two dogs.",
+  "We did not test these. We read the product pages and compared ratings on Nov 2, 2026. Prices change during holiday sales, so check each retailer."
+ ],
+ "picks": [
+  {
+   "id": "levoit-core-300-air-purifier",
+   "name": "Levoit Core 300 Air Purifier, White",
+   "image": "levoit-core-300-air-purifier",
+   "alt": "Concept image of a white cylinder air purifier on an oak side table by a window with a cream ribbon and an evergreen sprig",
+   "best_for": "Renters, bedrooms and small rooms",
+   "limit": "Sized for small rooms, and the filter needs replacing",
+   "price_bracket": "Under $100",
+   "why": "The Core 300 is a plug-in purifier with no tools or install, which suits a rental. The Amazon listing shows 4.6 or higher from over 100,000 ratings and Target shows 4.59 as of Nov 2, 2026.",
+   "con": "The filter needs replacing on a schedule and the unit is sized for small rooms. Check the room size and replacement filter on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B07VVK39F7"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/levoit-core-300-air-purifier-white/-/A-81910071"
+    }
+   ]
+  },
+  {
+   "id": "keurig-k-mini-mate",
+   "name": "Keurig K-Mini Mate Single Serve Coffee Maker",
+   "image": "keurig-k-mini-mate",
+   "alt": "Concept image of a slim black single-serve coffee maker with a white mug on a marble counter beside a cream ribbon",
+   "best_for": "Small counters, dorms and guest rooms",
+   "limit": "Makes one cup at a time and uses K-Cup pods",
+   "price_bracket": "Under $100",
+   "why": "The K-Mini Mate is a slim pod machine for people short on space. Amazon shows over 5,000 ratings and Target lists it at 4.09 stars as of Nov 2, 2026.",
+   "con": "It brews one cup at a time with K-Cup pods. Check the water tank size on the listing if you drink several cups.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B0FMTSRKYL"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/keurig-k-mini-mate-single-serve-k-cup-pod-coffee-maker/-/A-94469594"
+    }
+   ]
+  },
+  {
+   "id": "ninja-nutri-blender-pro-bn401",
+   "name": "Ninja Nutri-Blender Pro with Auto-iQ, BN401",
+   "image": "ninja-nutri-blender-pro-bn401",
+   "alt": "Concept image of a compact personal blender with a tall clear cup on a marble counter beside a cream ribbon",
+   "best_for": "Smoothies, protein shakes and single servings",
+   "limit": "Personal size, not a full pitcher",
+   "price_bracket": "Under $100",
+   "why": "The BN401 is a well-reviewed personal blender: the Amazon listing shows 4.6 stars from over 11,000 ratings and Target shows 4.23 as of Nov 2, 2026. It comes with two cups, so one can be in the dishwasher.",
+   "con": "It is a personal-size blender with 24 oz cups. Check the cup size on the listing if you make larger batches.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B08QXJ31WR"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/ninja-nutri-blender-pro-with-auto-iq-bn401/-/A-82809459"
+    }
+   ]
+  },
+  {
+   "id": "bedsure-orthopedic-bolster-dog-sofa-bed-xl-grey",
+   "name": "Bedsure Orthopedic Bolster Dog Sofa Bed, Grey, X-Large",
+   "image": "bedsure-orthopedic-bolster-dog-sofa-bed-xl-grey",
+   "alt": "Concept image of a grey plush bolster dog bed on a light wood floor with a cream ribbon and an evergreen sprig",
+   "best_for": "Large dogs that like to lean on the sides",
+   "limit": "Check the bed size against your dog's size",
+   "price_bracket": "Under $100",
+   "why": "Bolster sides give a dog something to lean on, and the removable cover makes washing easier. Chewy lists it at $49.99 and 4.5 stars.",
+   "con": "Beds come in several sizes. Check the bed dimensions against your dog's length on the listing before you buy.",
+   "where_to_buy": [
+    {
+     "retailer": "Chewy",
+     "url": "https://www.chewy.com/bedsure-orthopedic-bolster-dog-sofa/dp/1621382"
+    }
+   ]
+  },
+  {
+   "id": "tractive-smart-dog-gps-tracker",
+   "name": "Tractive Smart Dog GPS Tracker",
+   "image": "tractive-smart-dog-gps-tracker",
+   "alt": "Concept image of a small round black GPS tracker on a tan leather dog collar on a wood table with a cream ribbon",
+   "best_for": "Dogs that roam, hike or escape the yard",
+   "limit": "Needs a subscription for the tracking service",
+   "price_bracket": "Under $100",
+   "why": "The tracker gives an owner a live location view in an app. Chewy lists it at 4.1 stars and the Amazon listing shows 3.8 stars from over 1,000 ratings as of Nov 2, 2026, so read the reviews first.",
+   "con": "It needs a Tractive subscription for tracking. Check the current plan price on the listing, and note the ratings are lower than most picks here.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B0D6Z7KPBP"
+    },
+    {
+     "retailer": "Chewy",
+     "url": "https://www.chewy.com/tractive-smart-dog-gps-tracker-vital/dp/1665054"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "Items whose regular price sits outside the band.",
+  "Items with very few reviews or only a marketplace seller.",
+  "Items where we could not match the model on a second retailer's page, unless noted on the pick."
+ ],
+ "how_picked": [
+  "Sold at a major retailer, with a second retailer linked where we could match the model on its page.",
+  "A regular price inside the band on the retailer page we read on Nov 2, 2026.",
+  "Ratings noted from each retailer page we read. Where a rating is low, the pick says so."
+ ],
+ "how_note": "Ratings and listing facts come from the retailer pages read on Nov 2, 2026. Prices are brackets because retailer prices change, and holiday sales can change them again. Product images on this page are concept images, not photos of the item.",
+ "final": "If you buy one, the Levoit Core 300 suits the most people: a renter, a parent or a pet owner can all use a plug-in purifier. For a dog owner, check the Tractive ratings first.",
+ "related": [
+  "gift-ideas-under-200",
+  "gift-ideas-under-500",
+  "holiday-gift-ideas-2026"
+ ],
+ "cta_text": "Find it on the retailer",
+ "hero_alt": "Gift Ideas Under $100: Home, Renter and Dog Picks",
+ "hero_caption": "AI-generated concept images, not photos of the items"
+}

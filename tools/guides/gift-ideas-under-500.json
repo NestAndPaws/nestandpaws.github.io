@@ -1,0 +1,135 @@
+{
+ "slug": "gift-ideas-under-500",
+ "title": "Gift Ideas Under $500: Splurge-Worthy Home and Dog Picks",
+ "short_title": "Gift Ideas Under $500",
+ "description": "Five gift ideas under $500: a KitchenAid stand mixer, a Bose SoundLink Max, a Dyson V8, a Roborock robot vacuum and a Casper dog bed. Listings read Nov 2, 2026.",
+ "dek": "Five bigger gifts under $500: a stand mixer, a speaker, a vacuum, a robot vacuum and a premium dog bed.",
+ "constraint": "Gifts, under $500 each",
+ "published": "2026-11-02",
+ "updated": "2026-11-02",
+ "last_checked": "Nov 2, 2026",
+ "problem_tag": "Gifts",
+ "hook": [
+  "Under $500 is for the one big gift. These five are long-lasting picks for a baker, a music fan, a clean-home person, a renter and a dog.",
+  "We did not test these. We read the product pages and compared ratings on Nov 2, 2026. Prices change during holiday sales, so check each retailer."
+ ],
+ "picks": [
+  {
+   "id": "kitchenaid-artisan-5-qt-tilt-head-stand-mixer",
+   "name": "KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer, Onyx Black",
+   "image": "kitchenaid-artisan-5-qt-tilt-head-stand-mixer",
+   "alt": "Concept image of a black tilt-head stand mixer with a steel bowl on a marble counter beside a cream ribbon and an evergreen sprig",
+   "best_for": "Home bakers and holiday cooks",
+   "limit": "Heavy and tall, so it needs counter space",
+   "price_bracket": "Under $500",
+   "why": "The Artisan is a long-running stand mixer. The Amazon listing shows 4.7 stars from over 23,000 ratings and Target shows 4.84 from over 33,000 as of Nov 2, 2026.",
+   "con": "It is a heavy, tall appliance. Check your counter space and the height under your cabinets before you buy.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B00005UP2L"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/kitchenaid-artisan-series-5qt-tilt-head-stand-mixer-onyx-black/-/A-94259065"
+    }
+   ]
+  },
+  {
+   "id": "bose-soundlink-max",
+   "name": "Bose SoundLink Max Portable Bluetooth Speaker",
+   "image": "bose-soundlink-max",
+   "alt": "Concept image of a large black portable Bluetooth speaker with a leather handle on a marble console beside a cream ribbon",
+   "best_for": "Patios, parties and music lovers",
+   "limit": "Large and heavy for a portable speaker",
+   "price_bracket": "Under $500",
+   "why": "The SoundLink Max is Bose's big portable speaker. The Amazon listing shows 4.4 stars from over 2,600 ratings and Target shows 4.77 as of Nov 2, 2026.",
+   "con": "It is bigger and heavier than a travel speaker. Check the weight, size and battery life on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B0CVL1K7DX"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/bose-soundlink-max-portable-bluetooth-wireless-speaker/-/A-92087078"
+    }
+   ]
+  },
+  {
+   "id": "dyson-v8-cordless-vacuum",
+   "name": "Dyson V8 Cordless Vacuum",
+   "image": "dyson-v8-cordless-vacuum",
+   "alt": "Concept image of a silver cordless stick vacuum standing on a light wood floor in a bright living room with a cream ribbon",
+   "best_for": "Quick cleanups, stairs and small homes",
+   "limit": "Runs on a battery, so run time is limited",
+   "price_bracket": "Under $500",
+   "why": "The V8 is Dyson's mid-priced cordless vacuum. Best Buy lists it at $269.99 and 4.7 stars from about 3,700 reviews as of Nov 2, 2026. We found one major retailer listing that matched the model, so only Best Buy is linked.",
+   "con": "It runs on a battery, so check the run time and bin size on the listing, especially for a large home.",
+   "where_to_buy": [
+    {
+     "retailer": "Best Buy",
+     "url": "https://www.bestbuy.com/product/dyson-v8-cordless-vacuum-with-6-accessories-silver-nickel/J3ZCSYCWTK"
+    }
+   ]
+  },
+  {
+   "id": "casper-dog-bed-large",
+   "name": "The Casper Dog Bed, Large",
+   "image": "casper-dog-bed-large",
+   "alt": "Concept image of a large cream dog bed on a light wood floor in a cozy living room with a cream ribbon and an evergreen sprig",
+   "best_for": "Large dogs and older dogs that like thick foam",
+   "limit": "Pricey for a dog bed, so check the size first",
+   "price_bracket": "Under $500",
+   "why": "Casper's dog bed uses a memory foam cushion. Target lists the large at $249 and 4.45 stars, and the Amazon listing shows 4.3 stars from about 2,500 ratings as of Nov 2, 2026.",
+   "con": "It costs more than most dog beds, and sizes matter. Check the large bed dimensions against your dog on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Amazon",
+     "url": "https://www.amazon.com/dp/B07BMLBSP7"
+    },
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/-/-/A-79858014"
+    }
+   ]
+  },
+  {
+   "id": "roborock-qrevo-robot-vacuum-and-mop",
+   "name": "Roborock Qrevo Series Robot Vacuum and Mop",
+   "image": "roborock-qrevo-robot-vacuum-and-mop",
+   "alt": "Concept image of a round white robot vacuum with its dock on a light wood floor in a bright living room with a cream ribbon",
+   "best_for": "Renters with hard floors and busy schedules",
+   "limit": "Needs clear floor space to run",
+   "price_bracket": "Under $500",
+   "why": "A robot vacuum cleans on its own and needs no tools, which suits a rental. Target lists it at $399.99 with a 4.47 rating as of Nov 2, 2026. Models with the Qrevo name vary, so confirm the model number on the listing.",
+   "con": "Qrevo models vary by suction and features. Check the model number, the base space and the features on the listing.",
+   "where_to_buy": [
+    {
+     "retailer": "Target",
+     "url": "https://www.target.com/p/roborock-vacuum-floor-sweeper-white/-/A-94409105"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "Items whose regular price sits outside the band.",
+  "Items with very few reviews or only a marketplace seller.",
+  "Items where we could not match the model on a second retailer's page, unless noted on the pick."
+ ],
+ "how_picked": [
+  "Sold at a major retailer, with a second retailer linked where we could match the model on its page.",
+  "A regular price inside the band on the retailer page we read on Nov 2, 2026.",
+  "Ratings noted from each retailer page we read. Where a rating is low, the pick says so."
+ ],
+ "how_note": "Ratings and listing facts come from the retailer pages read on Nov 2, 2026. Prices are brackets because retailer prices change, and holiday sales can change them again. Product images on this page are concept images, not photos of the item.",
+ "final": "If you buy one, the KitchenAid Artisan is the safest big gift: strong ratings at two retailers and a long track record. For a renter, the Roborock.",
+ "related": [
+  "gift-ideas-under-100",
+  "gift-ideas-under-200",
+  "holiday-gift-ideas-2026"
+ ],
+ "cta_text": "Find it on the retailer",
+ "hero_alt": "Gift Ideas Under $500: Splurge-Worthy Home and Dog Picks",
+ "hero_caption": "AI-generated concept images, not photos of the items"
+}

@@ -2431,6 +2431,288 @@ const PRODUCTS = [
     badge: null,
     date_added: "2026-11-02"
   },
+
+  {
+    id: "levoit-core-300-air-purifier",
+    title: "Levoit Core 300 Air Purifier, White",
+    category: "renter",
+    price: 84.99,
+    price_bracket: "Under $100",
+    affiliate_link: "https://www.amazon.com/dp/B07VVK39F7",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B07VVK39F7" },
+      { retailer: "Target", url: "https://www.target.com/p/levoit-core-300-air-purifier-white/-/A-81910071" }
+    ],
+    image: "images/web/levoit-core-300-air-purifier.jpg",
+    subtitle: "A compact air purifier for bedrooms and small rooms",
+    story: "A compact cylinder air purifier with a replaceable filter, sized for bedrooms, offices and small rooms. It plugs in and sits on a floor or a table, so it needs no install. A gift idea for renters and anyone with a small space. The Amazon listing rates it at 143 CFM for smoke.",
+    tags: ["Gift Ideas", "Home Gifts", "Air Purifier", "Gifts Under $100"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "keurig-k-mini-mate",
+    title: "Keurig K-Mini Mate Single Serve Coffee Maker",
+    category: "home",
+    price: 79.99,
+    price_bracket: "Under $100",
+    affiliate_link: "https://www.amazon.com/dp/B0FMTSRKYL",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0FMTSRKYL" },
+      { retailer: "Target", url: "https://www.target.com/p/keurig-k-mini-mate-single-serve-k-cup-pod-coffee-maker/-/A-94469594" }
+    ],
+    image: "images/web/keurig-k-mini-mate.jpg",
+    subtitle: "A slim single-serve coffee maker for small counters",
+    story: "A narrow K-Cup pod coffee maker made to fit small counters and dorm rooms. It brews one cup at a time. A gift idea for a first apartment, an office desk or a guest room.",
+    tags: ["Gift Ideas", "Kitchen Gifts", "Coffee Maker", "Gifts Under $100"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "ninja-nutri-blender-pro-bn401",
+    title: "Ninja Nutri-Blender Pro with Auto-iQ, BN401",
+    category: "home",
+    price: 73.99,
+    price_bracket: "Under $100",
+    affiliate_link: "https://www.amazon.com/dp/B08QXJ31WR",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B08QXJ31WR" },
+      { retailer: "Target", url: "https://www.target.com/p/ninja-nutri-blender-pro-with-auto-iq-bn401/-/A-82809459" }
+    ],
+    image: "images/web/ninja-nutri-blender-pro-bn401.jpg",
+    subtitle: "A personal blender with two 24 oz cups",
+    story: "A 1,100-watt personal blender with Auto-iQ programs and two 24 oz to-go cups, per the listing. It is sized for smoothies and single servings. A gift idea for gym bags, dorms and busy mornings.",
+    tags: ["Gift Ideas", "Kitchen Gifts", "Personal Blender", "Gifts Under $100"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "bedsure-orthopedic-bolster-dog-sofa-bed-xl-grey",
+    title: "Bedsure Orthopedic Bolster Dog Sofa Bed, Grey, X-Large",
+    category: "pets",
+    price: 49.99,
+    price_bracket: "Under $100",
+    affiliate_link: "https://www.chewy.com/bedsure-orthopedic-bolster-dog-sofa/dp/1621382",
+    where_to_buy: [
+      { retailer: "Chewy", url: "https://www.chewy.com/bedsure-orthopedic-bolster-dog-sofa/dp/1621382" }
+    ],
+    image: "images/web/bedsure-orthopedic-bolster-dog-sofa-bed-xl-grey.jpg",
+    subtitle: "A grey bolster dog bed with a removable cover",
+    story: "An X-large orthopedic dog sofa bed with raised bolster sides and a removable cover, per the Chewy listing. It suits dogs that like to lean or curl up. Chewy lists it at 4.5 stars as of Nov 2, 2026.",
+    tags: ["Gift Ideas", "Dog Gifts", "Dog Bed", "Gifts Under $100"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "tractive-smart-dog-gps-tracker",
+    title: "Tractive Smart Dog GPS Tracker",
+    category: "pets",
+    price: 79.0,
+    price_bracket: "Under $100",
+    affiliate_link: "https://www.amazon.com/dp/B0D6Z7KPBP",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0D6Z7KPBP" },
+      { retailer: "Chewy", url: "https://www.chewy.com/tractive-smart-dog-gps-tracker-vital/dp/1665054" }
+    ],
+    image: "images/web/tractive-smart-dog-gps-tracker.jpg",
+    subtitle: "A GPS tracker that clips onto a dog collar",
+    story: "A small GPS tracker that attaches to a dog collar and shows location in an app. The Chewy listing notes it needs a subscription for the built-in SIM card and data. A gift idea for dogs that wander or hike.",
+    tags: ["Gift Ideas", "Dog Gifts", "Dog GPS Tracker", "Gifts Under $100"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "ninja-air-fryer-pro-xl-af181",
+    title: "Ninja Air Fryer Pro XL 6-in-1, AF181",
+    category: "home",
+    price: 99.99,
+    price_bracket: "Under $200",
+    affiliate_link: "https://www.amazon.com/dp/B0CS3V8M9H",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0CS3V8M9H" },
+      { retailer: "Target", url: "https://www.target.com/p/ninja-air-fryer-pro-xl-6-in-1-af181/-/A-90569365" }
+    ],
+    image: "images/web/ninja-air-fryer-pro-xl-af181.jpg",
+    subtitle: "A 6.5-quart air fryer with six cooking modes",
+    story: "A 6.5-quart air fryer with six cooking modes, per the listings. The big basket suits a family or meal prep. A gift idea for a cook who wants quick weeknight dinners.",
+    tags: ["Gift Ideas", "Kitchen Gifts", "Air Fryer", "Gifts Under $200"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "amazon-echo-show-8-2025",
+    title: "Amazon Echo Show 8 (2025 Release)",
+    category: "home",
+    price: 199.99,
+    price_bracket: "Under $200",
+    affiliate_link: "https://www.amazon.com/dp/B0DC8ZMR1P",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0DC8ZMR1P" },
+      { retailer: "Target", url: "https://www.target.com/p/amazon-echo-show-8-2025/-/A-95002749" }
+    ],
+    image: "images/web/amazon-echo-show-8-2025.jpg",
+    subtitle: "An 8-inch smart display for the kitchen or nightstand",
+    story: "An 8-inch smart display for a counter or nightstand. It plays music and video, shows photos and works with smart home devices, per the maker's listing. A gift idea for a kitchen or a family room.",
+    tags: ["Gift Ideas", "Smart Home Gifts", "Smart Display", "Gifts Under $200"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "bose-soundlink-flex-2nd-gen",
+    title: "Bose SoundLink Flex Bluetooth Speaker (2nd Gen)",
+    category: "home",
+    price: 149.99,
+    price_bracket: "Under $200",
+    affiliate_link: "https://www.amazon.com/dp/B0D6WD2QSQ",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0D6WD2QSQ" },
+      { retailer: "Target", url: "https://www.target.com/p/bose-soundlink-flex-portable-bluetooth-speaker-2nd-gen/-/A-93726796" }
+    ],
+    image: "images/web/bose-soundlink-flex-2nd-gen.jpg",
+    subtitle: "A portable Bluetooth speaker for travel and the backyard",
+    story: "A compact portable Bluetooth speaker that is small enough to fit in your hand or clip onto a bag, per the Amazon listing. A gift idea for music lovers on the go.",
+    tags: ["Gift Ideas", "Tech Gifts", "Bluetooth Speaker", "Gifts Under $200"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "fi-series-3-plus-gps-collar",
+    title: "Fi Series 3+ Smart GPS Dog Collar",
+    category: "pets",
+    price: 129.0,
+    price_bracket: "Under $200",
+    affiliate_link: "https://www.amazon.com/dp/B0HJ43BQGW",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0HJ43BQGW" },
+      { retailer: "Fi", url: "https://tryfi.com/collar" }
+    ],
+    image: "images/web/fi-series-3-plus-gps-collar.jpg",
+    subtitle: "A GPS dog collar with a built-in tracker",
+    story: "A dog collar with a built-in GPS tracker that works with the Fi app. The service needs a subscription plan, per the maker. A gift idea for dogs that run off or hike with you.",
+    tags: ["Gift Ideas", "Dog Gifts", "Dog GPS Collar", "Gifts Under $200"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "surefeed-microchip-pet-feeder",
+    title: "SureFeed Microchip Pet Feeder",
+    category: "pets",
+    price: 169.99,
+    price_bracket: "Under $200",
+    affiliate_link: "https://www.amazon.com/dp/B00O0UIPTY",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B00O0UIPTY" },
+      { retailer: "Chewy", url: "https://www.chewy.com/surefeed-microchip-small-dog-cat/dp/157145" }
+    ],
+    image: "images/web/surefeed-microchip-pet-feeder.jpg",
+    subtitle: "A feeder that opens only for a registered pet's microchip",
+    story: "A pet feeder that opens only for a pet whose microchip it has learned, per the listing. It helps in homes where one pet eats a special diet or another pet steals food. A gift idea for multi-pet homes.",
+    tags: ["Gift Ideas", "Pet Gifts", "Pet Feeder", "Gifts Under $200"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "kitchenaid-artisan-5-qt-tilt-head-stand-mixer",
+    title: "KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer, Onyx Black",
+    category: "home",
+    price: 469.0,
+    price_bracket: "Under $500",
+    affiliate_link: "https://www.amazon.com/dp/B00005UP2L",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B00005UP2L" },
+      { retailer: "Target", url: "https://www.target.com/p/kitchenaid-artisan-series-5qt-tilt-head-stand-mixer-onyx-black/-/A-94259065" }
+    ],
+    image: "images/web/kitchenaid-artisan-5-qt-tilt-head-stand-mixer.jpg",
+    subtitle: "A 5-quart tilt-head stand mixer for bakers",
+    story: "The Artisan 5-quart tilt-head stand mixer in Onyx Black, model KSM150PS. It mixes cookie dough, bread dough and batter, and takes attachments. A gift idea for the baker on your list.",
+    tags: ["Gift Ideas", "Kitchen Gifts", "Stand Mixer", "Gifts Under $500"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "bose-soundlink-max",
+    title: "Bose SoundLink Max Portable Bluetooth Speaker",
+    category: "home",
+    price: 399.0,
+    price_bracket: "Under $500",
+    affiliate_link: "https://www.amazon.com/dp/B0CVL1K7DX",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0CVL1K7DX" },
+      { retailer: "Target", url: "https://www.target.com/p/bose-soundlink-max-portable-bluetooth-wireless-speaker/-/A-92087078" }
+    ],
+    image: "images/web/bose-soundlink-max.jpg",
+    subtitle: "A large portable speaker for the patio and parties",
+    story: "A large portable Bluetooth speaker with a carry handle, made for patios, backyards and parties. It is a premium gift for a music lover. The listings show it at about $400.",
+    tags: ["Gift Ideas", "Tech Gifts", "Portable Speaker", "Gifts Under $500"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "dyson-v8-cordless-vacuum",
+    title: "Dyson V8 Cordless Vacuum",
+    category: "home",
+    price: 269.99,
+    price_bracket: "Under $500",
+    affiliate_link: "https://www.bestbuy.com/product/dyson-v8-cordless-vacuum-with-6-accessories-silver-nickel/J3ZCSYCWTK",
+    where_to_buy: [
+      { retailer: "Best Buy", url: "https://www.bestbuy.com/product/dyson-v8-cordless-vacuum-with-6-accessories-silver-nickel/J3ZCSYCWTK" }
+    ],
+    image: "images/web/dyson-v8-cordless-vacuum.jpg",
+    subtitle: "A cordless stick vacuum for quick cleanups",
+    story: "A cordless stick vacuum that comes with 6 accessories, per the Best Buy listing. It suits quick floor cleanups and stairs. A gift idea for a new home or a pet owner.",
+    tags: ["Gift Ideas", "Home Gifts", "Cordless Vacuum", "Gifts Under $500"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "casper-dog-bed-large",
+    title: "The Casper Dog Bed, Large",
+    category: "pets",
+    price: 224.1,
+    price_bracket: "Under $500",
+    affiliate_link: "https://www.amazon.com/dp/B07BMLBSP7",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B07BMLBSP7" },
+      { retailer: "Target", url: "https://www.target.com/p/-/-/A-79858014" }
+    ],
+    image: "images/web/casper-dog-bed-large.jpg",
+    subtitle: "A memory foam dog bed for large dogs",
+    story: "A premium dog bed with a plush memory foam cushion, sold in small, medium and large. The large size fits bigger dogs. A gift idea for a dog that likes to stretch out.",
+    tags: ["Gift Ideas", "Dog Gifts", "Memory Foam Dog Bed", "Gifts Under $500"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
+
+  {
+    id: "roborock-qrevo-robot-vacuum-and-mop",
+    title: "Roborock Qrevo Series Robot Vacuum and Mop",
+    category: "renter",
+    price: 399.99,
+    price_bracket: "Under $500",
+    affiliate_link: "https://www.target.com/p/roborock-vacuum-floor-sweeper-white/-/A-94409105",
+    where_to_buy: [
+      { retailer: "Target", url: "https://www.target.com/p/roborock-vacuum-floor-sweeper-white/-/A-94409105" }
+    ],
+    image: "images/web/roborock-qrevo-robot-vacuum-and-mop.jpg",
+    subtitle: "A robot vacuum and mop with 8,000 Pa suction",
+    story: "A Roborock Qrevo Series robot vacuum and mop with 8,000 Pa suction, per the Target listing. It needs no install. A gift idea for renters with hard floors.",
+    tags: ["Gift Ideas", "Home Gifts", "Robot Vacuum", "Gifts Under $500"],
+    badge: null,
+    date_added: "2026-11-02"
+  },
 ];
 
 // ── Category helpers ────────────────────────────────────────────────────

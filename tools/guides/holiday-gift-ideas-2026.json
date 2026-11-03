@@ -2,9 +2,9 @@
  "slug": "holiday-gift-ideas-2026",
  "title": "Holiday Gift Ideas 2026: Five Picks, Two Price Bands",
  "short_title": "Holiday Gift Ideas 2026",
- "description": "Holiday gift ideas for 2026 under $25 and under $50: a skillet, a dog toy, a dog grooming tool, a bottle and smart bulbs. Links to the full gift guides.",
- "dek": "Start here: one pick each for the kitchen, the dog, the desk, the renter and the shelf.",
- "constraint": "Gifts under $25 and under $50",
+ "description": "Holiday gift ideas for 2026 from under $25 to under $500: a skillet, a dog toy, a bottle, smart bulbs and more. Links to the full gift guides by price.",
+ "dek": "Start here: one pick each for the kitchen, the dog, the desk, the renter and the shelf, then pick a price band.",
+ "constraint": "Gifts from under $25 to under $500",
  "published": "2026-11-02",
  "updated": "2026-11-02",
  "last_checked": "Nov 1, 2026",
@@ -131,12 +131,15 @@
   "A listing rating of 4.2 stars or higher at each retailer that shows one."
  ],
  "how_note": "Ratings and listing facts come from the retailer pages read on Nov 1, 2026. Prices are brackets because retailer prices change, and holiday sales can change them again. Product images on this page are concept images, not photos of the item.",
- "final": "Pick by person: a cook gets the skillet, a dog owner gets the KONG or the FURminator, a desk worker gets the bottle, a renter gets the bulbs.",
+ "final": "Pick by person: a cook gets the skillet, a dog owner gets the KONG or the FURminator, a desk worker gets the bottle, a renter gets the bulbs. For a bigger budget, open the under $100, under $200 and under $500 guides.",
  "related": [
   "gift-ideas-under-25",
   "gift-ideas-under-50",
   "home-and-kitchen-gift-ideas",
-  "gifts-for-dog-owners"
+  "gifts-for-dog-owners",
+  "gift-ideas-under-100",
+  "gift-ideas-under-200",
+  "gift-ideas-under-500"
  ],
  "cta_text": "Find it on the retailer",
  "hero_alt": "Holiday Gift Ideas 2026: Five Picks, Two Price Bands",

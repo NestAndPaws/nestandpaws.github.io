@@ -68,3 +68,10 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 - New `tools/gifts_data.py` and `tools/build_gifts.py` (idempotent) hold the Wave A data and builder.
 - Product images are AI-generated concept images (Higgsfield, Seedream 5.0 lite), not listing photos.
 - Revert: `git revert <this commit>`; products.js entries are additive.
+
+## Holiday gift pack, Wave B (Nov 2, 2026)
+- Added 15 gift products in three price bands (products.js entries with `where_to_buy`, 15 product pages, cards on home/pets/renter, images/web and images/guides), 3 guides (gift-ideas-under-100, gift-ideas-under-200, gift-ideas-under-500) and a refreshed hub (holiday-gift-ideas-2026 now links to them; its picks are unchanged). Guides index, home page guide cards and sitemap updated.
+- `tools/build_guides.py`: `buttons()` now also names the retailer for a single `where_to_buy` entry, but only for guides whose slug starts with "gift" (Dyson, Roborock and Bedsure each have one verified retailer). Other guides unchanged.
+- New `tools/gifts_data_b.py` and `tools/build_gifts_b.py` (idempotent; reuses `build_gifts.py` helpers).
+- Retailer links read on product pages Nov 2, 2026; Amazon ASINs confirmed on product pages. Product images are AI-generated concept images (Higgsfield, Seedream 5.0 lite), not listing photos.
+- Revert: `git revert <this commit>`; products.js entries are additive.
