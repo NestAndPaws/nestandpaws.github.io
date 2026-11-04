@@ -75,3 +75,9 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 - New `tools/gifts_data_b.py` and `tools/build_gifts_b.py` (idempotent; reuses `build_gifts.py` helpers).
 - Retailer links read on product pages Nov 2, 2026; Amazon ASINs confirmed on product pages. Product images are AI-generated concept images (Higgsfield, Seedream 5.0 lite), not listing photos.
 - Revert: `git revert <this commit>`; products.js entries are additive.
+
+## Guides page hero fix (Nov 3, 2026)
+- Added 10 missing hero images (images/guides/hero/*.jpg, 1376x768, three-panel from the guide's own AI concept product images) for gift-ideas-under-25/50/100/200/500, home-and-kitchen-gift-ideas, gifts-for-dog-owners and the three fall capsule wardrobe guides. Every guide card on guides/index.html now shows an image: lead card image beside the title, other cards image above (existing CSS, unchanged).
+- Fixed holiday-gift-ideas-2026 hero (removed a black bar at the bottom).
+- Rebuilt guides/index.html, the 10 affected guide pages and sitemap lastmod via the normal build chain. No CSS or tools changes.
+- Revert: `git revert <this commit>`.
