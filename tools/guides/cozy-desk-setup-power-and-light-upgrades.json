@@ -1,0 +1,138 @@
+{
+  "slug": "cozy-desk-setup-power-and-light-upgrades",
+  "title": "Cozy Desk Setup: 5 Power and Light Upgrades",
+  "short_title": "Cozy Desk Setup",
+  "description": "Five cozy desk setup upgrades: two chargers, two desk lights and a low-profile keyboard. Listings and ratings checked Nov 11, 2026.",
+  "dek": "Five desk upgrades for power, light and typing, checked at Amazon and a second retailer where a match could be verified.",
+  "constraint": "Desk upgrades, under $250 each",
+  "published": "2026-11-11",
+  "updated": "2026-11-11",
+  "last_checked": "Nov 11, 2026",
+  "problem_tag": "Desk setup",
+  "hook": [
+    "A cozy desk usually comes down to two things: fewer cables and softer light. This list has two chargers, two lights and one keyboard.",
+    "We did not test these. We read the listings and the lower-rated reviews on Nov 11, 2026."
+  ],
+  "picks": [
+    {
+      "id": "anker-nano-smart-display-charger-45w",
+      "name": "Anker Nano Smart Display Charger, 45W",
+      "image": "anker-nano-smart-display-charger-45w",
+      "alt": "Concept image of a small blue wall charger with a tiny screen on a cream desk next to a ceramic mug",
+      "best_for": "Replacing a bulky phone charger on a small desk",
+      "limit": "Smart recognition works with supported iPhones only",
+      "price_bracket": "Under $50",
+      "why": "Anker's 45W Nano charger has a small display and a foldable plug. The Amazon listing shows a 4.7 star rating from more than 6,000 ratings on Nov 11, 2026. It is a gift idea for someone who wants one slim charger for a phone and a laptop.",
+      "con": "The listing says smart recognition works with supported iPhones only. Best Buy sold the blue version on Nov 11, so check the color on the listing.",
+      "where_to_buy": [
+        {
+          "retailer": "Amazon",
+          "url": "https://www.amazon.com/dp/B0G1MRLXMV"
+        },
+        {
+          "retailer": "Best Buy",
+          "url": "https://www.bestbuy.com/product/anker-nano-smart-display-usb-c-charger-block-45w-max-gan-phone-charger180-foldable-plug-blue/JJ858RSJYG"
+        }
+      ]
+    },
+    {
+      "id": "mophie-3-in-1-travel-charger-magsafe",
+      "name": "Mophie 3-in-1 Travel Charger with MagSafe",
+      "image": "mophie-3-in-1-travel-charger-magsafe",
+      "alt": "Concept image of a folding three-in-one wireless charging stand with a phone, watch and earbuds on a cream desk",
+      "best_for": "One spot to charge a phone, watch and earbuds",
+      "limit": "15W wireless output, and some reviewers report Apple Watch charging problems",
+      "price_bracket": "Under $60",
+      "why": "Mophie's folding charger holds a phone, an Apple Watch and earbuds in one stand. The listing says it includes a 30W adapter. It is a gift idea for someone who wants a tidy bedside or desk charging spot.",
+      "con": "Some lower-rated Amazon reviews say it did not charge an Apple Watch reliably. The listing rating is 4.0 stars from 246 ratings on Nov 11, 2026.",
+      "where_to_buy": [
+        {
+          "retailer": "Amazon",
+          "url": "https://www.amazon.com/dp/B0CPQ618TQ"
+        },
+        {
+          "retailer": "Best Buy",
+          "url": "https://www.bestbuy.com/product/mophie-3-in-1-travel-charger-with-magsafe-for-apple-iphone-airpods-pro-airpods-and-apple-watch-black/J39Q4WZRXH"
+        }
+      ]
+    },
+    {
+      "id": "quntis-monitor-light-bar-desk-setup",
+      "name": "Quntis Monitor Light Bar, 15.7 Inch",
+      "image": "quntis-monitor-light-bar-desk",
+      "alt": "Concept image of a slim light bar clipped on top of a monitor, glowing warm over a cream desk",
+      "best_for": "Lighting a desk without a lamp taking up space",
+      "limit": "Touch controls are fiddly for some reviewers",
+      "price_bracket": "Under $50",
+      "why": "Quntis sells a 15.7 inch light bar that clips on top of a monitor. The listing names a dual front light, a color backlight with 24 RGB modes and up to 900 lux. The Amazon listing shows 4.5 stars from more than 1,200 ratings on Nov 11, 2026.",
+      "con": "Several lower-rated reviews say the touch controls respond inconsistently. Check the control notes on the listing.",
+      "where_to_buy": [
+        {
+          "retailer": "Amazon",
+          "url": "https://www.amazon.com/dp/B0C5JMWZC9"
+        }
+      ]
+    },
+    {
+      "id": "benq-screenbar-halo-2",
+      "name": "BenQ ScreenBar Halo 2",
+      "image": "benq-screenbar-halo-2",
+      "alt": "Concept image of a wide monitor light bar with a small round wireless controller on a cream desk",
+      "best_for": "A premium desk light for long work sessions",
+      "limit": "Bulky, and some reviewers see light glare",
+      "price_bracket": "Under $250",
+      "why": "BenQ's Halo 2 is a monitor light bar with a wireless controller puck and two light sources. The Best Buy page says it fits monitors 0.17 to 2.36 inches thick, flat or curved. The Amazon listing shows 4.7 stars from more than 1,300 ratings on Nov 11, 2026.",
+      "con": "Lower-rated reviews call it bulky, and one reviewer saw light reach their eyes even after aiming it away.",
+      "where_to_buy": [
+        {
+          "retailer": "Amazon",
+          "url": "https://www.amazon.com/dp/B0DK59YKRS"
+        },
+        {
+          "retailer": "Best Buy",
+          "url": "https://www.bestbuy.com/product/benq-screenbar-halo-2-monitor-light-bar-with-wireless-controller-dark-gray/C3F276JCF5"
+        }
+      ]
+    },
+    {
+      "id": "lofree-flow-lite-100-keyboard",
+      "name": "Lofree Flow Lite 100 Keyboard",
+      "image": "lofree-flow-lite-100-keyboard",
+      "alt": "Concept image of a low-profile marble-colored keyboard on a cream desk beside a small plant",
+      "best_for": "A low-profile keyboard that suits a neutral desk",
+      "limit": "Tight key spacing causes typos for some reviewers",
+      "price_bracket": "Under $150",
+      "why": "Lofree's Flow Lite 100 is a low-profile keyboard with 100 keys, a gasket mount, a volume roller and three connection modes. The Amazon listing shows 4.4 stars from more than 700 ratings on Nov 11, 2026.",
+      "con": "Lower-rated reviews mention tight key spacing that causes typos, and one reports a slow wake-up from sleep.",
+      "where_to_buy": [
+        {
+          "retailer": "Amazon",
+          "url": "https://www.amazon.com/dp/B0DP33XH4X"
+        },
+        {
+          "retailer": "Lofree",
+          "url": "https://www.lofree.co/products/flow-lite100-mechanical-keyboard?country=US"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "Items sold only by marketplace sellers with few reviews.",
+    "Picks whose listing could not be matched across two retailers (the Quntis light bar is Amazon only for that reason).",
+    "Desk gadgets with no clear use at a desk, such as novelty USB items."
+  ],
+  "how_picked": [
+    "Sold at Amazon and at least one other retailer when a match could be verified.",
+    "A listing rating of 4.0 stars or higher at Amazon on Nov 11, 2026.",
+    "A recurring mention in desk setup roundups and a rising Pinterest search term for cozy and office desk setups."
+  ],
+  "how_note": "Ratings and listing facts come from the retailer pages read on Nov 11, 2026. Prices are brackets because retailer prices change, and holiday sales can change them again. Product images on this page are concept images, not photos of the item.",
+  "final": "If you buy one, start with the Anker Nano charger: it is the smallest change and ties for the highest rating of the five. For a desk that looks finished, add the BenQ light.",
+  "related": [
+    "gift-ideas-under-50",
+    "gift-ideas-under-100"
+  ],
+  "cta_text": "Find it on the retailer",
+  "hero_alt": "Cozy Desk Setup: 5 Power and Light Upgrades",
+  "hero_caption": "AI-generated concept images, not photos of the items"
+}

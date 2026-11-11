@@ -81,3 +81,9 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 - Fixed holiday-gift-ideas-2026 hero (removed a black bar at the bottom).
 - Rebuilt guides/index.html, the 10 affected guide pages and sitemap lastmod via the normal build chain. No CSS or tools changes.
 - Revert: `git revert <this commit>`.
+
+## Cozy desk setup guide (Nov 11, 2026)
+- New guide: `tools/guides/cozy-desk-setup-power-and-light-upgrades.json` builds `guides/cozy-desk-setup-power-and-light-upgrades.html` (5 picks: Anker Nano Smart Display charger, Mophie 3-in-1, Quntis light bar, BenQ ScreenBar Halo 2, Lofree Flow Lite 100). Rebuilt `guides/index.html` and `sitemap.xml` via the normal build chain.
+- New images: 5 pick images in `images/web/` and `images/guides/` (AI concept images, Higgsfield Seedream 5.0 lite, unlimited, no credits) and one hero `images/guides/hero/cozy-desk-setup-power-and-light-upgrades.jpg` (1376x768).
+- Retailer links read on the retailer pages Nov 11, 2026 (Amazon, Best Buy, Lofree). Quntis is Amazon only: the Quntis store listing could not be matched to the Amazon model. No tagged links. products.js, product pages and category pages untouched (deferred).
+- Revert: `git revert <this commit>`.
