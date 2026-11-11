@@ -87,3 +87,8 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 - New images: 5 pick images in `images/web/` and `images/guides/` (AI concept images, Higgsfield Seedream 5.0 lite, unlimited, no credits) and one hero `images/guides/hero/cozy-desk-setup-power-and-light-upgrades.jpg` (1376x768).
 - Retailer links read on the retailer pages Nov 11, 2026 (Amazon, Best Buy, Lofree). Quntis is Amazon only: the Quntis store listing could not be matched to the Amazon model. No tagged links. products.js, product pages and category pages untouched (deferred).
 - Revert: `git revert <this commit>`.
+
+## Cozy desk setup: products and button wording (Nov 11, 2026)
+- `tools/build_guides.py`: new optional guide flag `name_retailer` shows "Find it on {retailer}" for a single-retailer pick (set on the cozy desk guide only; other guides unchanged).
+- Added 4 products via `tools/build_desk.py` (Anker Nano charger, Mophie 3-in-1, BenQ ScreenBar Halo 2, Lofree Flow Lite 100): `products.js` appended (175 entries now), 4 product pages, 4 cards on `home.html`, sitemap rebuilt. Quntis not added (already on site as quntis-monitor-light-bar).
+- Revert: `git revert <this commit>`; products.js entries are additive.

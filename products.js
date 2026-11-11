@@ -2713,6 +2713,82 @@ const PRODUCTS = [
     badge: null,
     date_added: "2026-11-02"
   },
+
+  {
+    id: "anker-nano-smart-display-charger-45w",
+    title: "Anker Nano Smart Display Charger, 45W",
+    category: "home",
+    price: 39.99,
+    price_bracket: "Under $50",
+    affiliate_link: "https://www.amazon.com/dp/B0G1MRLXMV",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0G1MRLXMV" },
+      { retailer: "Best Buy", url: "https://www.bestbuy.com/product/anker-nano-smart-display-usb-c-charger-block-45w-max-gan-phone-charger180-foldable-plug-blue/JJ858RSJYG" }
+    ],
+    image: "images/web/anker-nano-smart-display-charger-45w.jpg",
+    subtitle: "A slim 45W wall charger with a small display and a foldable plug",
+    story: "Anker's 45W Nano charger has a small display and a foldable plug. The Amazon listing shows 4.7 stars from more than 6,000 ratings on Nov 11, 2026. A gift idea for someone who wants one slim charger for a phone and a laptop.",
+    tags: ["Desk Setup", "Wall Charger", "Desk Gifts", "Gifts Under $50"],
+    badge: null,
+    date_added: "2026-11-11"
+  },
+
+  {
+    id: "mophie-3-in-1-travel-charger-magsafe",
+    title: "Mophie 3-in-1 Travel Charger with MagSafe",
+    category: "home",
+    price: 49.99,
+    price_bracket: "Under $60",
+    affiliate_link: "https://www.amazon.com/dp/B0CPQ618TQ",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0CPQ618TQ" },
+      { retailer: "Best Buy", url: "https://www.bestbuy.com/product/mophie-3-in-1-travel-charger-with-magsafe-for-apple-iphone-airpods-pro-airpods-and-apple-watch-black/J39Q4WZRXH" }
+    ],
+    image: "images/web/mophie-3-in-1-travel-charger-magsafe.jpg",
+    subtitle: "A folding charging stand for a phone, a watch and earbuds",
+    story: "Mophie's folding charger holds a phone, an Apple Watch and earbuds in one stand. The listing says it includes a 30W adapter. A gift idea for someone who wants a tidy bedside or desk charging spot.",
+    tags: ["Desk Setup", "Wireless Charger", "Desk Gifts", "Gifts Under $100"],
+    badge: null,
+    date_added: "2026-11-11"
+  },
+
+  {
+    id: "benq-screenbar-halo-2",
+    title: "BenQ ScreenBar Halo 2",
+    category: "home",
+    price: 199.0,
+    price_bracket: "Under $250",
+    affiliate_link: "https://www.amazon.com/dp/B0DK59YKRS",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0DK59YKRS" },
+      { retailer: "Best Buy", url: "https://www.bestbuy.com/product/benq-screenbar-halo-2-monitor-light-bar-with-wireless-controller-dark-gray/C3F276JCF5" }
+    ],
+    image: "images/web/benq-screenbar-halo-2.jpg",
+    subtitle: "A premium monitor light bar with a wireless controller",
+    story: "BenQ's Halo 2 is a monitor light bar with a wireless controller puck and two light sources. The Best Buy page says it fits monitors 0.17 to 2.36 inches thick, flat or curved. The Amazon listing shows 4.7 stars from more than 1,300 ratings on Nov 11, 2026.",
+    tags: ["Desk Setup", "Monitor Light", "Desk Lighting", "Gifts Under $250"],
+    badge: null,
+    date_added: "2026-11-11"
+  },
+
+  {
+    id: "lofree-flow-lite-100-keyboard",
+    title: "Lofree Flow Lite 100 Keyboard",
+    category: "home",
+    price: 109.99,
+    price_bracket: "Under $150",
+    affiliate_link: "https://www.amazon.com/dp/B0DP33XH4X",
+    where_to_buy: [
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0DP33XH4X" },
+      { retailer: "Lofree", url: "https://www.lofree.co/products/flow-lite100-mechanical-keyboard?country=US" }
+    ],
+    image: "images/web/lofree-flow-lite-100-keyboard.jpg",
+    subtitle: "A low-profile keyboard with three connection modes",
+    story: "Lofree's Flow Lite 100 is a low-profile keyboard with 100 keys, a gasket mount, a volume roller and three connection modes. The Amazon listing shows 4.4 stars from more than 700 ratings on Nov 11, 2026.",
+    tags: ["Desk Setup", "Mechanical Keyboard", "Desk Gifts", "Gifts Under $150"],
+    badge: null,
+    date_added: "2026-11-11"
+  },
 ];
 
 // ── Category helpers ────────────────────────────────────────────────────
