@@ -92,3 +92,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 - `tools/build_guides.py`: new optional guide flag `name_retailer` shows "Find it on {retailer}" for a single-retailer pick (set on the cozy desk guide only; other guides unchanged).
 - Added 4 products via `tools/build_desk.py` (Anker Nano charger, Mophie 3-in-1, BenQ ScreenBar Halo 2, Lofree Flow Lite 100): `products.js` appended (175 entries now), 4 product pages, 4 cards on `home.html`, sitemap rebuilt. Quntis not added (already on site as quntis-monitor-light-bar).
 - Revert: `git revert <this commit>`; products.js entries are additive.
+
+## Cozy desk guide: new Quntis and Lofree images (Nov 11, 2026)
+- Replaced `images/web/` and `images/guides/` files for `quntis-monitor-light-bar-desk` (new scene: silver-grey monitor, sage wall, birch desk) and `lofree-flow-lite-100-keyboard` (keys now show printed legends). AI concept images, Higgsfield Seedream 5.0 lite, unlimited, no credits. No code or copy changes.
+- Revert: `git revert <this commit>`.
