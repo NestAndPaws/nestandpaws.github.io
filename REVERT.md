@@ -96,3 +96,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## Cozy desk guide: new Quntis and Lofree images (Nov 11, 2026)
 - Replaced `images/web/` and `images/guides/` files for `quntis-monitor-light-bar-desk` (new scene: silver-grey monitor, sage wall, birch desk) and `lofree-flow-lite-100-keyboard` (keys now show printed legends). AI concept images, Higgsfield Seedream 5.0 lite, unlimited, no credits. No code or copy changes.
 - Revert: `git revert <this commit>`.
+
+## Nov 12, 2026: K1 kitchen cabinet paint guide
+- Added `tools/guides/kitchen-cabinet-paint-colors-to-compare.json`, built page `guides/kitchen-cabinet-paint-colors-to-compare.html`, hero `images/guides/hero/kitchen-cabinet-paint-colors-to-compare.jpg`, 8 looks in `images/guides/looks/kitchen-cabinet-paint-colors-to-compare/`, and guide copies of `hrx-adhesive-door-handle.jpg` and `cabinet-organizer.jpg`. Updated `guides/index.html` and `sitemap.xml` (rebuilt). No `products.js` change; picks reuse existing products.
+- Revert: `git revert <commit>` for the commit titled "K1 kitchen cabinet paint guide".
