@@ -1,0 +1,168 @@
+{
+ "slug": "kitchen-styles-one-kitchen",
+ "title": "5 Kitchen Styles in One Kitchen, Modern to Coastal",
+ "short_title": "Kitchen Styles in One Kitchen",
+ "description": "One kitchen shown in five styles: Modern, Farmhouse, Japandi, Organic Modern and Coastal, plus five renter-friendly picks to try the look.",
+ "dek": "Same cabinets, same island, same window and floor. Only the stools, pendant, runner and decor change. Browse the five styles, then pick the swaps that fit.",
+ "constraint": "Kitchen styles, renter picks under $40",
+ "published": "2026-11-13",
+ "updated": "2026-11-13",
+ "last_checked": "Nov 13, 2026",
+ "problem_tag": "Home",
+ "hook": [
+  "It is hard to picture a kitchen style until you see it in your own kitchen. This guide shows one kitchen with the same white shaker cabinets, brass pulls, butcher block island and oak floor in five styles, so the stools, pendant, runner and decor are the only things that change.",
+  "The images are AI-generated concept pictures, not photos of a real kitchen, and the furniture shown is a style idea rather than a specific product. The picks below are small swaps that work in a rental, so you can move toward a look without replacing the cabinets."
+ ],
+ "gallery_title": "Five styles, one kitchen",
+ "gallery_intro": "Each look changes only the stools, pendant, runner and small decor. The cabinets, island, backsplash, window and floor stay the same.",
+ "gallery_note": "AI-generated concept images of one kitchen. They show the idea of each style, not photos of a real kitchen or of the exact items in the picks below.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Modern",
+   "alt": "AI-generated kitchen concept in Modern style: Black metal stools, linear black pendant and flat gray runner",
+   "colors": [
+    "#807871"
+   ],
+   "pieces": [
+    "Black metal stools",
+    "linear black pendant",
+    "flat gray runner"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Farmhouse",
+   "alt": "AI-generated kitchen concept in Farmhouse style: Wood-seat stools, schoolhouse pendant and red check runner",
+   "colors": [
+    "#932326"
+   ],
+   "pieces": [
+    "Wood-seat stools",
+    "schoolhouse pendant",
+    "red check runner"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Japandi",
+   "alt": "AI-generated kitchen concept in Japandi style: Low walnut stools, paper lantern pendant and woven runner",
+   "colors": [
+    "#895A3C"
+   ],
+   "pieces": [
+    "Low walnut stools",
+    "paper lantern pendant",
+    "woven runner"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Organic Modern",
+   "alt": "AI-generated kitchen concept in Organic Modern style: Pale oak stools, rattan dome pendant and cream shag runner",
+   "colors": [
+    "#A34F26"
+   ],
+   "pieces": [
+    "Pale oak stools",
+    "rattan dome pendant",
+    "cream shag runner"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Coastal",
+   "alt": "AI-generated kitchen concept in Coastal style: Cane-seat stools, rope pendant and blue striped runner",
+   "colors": [
+    "#B1C1C8"
+   ],
+   "pieces": [
+    "Cane-seat stools",
+    "rope pendant",
+    "blue striped runner"
+   ]
+  }
+ ],
+ "hero_alt": "AI-generated concept of one white kitchen with a butcher block island in Farmhouse style",
+ "cta_text": "View the item \u2192",
+ "how_note": "Prices are brackets because prices change, so check the listing. Product images on this page are illustrations.",
+ "picks": [
+  {
+   "id": "hyhao-washable-runner-rug",
+   "name": "2x6 Washable Runner Rug, Vintage Non-Slip Kitchen and Entryway Mat",
+   "asin": "B0D89V1RX1",
+   "image": "hyhao-washable-runner-rug",
+   "alt": "Illustration of a washable runner rug",
+   "best_for": "The runner every look here leans on, from check to stripe",
+   "limit": "Check the care label for the wash method",
+   "price_bracket": "Under $25",
+   "why": "A 2 by 6 foot runner with a non-slip backing. In these images the runner does most of the style work, and a rug is the one swap that lifts off a rental floor with no marks.",
+   "con": "The listed pattern is vintage, so check the listing photo against the look you want."
+  },
+  {
+   "id": "mcgor-rechargeable-under-cabinet-lights",
+   "name": "MCGOR 14.7\" Rechargeable Motion Sensor Under Cabinet Lights, 2-Pack",
+   "asin": "B0CSJQMVYZ",
+   "image": "mcgor-rechargeable-under-cabinet-lights",
+   "alt": "Illustration of rechargeable under cabinet strip lights",
+   "best_for": "Warm light that suits every style after dark",
+   "limit": "Check how the adhesive holds on your finish",
+   "price_bracket": "Under $40",
+   "why": "USB rechargeable strip lights with a motion sensor and no wiring. Light under the uppers changes how butcher block and white cabinets read at night in any of the five styles.",
+   "con": "They stick on, so how well they hold depends on your cabinet finish. Check the listing for the adhesive notes."
+  },
+  {
+   "id": "hipiwe-seagrass-storage-baskets",
+   "name": "Hipiwe Set of 2 Woven Seagrass Storage Bins with Lid",
+   "asin": "B08GKMFWM7",
+   "image": "hipiwe-seagrass-storage-baskets",
+   "alt": "Illustration of two woven seagrass storage bins with lids",
+   "best_for": "Woven texture for the Organic Modern and Coastal looks",
+   "limit": "Natural fiber varies in shade",
+   "price_bracket": "Under $25",
+   "why": "Two lidded seagrass bins hide clutter on a counter or shelf and add the natural texture those two styles use.",
+   "con": "Natural fiber varies in shade, so your set may not match the picture exactly."
+  },
+  {
+   "id": "jasiway-expandable-sink-dish-rack",
+   "name": "JASIWAY Expandable Over-Sink Stainless Dish Drying Rack, Dual Mode",
+   "asin": "B0C6D6SH16",
+   "image": "jasiway-expandable-sink-dish-rack",
+   "alt": "Illustration of an over-sink stainless dish drying rack",
+   "best_for": "Clear counters for the Modern and Japandi looks",
+   "limit": "Measure your sink width",
+   "price_bracket": "Under $30",
+   "why": "An expandable stainless rack that sits over the sink, so the dishes leave the counter. Both calm styles depend on bare butcher block.",
+   "con": "It expands to fit, but measure your sink width against the listing first."
+  },
+  {
+   "id": "simplehouseware-3-tier-rolling-cart",
+   "name": "Simple Houseware 3-Tier Heavy Duty Metal Utility Rolling Cart, White",
+   "asin": "B081KBXT5N",
+   "image": "simplehouseware-3-tier-rolling-cart",
+   "alt": "Illustration of a white 3-tier metal rolling cart",
+   "best_for": "Extra storage that blends into the white Farmhouse and Modern looks",
+   "limit": "Check the size against your space",
+   "price_bracket": "Under $40",
+   "why": "A white 3-tier metal cart for supplies and small appliances. It moves where you need it and keeps the island clear.",
+   "con": "It is a metal utility cart, so check the dimensions and finish on the listing before it stands next to your cabinets."
+  }
+ ],
+ "final": "If you buy one, make it the runner. In these images it does the most to set the style, and it lifts off a rental floor with no marks. Add the under-cabinet lights to see how every look reads at night.",
+ "skipped": [
+  "Stools, pendants and large furniture, since the images show style ideas, not products.",
+  "Anything that needs drilling or wiring.",
+  "Anything with no size or care details on the listing."
+ ],
+ "how_picked": [
+  "Each pick is under the price bracket shown.",
+  "The listing says the item is washable, rechargeable, adhesive or expandable, so it fits a kitchen you may not own.",
+  "The listing gives a check or limit worth knowing before you buy.",
+  "Specs come from the listing text."
+ ],
+ "related": [
+  "kitchen-cabinet-paint-colors-to-compare",
+  "small-kitchen-organization",
+  "living-room-furniture-styles-one-room"
+ ]
+}

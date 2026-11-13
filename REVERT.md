@@ -100,3 +100,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## Nov 12, 2026: K1 kitchen cabinet paint guide
 - Added `tools/guides/kitchen-cabinet-paint-colors-to-compare.json`, built page `guides/kitchen-cabinet-paint-colors-to-compare.html`, hero `images/guides/hero/kitchen-cabinet-paint-colors-to-compare.jpg`, 8 looks in `images/guides/looks/kitchen-cabinet-paint-colors-to-compare/`, and guide copies of `hrx-adhesive-door-handle.jpg` and `cabinet-organizer.jpg`. Updated `guides/index.html` and `sitemap.xml` (rebuilt). No `products.js` change; picks reuse existing products.
 - Revert: `git revert <commit>` for the commit titled "K1 kitchen cabinet paint guide".
+
+## K2 kitchen styles guide (Nov 13, 2026)
+- New guide `kitchen-styles-one-kitchen` (tools/guides JSON, hero, 5 looks, 5 existing picks, no products.js change). Rebuilt guides index, sitemap, two product illustrations used by the guide.
+- Revert: `git revert <this commit>`.
