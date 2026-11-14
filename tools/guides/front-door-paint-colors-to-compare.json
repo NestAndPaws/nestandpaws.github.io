@@ -1,0 +1,233 @@
+{
+ "slug": "front-door-paint-colors-to-compare",
+ "title": "Front Door Paint Colors to Compare: 8 Sherwin-Williams Picks",
+ "short_title": "Front Door Paint Colors",
+ "description": "One white house, one six-panel door, eight Sherwin-Williams door colors from Tricorn Black to Coral Clay, with codes, hex values, light reflectance and a note on what to check before you paint.",
+ "dek": "Same door, same light, eight colors. Compare them on screen, then sample the two you like on the real door.",
+ "constraint": "Front door color, tips only",
+ "published": "2026-11-14",
+ "updated": "2026-11-14",
+ "last_checked": "Nov 14, 2026",
+ "problem_tag": "Home",
+ "meta_count": "8 colors",
+ "hook": [
+  "A paint chip is small, and a front door is the first thing people see. This guide shows one white house with one six-panel door painted in eight Sherwin-Williams colors, so you can compare how each one reads against the same siding, trim and brass.",
+  "The images are AI-generated concept pictures, not photos of a real house. The code, hex value and light reflectance for each color come from Sherwin-Williams' own color pages, read Nov 14, 2026. A screen only shows a closest match, never the paint itself, so test a sample on your own door before you buy a can."
+ ],
+ "gallery_title": "Eight door colors, one house",
+ "gallery_intro": "Light reflectance (LRV) runs from 0 to 100, and lower numbers mean a darker color. Seven of the eight are dark, at 12 or lower. Coral Clay, at 26, is the lightest and the boldest next to white siding.",
+ "gallery_note": "AI-generated concept images of one house. Colors are on-screen approximations of the paint listed under each look, so test a sample on your door. They are not photos of a real house.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Tricorn Black",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams Tricorn Black, SW 6258, on a white house",
+   "colors": [
+    "#2F2F30"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 6258",
+    "Hex #2F2F30",
+    "Light reflectance 3"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "In the Navy",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams In the Navy, SW 9178, on a white house",
+   "colors": [
+    "#283849"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 9178",
+    "Hex #283849",
+    "Light reflectance 4"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Pewter Green",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams Pewter Green, SW 6208, on a white house",
+   "colors": [
+    "#5E6259"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 6208",
+    "Hex #5E6259",
+    "Light reflectance 12"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Hunt Club",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams Hunt Club, SW 6468, on a white house",
+   "colors": [
+    "#2A4F43"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 6468",
+    "Hex #2A4F43",
+    "Light reflectance 6"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Sun Dried Tomato",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams Sun Dried Tomato, SW 7585, on a white house",
+   "colors": [
+    "#692B2B"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 7585",
+    "Hex #692B2B",
+    "Light reflectance 5"
+   ]
+  },
+  {
+   "file": "look-06.jpg",
+   "title": "Coral Clay",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams Coral Clay, SW 9005, on a white house",
+   "colors": [
+    "#BF796E"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 9005",
+    "Hex #BF796E",
+    "Light reflectance 26"
+   ]
+  },
+  {
+   "file": "look-07.jpg",
+   "title": "Rookwood Dark Brown",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams Rookwood Dark Brown, SW 2808, on a white house",
+   "colors": [
+    "#5F4D43"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 2808",
+    "Hex #5F4D43",
+    "Light reflectance 8"
+   ]
+  },
+  {
+   "file": "look-08.jpg",
+   "title": "Iron Ore",
+   "alt": "AI-generated front door concept: a six-panel door painted a color like Sherwin-Williams Iron Ore, SW 7069, on a white house",
+   "colors": [
+    "#434341"
+   ],
+   "pieces": [
+    "Sherwin-Williams SW 7069",
+    "Hex #434341",
+    "Light reflectance 6"
+   ]
+  }
+ ],
+ "compare_title": "The eight colors at a glance",
+ "compare": [
+  {
+   "name": "Tricorn Black",
+   "code": "SW 6258",
+   "hex": "#2F2F30",
+   "lrv": "3",
+   "note": "Very little forgiveness for dust, pollen and brush marks."
+  },
+  {
+   "name": "In the Navy",
+   "code": "SW 9178",
+   "hex": "#283849",
+   "lrv": "4",
+   "note": "Can read close to black in shade."
+  },
+  {
+   "name": "Pewter Green",
+   "code": "SW 6208",
+   "hex": "#5E6259",
+   "lrv": "12",
+   "note": "Reads muted, so it can look gray on an overcast day."
+  },
+  {
+   "name": "Hunt Club",
+   "code": "SW 6468",
+   "hex": "#2A4F43",
+   "lrv": "6",
+   "note": "Can read black-green in low light."
+  },
+  {
+   "name": "Sun Dried Tomato",
+   "code": "SW 7585",
+   "hex": "#692B2B",
+   "lrv": "5",
+   "note": "Reads closer to brick or wine than to a bright red."
+  },
+  {
+   "name": "Coral Clay",
+   "code": "SW 9005",
+   "hex": "#BF796E",
+   "lrv": "26",
+   "note": "Leans pink on a screen, so check a sample in real daylight."
+  },
+  {
+   "name": "Rookwood Dark Brown",
+   "code": "SW 2808",
+   "hex": "#5F4D43",
+   "lrv": "8",
+   "note": "Can read near black in shade, and the warm cast depends on your siding."
+  },
+  {
+   "name": "Iron Ore",
+   "code": "SW 7069",
+   "hex": "#434341",
+   "lrv": "6",
+   "note": "Close to Tricorn Black on a screen, so a sample shows the difference."
+  }
+ ],
+ "tips_title": "Before you paint the door",
+ "tips": [
+  {
+   "h": "Sample on the door, not on a chip",
+   "p": "Paint a patch of the door itself and look at it in the morning, at midday and at dusk. Check it again at night under your porch light. A color can look different in each."
+  },
+  {
+   "h": "Check the siding and trim",
+   "p": "The concept images use white siding and white trim. Brick, stone, gray or tan siding changes how each color reads, so hold the sample next to your own house."
+  },
+  {
+   "h": "Buy paint made for exteriors",
+   "p": "Look for an exterior label on the can, and check the color page for whether the color comes in an exterior line. Read the can for the sheen, the temperature range and the dry times."
+  },
+  {
+   "h": "Prep the surface",
+   "p": "Clean the door, lightly sand any glossy finish, and spot-prime bare wood or metal before you paint. Follow the can for how long to wait between coats."
+  },
+  {
+   "h": "Plan for the hardware",
+   "p": "Brass handles stand out against a dark door. Take the handleset off, or tape it well, so the paint does not end up on the metal."
+  },
+  {
+   "h": "Check your door maker and your rules",
+   "p": "Some door materials have limits on dark colors, so check the maker's paint guidance. If you rent or live in an HOA, ask before you paint."
+  }
+ ],
+ "final": "If you do one thing, sample your top two colors on the door itself and look at them at three times of day. A color that wins on a screen can lose in your own light.",
+ "final_title": "If you do one thing",
+ "skipped": [
+  "Paint, primer and brushes sold by the can, since the right product depends on your door material and the maker's directions.",
+  "Any color without a code and a reading on the maker's own page.",
+  "Product links, since this guide is about the color choice."
+ ],
+ "skipped_title": "What I left out",
+ "how_picked": [
+  "The eight colors come from Sherwin-Williams' own front door suggestions and its popular door colors, chosen to cover black, blue, green, red, warm and brown.",
+  "Codes, hex values and light reflectance were read from the Sherwin-Williams color pages on Nov 14, 2026.",
+  "The door is recolored on one image in code, so the siding, trim, light and brass stay the same in every look."
+ ],
+ "how_title": "How I chose the colors",
+ "how_note": "The images are AI-generated concept pictures and show how a color might read, not how paint will look on your door.",
+ "hero_alt": "AI-generated concept: four front doors on a white house painted Tricorn Black, In the Navy, Hunt Club and Sun Dried Tomato",
+ "related": [
+  "bedroom-wall-paint-colors-on-paneled-wall",
+  "kitchen-cabinet-paint-colors-to-compare"
+ ],
+ "picks": []
+}

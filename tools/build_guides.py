@@ -170,13 +170,48 @@ def render_guide(g, all_guides):
         hero = (f'<figure class="g-hero"><img src="/images/guides/hero/{g["slug"]}.jpg" alt="{esc(g.get("hero_alt", g["title"]))}" width="1376" height="768" fetchpriority="high">'
                 '</figure>')
     jump = "".join(f'<a href="#pick-{i+1}">{esc(p["name"].split(" (")[0].split(",")[0])}</a>' for i, p in enumerate(picks))
-    bar = f'<div class="pick-bar" role="navigation" aria-label="Jump to a pick"><b>Jump to</b>{jump}</div>'
+    bar = f'<div class="pick-bar" role="navigation" aria-label="Jump to a pick"><b>Jump to</b>{jump}</div>' if picks else ""
     disc = f'<p class="disclosure-line">{esc(DISCLOSURE)}</p>' if DISCLOSURE else ""
     gallery_html, gallery_schema = render_gallery(g)
     gallery_ld = (f'<script type="application/ld+json">{json.dumps(gallery_schema, ensure_ascii=False)}</script>\n  ' if gallery_schema else "")
     skipped = "".join(f"<li>{esc(s)}</li>" for s in g["skipped"])
     how = "".join(f"<li>{esc(s)}</li>" for s in g["how_picked"])
     hook = "".join(f"<p>{esc(t)}</p>" for t in g["hook"])
+    picks_html = ""
+    if picks:
+        picks_html = f'''  <section class="g-section" id="quick-picks">
+    <h2>Quick picks</h2>
+    <div class="qp-scroll"><table class="qp">
+      <thead><tr><th>Pick</th><th>Best for</th><th>Watch out</th><th>Price</th></tr></thead>
+      <tbody>
+{rows}
+      </tbody>
+    </table></div>
+    {safe_note_html}
+  </section>
+  <section class="g-section">
+    <h2>The picks</h2>
+{chr(10).join(cards)}
+  </section>'''
+    if g.get("compare"):
+        crow = "\n".join(f'      <tr><td data-label="Color">{esc(c["name"])}</td><td data-label="Code">{esc(c["code"])}</td><td data-label="Hex">{esc(c["hex"])}</td><td data-label="Light reflectance">{esc(str(c["lrv"]))}</td><td data-label="Watch out">{esc(c["note"])}</td></tr>' for c in g["compare"])
+        picks_html += f'''
+  <section class="g-section" id="compare">
+    <h2>{esc(g.get("compare_title", "At a glance"))}</h2>
+    <div class="qp-scroll"><table class="qp">
+      <thead><tr><th>Color</th><th>Code</th><th>Hex</th><th>LRV</th><th>Watch out</th></tr></thead>
+      <tbody>
+{crow}
+      </tbody>
+    </table></div>
+  </section>'''
+    if g.get("tips"):
+        tl = "".join(f'<h3>{esc(t["h"])}</h3><p>{esc(t["p"])}</p>' for t in g["tips"])
+        picks_html += f'''
+  <section class="g-section" id="tips">
+    <h2>{esc(g.get("tips_title", "Before you paint"))}</h2>
+    {tl}
+  </section>'''
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -212,30 +247,17 @@ def render_guide(g, all_guides):
     {hook}
   </section>
 {gallery_html}
-  <section class="g-section" id="quick-picks">
-    <h2>Quick picks</h2>
-    <div class="qp-scroll"><table class="qp">
-      <thead><tr><th>Pick</th><th>Best for</th><th>Watch out</th><th>Price</th></tr></thead>
-      <tbody>
-{rows}
-      </tbody>
-    </table></div>
-    {safe_note_html}
-  </section>
+{picks_html}
   <section class="g-section">
-    <h2>The picks</h2>
-{chr(10).join(cards)}
-  </section>
-  <section class="g-section">
-    <h2>If you buy one</h2>
+    <h2>{esc(g.get("final_title", "If you buy one"))}</h2>
     <p>{esc(g["final"])}</p>
   </section>
   <section class="g-section">
-    <h2>What I skipped</h2>
+    <h2>{esc(g.get("skipped_title", "What I skipped"))}</h2>
     <ul>{skipped}</ul>
   </section>
   <section class="g-section">
-    <h2>How I picked</h2>
+    <h2>{esc(g.get("how_title", "How I picked"))}</h2>
     <ul>{how}</ul>
     <p class="g-note">Not tested by us. {esc(g["how_note"]) if g.get("how_note") else "Ratings and review notes come from the Amazon listing on " + esc(g["last_checked"]) + "; review summaries on Amazon are generated from customer reviews. Prices are brackets because Amazon prices change. Product images on this page are illustrations."}</p>
   </section>
@@ -263,7 +285,7 @@ def render_index(all_guides):
         <span class="gx-tag">{esc(g["problem_tag"])} guide</span>
         <span class="gx-title">{esc(g["title"])}</span>
         <span class="gx-dek">{esc(g["dek"])}</span>
-        <span class="gx-meta">{len(g["picks"])} picks · {esc(g["constraint"])}</span>
+        <span class="gx-meta">{esc(g["meta_count"]) if g.get("meta_count") else str(len(g["picks"])) + " picks"} · {esc(g["constraint"])}</span>
         <span class="g-more">Read the guide →</span>
       </span>
     </a>''')
