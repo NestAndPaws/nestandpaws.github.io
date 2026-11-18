@@ -1,0 +1,125 @@
+{
+ "slug": "hardwood-floor-stain-colors-to-compare",
+ "title": "Hardwood Floor Stain Colors: 6 Tones on One Floor",
+ "short_title": "Hardwood Floor Stain Colors",
+ "description": "One hall, six hardwood stain tones from Natural to Espresso and Gray Wash, with what each tone shows and hides and what to test before you stain.",
+ "dek": "Same walls, door and window. Only the floor tone changes. Compare six on screen, then test a sample on your own wood.",
+ "constraint": "Hardwood floor stain tone, tips only",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "last_checked": "Nov 18, 2026",
+ "problem_tag": "Home",
+ "meta_count": "6 tones",
+ "hook": [
+  "A stain swatch is small, and a floor is the biggest surface in the room. This guide shows one hall with the same walls, six-panel door, window and baseboards over six floor tones, so the floor is the only thing that changes.",
+  "The images are AI-generated concept pictures, not photos of a real floor. The six tones are generic stain looks, not products from one brand, and the same stain can look different on oak, maple or pine. Test a sample on your own wood before you commit."
+ ],
+ "gallery_title": "Six floor tones, one hall",
+ "gallery_intro": "The six run from Natural, the lightest, to Espresso, the darkest, plus a cool Gray Wash. Walls, door, window and baseboards stay the same in every look.",
+ "gallery_note": "AI-generated concept images of one hall. Tones are on-screen approximations, not brand colors, and are not photos of a real floor. Test a sample on your own wood.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Natural",
+   "alt": "AI-generated hall concept with the hardwood floor in a natural stain tone, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Light stain, close to the bare wood"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Honey",
+   "alt": "AI-generated hall concept with the hardwood floor in a honey stain tone, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Warm golden brown stain"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Medium Brown",
+   "alt": "AI-generated hall concept with the hardwood floor in a medium brown stain tone, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Mid brown stain"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Walnut",
+   "alt": "AI-generated hall concept with the hardwood floor in a walnut stain tone, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Deep brown stain"
+   ]
+  },
+  {
+   "file": "look-05.jpg",
+   "title": "Espresso",
+   "alt": "AI-generated hall concept with the hardwood floor in a espresso stain tone, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Very dark brown stain"
+   ]
+  },
+  {
+   "file": "look-06.jpg",
+   "title": "Gray Wash",
+   "alt": "AI-generated hall concept with the hardwood floor in a gray wash stain tone, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Cool weathered gray stain"
+   ]
+  }
+ ],
+ "tips_title": "Before you stain the floor",
+ "tips": [
+  {
+   "h": "Test on your own wood",
+   "p": "Wood takes stain differently by species and by how much it has been sanded. Sand and stain a small patch in a spot that will be covered later, such as inside a closet, and let it dry before you judge the color."
+  },
+  {
+   "h": "Look at it in your own light",
+   "p": "Check the sample in the morning, at midday and at night under your own bulbs. The same tone can look orange in strong sun and flat in a dim room."
+  },
+  {
+   "h": "Match your undertone",
+   "p": "Look at your trim, cabinets and larger furniture. Warm tones like Honey tend to sit well with warm wood, and Gray Wash tends to sit better with cool whites and grays. Hold the sample next to the pieces that stay."
+  },
+  {
+   "h": "Think about what shows",
+   "p": "Dark floors show dust, lint and light-colored pet hair more, and light floors can show scratches and dark dirt. Think about who lives in the room before you choose."
+  },
+  {
+   "h": "Check the finish",
+   "p": "The topcoat changes how the color looks and how it wears. Check the can for the maker's dry time and recoat time, and ask the store what it suggests for a high-traffic floor."
+  },
+  {
+   "h": "Hire it out or plan the time",
+   "p": "Sanding and staining a floor means the room is off limits for days. Plan the dry and cure time from the maker's directions, and decide early if you want a pro to do it."
+  }
+ ],
+ "final": "If you do one thing, stain a test patch on your own floor and look at it at three times of day. A tone that wins on a screen can lose in your own light.",
+ "final_title": "If you do one thing",
+ "skipped": [
+  "Stain, sealer and sander products, since the right ones depend on your wood and the maker's directions.",
+  "Brand stain names, since a stain looks different on every species of wood.",
+  "Product links, since this guide is about the tone choice."
+ ],
+ "skipped_title": "What I left out",
+ "how_picked": [
+  "The six tones cover a light natural, a golden honey, a medium brown, a deep walnut, a near-black espresso and a cool gray wash, so you can compare very different directions on one floor.",
+  "The tones are generic render targets, not readings from a brand's color chart.",
+  "The floor is recolored on one image in code, so the walls, door, window and baseboards stay the same in every look."
+ ],
+ "how_title": "How I chose the tones",
+ "how_note": "The images are AI-generated concept pictures and show how a tone might read, not how stain will look on your wood.",
+ "hero_alt": "AI-generated concept of one hall with the hardwood floor in Honey, Walnut and Gray Wash tones",
+ "related": [
+  "entry-wall-paint-colors-to-compare",
+  "entryway-styles-one-entryway",
+  "bedroom-wall-paint-colors-on-paneled-wall"
+ ],
+ "picks": []
+}

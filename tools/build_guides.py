@@ -195,12 +195,14 @@ def render_guide(g, all_guides):
 {chr(10).join(cards)}
   </section>'''
     if g.get("compare"):
-        crow = "\n".join(f'      <tr><td data-label="Color">{esc(c["name"])}</td><td data-label="Code">{esc(c["code"])}</td><td data-label="Hex">{esc(c["hex"])}</td><td data-label="Light reflectance">{esc(str(c["lrv"]))}</td><td data-label="Watch out">{esc(c["note"])}</td></tr>' for c in g["compare"])
+        has_lrv = all(c.get("lrv") for c in g["compare"])
+        crow = "\n".join(f'      <tr><td data-label="Color">{esc(c["name"])}</td><td data-label="Code">{esc(c["code"])}</td><td data-label="Hex">{esc(c["hex"])}</td>' + (f'<td data-label="Light reflectance">{esc(str(c["lrv"]))}</td>' if has_lrv else '') + f'<td data-label="Watch out">{esc(c["note"])}</td></tr>' for c in g["compare"])
+        lrv_th = "<th>LRV</th>" if has_lrv else ""
         picks_html += f'''
   <section class="g-section" id="compare">
     <h2>{esc(g.get("compare_title", "At a glance"))}</h2>
     <div class="qp-scroll"><table class="qp">
-      <thead><tr><th>Color</th><th>Code</th><th>Hex</th><th>LRV</th><th>Watch out</th></tr></thead>
+      <thead><tr><th>Color</th><th>Code</th><th>Hex</th>{lrv_th}<th>Watch out</th></tr></thead>
       <tbody>
 {crow}
       </tbody>
