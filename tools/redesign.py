@@ -79,7 +79,8 @@ def footer_html():
             '    <div><p class="foot-brand">Nest &amp; Paws</p><p class="foot-tag">Independent picks for small spaces, pets and everyday routines. Researched from listings, not tested by us.</p></div>\n'
             f'    <div><p class="foot-h">Browse</p><div class="foot-links">{cols}</div></div>\n'
             f'    <div><p class="foot-h">About</p><div class="foot-links">{about}</div></div>\n  </div>\n'
-            '  <p class="foot-note">Independent. Prices change, so check the listing. Product images are illustrations, not photos of the item.</p>\n</footer>')
+            '  <p class="foot-note">Independent. Prices change, so check the listing. Product images are illustrations, not photos of the item.</p>\n'
+            '  <script data-goatcounter="https://nestandpaws.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>\n</footer>')
 
 
 def swap_chrome(s, page):
