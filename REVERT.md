@@ -108,3 +108,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## K3 front door paint guide (Nov 14, 2026)
 - New tips-only guide `front-door-paint-colors-to-compare` (JSON, built page, hero, 8 looks). `tools/build_guides.py` gained optional keys for tips-only guides (compare, compare_title, tips, tips_title, final_title, skipped_title, how_title, meta_count); `tools/build_home.py` reads meta_count. Rebuilt guides index and sitemap. No `products.js` change.
 - Revert: `git revert <this commit>`.
+
+## Entryway styles guide (Nov 18, 2026)
+- New guide `entryway-styles-one-entryway` (JSON, built page, hero, 6 looks, 4 existing picks re-read on their listings Nov 18, no products.js change). Rebuilt guides index and sitemap; guide copy of `gushbin-brass-key-bowl-entryway.jpg`.
+- Revert: `git revert <this commit>`.
