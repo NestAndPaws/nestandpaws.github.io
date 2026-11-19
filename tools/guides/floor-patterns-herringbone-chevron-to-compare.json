@@ -1,0 +1,107 @@
+{
+ "slug": "floor-patterns-herringbone-chevron-to-compare",
+ "title": "Floor Patterns: Herringbone, Chevron, Straight and Wide Plank",
+ "short_title": "Floor Patterns",
+ "description": "One hall, four hardwood floor patterns: herringbone, chevron, straight and wide plank, with what to check and ask before you choose a layout.",
+ "dek": "Same walls, door and window. Only the floor pattern changes. Compare four on screen, then plan the layout on your own floor.",
+ "constraint": "Hardwood floor pattern, tips only",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "last_checked": "Nov 19, 2026",
+ "problem_tag": "Home",
+ "meta_count": "4 patterns",
+ "hook": [
+  "A pattern name on a sample card is hard to picture across a whole room. This guide shows one hall with the same walls, six-panel door, window and baseboards over four floor patterns, so the layout is the only thing that changes.",
+  "The images are AI-generated concept pictures, not photos of a real floor. The board sizes and the wood tone are for comparison only, not a product. A real floor depends on the board size, the room shape and how your installer lays it out."
+ ],
+ "gallery_title": "Four floor patterns, one hall",
+ "gallery_intro": "Straight plank and wide plank run in one direction. Herringbone zigzags with square-ended blocks. Chevron meets angled planks in a continuous V. Walls, door, window and baseboards stay the same in every look.",
+ "gallery_note": "AI-generated concept images of one hall. Patterns and board sizes are on-screen approximations, not a product and not a photo of a real floor. Plan the layout with your installer.",
+ "gallery": [
+  {
+   "file": "look-01.jpg",
+   "title": "Straight plank",
+   "alt": "AI-generated hall concept with the hardwood floor laid in a straight plank pattern, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Boards run in one direction with staggered ends"
+   ]
+  },
+  {
+   "file": "look-02.jpg",
+   "title": "Wide plank",
+   "alt": "AI-generated hall concept with the hardwood floor laid in a wide plank pattern, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Wider boards, so fewer seams across the room"
+   ]
+  },
+  {
+   "file": "look-03.jpg",
+   "title": "Herringbone",
+   "alt": "AI-generated hall concept with the hardwood floor laid in a herringbone pattern, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Short blocks laid at right angles in a zigzag"
+   ]
+  },
+  {
+   "file": "look-04.jpg",
+   "title": "Chevron",
+   "alt": "AI-generated hall concept with the hardwood floor laid in a chevron pattern, with a white six-panel door and a curtained window",
+   "colors": [],
+   "pieces": [
+    "Angled board ends meet in a continuous V"
+   ]
+  }
+ ],
+ "tips_title": "Before you pick a pattern",
+ "tips": [
+  {
+   "h": "Start with the room",
+   "p": "Patterns draw the eye. In a large open room a pattern can be the feature. In a small or busy room, straight or wide plank tends to feel calmer. Picture the rugs and furniture that will cover part of the floor."
+  },
+  {
+   "h": "Pick the direction",
+   "p": "With straight boards, installers often suggest running them along the longest wall or toward the main light. Ask yours which suits your room, and ask how the floor will meet the next room at the doorway."
+  },
+  {
+   "h": "Herringbone or chevron",
+   "p": "Herringbone uses square-ended blocks laid at right angles, so the zigzag steps at each block. Chevron cuts the board ends at an angle so the V lines run unbroken. Chevron tends to look sharper, and herringbone tends to look more textured."
+  },
+  {
+   "h": "Ask about the layout work",
+   "p": "A pattern usually takes more cutting and fitting than straight boards. Ask your installer about extra material and extra labor before you compare quotes, and ask how the pattern will end at walls and doorways."
+  },
+  {
+   "h": "Check the subfloor",
+   "p": "A pattern can show uneven spots and gaps more than straight boards do. Ask your installer to check that the subfloor is flat, and to explain where the layout will start."
+  },
+  {
+   "h": "Check the product and the wood",
+   "p": "Not every product comes in every pattern, and chevron is often sold as matched left and right pieces. Wider boards can move more with humidity. Read the maker's install guide, and ask whether solid or engineered wood suits your room."
+  }
+ ],
+ "final": "If you do one thing, ask to see a few boards laid out in the pattern, and look at them from the doorway in your own light. A pattern that looks calm on a screen can feel busy across a real room.",
+ "final_title": "If you do one thing",
+ "skipped": [
+  "Flooring, adhesive and tool products, since the right ones depend on your subfloor and the maker's directions.",
+  "Cost and install time, since quotes depend on the room, the pattern and your installer.",
+  "Product links, since this guide is about the pattern choice."
+ ],
+ "skipped_title": "What I left out",
+ "how_picked": [
+  "The four patterns cover two straight layouts, one with narrow boards and one with wide boards, plus two popular zigzag layouts, so you can compare very different directions on one floor.",
+  "The boards and patterns are generic render targets, not a real product line or board size.",
+  "The patterns are built in code on one image of the hall, so the walls, door, window and baseboards stay the same in every look."
+ ],
+ "how_title": "How I chose the patterns",
+ "how_note": "The images are AI-generated concept pictures and show how a pattern might read, not how a real floor will look.",
+ "hero_alt": "AI-generated concept of one hall with the hardwood floor in herringbone, chevron and wide plank patterns",
+ "related": [
+  "hardwood-floor-stain-colors-to-compare",
+  "entry-wall-paint-colors-to-compare",
+  "bathroom-vanity-paint-colors-to-compare"
+ ],
+ "picks": []
+}

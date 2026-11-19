@@ -112,3 +112,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## Entryway styles guide (Nov 18, 2026)
 - New guide `entryway-styles-one-entryway` (JSON, built page, hero, 6 looks, 4 existing picks re-read on their listings Nov 18, no products.js change). Rebuilt guides index and sitemap; guide copy of `gushbin-brass-key-bowl-entryway.jpg`.
 - Revert: `git revert <this commit>`.
+
+## Floor patterns guide (Nov 19, 2026)
+- New tips-only guide `floor-patterns-herringbone-chevron-to-compare` (JSON, built page, hero, 4 looks). No products.js change, no build script change. Rebuilt guides index and sitemap.
+- Revert: `git revert <this commit>`.
