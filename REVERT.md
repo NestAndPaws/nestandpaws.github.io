@@ -124,3 +124,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## Entryway storage guide (Nov 19, 2026)
 - New tips-only guide `entryway-storage-ideas-five-setups-one-entry` (JSON, built page, hero, 5 looks). No products.js change, no build script change. Rebuilt guides index and sitemap.
 - Revert: `git revert <this commit>`.
+
+## Wood floor patterns and colors guide (Nov 20, 2026)
+- New tips-only guide `wood-floor-patterns-and-colors-six-looks` (JSON, built page, hero, 6 looks). No products.js change, no build script change. Rebuilt guides index and sitemap.
+- Revert: `git revert <this commit>`.
