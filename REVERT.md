@@ -116,3 +116,7 @@ Same day: footer note no longer mentions Amazon (tools/build_guides.py, tools/re
 ## Floor patterns guide (Nov 19, 2026)
 - New tips-only guide `floor-patterns-herringbone-chevron-to-compare` (JSON, built page, hero, 4 looks). No products.js change, no build script change. Rebuilt guides index and sitemap.
 - Revert: `git revert <this commit>`.
+
+## Bathroom decor styles guide (Nov 19, 2026)
+- New tips-only guide `bathroom-decor-ideas-five-styles-one-bath` (JSON, built page, hero, 5 looks). No products.js change, no build script change. Rebuilt guides index and sitemap.
+- Revert: `git revert <this commit>`.
